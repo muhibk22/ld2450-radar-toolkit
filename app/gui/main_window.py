@@ -47,6 +47,7 @@ class MainWindow(QMainWindow):
         self.decoder = PacketDecoder()
         self.tracker = TargetTracker()
         self.recorder = DataRecorder()
+        self.frames_processed = 0
         self.active_worker = None  # SerialWorker or SocketWorker
 
         self.raw_log_file = None
@@ -429,6 +430,7 @@ class MainWindow(QMainWindow):
             # Run Target Association & Filtering Engine
             tracked_targets = self.tracker.process(pkt.targets)
             
+            self.frames_processed += 1
             if self.recorder.is_recording:
                 self.recorder.record_frame(self.frames_processed, tracked_targets)
                 
@@ -505,9 +507,9 @@ class MainWindow(QMainWindow):
                     self.recorder.start_recording(filename, format_type="csv")
                     self.btn_record.setText("⏹ Stop Recording")
                     self.btn_record.setStyleSheet("background-color: #10B981; color: white; font-weight: bold;")
-                    self.logger.info(f"Started recording telemetry to {filename}")
+                    logger.info(f"Started recording telemetry to {filename}")
                 except Exception as e:
-                    self.logger.error(f"Failed to start recording: {e}")
+                    logger.error(f"Failed to start recording: {e}")
                     self.btn_record.setChecked(False)
             else:
                 self.btn_record.setChecked(False)
@@ -515,7 +517,7 @@ class MainWindow(QMainWindow):
             self.recorder.stop_recording()
             self.btn_record.setText("● Start Recording")
             self.btn_record.setStyleSheet("background-color: #EF4444; color: white; font-weight: bold;")
-            self.logger.info("Recording stopped.")
+            logger.info("Recording stopped.")
 
     def closeEvent(self, event):
         if self.active_worker:
