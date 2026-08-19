@@ -105,9 +105,10 @@ class TrackedPerson:
         """
         self.missed_frames += 1
         
-        # FOCUS LOCK ENHANCEMENT: If locked and lost for a while, freeze position to prevent drift
+        # FOCUS LOCK ENHANCEMENT & RE-ID: 
+        # If locked and lost for a while, enter "Searching" mode to prevent drift but keep alive
         if is_locked and self.missed_frames > 15:
-            self.current_target.status = "Stationary Lock"
+            self.current_target.status = "Searching"
             # Do NOT update x/y with Kalman. Hold last known valid position.
         else:
             if mode == "PHYSICAL_GATE_KALMAN":
@@ -191,8 +192,6 @@ class TargetTracker:
             return valid_raw
 
         # 1. Match active tracked persons with nearest incoming raw target
-        assoc_limit = max(self.distance_threshold_mm, self.max_jump_mm * 4, 3000.0)
-
         # Priority Association: Process Locked Target first so it doesn't lose its point to a crossing target
         active_persons = list(self.tracked_persons.items())
         if self.locked_target_id:
@@ -201,6 +200,16 @@ class TargetTracker:
         for person_label, person in active_persons:
             best_dist = float("inf")
             best_raw_idx = -1
+            
+            is_locked = (self.locked_target_id == person_label)
+
+            # DYNAMIC ASSOCIATION RADIUS & RE-ID
+            if is_locked and person.missed_frames > 50:
+                # RE-ID MODE: Expand radius to 6000mm to snap back to the person if they re-enter
+                assoc_limit = 6000.0 
+            else:
+                # Activity-Aware Radius: 600mm min (stationary) up to 3000mm (moving fast)
+                assoc_limit = min(3000.0, max(600.0, person.last_velocity_mms * 1.5))
 
             curr_target = person.current_target
             for idx, raw in enumerate(valid_raw):
@@ -222,7 +231,7 @@ class TargetTracker:
                     max_accel_mms2=self.max_accel_mms2
                 )
                 if not accepted:
-                    result_targets.append(person.predict_missing(self.mode))
+                    result_targets.append(person.predict_missing(self.mode, is_locked))
                 else:
                     result_targets.append(person.current_target)
 
@@ -243,14 +252,32 @@ class TargetTracker:
                 else:
                     del self.tracked_persons[person_label]
 
-        # 3. Create new TrackedPerson for unmatched raw targets (only if not locked to an existing target)
+        # 3. Create new TrackedPerson for unmatched raw targets (with Ghost Rejection)
         for idx, raw in enumerate(valid_raw):
             if idx not in matched_raw_indices:
-                label = self._allocate_label()
-                new_person = TrackedPerson(label, raw, window_size=self.window_size)
-                new_person.validate_and_update(raw, self.mode, self.max_jump_mm, self.max_speed_mms, self.max_accel_mms2)
-                self.tracked_persons[label] = new_person
-                result_targets.append(new_person.current_target)
+                # PROXIMITY GHOST REJECTION
+                is_ghost = False
+                if self.locked_target_id and self.locked_target_id in self.tracked_persons:
+                    locked_person = self.tracked_persons[self.locked_target_id]
+                    # If locked target is actively tracked (not lost)
+                    if locked_person.missed_frames < 15:
+                        dist_to_locked = math.hypot(raw.x - locked_person.current_target.x, raw.y - locked_person.current_target.y)
+                        if dist_to_locked < 1000.0:
+                            is_ghost = True # Target spawned too close to locked person, likely a multipath ghost
+                
+                if not is_ghost:
+                    # RE-ID: If Locked target is currently "Lost", assign this new target to the Locked ID!
+                    if self.locked_target_id and self.locked_target_id in self.tracked_persons and self.tracked_persons[self.locked_target_id].missed_frames > 15:
+                        label = self.locked_target_id
+                        new_person = TrackedPerson(label, raw, window_size=self.window_size)
+                        self.tracked_persons[label] = new_person
+                        result_targets.append(new_person.current_target)
+                    else:
+                        label = self._allocate_label()
+                        new_person = TrackedPerson(label, raw, window_size=self.window_size)
+                        new_person.validate_and_update(raw, self.mode, self.max_jump_mm, self.max_speed_mms, self.max_accel_mms2)
+                        self.tracked_persons[label] = new_person
+                        result_targets.append(new_person.current_target)
 
         # 4. Target Focus Lock Filtering & Fall Detection
         if self.locked_target_id:
