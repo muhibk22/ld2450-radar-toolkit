@@ -17,6 +17,7 @@ from .diagnostics_panel import DiagnosticsPanelWidget
 from .target_panel import TargetPanelWidget
 from .tuning_panel import TuningPanelWidget
 from .fall_monitor import FallMonitorWindow
+from .data_collection import DataCollectionWindow
 
 from ..serial.serial_reader import get_available_ports
 from ..serial.serial_worker import SerialWorker
@@ -53,6 +54,11 @@ class MainWindow(QMainWindow):
         self.raw_log_file = None
         
         self.fall_monitor_window = FallMonitorWindow(self)
+        
+        self.data_collection_window = DataCollectionWindow(self)
+        self.data_collection_window.start_recording_req.connect(self._on_start_data_collection)
+        self.data_collection_window.stop_recording_req.connect(self._on_stop_data_collection)
+        self.data_collection_window.label_changed.connect(self.recorder.set_action_label)
 
         self._setup_ui()
 
@@ -176,11 +182,10 @@ class MainWindow(QMainWindow):
         self.btn_fall_monitor.clicked.connect(self.fall_monitor_window.show)
         toolbar.addWidget(self.btn_fall_monitor)
 
-        self.btn_record = QPushButton("● Start Recording")
-        self.btn_record.setStyleSheet("background-color: #EF4444; color: white; font-weight: bold;")
-        self.btn_record.setCheckable(True)
-        self.btn_record.toggled.connect(self._toggle_recording)
-        toolbar.addWidget(self.btn_record)
+        self.btn_data_studio = QPushButton("Data Collection Studio")
+        self.btn_data_studio.setStyleSheet("background-color: #EF4444; color: white; font-weight: bold;")
+        self.btn_data_studio.clicked.connect(self.data_collection_window.show)
+        toolbar.addWidget(self.btn_data_studio)
 
         toolbar.addStretch()
         main_layout.addLayout(toolbar)
@@ -496,28 +501,18 @@ class MainWindow(QMainWindow):
     def _on_unit_toggled(self, checked: bool):
         self.radar_view.set_display_unit_meters(checked)
 
-    @Slot(bool)
-    def _toggle_recording(self, checked: bool):
-        if checked:
-            filename, _ = QFileDialog.getSaveFileName(
-                self, "Save Telemetry Data", f"session_{int(time.time())}.csv", "CSV Files (*.csv)"
-            )
-            if filename:
-                try:
-                    self.recorder.start_recording(filename, format_type="csv")
-                    self.btn_record.setText("⏹ Stop Recording")
-                    self.btn_record.setStyleSheet("background-color: #10B981; color: white; font-weight: bold;")
-                    logger.info(f"Started recording telemetry to {filename}")
-                except Exception as e:
-                    logger.error(f"Failed to start recording: {e}")
-                    self.btn_record.setChecked(False)
-            else:
-                self.btn_record.setChecked(False)
-        else:
-            self.recorder.stop_recording()
-            self.btn_record.setText("● Start Recording")
-            self.btn_record.setStyleSheet("background-color: #EF4444; color: white; font-weight: bold;")
-            logger.info("Recording stopped.")
+    @Slot(str, dict)
+    def _on_start_data_collection(self, filename: str, metadata: dict):
+        try:
+            self.recorder.start_recording(filename, format_type="csv", metadata=metadata)
+            logger.info(f"Started dataset recording to {filename} with metadata: {metadata}")
+        except Exception as e:
+            logger.error(f"Failed to start dataset recording: {e}")
+
+    @Slot()
+    def _on_stop_data_collection(self):
+        self.recorder.stop_recording()
+        logger.info("Dataset recording stopped.")
 
     def closeEvent(self, event):
         if self.active_worker:
