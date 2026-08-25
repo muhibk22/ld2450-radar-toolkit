@@ -134,8 +134,18 @@ class DataCollectionWindow(QWidget):
                 QMessageBox.warning(self, "Safety Check", "You MUST lock onto a target in the main window before starting data collection!")
                 return
                 
+            volunteer = self.val_volunteer.text().strip().lower().replace(" ", "")
+            if not volunteer:
+                volunteer = "volunteer01"
+                
+            # Scan existing files for this volunteer to auto-increment session ID
+            base_dir = Path.cwd() # Or a specific datasets folder
+            existing = list(base_dir.glob(f"{volunteer}_session*.csv"))
+            session_num = len(existing) + 1
+            default_filename = f"{volunteer}_session{session_num:02d}.csv"
+                
             filename, _ = QFileDialog.getSaveFileName(
-                self, "Save Dataset Session", f"dataset_{int(time.time())}.csv", "CSV Files (*.csv)"
+                self, "Save Dataset Session", default_filename, "CSV Files (*.csv)"
             )
             
             if filename:

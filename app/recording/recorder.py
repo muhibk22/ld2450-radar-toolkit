@@ -95,23 +95,38 @@ class DataRecorder:
             self._file_handle.flush()
 
     def stop_recording(self):
-        """Stops active recording session and closes handles."""
+        """Stops recording and logs dataset metadata to index."""
         if not self.is_recording:
             return
 
+        self.is_recording = False
+        
         if self.format == "csv" and self._file_handle:
-            try:
-                self._file_handle.close()
-            except Exception:
-                pass
+            self._file_handle.close()
             self._file_handle = None
-            self._csv_writer = None
+            
+            # Write to global dataset index
+            if hasattr(self, 'session_metadata') and self.file_path:
+                index_path = self.file_path.parent / "dataset_index.csv"
+                file_exists = index_path.exists()
+                try:
+                    with open(index_path, mode="a", newline="", encoding="utf-8") as idx_file:
+                        idx_writer = csv.writer(idx_file)
+                        if not file_exists:
+                            idx_writer.writerow(["session_file", "volunteer_id", "fall_subtype", "pace_variant", "timestamp"])
+                        idx_writer.writerow([
+                            self.file_path.name,
+                            self.session_metadata.get("volunteer_id", ""),
+                            self.session_metadata.get("fall_subtype", ""),
+                            self.session_metadata.get("pace_variant", ""),
+                            time.strftime("%Y-%m-%d %H:%M:%S")
+                        ])
+                except Exception as e:
+                    print(f"Failed to write to dataset index: {e}")
 
         elif self.format == "json" and self.file_path:
             try:
                 with open(self.file_path, "w", encoding="utf-8") as f:
                     json.dump(self._json_frames, f, indent=2)
-            except Exception:
-                pass
-
-        self.is_recording = False
+            except Exception as e:
+                print(f"Failed to save JSON recording: {e}")
