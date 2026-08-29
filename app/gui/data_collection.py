@@ -139,10 +139,11 @@ class DataCollectionWindow(QWidget):
                 volunteer = "volunteer01"
                 
             # Scan existing files for this volunteer to auto-increment session ID
-            base_dir = Path.cwd() # Or a specific datasets folder
+            base_dir = Path.cwd() / "data" / "raw_sessions"
+            base_dir.mkdir(parents=True, exist_ok=True)
             existing = list(base_dir.glob(f"{volunteer}_session*.csv"))
             session_num = len(existing) + 1
-            default_filename = f"{volunteer}_session{session_num:02d}.csv"
+            default_filename = str(base_dir / f"{volunteer}_session{session_num:02d}.csv")
                 
             filename, _ = QFileDialog.getSaveFileName(
                 self, "Save Dataset Session", default_filename, "CSV Files (*.csv)"
