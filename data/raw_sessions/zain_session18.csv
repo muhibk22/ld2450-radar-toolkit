@@ -1,0 +1,492 @@
+timestamp,sequence_id,target_id,x_mm,y_mm,speed_mms,distance_mm,angle_deg,valid,status,volunteer_id,fall_subtype,pace_variant,action_label
+1787670977.718062,29202,Person 55,373.6,1457.4,-160.0,1511.25,14.21,True,Active,zain,Forward,Normal,1: Walking
+1787670977.7374706,29203,Person 55,372.0,1461.0,-160.0,1515.12,14.17,True,Active,zain,Forward,Normal,1: Walking
+1787670977.81259,29204,Person 55,371.2,1464.4,-80.0,1515.12,14.17,True,Active,zain,Forward,Normal,1: Walking
+1787670977.9028687,29205,Person 55,370.8,1466.6,80.0,1513.67,14.11,True,Active,zain,Forward,Normal,1: Walking
+1787670977.99014,29206,Person 55,370.0,1468.2,80.0,1515.36,14.05,True,Active,zain,Forward,Normal,1: Walking
+1787670978.0782816,29207,Person 55,369.2,1469.8,80.0,1518.03,13.99,True,Active,zain,Forward,Normal,1: Walking
+1787670978.1745265,29208,Person 55,368.0,1471.4,80.0,1521.43,13.88,True,Active,zain,Forward,Normal,1: Walking
+1787670978.2582455,29209,Person 55,366.6,1473.8,160.0,1525.08,13.81,True,Active,zain,Forward,Normal,1: Walking
+1787670978.3526258,29210,Person 55,365.2,1477.2,160.0,1528.49,13.7,True,Active,zain,Forward,Normal,1: Walking
+1787670978.4391239,29211,Person 55,363.6,1480.6,160.0,1529.96,13.61,True,Active,zain,Forward,Normal,1: Walking
+1787670978.523877,29212,Person 55,361.6,1483.4,160.0,1529.25,13.5,True,Active,zain,Forward,Normal,1: Walking
+1787670978.6127083,29213,Person 55,359.0,1485.4,160.0,1528.09,13.32,True,Active,zain,Forward,Normal,1: Walking
+1787670978.7021985,29214,Person 55,356.2,1487.0,160.0,1529.58,13.23,True,Active,zain,Forward,Normal,1: Walking
+1787670978.7970252,29215,Person 55,353.0,1487.6,160.0,1527.7,13.09,True,Active,zain,Forward,Normal,1: Walking
+1787670978.8967407,29216,Person 55,348.6,1487.2,160.0,1522.98,12.82,True,Active,zain,Forward,Normal,1: Walking
+1787670978.9798899,29217,Person 55,343.2,1485.8,160.0,1516.34,12.57,True,Active,zain,Forward,Normal,1: Walking
+1787670979.0620508,29218,Person 55,337.2,1483.6,80.0,1510.72,12.31,True,Active,zain,Forward,Normal,1: Walking
+1787670979.159138,29219,Person 55,329.8,1480.0,-80.0,1503.93,12.01,True,Active,zain,Forward,Normal,1: Walking
+1787670979.3542426,29220,Person 55,321.8,1476.2,-80.0,1500.53,11.77,True,Active,zain,Forward,Normal,1: Walking
+1787670979.3710318,29221,Person 55,314.0,1473.0,-160.0,1499.12,11.5,True,Active,zain,Forward,Normal,1: Walking
+1787670979.4132683,29222,Person 55,306.8,1470.8,-160.0,1498.13,11.32,True,Active,zain,Forward,Normal,1: Walking
+1787670979.5031943,29223,Person 55,300.2,1469.4,-160.0,1497.16,11.13,True,Active,zain,Forward,Normal,1: Walking
+1787670979.5925386,29224,Person 55,294.6,1469.2,-240.0,1497.37,10.97,True,Active,zain,Forward,Normal,1: Walking
+1787670979.6814973,29225,Person 55,289.4,1469.4,-240.0,1496.43,10.78,True,Active,zain,Forward,Normal,1: Walking
+1787670979.7702508,29226,Person 55,284.6,1469.8,-80.0,1496.48,10.59,True,Active,zain,Forward,Normal,1: Walking
+1787670979.8586361,29227,Person 55,279.8,1471.2,-80.0,1500.49,10.37,True,Active,zain,Forward,Normal,1: Walking
+1787670979.9477048,29228,Person 55,275.6,1473.0,0.0,1502.1,10.28,True,Active,zain,Forward,Normal,1: Walking
+1787670980.0372162,29229,Person 55,272.0,1475.0,0.0,1503.89,10.23,True,Active,zain,Forward,Normal,1: Walking
+1787670980.1257021,29230,Person 55,269.0,1476.8,0.0,1502.55,10.16,True,Active,zain,Forward,Normal,1: Walking
+1787670980.2179208,29231,Person 55,266.2,1478.4,160.0,1501.85,10.01,True,Active,zain,Forward,Normal,1: Walking
+1787670980.3032231,29232,Person 55,263.6,1478.6,160.0,1499.19,9.87,True,Active,zain,Forward,Normal,1: Walking
+1787670980.3922942,29233,Person 55,260.2,1478.0,240.0,1496.2,9.66,True,Active,zain,Forward,Normal,1: Walking
+1787670980.4822226,29234,Person 55,255.4,1476.8,320.0,1493.9,9.36,True,Active,zain,Forward,Normal,1: Walking
+1787670980.5722501,29235,Person 55,248.4,1476.0,240.0,1492.82,8.86,True,Active,zain,Forward,Normal,1: Walking
+1787670980.6646638,29236,Person 55,238.8,1476.2,80.0,1495.25,8.19,True,Active,zain,Forward,Normal,1: Walking
+1787670980.7481525,29237,Person 55,220.8,1478.6,80.0,1498.34,6.4,True,Active,zain,Forward,Normal,1: Walking
+1787670980.8375733,29238,Person 55,193.6,1480.8,-640.0,1490.44,4.43,True,Active,zain,Forward,Normal,1: Walking
+1787670980.927223,29239,Person 55,156.8,1481.0,-480.0,1476.18,2.29,True,Active,zain,Forward,Normal,1: Walking
+1787670981.0156994,29240,Person 55,101.0,1475.6,-80.0,1448.83,-1.94,True,Active,zain,Forward,Normal,1: Walking
+1787670981.1042922,29241,Person 55,29.2,1465.4,-160.0,1436.44,-5.83,True,Active,zain,Forward,Normal,1: Walking
+1787670981.1932275,29242,Person 55,-51.6,1449.0,-240.0,1426.82,-9.56,True,Active,zain,Forward,Normal,1: Walking
+1787670981.2825642,29243,Person 55,-139.4,1427.8,-240.0,1417.52,-13.21,True,Active,zain,Forward,Normal,1: Walking
+1787670981.372143,29244,Person 55,-232.0,1404.2,-160.0,1415.86,-16.58,True,Active,zain,Forward,Normal,1: Walking
+1787670981.4611108,29245,Person 55,-317.2,1384.4,-160.0,1430.18,-19.4,True,Active,zain,Forward,Normal,1: Walking
+1787670981.5499942,29246,Person 55,-395.0,1368.6,-240.0,1452.14,-21.62,True,Active,zain,Forward,Normal,1: Walking
+1787670981.6377163,29247,Person 55,-466.2,1355.6,-240.0,1467.18,-23.84,True,Active,zain,Forward,Normal,1: Walking
+1787670981.727371,29248,Person 55,-532.4,1345.6,-320.0,1482.54,-26.22,True,Active,zain,Forward,Normal,1: Walking
+1787670981.8171768,29249,Person 55,-595.8,1336.0,-240.0,1494.43,-28.85,True,Active,zain,Forward,Normal,1: Walking
+1787670981.906763,29250,Person 55,-660.0,1326.0,-240.0,1523.49,-31.5,True,Active,zain,Forward,Normal,1: Walking
+1787670981.9972274,29251,Person 55,-729.8,1316.8,-160.0,1575.4,-34.13,True,Active,zain,Forward,Normal,1: Walking
+1787670982.082996,29252,Person 55,-802.8,1306.8,-160.0,1608.42,-36.56,True,Active,zain,Forward,Normal,1: Walking
+1787670982.1724153,29253,Person 55,-875.4,1296.4,-160.0,1633.89,-38.54,True,Active,zain,Forward,Normal,1: Walking
+1787670982.2786548,29254,Person 55,-948.8,1289.4,-80.0,1675.36,-40.5,True,Active,zain,Forward,Normal,1: Walking
+1787670982.3570135,29255,Person 55,-1017.6,1282.4,-320.0,1702.14,-42.05,True,Active,zain,Forward,Normal,1: Walking
+1787670982.453377,29256,Person 55,-1082.6,1275.4,-240.0,1752.72,-43.61,True,Active,zain,Forward,Normal,1: Walking
+1787670982.5279603,29257,Person 55,-1147.0,1272.2,-240.0,1807.37,-45.09,True,Active,zain,Forward,Normal,1: Walking
+1787670982.6205704,29258,Person 55,-1209.6,1268.4,-320.0,1832.11,-46.59,True,Active,zain,Forward,Normal,1: Walking
+1787670982.7067816,29259,Person 55,-1264.8,1257.2,-240.0,1828.67,-48.24,True,Active,zain,Forward,Normal,1: Walking
+1787670982.7959201,29260,Person 55,-1315.0,1238.6,-240.0,1818.27,-49.91,True,Active,zain,Forward,Normal,1: Walking
+1787670982.8878534,29261,Person 55,-1355.4,1213.2,-240.0,1815.24,-51.01,True,Active,zain,Forward,Normal,1: Walking
+1787670982.9729366,29262,Person 55,-1389.4,1182.8,-80.0,1834.63,-52.22,True,Active,zain,Forward,Normal,1: Walking
+1787670983.0619643,29263,Person 55,-1418.8,1151.4,-80.0,1843.61,-53.29,True,Active,zain,Forward,Normal,1: Walking
+1787670983.1522808,29264,Person 55,-1444.4,1127.0,80.0,1851.29,-53.7,True,Active,zain,Forward,Normal,1: Walking
+1787670983.2402902,29265,Person 55,-1464.8,1111.2,160.0,1849.73,-53.82,True,Active,zain,Forward,Normal,1: Walking
+1787670983.333659,29266,Person 55,-1480.4,1099.2,560.0,1840.61,-54.0,True,Active,zain,Forward,Normal,1: Walking
+1787670983.4179542,29267,Person 55,-1487.8,1088.0,640.0,1830.79,-54.31,True,Active,zain,Forward,Normal,1: Walking
+1787670983.508098,29268,Person 55,-1489.2,1077.8,640.0,1819.29,-54.71,True,Active,zain,Forward,Normal,1: Walking
+1787670983.5980787,29269,Person 55,-1487.2,1066.8,240.0,1811.08,-54.91,True,Active,zain,Forward,Normal,1: Walking
+1787670983.6853778,29270,Person 55,-1484.4,1053.4,390.0,1799.46,-55.28,True,Active,zain,Forward,Normal,1: Walking
+1787670983.7813325,29271,Person 55,-1481.6,1039.0,390.0,1787.66,-55.6,True,Active,zain,Forward,Normal,1: Walking
+1787670983.863037,29272,Person 55,-1478.4,1026.4,480.0,1781.53,-55.66,True,Active,zain,Forward,Normal,1: Walking
+1787670983.952018,29273,Person 55,-1474.8,1015.6,640.0,1773.72,-55.8,True,Active,zain,Forward,Normal,1: Walking
+1787670984.0419762,29274,Person 55,-1470.8,1006.0,390.0,1767.34,-55.82,True,Active,zain,Forward,Normal,1: Walking
+1787670984.130232,29275,Person 55,-1466.0,998.0,790.0,1757.06,-55.9,True,Active,zain,Forward,Normal,1: Walking
+1787670984.2193038,29276,Person 55,-1460.0,990.4,560.0,1741.5,-56.07,True,Active,zain,Forward,Normal,1: Walking
+1787670984.307629,29277,Person 55,-1447.8,975.4,720.0,1689.08,-56.59,True,Active,zain,Forward,Normal,1: Walking
+1787670984.3969934,29278,Person 55,-1427.4,954.8,-240.0,1631.7,-56.78,True,Active,zain,Forward,Normal,1: Walking
+1787670984.4867756,29279,Person 55,-1397.2,931.8,-790.0,1577.85,-56.19,True,Active,zain,Forward,Normal,1: Walking
+1787670984.578513,29280,Person 55,-1350.4,903.8,320.0,1484.88,-55.31,True,Active,zain,Forward,Normal,1: Walking
+1787670984.6703916,29281,Person 55,-1290.8,870.4,320.0,1401.3,-54.94,True,Active,zain,Forward,Normal,1: Walking
+1787670984.7526755,29282,Person 55,-1227.0,840.4,390.0,1341.15,-54.44,True,Active,zain,Forward,Normal,1: Walking
+1787670984.8418353,29283,Person 55,-1159.6,812.6,320.0,1275.46,-53.71,True,Active,zain,Forward,Normal,1: Walking
+1787670984.9320138,29284,Person 55,-1090.6,785.8,80.0,1219.3,-52.4,True,Active,zain,Forward,Normal,1: Walking
+1787670985.0202944,29285,Person 55,-1027.2,763.8,0.0,1165.09,-50.89,True,Active,zain,Forward,Normal,1: Walking
+1787670985.1091416,29286,Person 55,-966.4,751.6,160.0,1124.36,-48.57,True,Active,zain,Forward,Normal,1: Walking
+1787670985.1975548,29287,Person 55,-902.6,751.4,-80.0,1096.73,-44.74,True,Active,zain,Forward,Normal,1: Walking
+1787670985.2864177,29288,Person 55,-840.0,760.2,160.0,1072.21,-41.82,True,Active,zain,Forward,Normal,1: Walking
+1787670985.3776653,29289,Person 55,-778.0,772.6,240.0,1039.22,-39.14,True,Active,zain,Forward,Normal,1: Walking
+1787670985.4682596,29290,Person 55,-717.2,787.6,160.0,1008.02,-36.53,True,Active,zain,Forward,Normal,1: Walking
+1787670985.554501,29291,Person 55,-656.0,800.6,240.0,971.0,-33.58,True,Active,zain,Forward,Normal,1: Walking
+1787670985.6446426,29292,Person 55,-594.0,810.4,80.0,948.17,-29.16,True,Active,zain,Forward,Normal,1: Walking
+1787670985.7318087,29293,Person 55,-527.6,820.0,-160.0,929.57,-24.33,True,Active,zain,Forward,Normal,1: Walking
+1787670985.8224342,29294,Person 55,-456.6,828.8,-240.0,901.72,-19.5,True,Active,zain,Forward,Normal,1: Walking
+1787670985.910127,29295,Person 55,-383.2,840.2,-160.0,897.76,-15.04,True,Active,zain,Forward,Normal,1: Walking
+1787670985.9991307,29296,Person 55,-310.2,853.8,-320.0,893.71,-11.1,True,Active,zain,Forward,Normal,1: Walking
+1787670986.0876567,29297,Person 55,-241.0,866.2,-390.0,897.53,-7.43,True,Active,zain,Forward,Normal,1: Walking
+1787670986.176234,29298,Person 55,-179.2,880.8,-320.0,922.97,-4.6,True,Active,zain,Forward,Normal,1: Walking
+1787670986.2662427,29299,Person 55,-124.0,899.0,-480.0,941.33,-1.52,True,Active,zain,Forward,Normal,1: Walking
+1787670986.3555377,29300,Person 55,-71.6,919.4,-560.0,969.43,1.71,True,Active,zain,Forward,Normal,1: Walking
+1787670986.4437861,29301,Person 55,-25.2,943.8,-390.0,1000.8,3.44,True,Active,zain,Forward,Normal,1: Walking
+1787670986.5333247,29302,Person 55,13.0,972.6,-480.0,1036.72,4.15,True,Active,zain,Forward,Normal,1: Walking
+1787670986.6231759,29303,Person 55,45.8,1002.4,-480.0,1072.78,4.81,True,Active,zain,Forward,Normal,1: Walking
+1787670986.7119498,29304,Person 55,76.2,1035.2,-790.0,1112.27,6.56,True,Active,zain,Forward,Normal,1: Walking
+1787670986.8066301,29305,Person 55,108.2,1070.4,-960.0,1160.49,9.37,True,Active,zain,Forward,Normal,1: Walking
+1787670986.8951216,29306,Person 55,143.2,1108.6,-720.0,1212.98,11.17,True,Active,zain,Forward,Normal,1: Walking
+1787670986.9779875,29307,Person 55,180.0,1150.0,-560.0,1267.74,11.79,True,Active,zain,Forward,Normal,6: Fall onset
+1787670987.0700386,29308,Person 55,222.2,1196.8,-1440.0,1337.31,13.01,True,Active,zain,Forward,Normal,6: Fall onset
+1787670987.22114,29309,Person 55,261.6,1247.2,-390.0,1395.14,13.43,True,Active,zain,Forward,Normal,6: Fall onset
+1787670987.2561638,29310,Person 55,286.8,1303.2,-560.0,1459.4,12.46,True,Active,zain,Forward,Normal,6: Fall onset
+1787670987.337916,29311,Person 55,300.0,1361.0,-720.0,1509.32,11.5,True,Active,zain,Forward,Normal,6: Fall onset
+1787670987.4233615,29312,Person 55,303.0,1423.8,-790.0,1578.96,9.99,True,Active,zain,Forward,Normal,6: Fall onset
+1787670987.5118208,29313,Person 55,291.2,1494.8,-640.0,1675.57,8.3,True,Active,zain,Forward,Normal,6: Fall onset
+1787670987.6380203,29314,Person 55,269.6,1571.6,-1520.0,1754.35,7.07,True,Active,zain,Forward,Normal,6: Fall onset
+1787670987.693808,29315,Person 55,247.2,1648.6,-1680.0,1821.35,6.4,True,Active,zain,Forward,Normal,6: Fall onset
+1787670987.7971966,29316,Person 55,227.0,1728.8,-1590.0,1890.61,6.07,True,Active,zain,Forward,Normal,6: Fall onset
+1787670987.8673708,29317,Person 55,210.6,1811.0,-1440.0,1975.35,5.58,True,Active,zain,Forward,Normal,6: Fall onset
+1787670987.9572055,29318,Person 55,195.2,1891.6,-1040.0,2067.59,4.58,True,Active,zain,Forward,Normal,6: Fall onset
+1787670988.0506682,29319,Person 55,173.6,1975.0,-1040.0,2160.7,2.87,True,Active,zain,Forward,Normal,6: Fall onset
+1787670988.1353528,29320,Person 55,145.6,2066.4,-320.0,2267.88,1.59,True,Active,zain,Forward,Normal,6: Fall onset
+1787670988.223969,29321,Person 55,108.4,2166.4,-320.0,2380.04,0.34,True,Active,zain,Forward,Normal,6: Fall onset
+1787670988.3121297,29322,Person 55,63.4,2271.2,-320.0,2490.22,-0.76,True,Active,zain,Forward,Normal,6: Fall onset
+1787670988.4013793,29323,Person 55,18.2,2369.4,-80.0,2552.73,-1.37,True,Active,zain,Forward,Normal,6: Fall onset
+1787670988.491504,29324,Person 55,-26.6,2458.8,-80.0,2607.58,-2.55,True,Active,zain,Forward,Normal,6: Fall onset
+1787670988.5795362,29325,Person 55,-72.8,2530.6,80.0,2631.37,-3.66,True,Active,zain,Forward,Normal,6: Fall onset
+1787670988.668378,29326,Person 55,-113.2,2566.8,0.0,2567.89,-4.2,True,Active,zain,Forward,Normal,6: Fall onset
+1787670988.757186,29327,Person 55,-142.2,2565.0,0.0,2487.38,-4.1,True,Active,zain,Forward,Normal,6: Fall onset
+1787670988.8458686,29328,Person 55,-165.0,2537.0,240.0,2418.34,-4.15,True,Active,zain,Forward,Normal,6: Fall onset
+1787670988.9387999,29329,Person 55,-175.2,2485.6,160.0,2353.93,-4.07,True,Active,zain,Forward,Normal,6: Fall onset
+1787670989.0254061,29330,Person 55,-172.6,2420.0,80.0,2303.22,-3.86,True,Active,zain,Forward,Normal,6: Fall onset
+1787670989.1141372,29331,Person 55,-166.2,2358.4,0.0,2258.39,-3.96,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670989.201646,29332,Person 55,-158.0,2308.4,0.0,2235.2,-3.51,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670989.290341,29333,Person 55,-152.2,2268.2,-80.0,2215.82,-3.78,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670989.390234,29334,Person 55,-149.4,2241.4,-80.0,2219.28,-3.95,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670989.477559,29335,Person 55,-150.6,2226.0,-80.0,2226.83,-4.15,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670989.5585802,29336,Person 55,-154.0,2226.2,-560.0,2260.63,-4.39,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670989.6478305,29337,Person 55,-161.2,2232.4,-80.0,2268.61,-4.37,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670989.78736,29338,Person 55,-164.8,2241.6,-80.0,2262.95,-4.16,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670989.8253694,29339,Person 55,-164.8,2249.2,-80.0,2257.19,-3.89,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670989.9170077,29340,Person 55,-160.4,2254.2,-80.0,2250.3,-3.54,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670990.0051358,29341,Person 55,-151.0,2250.4,0.0,2238.55,-3.23,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670990.0918043,29342,Person 55,-139.0,2242.6,0.0,2225.87,-2.91,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670990.1812985,29343,Person 55,-126.4,2234.0,0.0,2216.3,-2.61,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670990.27081,29344,Person 55,-112.6,2224.0,0.0,2203.6,-2.18,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670990.3592448,29345,Person 55,-98.8,2213.8,0.0,2196.12,-1.83,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670990.448523,29346,Person 55,-85.0,2204.6,0.0,2189.74,-1.49,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670990.5365734,29347,Person 55,-72.0,2196.6,0.0,2183.53,-1.26,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670990.6258402,29348,Person 55,-60.4,2190.4,0.0,2183.42,-1.13,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670990.715813,29349,Person 55,-51.4,2186.8,0.0,2184.35,-1.02,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670990.8051367,29350,Person 55,-43.0,2184.6,0.0,2184.18,-0.73,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670990.8992338,29351,Person 55,-36.4,2184.0,0.0,2186.13,-0.63,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670990.9818187,29352,Person 55,-31.4,2183.8,0.0,2182.12,-0.6,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670991.0718896,29353,Person 55,-27.6,2183.0,0.0,2179.13,-0.63,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670991.1604512,29354,Person 55,-25.0,2181.2,0.0,2175.16,-0.68,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670991.2493284,29355,Person 55,-25.0,2178.8,0.0,2172.18,-0.74,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670991.3396578,29356,Person 55,-26.2,2175.4,0.0,2169.21,-0.79,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670991.4266102,29357,Person 55,-28.6,2171.8,0.0,2164.28,-0.93,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670991.5156817,29358,Person 55,-32.0,2169.0,0.0,2165.39,-1.08,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670991.6056914,29359,Person 55,-34.8,2169.8,320.0,2179.37,-1.05,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670991.70102,29360,Person 55,-36.6,2173.4,80.0,2190.31,-0.97,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787670991.79559,29361,Person 55,-38.6,2177.6,-160.0,2190.37,-1.05,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670991.877659,29362,Person 55,-40.0,2182.4,-160.0,2188.4,-1.1,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670991.979557,29363,Person 55,-41.2,2187.6,160.0,2191.5,-1.23,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670992.0517645,29364,Person 55,-43.6,2191.0,160.0,2196.62,-1.36,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670992.1539664,29365,Person 55,-47.6,2193.2,160.0,2201.74,-1.48,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670992.2342541,29366,Person 55,-51.6,2197.8,80.0,2213.81,-1.55,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670992.3163319,29367,Person 55,-56.4,2205.0,320.0,2224.98,-1.7,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670992.4053454,29368,Person 55,-61.0,2213.4,320.0,2234.1,-1.8,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670992.4952726,29369,Person 55,-65.0,2222.4,720.0,2242.16,-1.84,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670992.5846922,29370,Person 55,-68.8,2231.4,80.0,2247.29,-1.94,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670992.6796665,29371,Person 55,-72.8,2237.4,80.0,2244.43,-2.04,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670992.7613254,29372,Person 55,-75.8,2240.4,560.0,2240.46,-2.07,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670992.8512895,29373,Person 55,-77.6,2241.4,80.0,2239.39,-2.02,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670992.9403281,29374,Person 55,-79.2,2240.6,-560.0,2238.43,-2.05,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670993.0288987,29375,Person 55,-79.6,2238.2,160.0,2235.36,-2.0,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670993.120791,29376,Person 55,-79.2,2236.4,480.0,2235.36,-2.0,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670993.206266,29377,Person 55,-79.6,2236.0,480.0,2238.54,-2.12,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670993.2954829,29378,Person 55,-80.8,2236.0,160.0,2239.61,-2.18,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670993.3853106,29379,Person 55,-81.8,2236.2,160.0,2239.61,-2.18,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670993.4812002,29380,Person 55,-83.0,2236.4,320.0,2236.58,-2.15,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670993.5695868,29381,Person 55,-83.6,2236.6,320.0,2236.47,-2.08,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670993.6515527,29382,Person 55,-82.4,2236.0,390.0,2235.33,-1.97,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670993.7404048,29383,Person 55,-80.0,2234.0,880.0,2229.2,-1.88,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670993.8310666,29384,Person 55,-77.0,2229.6,960.0,2217.11,-1.81,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670993.918533,29385,Person 55,-73.6,2222.6,960.0,2201.02,-1.74,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670994.0082395,29386,Person 55,-69.2,2206.4,240.0,2154.81,-1.57,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670994.0968606,29387,Person 55,-63.2,2183.2,560.0,2118.52,-1.27,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670994.185352,29388,Person 55,-55.2,2157.0,320.0,2097.26,-0.9,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670994.2758267,29389,Person 55,-45.0,2127.2,320.0,2067.09,-0.53,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670994.3677716,29390,Person 55,-36.0,2094.0,1280.0,2034.12,-0.62,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670994.4592566,29391,Person 55,-27.2,2061.6,160.0,1992.06,-0.43,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670994.5416033,29392,Person 55,-21.8,2028.0,790.0,1950.1,-0.59,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670994.6307287,29393,Person 55,-18.0,1982.6,-80.0,1870.05,-0.43,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670994.7198453,29394,Person 55,-12.8,1934.4,80.0,1826.01,0.22,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670994.808933,29395,Person 55,-3.4,1890.2,0.0,1813.17,0.79,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670994.9006636,29396,Person 55,8.4,1853.4,80.0,1808.54,1.39,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670994.986773,29397,Person 55,23.6,1823.6,80.0,1801.87,1.78,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670995.074987,29398,Person 55,39.2,1806.6,160.0,1786.15,2.05,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670995.16849,29399,Person 55,54.0,1795.2,480.0,1770.85,2.62,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670995.2540696,29400,Person 55,71.8,1781.8,720.0,1749.72,3.74,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670995.3451095,29401,Person 55,96.8,1760.8,160.0,1711.36,5.67,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670995.431058,29402,Person 55,119.0,1734.6,160.0,1678.33,5.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670995.5271301,29403,Person 55,137.6,1708.4,160.0,1661.43,5.42,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670995.6106534,29404,Person 55,150.4,1682.4,80.0,1645.4,5.06,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670995.7270505,29405,Person 55,154.6,1658.6,-80.0,1632.59,4.74,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787670995.7888591,29406,Person 55,146.2,1641.4,-80.0,1621.98,4.49,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670995.8770354,29407,Person 55,136.4,1629.0,-160.0,1612.32,4.2,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670995.9661167,29408,Person 55,127.8,1617.8,-240.0,1602.06,4.08,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670996.0551863,29409,Person 55,121.4,1610.2,-160.0,1604.98,4.04,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670996.1436975,29410,Person 55,117.0,1605.6,-160.0,1607.98,4.03,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670996.2324915,29411,Person 55,114.2,1603.0,-160.0,1607.98,4.03,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670996.322401,29412,Person 55,113.8,1602.2,-80.0,1608.19,4.14,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670996.4095826,29413,Person 55,115.4,1603.4,0.0,1608.63,4.35,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670996.4999077,29414,Person 55,118.2,1604.2,0.0,1610.02,4.52,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670996.5888338,29415,Person 55,121.4,1604.2,0.0,1609.18,4.6,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670996.6809924,29416,Person 55,125.2,1604.0,-80.0,1608.43,4.71,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670996.7659411,29417,Person 55,128.4,1603.6,0.0,1607.43,4.71,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670996.8553143,29418,Person 55,130.8,1603.0,0.0,1606.6,4.78,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670996.9448478,29419,Person 55,132.6,1601.8,0.0,1604.77,4.86,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670997.035691,29420,Person 55,134.8,1599.8,0.0,1600.14,5.02,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670997.123771,29421,Person 55,137.2,1597.2,0.0,1596.51,5.17,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670997.210512,29422,Person 55,140.0,1595.6,0.0,1600.67,5.23,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670997.2993996,29423,Person 55,142.4,1595.6,0.0,1607.64,5.21,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670997.3892286,29424,Person 55,144.0,1597.8,0.0,1616.43,5.11,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670997.4782388,29425,Person 55,145.2,1602.0,0.0,1621.59,5.17,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670997.5680106,29426,Person 55,146.4,1607.4,0.0,1623.94,5.3,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670997.6557431,29427,Person 55,147.8,1612.6,0.0,1627.21,5.4,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670997.744866,29428,Person 55,149.2,1616.4,0.0,1627.21,5.4,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670997.8348718,29429,Person 55,151.6,1618.4,0.0,1627.49,5.5,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670997.9237876,29430,Person 55,154.0,1619.4,0.0,1627.69,5.57,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670998.0125513,29431,Person 55,156.0,1620.0,0.0,1627.88,5.64,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670998.1008053,29432,Person 55,157.4,1620.4,0.0,1629.87,5.63,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670998.1896071,29433,Person 55,159.2,1621.6,0.0,1634.05,5.69,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670998.2827775,29434,Person 55,160.8,1623.2,0.0,1636.24,5.75,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670998.3718283,29435,Person 55,162.2,1624.8,320.0,1636.34,5.79,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670998.4640977,29436,Person 55,163.4,1625.8,160.0,1633.46,5.83,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670998.5480654,29437,Person 55,164.4,1625.8,-80.0,1630.37,5.81,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670998.6346302,29438,Person 55,165.0,1624.6,0.0,1628.38,5.82,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670998.7246106,29439,Person 55,165.0,1622.2,160.0,1624.3,5.79,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670998.813159,29440,Person 55,164.6,1619.0,160.0,1620.22,5.77,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670998.9091518,29441,Person 55,163.8,1615.4,-80.0,1615.14,5.76,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670998.9905212,29442,Person 55,163.2,1611.4,-160.0,1610.17,5.77,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670999.079767,29443,Person 55,162.6,1607.2,-80.0,1607.19,5.79,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670999.1698723,29444,Person 55,162.2,1603.4,80.0,1605.2,5.79,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670999.258708,29445,Person 55,162.0,1600.4,80.0,1605.2,5.79,True,Active,zain,Forward,Normal,2: Standing / idle
+1787670999.3473797,29446,Person 55,162.0,1599.6,0.0,1611.17,5.77,True,Active,zain,Forward,Normal,1: Walking
+1787670999.435799,29447,Person 55,161.8,1601.4,0.0,1619.03,5.71,True,Active,zain,Forward,Normal,1: Walking
+1787670999.5244372,29448,Person 55,161.6,1605.0,0.0,1625.0,5.69,True,Active,zain,Forward,Normal,1: Walking
+1787670999.6149259,29449,Person 55,160.8,1609.6,0.0,1627.69,5.57,True,Active,zain,Forward,Normal,1: Walking
+1787670999.7036462,29450,Person 55,159.0,1614.2,0.0,1627.21,5.4,True,Active,zain,Forward,Normal,1: Walking
+1787670999.7953732,29451,Person 55,156.2,1617.0,240.0,1623.76,5.23,True,Active,zain,Forward,Normal,1: Walking
+1787670999.8806257,29452,Person 55,152.0,1617.4,240.0,1619.06,4.96,True,Active,zain,Forward,Normal,1: Walking
+1787670999.9698787,29453,Person 55,141.6,1614.2,0.0,1604.71,3.89,True,Active,zain,Forward,Normal,1: Walking
+1787671000.0590622,29454,Person 55,124.0,1607.6,-160.0,1588.54,2.53,True,Active,zain,Forward,Normal,1: Walking
+1787671000.1515555,29455,Person 55,99.0,1598.2,-80.0,1573.25,1.02,True,Active,zain,Forward,Normal,1: Walking
+1787671000.2369258,29456,Person 55,58.8,1584.0,-80.0,1546.91,-1.96,True,Active,zain,Forward,Normal,1: Walking
+1787671000.325398,29457,Person 55,3.0,1566.2,-160.0,1530.33,-5.21,True,Active,zain,Forward,Normal,1: Walking
+1787671000.4140544,29458,Person 55,-62.2,1548.0,-240.0,1525.51,-8.18,True,Active,zain,Forward,Normal,1: Walking
+1787671000.504159,29459,Person 55,-135.8,1530.6,-240.0,1529.31,-11.24,True,Active,zain,Forward,Normal,1: Walking
+1787671000.5987391,29460,Person 55,-218.0,1513.4,-240.0,1535.53,-14.44,True,Active,zain,Forward,Normal,1: Walking
+1787671000.689089,29461,Person 55,-300.2,1496.6,-80.0,1533.86,-17.61,True,Active,zain,Forward,Normal,1: Walking
+1787671000.7707722,29462,Person 55,-379.4,1482.2,-160.0,1547.43,-20.23,True,Active,zain,Forward,Normal,1: Walking
+1787671000.8597462,29463,Person 55,-458.2,1468.0,-240.0,1563.34,-23.01,True,Active,zain,Forward,Normal,1: Walking
+1787671000.94929,29464,Person 55,-533.2,1453.0,-240.0,1575.93,-25.28,True,Active,zain,Forward,Normal,1: Walking
+1787671001.0391002,29465,Person 55,-603.6,1436.2,-160.0,1583.87,-27.65,True,Active,zain,Forward,Normal,1: Walking
+1787671001.1269915,29466,Person 55,-671.6,1421.6,-160.0,1604.91,-30.06,True,Active,zain,Forward,Normal,1: Walking
+1787671001.2163002,29467,Person 55,-737.8,1405.0,-240.0,1619.91,-32.32,True,Active,zain,Forward,Normal,1: Walking
+1787671001.3055525,29468,Person 55,-801.6,1386.4,-160.0,1636.04,-34.64,True,Active,zain,Forward,Normal,1: Walking
+1787671001.3968081,29469,Person 55,-862.4,1363.8,-80.0,1635.81,-36.67,True,Active,zain,Forward,Normal,1: Walking
+1787671001.4893618,29470,Person 55,-920.0,1342.0,-80.0,1649.53,-38.33,True,Active,zain,Forward,Normal,1: Walking
+1787671001.5728564,29471,Person 55,-972.8,1320.0,-80.0,1666.27,-39.86,True,Active,zain,Forward,Normal,1: Walking
+1787671001.6609077,29472,Person 55,-1019.2,1297.4,-80.0,1668.27,-41.16,True,Active,zain,Forward,Normal,1: Walking
+1787671001.7499874,29473,Person 55,-1059.6,1274.2,-160.0,1671.62,-42.62,True,Active,zain,Forward,Normal,1: Walking
+1787671001.8395946,29474,Person 55,-1098.6,1252.8,-240.0,1680.95,-44.2,True,Active,zain,Forward,Normal,1: Walking
+1787671001.9286616,29475,Person 55,-1137.4,1230.2,-240.0,1695.83,-45.86,True,Active,zain,Forward,Normal,1: Walking
+1787671002.0174,29476,Person 55,-1179.4,1208.4,-80.0,1732.68,-47.53,True,Active,zain,Forward,Normal,1: Walking
+1787671002.1053953,29477,Person 55,-1224.6,1188.0,-80.0,1756.33,-48.92,True,Active,zain,Forward,Normal,1: Walking
+1787671002.1949418,29478,Person 55,-1271.2,1170.8,-80.0,1781.0,-50.03,True,Active,zain,Forward,Normal,1: Walking
+1787671002.2844825,29479,Person 55,-1315.0,1157.8,-320.0,1798.47,-50.66,True,Active,zain,Forward,Normal,1: Walking
+1787671002.3724468,29480,Person 55,-1357.2,1146.4,-80.0,1817.29,-51.79,True,Active,zain,Forward,Normal,1: Walking
+1787671002.4614909,29481,Person 55,-1393.0,1135.2,-240.0,1834.08,-52.6,True,Active,zain,Forward,Normal,1: Walking
+1787671002.5498269,29482,Person 55,-1421.6,1124.8,560.0,1834.8,-53.09,True,Active,zain,Forward,Normal,1: Walking
+1787671002.6431487,29483,Person 55,-1441.8,1114.2,640.0,1827.41,-53.34,True,Active,zain,Forward,Normal,1: Walking
+1787671002.7290916,29484,Person 55,-1454.6,1101.0,720.0,1808.45,-53.57,True,Active,zain,Forward,Normal,1: Walking
+1787671002.8233912,29485,Person 55,-1458.0,1088.0,640.0,1791.51,-53.76,True,Active,zain,Forward,Normal,1: Walking
+1787671002.9092958,29486,Person 55,-1453.6,1072.8,880.0,1771.06,-54.12,True,Active,zain,Forward,Normal,1: Walking
+1787671002.9951453,29487,Person 55,-1445.6,1053.4,640.0,1745.38,-54.84,True,Active,zain,Forward,Normal,1: Walking
+1787671003.0839767,29488,Person 55,-1432.6,1024.8,560.0,1691.6,-55.92,True,Active,zain,Forward,Normal,1: Walking
+1787671003.17548,29489,Person 55,-1416.6,988.4,560.0,1638.99,-57.03,True,Active,zain,Forward,Normal,1: Walking
+1787671003.2631085,29490,Person 55,-1397.2,947.0,480.0,1594.68,-57.71,True,Active,zain,Forward,Normal,1: Walking
+1787671003.3509755,29491,Person 55,-1372.2,903.0,720.0,1544.42,-58.02,True,Active,zain,Forward,Normal,1: Walking
+1787671003.4401596,29492,Person 55,-1339.4,858.8,790.0,1486.55,-58.17,True,Active,zain,Forward,Normal,1: Walking
+1787671003.5292199,29493,Person 55,-1300.8,822.0,560.0,1429.32,-57.69,True,Active,zain,Forward,Normal,1: Walking
+1787671003.6191406,29494,Person 55,-1255.8,795.2,480.0,1377.34,-56.61,True,Active,zain,Forward,Normal,1: Walking
+1787671003.7081301,29495,Person 55,-1204.0,772.4,720.0,1315.51,-55.88,True,Active,zain,Forward,Normal,1: Walking
+1787671003.80275,29496,Person 55,-1145.8,751.4,560.0,1243.68,-55.02,True,Active,zain,Forward,Normal,1: Walking
+1787671003.8855188,29497,Person 55,-1081.6,732.8,390.0,1168.27,-53.74,True,Active,zain,Forward,Normal,1: Walking
+1787671003.9751987,29498,Person 55,-1016.0,718.8,240.0,1120.73,-51.74,True,Active,zain,Forward,Normal,1: Walking
+1787671004.0644033,29499,Person 55,-949.6,707.0,160.0,1075.98,-49.49,True,Active,zain,Forward,Normal,1: Walking
+1787671004.152403,29500,Person 55,-882.8,700.4,80.0,1032.98,-46.96,True,Active,zain,Forward,Normal,1: Walking
+1787671004.24334,29501,Person 55,-816.4,700.4,80.0,990.12,-43.94,True,Active,zain,Forward,Normal,1: Walking
+1787671004.329922,29502,Person 55,-751.0,707.2,160.0,950.71,-40.31,True,Active,zain,Forward,Normal,1: Walking
+1787671004.4188104,29503,Person 55,-686.4,716.4,0.0,926.2,-36.97,True,Active,zain,Forward,Normal,1: Walking
+1787671004.5084653,29504,Person 55,-622.0,727.6,-80.0,903.35,-33.3,True,Active,zain,Forward,Normal,1: Walking
+1787671004.5974941,29505,Person 55,-558.4,741.0,-80.0,887.1,-29.51,True,Active,zain,Forward,Normal,1: Walking
+1787671004.6868289,29506,Person 55,-496.4,756.2,-160.0,874.44,-25.54,True,Active,zain,Forward,Normal,1: Walking
+1787671004.7750516,29507,Person 55,-435.6,772.8,-160.0,865.79,-21.05,True,Active,zain,Forward,Normal,1: Walking
+1787671004.863742,29508,Person 55,-371.8,789.8,-240.0,858.64,-16.09,True,Active,zain,Forward,Normal,1: Walking
+1787671004.9573314,29509,Person 55,-307.0,807.4,-80.0,860.37,-11.53,True,Active,zain,Forward,Normal,1: Walking
+1787671005.0427606,29510,Person 55,-241.4,824.2,-160.0,862.91,-7.26,True,Active,zain,Forward,Normal,1: Walking
+1787671005.1315036,29511,Person 55,-176.6,838.6,-160.0,862.63,-3.52,True,Active,zain,Forward,Normal,1: Walking
+1787671005.2203362,29512,Person 55,-116.4,853.4,-160.0,882.06,-0.65,True,Active,zain,Forward,Normal,1: Walking
+1787671005.3091497,29513,Person 55,-64.4,870.4,-160.0,910.27,1.38,True,Active,zain,Forward,Normal,1: Walking
+1787671005.3982878,29514,Person 55,-20.2,893.4,-160.0,959.25,2.93,True,Active,zain,Forward,Normal,1: Walking
+1787671005.4896922,29515,Person 55,17.0,921.4,-320.0,998.97,4.42,True,Active,zain,Forward,Normal,1: Walking
+1787671005.5760005,29516,Person 55,45.4,955.4,-390.0,1034.83,4.93,True,Active,zain,Forward,Normal,1: Walking
+1787671005.6647074,29517,Person 55,69.8,990.8,-480.0,1064.91,6.04,True,Active,zain,Forward,Normal,1: Walking
+1787671005.7557552,29518,Person 55,92.2,1023.2,-390.0,1080.34,7.13,True,Active,zain,Forward,Normal,1: Walking
+1787671005.844072,29519,Person 55,114.6,1048.8,-390.0,1097.87,8.43,True,Active,zain,Forward,Normal,1: Walking
+1787671005.9376895,29520,Person 55,137.4,1071.8,-320.0,1127.3,9.75,True,Active,zain,Forward,Normal,1: Walking
+1787671006.0243702,29521,Person 55,164.0,1092.8,-320.0,1157.49,11.06,True,Active,zain,Forward,Normal,1: Walking
+1787671006.1091905,29522,Person 55,189.8,1114.6,-240.0,1192.6,11.66,True,Active,zain,Forward,Normal,1: Walking
+1787671006.1987739,29523,Person 55,215.4,1139.8,-390.0,1226.31,12.34,True,Active,zain,Forward,Normal,1: Walking
+1787671006.2888014,29524,Person 55,238.2,1168.2,-320.0,1258.42,12.62,True,Active,zain,Forward,Normal,1: Walking
+1787671006.3771236,29525,Person 55,258.2,1197.2,-480.0,1289.27,13.04,True,Active,zain,Forward,Normal,1: Walking
+1787671006.466048,29526,Person 55,273.2,1225.6,-390.0,1312.06,13.08,True,Active,zain,Forward,Normal,1: Walking
+1787671006.5551457,29527,Person 55,283.6,1251.4,-320.0,1329.68,12.73,True,Active,zain,Forward,Normal,1: Walking
+1787671006.643505,29528,Person 55,289.8,1273.6,-80.0,1341.39,12.62,True,Active,zain,Forward,Normal,1: Walking
+1787671006.7336197,29529,Person 55,293.0,1292.4,-80.0,1353.65,12.41,True,Active,zain,Forward,Normal,1: Walking
+1787671006.8219366,29530,Person 55,292.8,1308.8,-80.0,1369.07,12.23,True,Active,zain,Forward,Normal,1: Walking
+1787671006.9146304,29531,Person 55,291.4,1323.6,-80.0,1382.75,12.11,True,Active,zain,Forward,Normal,1: Walking
+1787671006.9993358,29532,Person 55,290.8,1337.0,-80.0,1394.49,12.0,True,Active,zain,Forward,Normal,1: Walking
+1787671007.0885508,29533,Person 55,290.2,1352.6,-80.0,1416.99,11.81,True,Active,zain,Forward,Normal,1: Walking
+1787671007.1782458,29534,Person 55,289.4,1368.2,0.0,1429.11,11.59,True,Active,zain,Forward,Normal,1: Walking
+1787671007.2703338,29535,Person 55,287.0,1379.8,0.0,1423.41,11.26,True,Active,zain,Forward,Normal,1: Walking
+1787671007.356087,29536,Person 55,281.4,1387.0,0.0,1412.51,10.69,True,Active,zain,Forward,Normal,1: Walking
+1787671007.4450288,29537,Person 55,274.8,1392.2,0.0,1413.56,10.48,True,Active,zain,Forward,Normal,1: Walking
+1787671007.53392,29538,Person 55,264.6,1394.6,0.0,1419.27,9.69,True,Active,zain,Forward,Normal,1: Walking
+1787671007.6236079,29539,Person 55,250.6,1396.2,0.0,1424.62,8.76,True,Active,zain,Forward,Normal,1: Walking
+1787671007.7149308,29540,Person 55,234.8,1401.4,-80.0,1435.86,7.97,True,Active,zain,Forward,Normal,1: Walking
+1787671007.802406,29541,Person 55,219.0,1411.8,-80.0,1451.58,7.24,True,Active,zain,Forward,Normal,1: Walking
+1787671007.8895934,29542,Person 55,201.2,1425.4,-80.0,1467.65,6.57,True,Active,zain,Forward,Normal,1: Walking
+1787671007.9783137,29543,Person 55,183.2,1439.6,-390.0,1477.53,5.79,True,Active,zain,Forward,Normal,1: Walking
+1787671008.070642,29544,Person 55,163.6,1454.0,-560.0,1484.78,4.6,True,Active,zain,Forward,Normal,1: Walking
+1787671008.1570392,29545,Person 55,142.6,1468.4,80.0,1496.95,3.6,True,Active,zain,Forward,Normal,1: Walking
+1787671008.2526255,29546,Person 55,123.0,1486.2,160.0,1531.36,3.18,True,Active,zain,Forward,Normal,1: Walking
+1787671008.3341687,29547,Person 55,104.4,1505.0,-1440.0,1553.81,2.77,True,Active,zain,Forward,Normal,1: Walking
+1787671008.423274,29548,Person 55,89.6,1524.2,-320.0,1567.79,2.74,True,Active,zain,Forward,Normal,6: Fall onset
+1787671008.513382,29549,Person 55,80.8,1546.4,-240.0,1592.77,2.7,True,Active,zain,Forward,Normal,6: Fall onset
+1787671008.6028876,29550,Person 55,73.8,1575.6,-720.0,1641.06,2.06,True,Active,zain,Forward,Normal,6: Fall onset
+1787671008.6902347,29551,Person 55,63.8,1615.4,-1440.0,1728.35,1.16,True,Active,zain,Forward,Normal,6: Fall onset
+1787671008.7796497,29552,Person 55,56.2,1664.2,-1760.0,1796.38,1.18,True,Active,zain,Forward,Normal,6: Fall onset
+1787671008.868034,29553,Person 55,52.0,1724.4,-1830.0,1867.78,1.66,True,Active,zain,Forward,Normal,6: Fall onset
+1787671008.9584787,29554,Person 55,49.4,1794.8,-1590.0,1943.99,1.83,True,Active,zain,Forward,Normal,6: Fall onset
+1787671009.046182,29555,Person 55,47.4,1872.2,-560.0,2027.59,1.38,True,Active,zain,Forward,Normal,6: Fall onset
+1787671009.142106,29556,Person 55,43.0,1951.0,-80.0,2122.04,0.35,True,Active,zain,Forward,Normal,6: Fall onset
+1787671009.2243984,29557,Person 55,26.2,2036.2,-720.0,2222.5,-1.21,True,Active,zain,Forward,Normal,6: Fall onset
+1787671009.3147888,29558,Person 55,-10.4,2131.4,0.0,2346.55,-3.15,True,Active,zain,Forward,Normal,6: Fall onset
+1787671009.4029245,29559,Person 55,-63.2,2233.8,160.0,2463.3,-4.7,True,Active,zain,Forward,Normal,6: Fall onset
+1787671009.4914944,29560,Person 55,-106.6,2328.4,80.0,2505.64,-3.84,True,Active,zain,Forward,Normal,6: Fall onset
+1787671009.580109,29561,Person 55,-133.8,2411.4,80.0,2539.98,-2.78,True,Active,zain,Forward,Normal,6: Fall onset
+1787671009.6687808,29562,Person 55,-139.2,2480.4,80.0,2568.07,-1.65,True,Active,zain,Forward,Normal,6: Fall onset
+1787671009.758181,29563,Person 55,-119.8,2536.4,-240.0,2623.2,-0.7,True,Active,zain,Forward,Normal,6: Fall onset
+1787671009.8480341,29564,Person 55,-84.4,2578.6,0.0,2666.12,-0.54,True,Active,zain,Forward,Normal,6: Fall onset
+1787671009.9368124,29565,Person 55,-55.8,2620.0,0.0,2707.12,-0.53,True,Active,zain,Forward,Normal,6: Fall onset
+1787671010.026877,29566,Person 55,-38.0,2657.0,80.0,2722.21,-0.72,True,Active,zain,Forward,Normal,6: Fall onset
+1787671010.1187277,29567,Person 55,-35.4,2697.8,80.0,2771.67,-1.26,True,Active,zain,Forward,Normal,6: Fall onset
+1787671010.2025626,29568,Person 55,-47.4,2737.0,80.0,2820.5,-1.87,True,Active,zain,Forward,Normal,6: Fall onset
+1787671010.2928598,29569,Person 55,-62.8,2771.4,0.0,2839.83,-2.06,True,Active,zain,Forward,Normal,6: Fall onset
+1787671010.3836994,29570,Person 55,-78.8,2788.2,0.0,2792.97,-2.15,True,Active,zain,Forward,Normal,6: Fall onset
+1787671010.4704292,29571,Person 55,-91.6,2788.8,0.0,2726.76,-2.06,True,Active,zain,Forward,Normal,6: Fall onset
+1787671010.558889,29572,Person 55,-97.0,2764.6,0.0,2651.46,-1.9,True,Active,zain,Forward,Normal,6: Fall onset
+1787671010.6475642,29573,Person 55,-94.4,2717.4,0.0,2584.21,-1.75,True,Active,zain,Forward,Normal,6: Fall onset
+1787671010.7381768,29574,Person 55,-88.2,2654.4,0.0,2524.0,-1.61,True,Active,zain,Forward,Normal,6: Fall onset
+1787671010.8265333,29575,Person 55,-79.8,2589.8,0.0,2468.8,-1.46,True,Active,zain,Forward,Normal,6: Fall onset
+1787671010.9174294,29576,Person 55,-71.4,2528.6,0.0,2419.65,-1.33,True,Active,zain,Forward,Normal,6: Fall onset
+1787671011.0036314,29577,Person 55,-63.8,2473.6,0.0,2375.53,-1.21,True,Active,zain,Forward,Normal,6: Fall onset
+1787671011.0929742,29578,Person 55,-57.0,2423.8,0.0,2334.43,-1.1,True,Active,zain,Forward,Normal,6: Fall onset
+1787671011.1831913,29579,Person 55,-51.4,2383.4,0.0,2321.4,-1.06,True,Active,zain,Forward,Normal,6: Fall onset
+1787671011.2784696,29580,Person 55,-47.4,2352.2,0.0,2312.4,-1.07,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671011.3598466,29581,Person 55,-45.2,2332.4,0.0,2320.44,-1.11,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671011.4567747,29582,Person 55,-45.0,2324.2,0.0,2334.51,-1.2,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671011.5372393,29583,Person 55,-46.4,2326.6,0.0,2346.58,-1.27,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671011.6275609,29584,Person 55,-48.8,2334.2,0.0,2359.64,-1.34,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671011.7229075,29585,Person 55,-51.8,2346.0,0.0,2371.71,-1.4,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671011.8056352,29586,Person 55,-54.8,2358.4,0.0,2382.76,-1.44,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671011.8940444,29587,Person 55,-57.6,2370.2,0.0,2393.83,-1.51,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671011.982951,29588,Person 55,-60.4,2381.8,0.0,2404.91,-1.57,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671012.0727413,29589,Person 55,-63.0,2393.0,0.0,2415.96,-1.61,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671012.1661758,29590,Person 55,-65.6,2403.8,0.0,2426.04,-1.68,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671012.2499459,29591,Person 55,-68.2,2414.2,0.0,2435.09,-1.72,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671012.3387077,29592,Person 55,-70.6,2424.4,0.0,2445.15,-1.76,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671012.4278033,29593,Person 55,-72.8,2434.2,0.0,2454.21,-1.8,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671012.5173697,29594,Person 55,-75.2,2443.4,0.0,2462.3,-1.86,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671012.6060054,29595,Person 55,-77.4,2452.4,0.0,2471.36,-1.9,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671012.7027924,29596,Person 55,-79.6,2461.2,0.0,2479.42,-1.94,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671012.783491,29597,Person 55,-81.4,2468.0,0.0,2479.42,-1.94,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671012.8731873,29598,Person 55,-83.0,2473.0,80.0,2479.46,-1.96,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671012.9630108,29599,Person 55,-85.6,2477.2,0.0,2483.74,-2.15,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671013.050904,29600,Person 55,-88.6,2478.4,0.0,2477.9,-2.24,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671013.1414933,29601,Person 55,-92.0,2476.2,0.0,2469.07,-2.34,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671013.229524,29602,Person 55,-96.2,2472.2,0.0,2460.24,-2.45,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671013.3180735,29603,Person 55,-101.0,2466.6,0.0,2452.42,-2.55,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671013.406894,29604,Person 55,-105.0,2458.6,0.0,2444.61,-2.65,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671013.4976377,29605,Person 55,-108.8,2450.4,0.0,2437.76,-2.73,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671013.5845377,29606,Person 55,-112.6,2442.4,0.0,2429.96,-2.83,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671013.6740668,29607,Person 55,-116.2,2434.8,0.0,2423.12,-2.91,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671013.7635474,29608,Person 55,-119.6,2427.4,0.0,2416.29,-2.99,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671013.8526103,29609,Person 55,-123.0,2420.4,0.0,2410.51,-3.09,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671013.9419699,29610,Person 55,-126.4,2413.4,0.0,2403.68,-3.17,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671014.036846,29611,Person 55,-129.4,2406.8,0.0,2397.8,-3.23,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671014.118498,29612,Person 55,-132.4,2400.4,0.0,2391.98,-3.31,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671014.2075295,29613,Person 55,-135.4,2394.2,0.0,2386.17,-3.39,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671014.2972682,29614,Person 55,-138.2,2388.2,0.0,2381.36,-3.47,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671014.3928678,29615,Person 55,-141.4,2382.8,0.0,2377.67,-3.59,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671014.4747324,29616,Person 55,-151.2,2381.8,0.0,2396.08,-4.4,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671014.5634575,29617,Person 55,-186.8,2393.0,0.0,2464.34,-7.37,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671014.65279,29618,Person 55,-272.8,2429.8,0.0,2628.76,-12.55,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671014.7432864,29619,Person 55,-403.6,2491.0,0.0,2799.16,-16.56,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671014.8335068,29620,Person 55,-573.2,2574.8,0.0,2964.67,-19.65,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671014.9201539,29621,Person 55,-770.2,2674.8,0.0,3116.55,-22.03,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671015.0084755,29622,Person 55,-970.0,2781.0,0.0,3252.67,-23.85,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671015.0969274,29623,Person 55,-1145.2,2867.2,0.0,3328.04,-25.77,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671015.1876955,29624,Person 55,-1300.4,2926.4,0.0,3369.26,-27.85,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671015.2798038,29625,Person 55,-1438.8,2956.4,0.0,3392.36,-29.86,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671015.3727665,29626,Person 55,-1557.4,2961.8,-160.0,3407.01,-31.14,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671015.453605,29627,Person 55,-1649.8,2950.0,0.0,3414.79,-31.36,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671015.5456462,29628,Person 55,-1715.0,2932.8,0.0,3408.44,-31.34,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671015.6323712,29629,Person 55,-1751.0,2921.4,-80.0,3408.02,-30.98,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671015.7257688,29630,Person 55,-1758.2,2920.4,-80.0,3406.11,-30.43,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671015.8100874,29631,Person 55,-1745.6,2927.2,-80.0,3404.28,-29.94,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671015.8986382,29632,Person 55,-1725.2,2936.4,-80.0,3402.8,-29.49,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671015.9879425,29633,Person 55,-1701.4,2948.8,-80.0,3402.12,-29.09,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671016.077415,29634,Person 55,-1677.4,2961.0,-80.0,3401.21,-28.71,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671016.1662433,29635,Person 55,-1658.0,2970.8,-80.0,3400.97,-28.6,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671016.2584634,29636,Person 55,-1642.6,2978.6,-80.0,3400.74,-28.49,True,Active,zain,Forward,Normal,7: Post-fall stillness
+1787671016.3436124,29637,Person 55,-1630.8,2984.6,-80.0,3400.52,-28.37,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671016.4321005,29638,Person 55,-1622.0,2989.0,-80.0,3400.31,-28.26,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671016.5222902,29639,Person 55,-1616.2,2992.0,-80.0,3400.59,-28.16,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671016.6148047,29640,Person 55,-1610.6,2994.8,-80.0,3400.0,-28.07,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671016.6997192,29641,Person 55,-1605.2,2997.6,-80.0,3400.3,-27.97,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671016.7881997,29642,Person 55,-1600.0,3000.2,-80.0,3399.72,-27.88,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671016.8772254,29643,Person 55,-1595.0,3002.8,-80.0,3400.04,-27.79,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671016.9668841,29644,Person 55,-1590.2,3005.2,-80.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671017.0596688,29645,Person 55,-1586.4,3007.2,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671017.1442971,29646,Person 55,-1583.6,3008.6,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671017.2326808,29647,Person 55,-1581.8,3009.6,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671017.321706,29648,Person 55,-1581.0,3010.0,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671017.4119325,29649,Person 55,-1581.0,3010.0,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671017.507395,29650,Person 55,-1581.0,3010.0,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671017.5956106,29651,Person 55,-1581.0,3010.0,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671017.6780427,29652,Person 55,-1581.0,3010.0,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671017.7675858,29653,Person 55,-1581.0,3010.0,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671017.85725,29654,Person 55,-1581.0,3010.0,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671017.9495974,29655,Person 55,-1581.0,3010.0,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671018.0354037,29656,Person 55,-1581.0,3010.0,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671018.1227515,29657,Person 55,-1581.0,3010.0,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671018.2117558,29658,Person 55,-1581.0,3010.0,0.0,3399.95,-27.71,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671018.3015788,29659,Person 55,-1584.8,3008.6,0.0,3402.65,-28.05,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671018.3921475,29660,Person 55,-1592.8,3005.6,0.0,3405.53,-28.42,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671018.4876034,29661,Person 55,-1604.8,3001.0,0.0,3408.09,-28.78,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671018.568587,29662,Person 55,-1620.6,2995.0,0.0,3411.16,-29.12,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671018.657403,29663,Person 55,-1640.2,2987.6,0.0,3414.35,-29.46,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671018.7469375,29664,Person 55,-1659.6,2980.2,0.0,3417.16,-29.78,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671018.8415108,29665,Person 55,-1678.2,2973.2,0.0,3420.44,-30.07,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671018.924939,29666,Person 55,-1696.2,2966.4,0.0,3422.95,-30.38,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671019.01364,29667,Person 55,-1713.6,2959.8,0.0,3425.9,-30.66,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671019.1022522,29668,Person 55,-1730.4,2953.4,0.0,3428.94,-30.94,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671019.191626,29669,Person 55,-1746.6,2947.4,0.0,3432.4,-31.2,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671019.2841623,29670,Person 55,-1762.2,2941.4,0.0,3434.55,-31.45,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671019.3758938,29671,Person 55,-1777.2,2935.8,0.0,3437.62,-31.69,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671019.4577436,29672,Person 55,-1791.8,2930.4,0.0,3440.76,-31.93,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671019.5465884,29673,Person 55,-1805.8,2925.2,0.0,3443.42,-32.16,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671019.6369169,29674,Person 55,-1819.2,2920.0,0.0,3445.6,-32.38,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671019.7253883,29675,Person 55,-1829.8,2916.0,0.0,3445.6,-32.38,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671019.8143148,29676,Person 55,-1837.6,2913.0,0.0,3445.6,-32.38,True,Active,zain,Forward,Normal,8: Recovery / standing back up
+1787671019.903004,29677,Person 55,-1842.6,2911.0,0.0,3445.6,-32.38,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671019.9926984,29678,Person 55,-1845.0,2910.0,0.0,3445.6,-32.38,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671020.0823412,29679,Person 55,-1845.0,2910.0,0.0,3445.6,-32.38,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671020.1767073,29680,Person 55,-1845.0,2910.0,0.0,3445.6,-32.38,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671020.265206,29681,Person 55,-1843.2,2911.4,0.0,3446.71,-32.19,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671020.3476343,29682,Person 55,-1839.0,2914.4,0.0,3447.11,-31.95,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671020.436747,29683,Person 55,-1832.4,2919.0,0.0,3447.58,-31.71,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671020.5263064,29684,Person 55,-1823.6,2925.2,0.0,3448.63,-31.48,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671020.6165612,29685,Person 55,-1812.6,2933.0,0.0,3449.74,-31.26,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671020.704771,29686,Person 55,-1801.2,2940.8,0.0,3450.04,-31.04,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671020.792488,29687,Person 55,-1790.2,2948.4,0.0,3450.9,-30.84,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671020.8817086,29688,Person 55,-1779.6,2955.8,0.0,3451.81,-30.64,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671020.9732127,29689,Person 55,-1769.2,2962.8,0.0,3451.89,-30.44,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671021.0606637,29690,Person 55,-1759.2,2969.4,0.0,3452.52,-30.26,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671021.1490896,29691,Person 55,-1749.6,2975.8,0.0,3453.19,-30.08,True,Active,zain,Forward,Normal,2: Standing / idle
+1787671021.238396,29692,Person 55,-1740.4,2982.0,0.0,3454.38,-29.92,True,Active,zain,Forward,Normal,2: Standing / idle

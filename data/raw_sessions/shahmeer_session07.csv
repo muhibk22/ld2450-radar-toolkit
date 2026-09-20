@@ -1,0 +1,578 @@
+timestamp,sequence_id,target_id,x_mm,y_mm,speed_mms,distance_mm,angle_deg,valid,status,volunteer_id,fall_subtype,pace_variant,action_label
+1787671555.331834,35692,Person 68,444.2,1197.2,160.0,1272.25,20.33,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671555.3579044,35693,Person 68,442.8,1195.0,80.0,1269.92,20.18,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671555.428287,35694,Person 68,440.8,1193.2,160.0,1267.01,20.08,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671555.5177667,35695,Person 68,438.4,1191.4,160.0,1264.11,19.98,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671555.6078663,35696,Person 68,435.8,1189.8,0.0,1262.23,20.01,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671555.7039096,35697,Person 68,434.0,1188.4,0.0,1262.57,20.06,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671555.7895415,35698,Person 68,432.6,1186.8,-80.0,1260.01,20.0,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671555.874063,35699,Person 68,431.4,1185.2,0.0,1257.44,19.95,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671555.963142,35700,Person 68,431.0,1184.0,-80.0,1257.79,19.99,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671556.053351,35701,Person 68,431.4,1183.6,0.0,1261.04,20.13,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671556.1419957,35702,Person 68,431.8,1183.0,0.0,1260.44,20.19,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671556.229574,35703,Person 68,432.2,1182.6,-80.0,1258.81,20.12,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671556.3192725,35704,Person 68,432.6,1182.6,-80.0,1258.13,20.03,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671556.4075263,35705,Person 68,432.6,1182.2,-80.0,1255.91,20.02,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671556.4993443,35706,Person 68,431.0,1181.2,-80.0,1253.6,19.87,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671556.5861406,35707,Person 68,428.6,1180.4,0.0,1252.59,19.74,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671556.6749234,35708,Person 68,426.0,1179.8,0.0,1251.58,19.61,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671556.7629964,35709,Person 68,423.4,1179.6,-80.0,1252.79,19.49,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671556.8522658,35710,Person 68,421.0,1180.2,0.0,1254.68,19.46,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671556.943434,35711,Person 68,419.2,1181.2,0.0,1255.29,19.4,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671557.0333686,35712,Person 68,418.2,1182.0,160.0,1254.68,19.46,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671557.120035,35713,Person 68,417.8,1182.8,0.0,1254.68,19.46,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671557.2082748,35714,Person 68,417.8,1182.8,80.0,1252.79,19.49,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671557.2970164,35715,Person 68,417.6,1182.0,0.0,1250.57,19.48,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671557.3875782,35716,Person 68,417.2,1180.4,80.0,1247.08,19.44,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671557.4789925,35717,Person 68,415.8,1178.8,0.0,1244.81,19.28,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671557.5647411,35718,Person 68,414.0,1177.0,80.0,1243.2,19.21,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671557.6535103,35719,Person 68,410.8,1175.6,240.0,1240.92,18.9,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671557.7445445,35720,Person 68,406.2,1174.4,80.0,1237.4,18.57,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671557.8315196,35721,Person 68,400.0,1173.4,0.0,1232.35,18.16,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671557.9253962,35722,Person 68,392.4,1172.4,-80.0,1228.02,17.68,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671558.0104358,35723,Person 68,383.0,1171.2,-160.0,1222.81,17.22,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671558.098086,35724,Person 68,372.8,1169.8,80.0,1218.64,16.74,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671558.1869636,35725,Person 68,362.0,1168.6,80.0,1215.52,16.24,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671558.2765622,35726,Person 68,350.2,1168.6,0.0,1215.26,15.51,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671558.3720808,35727,Person 68,332.8,1170.0,-80.0,1211.25,13.66,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671558.4538693,35728,Person 68,310.2,1172.0,-80.0,1204.03,11.94,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671558.5436668,35729,Person 68,281.8,1173.8,80.0,1194.43,10.08,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671558.6324275,35730,Person 68,247.0,1174.4,160.0,1181.72,8.08,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671558.7222908,35731,Person 68,205.0,1172.2,80.0,1165.69,5.66,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671558.8100913,35732,Person 68,150.4,1162.8,80.0,1130.07,0.66,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671558.9070847,35733,Person 68,82.8,1148.4,-80.0,1109.58,-4.6,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671558.9880896,35734,Person 68,2.6,1130.8,-160.0,1104.81,-10.01,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671559.0777326,35735,Person 68,-88.6,1110.6,-240.0,1107.64,-15.18,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671559.167058,35736,Person 68,-185.2,1087.0,-240.0,1105.07,-19.45,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671559.261906,35737,Person 68,-277.0,1064.8,-320.0,1112.33,-23.64,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671559.3513918,35738,Person 68,-363.0,1044.0,-390.0,1128.43,-27.38,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671559.4336593,35739,Person 68,-441.0,1022.8,-390.0,1141.51,-30.65,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671559.5220194,35740,Person 68,-512.6,1004.8,-390.0,1174.03,-33.5,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671559.6120982,35741,Person 68,-583.2,993.6,-320.0,1221.49,-36.18,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671559.7069473,35742,Person 68,-655.6,993.2,-560.0,1298.9,-38.47,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671559.7934692,35743,Person 68,-728.4,1001.0,-320.0,1365.05,-40.31,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671559.8777764,35744,Person 68,-801.6,1011.0,-320.0,1401.33,-42.57,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671559.9664207,35745,Person 68,-876.0,1020.8,-240.0,1448.17,-44.78,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671560.0580509,35746,Person 68,-944.0,1027.0,-320.0,1469.7,-46.21,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671560.1462204,35747,Person 68,-1003.6,1022.6,-390.0,1487.7,-48.02,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671560.2348418,35748,Person 68,-1058.0,1011.4,-320.0,1517.98,-49.54,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671560.322324,35749,Person 68,-1110.2,1002.8,-480.0,1561.99,-50.72,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671560.4115906,35750,Person 68,-1159.4,1001.0,-560.0,1625.15,-51.17,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671560.5014436,35751,Person 68,-1209.0,1005.6,-390.0,1671.85,-51.53,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671560.5899696,35752,Person 68,-1258.0,1013.6,-240.0,1701.89,-52.54,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671560.679715,35753,Person 68,-1309.6,1022.4,-320.0,1747.97,-53.94,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671560.767875,35754,Person 68,-1359.0,1030.8,-160.0,1784.07,-54.7,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671560.8579252,35755,Person 68,-1402.0,1032.8,-240.0,1803.39,-55.21,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671560.9464395,35756,Person 68,-1442.2,1033.2,-240.0,1834.63,-55.39,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671561.040414,35757,Person 68,-1480.0,1033.8,-480.0,1857.16,-56.02,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671561.1312582,35758,Person 68,-1508.4,1038.0,-320.0,1876.31,-55.97,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671561.2129245,35759,Person 68,-1529.2,1043.2,-390.0,1884.37,-55.88,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671561.301446,35760,Person 68,-1545.6,1050.0,-390.0,1890.22,-55.78,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671561.3931134,35761,Person 68,-1558.4,1056.2,-720.0,1904.94,-55.72,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671561.4869878,35762,Person 68,-1566.2,1066.8,-80.0,1919.25,-55.36,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671561.5759022,35763,Person 68,-1573.2,1080.8,160.0,1944.87,-54.84,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671561.6579797,35764,Person 68,-1586.2,1100.4,-80.0,1993.65,-54.6,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671561.7475781,35765,Person 68,-1612.0,1123.6,0.0,2062.26,-55.13,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671561.8383868,35766,Person 68,-1644.8,1146.6,0.0,2105.23,-55.65,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671561.9248865,35767,Person 68,-1680.2,1167.6,-80.0,2124.61,-55.74,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671562.0145972,35768,Person 68,-1716.0,1189.4,390.0,2154.02,-55.21,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671562.1024961,35769,Person 68,-1748.0,1224.6,160.0,2226.61,-53.29,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671562.1916025,35770,Person 68,-1768.0,1272.0,0.0,2283.93,-51.68,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671562.2816412,35771,Person 68,-1779.0,1326.4,80.0,2312.24,-50.84,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671562.369691,35772,Person 68,-1784.4,1381.4,80.0,2311.48,-50.48,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671562.4604175,35773,Person 68,-1785.4,1432.0,160.0,2311.58,-50.12,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671562.5475192,35774,Person 68,-1778.6,1462.2,-80.0,2293.98,-49.76,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671562.6368804,35775,Person 68,-1766.6,1474.2,80.0,2275.61,-49.56,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671562.726512,35776,Person 68,-1750.2,1477.0,80.0,2258.36,-49.26,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671562.8215466,35777,Person 68,-1732.0,1477.8,160.0,2244.66,-48.92,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671562.907772,35778,Person 68,-1712.4,1477.8,0.0,2237.25,-48.52,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671562.9929674,35779,Person 68,-1691.8,1477.2,390.0,2214.35,-48.09,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671563.0818193,35780,Person 68,-1669.6,1480.0,160.0,2201.76,-47.41,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671563.1743674,35781,Person 68,-1644.0,1482.8,560.0,2172.56,-46.77,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671563.2600005,35782,Person 68,-1607.2,1483.2,390.0,2110.83,-45.6,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671563.3488662,35783,Person 68,-1560.2,1478.4,320.0,2049.94,-44.66,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671563.437404,35784,Person 68,-1507.6,1473.8,240.0,2009.52,-43.57,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671563.526394,35785,Person 68,-1450.2,1469.6,480.0,1984.32,-42.24,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671563.624896,35786,Person 68,-1388.0,1471.0,390.0,1962.91,-40.39,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671563.7046876,35787,Person 68,-1330.2,1479.0,240.0,1946.09,-38.78,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671563.7938304,35788,Person 68,-1277.2,1494.2,160.0,1932.91,-37.47,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671563.8831553,35789,Person 68,-1226.6,1510.0,390.0,1907.26,-36.41,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671563.9717002,35790,Person 68,-1178.8,1519.0,480.0,1868.48,-35.88,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671564.0613577,35791,Person 68,-1137.6,1515.2,560.0,1820.7,-35.84,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671564.149143,35792,Person 68,-1099.4,1499.8,390.0,1769.29,-35.52,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671564.2392228,35793,Person 68,-1058.6,1475.6,240.0,1715.04,-34.52,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671564.3277485,35794,Person 68,-1018.8,1444.8,320.0,1666.63,-34.04,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671564.4159608,35795,Person 68,-976.4,1415.2,240.0,1626.54,-32.88,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671564.5058174,35796,Person 68,-928.8,1392.6,240.0,1594.79,-31.28,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671564.5943806,35797,Person 68,-873.8,1378.8,320.0,1564.18,-28.78,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671564.6902776,35798,Person 68,-812.4,1373.6,320.0,1538.18,-25.62,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671564.7724843,35799,Person 68,-743.6,1376.8,320.0,1516.09,-22.86,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671564.860726,35800,Person 68,-671.0,1380.4,390.0,1478.46,-20.59,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671564.9508214,35801,Person 68,-598.6,1378.6,480.0,1431.95,-18.99,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671565.0434716,35802,Person 68,-530.2,1368.6,320.0,1383.46,-17.28,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671565.1281693,35803,Person 68,-468.8,1351.8,240.0,1351.29,-15.36,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671565.2192624,35804,Person 68,-410.4,1330.2,160.0,1322.77,-12.98,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671565.30546,35805,Person 68,-351.6,1312.0,80.0,1312.6,-9.91,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671565.3961556,35806,Person 68,-292.0,1299.2,0.0,1300.89,-7.42,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671565.4860847,35807,Person 68,-233.4,1293.6,-80.0,1298.37,-5.21,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671565.5736516,35808,Person 68,-178.0,1293.4,-240.0,1304.52,-3.56,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671565.6618426,35809,Person 68,-127.8,1297.8,-160.0,1311.81,-2.01,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671565.750915,35810,Person 68,-82.2,1300.8,160.0,1308.0,0.09,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671565.8409078,35811,Person 68,-37.2,1302.0,240.0,1297.25,2.52,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671565.9291985,35812,Person 68,11.4,1297.0,1040.0,1274.15,5.63,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671566.0191758,35813,Person 68,64.8,1283.0,560.0,1245.96,8.59,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671566.1066892,35814,Person 68,118.0,1260.8,160.0,1220.0,10.39,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671566.1959622,35815,Person 68,161.8,1234.6,-80.0,1197.57,10.63,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671566.2852247,35816,Person 68,193.2,1210.6,-560.0,1195.31,10.31,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671566.3782132,35817,Person 68,207.4,1194.0,-1280.0,1201.1,9.39,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671566.4628541,35818,Person 68,208.0,1186.0,-880.0,1206.89,9.01,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671566.5518777,35819,Person 68,201.4,1187.2,-790.0,1220.41,8.81,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671566.6406624,35820,Person 68,194.4,1196.4,-720.0,1237.06,8.65,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671566.730902,35821,Person 68,188.6,1209.6,-790.0,1255.7,8.47,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671566.820296,35822,Person 68,186.6,1226.0,-1120.0,1280.58,8.35,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671566.9152565,35823,Person 68,185.4,1258.8,-2320.0,1368.29,7.69,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671566.9969528,35824,Person 68,184.2,1322.6,-2390.0,1535.7,6.77,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671567.0854125,35825,Person 68,182.8,1418.0,2320.0,1709.4,6.01,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671567.1755545,35826,Person 68,179.6,1541.4,-1760.0,1866.67,5.19,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671567.2744694,35827,Person 68,169.6,1690.6,-720.0,2017.59,3.87,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671567.3665826,35828,Person 68,144.6,1855.4,-320.0,2180.77,1.52,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671567.4870663,35829,Person 68,109.4,2020.6,-240.0,2351.01,0.12,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671567.5297818,35830,Person 68,72.2,2175.0,-80.0,2472.01,-0.16,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671567.619463,35831,Person 68,37.2,2319.2,80.0,2580.01,-0.13,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671567.7087452,35832,Person 68,8.8,2447.2,80.0,2653.01,-0.13,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671567.7983434,35833,Person 68,-2.8,2559.6,0.0,2742.0,0.0,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671567.8884833,35834,Person 68,-3.2,2650.2,80.0,2804.0,0.06,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671567.9753845,35835,Person 68,1.2,2714.4,560.0,2793.04,0.31,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671568.0650616,35836,Person 68,0.8,2750.6,-80.0,2761.01,-0.17,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671568.1536856,35837,Person 68,-2.4,2767.2,-80.0,2736.09,-0.46,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671568.2498648,35838,Person 68,-8.0,2765.0,0.0,2731.14,-0.59,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671568.3322039,35839,Person 68,-18.6,2750.4,0.0,2731.46,-1.05,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671568.4205463,35840,Person 68,-34.0,2735.6,80.0,2719.71,-1.31,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671568.5102386,35841,Person 68,-51.0,2727.4,-720.0,2721.59,-1.96,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671568.604792,35842,Person 68,-70.8,2728.2,-80.0,2742.67,-2.53,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671568.6879458,35843,Person 68,-96.6,2734.4,0.0,2766.46,-3.25,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671568.7781174,35844,Person 68,-121.2,2743.0,0.0,2779.39,-3.57,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671568.8654878,35845,Person 68,-144.6,2754.2,-80.0,2780.77,-3.69,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671568.9555857,35846,Person 68,-162.4,2764.8,-80.0,2778.97,-3.76,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671569.049969,35847,Person 68,-175.2,2770.8,-80.0,2776.17,-3.82,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671569.1359408,35848,Person 68,-181.2,2772.0,-80.0,2774.31,-3.86,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671569.2216172,35849,Person 68,-187.6,2771.0,0.0,2776.58,-4.23,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671569.3158545,35850,Person 68,-197.2,2770.4,0.0,2781.28,-4.68,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671569.4002202,35851,Person 68,-215.4,2771.2,0.0,2790.39,-5.61,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671569.489491,35852,Person 68,-253.6,2775.6,0.0,2817.2,-7.67,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671569.5808206,35853,Person 68,-335.2,2783.6,0.0,2870.35,-11.96,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671569.6656923,35854,Person 68,-454.4,2794.2,0.0,2933.48,-15.85,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671569.7551749,35855,Person 68,-609.0,2802.4,-80.0,2985.46,-19.57,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671569.845394,35856,Person 68,-786.0,2806.6,0.0,3028.16,-22.48,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671569.9377625,35857,Person 68,-940.8,2810.8,0.0,3038.99,-22.24,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671570.024941,35858,Person 68,-1044.6,2815.0,0.0,3040.43,-21.49,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671570.1108503,35859,Person 68,-1105.4,2816.8,0.0,3039.01,-21.32,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671570.1996577,35860,Person 68,-1124.6,2821.0,0.0,3038.55,-21.14,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671570.2898738,35861,Person 68,-1110.6,2828.8,0.0,3038.47,-20.98,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671570.3824582,35862,Person 68,-1096.6,2834.0,0.0,3037.49,-20.83,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671570.4744442,35863,Person 68,-1089.0,2837.4,0.0,3042.61,-20.71,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671570.5569274,35864,Person 68,-1085.0,2843.2,0.0,3058.89,-20.78,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671570.6474757,35865,Person 68,-1090.8,2858.2,0.0,3118.96,-21.14,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671570.7349455,35866,Person 68,-1105.4,2881.4,0.0,3173.03,-21.46,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671570.8271005,35867,Person 68,-1128.0,2912.2,0.0,3222.0,-21.73,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671570.912849,35868,Person 68,-1157.4,2948.6,0.0,3265.66,-21.99,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671571.0012977,35869,Person 68,-1186.8,2984.6,0.0,3280.16,-22.06,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671571.0897005,35870,Person 68,-1210.0,3013.0,0.0,3293.73,-22.13,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671571.17967,35871,Person 68,-1227.8,3034.8,0.0,3307.32,-22.21,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671571.2688663,35872,Person 68,-1241.0,3050.6,0.0,3319.98,-22.29,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671571.35702,35873,Person 68,-1249.8,3061.6,0.0,3333.19,-22.34,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671571.4455924,35874,Person 68,-1258.4,3072.0,0.0,3344.56,-22.41,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671571.5347888,35875,Person 68,-1267.2,3081.0,0.0,3352.08,-22.54,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671571.6246872,35876,Person 68,-1276.2,3088.0,0.0,3356.85,-22.69,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671571.7132306,35877,Person 68,-1285.2,3093.4,0.0,3362.17,-22.82,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671571.8022947,35878,Person 68,-1293.8,3096.8,0.0,3365.43,-22.91,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671571.8912022,35879,Person 68,-1302.6,3097.2,0.0,3363.42,-23.09,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671571.9802818,35880,Person 68,-1311.0,3095.0,0.0,3358.3,-23.27,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671572.069691,35881,Person 68,-1317.6,3090.8,0.0,3350.43,-23.35,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671572.15839,35882,Person 68,-1321.2,3084.8,0.0,3341.62,-23.3,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671572.2473223,35883,Person 68,-1320.8,3077.2,-160.0,3329.67,-23.13,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671572.335645,35884,Person 68,-1314.2,3070.0,390.0,3317.4,-22.81,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671572.4244037,35885,Person 68,-1294.0,3061.4,1040.0,3279.76,-21.95,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671572.514212,35886,Person 68,-1261.0,3051.6,1040.0,3242.73,-21.02,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671572.6065938,35887,Person 68,-1215.2,3041.4,240.0,3209.82,-19.91,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671572.7022367,35888,Person 68,-1156.0,3032.4,0.0,3182.21,-18.54,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671572.7811003,35889,Person 68,-1073.2,3029.4,80.0,3165.48,-15.99,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671572.8698535,35890,Person 68,-977.0,3036.8,80.0,3167.85,-13.6,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671572.9599235,35891,Person 68,-874.4,3048.6,0.0,3153.71,-11.89,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671573.0513387,35892,Person 68,-769.8,3062.8,0.0,3141.15,-10.45,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671573.1368074,35893,Person 68,-664.8,3077.8,320.0,3130.12,-8.95,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671573.2268598,35894,Person 68,-578.8,3082.8,720.0,3099.68,-8.2,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671573.3145185,35895,Person 68,-511.4,3077.2,320.0,3078.16,-7.62,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671573.404224,35896,Person 68,-455.4,3067.2,-80.0,3058.46,-6.95,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671573.4960291,35897,Person 68,-404.4,3048.4,390.0,3011.52,-6.0,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671573.5824947,35898,Person 68,-357.0,3017.8,-160.0,2949.61,-4.86,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671573.670662,35899,Person 68,-302.6,2975.0,-240.0,2859.06,-3.41,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671573.7598834,35900,Person 68,-237.0,2920.0,-240.0,2777.15,-1.65,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671573.8495698,35901,Person 68,-163.2,2855.8,0.0,2715.0,-0.02,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671573.9446106,35902,Person 68,-91.8,2797.4,0.0,2703.33,0.89,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671574.027685,35903,Person 68,-30.6,2753.0,0.0,2717.58,1.18,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671574.1157234,35904,Person 68,17.6,2727.2,0.0,2725.92,1.49,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671574.2049735,35905,Person 68,49.2,2717.8,80.0,2730.11,1.64,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671574.2945151,35906,Person 68,67.6,2719.2,-80.0,2723.52,1.91,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671574.390632,35907,Person 68,82.0,2722.0,-80.0,2719.39,2.4,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671574.472427,35908,Person 68,99.0,2720.2,-160.0,2711.67,2.98,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671574.5604181,35909,Person 68,121.0,2716.6,160.0,2713.04,3.83,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671574.649422,35910,Person 68,147.2,2712.2,240.0,2715.06,4.41,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671574.7437065,35911,Person 68,180.2,2706.8,160.0,2707.13,5.43,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671574.8277853,35912,Person 68,212.2,2700.4,320.0,2698.94,5.83,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671574.9173799,35913,Person 68,239.2,2693.8,160.0,2689.2,5.89,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671575.0058703,35914,Person 68,260.0,2685.6,160.0,2681.19,6.1,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671575.0981057,35915,Person 68,276.4,2678.2,80.0,2685.81,6.22,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671575.1845627,35916,Person 68,282.8,2674.2,160.0,2690.46,6.14,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671575.2729084,35917,Person 68,285.0,2672.0,80.0,2689.15,6.08,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671575.373482,35918,Person 68,286.8,2670.8,240.0,2684.17,6.1,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671575.4505258,35919,Person 68,286.8,2671.0,0.0,2682.18,6.1,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671575.5400558,35920,Person 68,286.4,2670.4,-80.0,2682.61,6.18,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671575.629325,35921,Person 68,287.4,2668.6,-160.0,2682.05,6.27,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671575.7177167,35922,Person 68,290.4,2666.8,-80.0,2681.83,6.42,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671575.8077888,35923,Person 68,294.2,2666.0,160.0,2682.28,6.51,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671575.8956685,35924,Person 68,299.0,2665.6,160.0,2682.85,6.61,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671575.984921,35925,Person 68,303.8,2664.8,160.0,2681.33,6.7,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671576.0743158,35926,Person 68,308.2,2663.4,240.0,2677.59,6.76,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671576.1625514,35927,Person 68,311.0,2662.2,80.0,2677.48,6.73,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671576.255614,35928,Person 68,313.2,2660.8,320.0,2676.6,6.76,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671576.3403792,35929,Person 68,315.0,2659.0,560.0,2674.97,6.83,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671576.4295018,35930,Person 68,317.2,2656.0,480.0,2667.75,6.98,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671576.5192976,35931,Person 68,320.4,2650.8,390.0,2653.72,7.17,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671576.607901,35932,Person 68,327.8,2636.8,390.0,2612.68,7.72,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671576.6975162,35933,Person 68,339.4,2612.6,320.0,2564.27,8.36,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671576.7869494,35934,Person 68,359.6,2569.6,320.0,2476.7,9.74,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671576.8740351,35935,Person 68,384.6,2513.6,320.0,2410.19,10.74,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671576.9645147,35936,Person 68,409.0,2446.8,390.0,2343.21,11.15,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671577.0527716,35937,Person 68,428.2,2377.2,390.0,2285.15,11.28,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671577.141962,35938,Person 68,442.0,2311.2,320.0,2250.82,11.32,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671577.230283,35939,Person 68,445.2,2260.0,390.0,2227.88,11.26,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671577.3190637,35940,Person 68,438.6,2214.2,390.0,2179.08,11.01,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671577.4094837,35941,Person 68,428.4,2174.8,160.0,2140.1,10.83,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671577.4994652,35942,Person 68,417.0,2137.8,390.0,2092.66,10.74,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671577.587059,35943,Person 68,405.2,2102.0,-240.0,2063.85,10.69,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671577.6758919,35944,Person 68,395.2,2059.8,240.0,2011.19,11.04,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671577.7638,35945,Person 68,390.6,2019.6,-80.0,1977.45,11.46,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671577.8539238,35946,Person 68,389.6,1997.0,-160.0,2028.23,11.29,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671577.9441743,35947,Person 68,392.2,1986.0,0.0,2041.18,11.39,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671578.03198,35948,Person 68,397.2,1982.8,0.0,2052.95,11.46,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671578.1214228,35949,Person 68,403.2,1991.6,0.0,2060.23,11.62,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671578.209239,35950,Person 68,409.2,2008.8,320.0,2067.73,11.8,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671578.2986763,35951,Person 68,415.6,2016.6,390.0,2072.88,11.94,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671578.3876083,35952,Person 68,421.6,2022.6,320.0,2076.64,12.04,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671578.483128,35953,Person 68,427.8,2027.0,240.0,2080.84,12.18,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671578.5652306,35954,Person 68,433.6,2031.0,160.0,2085.8,12.29,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671578.6535995,35955,Person 68,438.8,2034.4,80.0,2089.8,12.41,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671578.7436862,35956,Person 68,443.8,2038.0,160.0,2095.77,12.51,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671578.8321319,35957,Person 68,448.8,2041.6,80.0,2099.56,12.6,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671578.928899,35958,Person 68,452.6,2045.0,80.0,2101.51,12.59,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671579.0101113,35959,Person 68,455.4,2047.8,80.0,2102.49,12.58,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671579.098754,35960,Person 68,457.4,2050.2,80.0,2103.68,12.6,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671579.1885078,35961,Person 68,458.6,2051.6,0.0,2103.9,12.63,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671579.2818751,35962,Person 68,458.8,2052.6,160.0,2104.66,12.6,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671579.3693097,35963,Person 68,458.8,2053.6,80.0,2106.4,12.56,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671579.4582796,35964,Person 68,459.0,2055.0,0.0,2109.54,12.57,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671579.5445986,35965,Person 68,459.8,2056.8,0.0,2113.34,12.66,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671579.63374,35966,Person 68,460.8,2059.4,80.0,2117.68,12.68,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671579.7218819,35967,Person 68,462.4,2062.2,80.0,2120.07,12.73,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671579.8129718,35968,Person 68,465.2,2065.4,0.0,2125.08,12.83,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671579.8996756,35969,Person 68,468.8,2068.0,0.0,2126.2,12.96,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671579.9892495,35970,Person 68,472.2,2070.2,0.0,2127.85,13.04,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671580.0788167,35971,Person 68,475.0,2071.8,-80.0,2128.6,13.0,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671580.1702182,35972,Person 68,477.0,2073.2,-80.0,2129.12,12.95,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671580.25766,35973,Person 68,477.0,2074.8,-80.0,2132.88,12.79,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671580.344563,35974,Person 68,475.0,2077.0,80.0,2134.71,12.64,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671580.4336023,35975,Person 68,471.0,2079.8,80.0,2137.09,12.43,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671580.5238357,35976,Person 68,466.6,2083.2,0.0,2140.36,12.33,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671580.6118808,35977,Person 68,462.6,2086.4,0.0,2140.36,12.33,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671580.7058072,35978,Person 68,459.0,2089.0,0.0,2141.67,12.24,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671580.7896774,35979,Person 68,456.8,2090.8,0.0,2141.12,12.3,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671580.8786447,35980,Person 68,457.6,2090.6,-80.0,2136.98,12.54,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671580.968665,35981,Person 68,460.2,2088.4,0.0,2132.44,12.73,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671581.0639496,35982,Person 68,464.0,2085.8,-80.0,2131.82,12.9,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671581.146719,35983,Person 68,470.0,2081.4,0.0,2126.8,13.15,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671581.2348783,35984,Person 68,476.8,2076.0,0.0,2122.34,13.35,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671581.323436,35985,Person 68,481.4,2072.2,0.0,2123.6,13.26,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671581.4134765,35986,Person 68,483.4,2071.0,0.0,2128.82,13.03,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671581.5084555,35987,Person 68,483.0,2071.4,0.0,2133.33,12.84,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671581.5907075,35988,Person 68,480.2,2074.4,0.0,2138.29,12.7,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671581.6797476,35989,Person 68,475.0,2079.4,0.0,2140.89,12.52,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671581.7682765,35990,Person 68,469.8,2084.0,0.0,2140.24,12.44,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671581.8582687,35991,Person 68,467.2,2086.4,0.0,2137.64,12.62,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671581.9475112,35992,Person 68,467.2,2087.0,0.0,2136.25,12.82,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671582.0395813,35993,Person 68,468.8,2086.4,0.0,2137.14,12.92,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671582.124413,35994,Person 68,471.6,2085.2,0.0,2138.12,12.92,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671582.2181406,35995,Person 68,475.0,2084.4,80.0,2140.07,12.91,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671582.303126,35996,Person 68,477.2,2084.0,0.0,2138.12,12.92,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671582.3919156,35997,Person 68,477.8,2083.6,0.0,2134.97,12.91,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671582.4811032,35998,Person 68,477.0,2083.0,160.0,2133.33,12.84,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671582.5698578,35999,Person 68,474.6,2082.6,160.0,2133.51,12.62,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671582.6579506,36000,Person 68,470.8,2081.6,240.0,2131.02,12.44,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671582.7480917,36001,Person 68,465.2,2081.0,320.0,2129.1,12.2,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671582.8367085,36002,Person 68,459.0,2080.8,320.0,2127.28,12.1,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671582.926822,36003,Person 68,452.2,2080.8,320.0,2126.03,11.94,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671583.014834,36004,Person 68,446.4,2079.2,560.0,2119.54,11.9,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671583.103547,36005,Person 68,441.2,2076.4,720.0,2111.87,11.83,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671583.1932843,36006,Person 68,436.2,2071.6,640.0,2100.45,11.67,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671583.2831264,36007,Person 68,429.4,2065.6,320.0,2090.99,11.36,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671583.3750033,36008,Person 68,417.0,2053.2,720.0,2053.1,10.61,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671583.4594665,36009,Person 68,399.2,2033.8,790.0,2007.39,9.98,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671583.5491703,36010,Person 68,375.4,2006.8,560.0,1957.35,9.23,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671583.6381476,36011,Person 68,337.2,1964.0,320.0,1857.8,7.24,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671583.7310643,36012,Person 68,287.4,1908.2,160.0,1778.49,5.26,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671583.8177738,36013,Person 68,231.8,1846.8,160.0,1713.92,3.34,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671583.910265,36014,Person 68,169.2,1782.4,240.0,1655.37,1.21,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671583.9988623,36015,Person 68,100.4,1718.4,160.0,1612.28,-1.07,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671584.0836868,36016,Person 68,35.8,1664.8,80.0,1577.51,-3.23,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671584.1719403,36017,Person 68,-26.4,1618.8,80.0,1548.09,-5.49,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671584.2626328,36018,Person 68,-86.6,1579.2,80.0,1526.29,-7.57,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671584.3494227,36019,Person 68,-148.4,1547.6,80.0,1521.87,-10.37,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671584.4387848,36020,Person 68,-210.4,1518.8,80.0,1506.86,-13.04,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671584.5283277,36021,Person 68,-270.4,1491.4,80.0,1489.69,-15.14,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671584.6165795,36022,Person 68,-327.0,1463.4,80.0,1465.8,-17.1,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671584.7121902,36023,Person 68,-383.6,1433.4,80.0,1446.38,-19.55,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671584.7941327,36024,Person 68,-437.0,1399.8,80.0,1434.89,-22.15,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671584.8834789,36025,Person 68,-492.8,1363.6,-80.0,1428.12,-25.69,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671584.976513,36026,Person 68,-552.4,1324.0,-80.0,1417.59,-28.99,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671585.0626004,36027,Person 68,-616.4,1282.8,-160.0,1411.39,-32.15,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671585.150087,36028,Person 68,-682.6,1241.4,-240.0,1414.41,-35.18,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671585.238911,36029,Person 68,-749.2,1200.0,-320.0,1422.24,-37.92,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671585.3277905,36030,Person 68,-811.4,1163.0,-240.0,1441.98,-40.16,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671585.4177704,36031,Person 68,-870.2,1132.2,-390.0,1463.47,-42.09,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671585.50768,36032,Person 68,-929.6,1108.8,-480.0,1503.46,-44.19,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671585.5985272,36033,Person 68,-985.4,1090.2,-390.0,1525.39,-45.82,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671585.6837137,36034,Person 68,-1039.6,1076.2,-390.0,1554.9,-47.42,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671585.772794,36035,Person 68,-1093.0,1068.0,-240.0,1599.54,-48.45,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671585.8626537,36036,Person 68,-1145.8,1061.4,-240.0,1630.59,-49.78,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671585.951647,36037,Person 68,-1193.6,1055.4,-320.0,1659.72,-50.84,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671586.041088,36038,Person 68,-1238.8,1050.0,-80.0,1678.0,-51.87,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671586.13002,36039,Person 68,-1282.4,1046.8,-240.0,1712.04,-52.76,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671586.2184877,36040,Person 68,-1333.6,1048.0,-160.0,1802.69,-53.71,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671586.3083243,36041,Person 68,-1390.4,1057.0,-390.0,1882.4,-54.32,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671586.4030461,36042,Person 68,-1442.8,1067.6,-480.0,1900.42,-54.6,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671586.4865997,36043,Person 68,-1489.0,1080.6,-160.0,1902.05,-54.63,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671586.5737522,36044,Person 68,-1529.0,1091.2,-320.0,1904.96,-55.13,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671586.6632147,36045,Person 68,-1553.8,1095.8,-160.0,1917.04,-55.35,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671586.7527874,36046,Person 68,-1564.2,1094.4,-80.0,1920.9,-55.39,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671586.8434765,36047,Person 68,-1571.4,1095.4,160.0,1932.73,-55.09,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671586.9302573,36048,Person 68,-1578.2,1097.8,560.0,1936.75,-54.92,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671587.0187976,36049,Person 68,-1582.8,1102.8,320.0,1938.14,-54.92,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671587.108929,36050,Person 68,-1584.6,1105.4,80.0,1931.84,-55.18,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671587.1974053,36051,Person 68,-1585.6,1106.8,160.0,1928.99,-55.3,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671587.2879193,36052,Person 68,-1585.8,1103.8,390.0,1925.01,-55.48,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671587.3751817,36053,Person 68,-1585.0,1096.0,560.0,1911.29,-55.81,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671587.4638934,36054,Person 68,-1583.8,1086.4,480.0,1905.98,-55.99,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671587.55262,36055,Person 68,-1582.2,1077.4,390.0,1899.85,-56.16,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671587.6465988,36056,Person 68,-1580.2,1067.6,390.0,1893.19,-56.35,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671587.7311966,36057,Person 68,-1577.8,1057.6,390.0,1887.1,-56.52,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671587.8217826,36058,Person 68,-1575.2,1049.2,240.0,1877.14,-56.65,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671587.9083707,36059,Person 68,-1571.6,1040.4,80.0,1866.64,-56.8,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671587.998087,36060,Person 68,-1566.8,1031.0,160.0,1853.92,-56.95,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671588.0876603,36061,Person 68,-1560.8,1021.0,160.0,1840.68,-57.13,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671588.1826277,36062,Person 68,-1554.2,1010.4,240.0,1830.53,-57.33,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671588.2662559,36063,Person 68,-1547.6,1000.6,320.0,1822.78,-57.36,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671588.3537555,36064,Person 68,-1540.8,991.6,480.0,1813.65,-57.41,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671588.4428027,36065,Person 68,-1533.6,983.8,390.0,1802.53,-57.37,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671588.5327048,36066,Person 68,-1525.2,978.2,320.0,1790.21,-57.15,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671588.6213307,36067,Person 68,-1515.0,974.0,240.0,1776.29,-57.02,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671588.7105327,36068,Person 68,-1503.6,969.6,320.0,1762.95,-56.97,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671588.7984784,36069,Person 68,-1491.2,965.0,320.0,1749.08,-56.95,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671588.8872955,36070,Person 68,-1478.2,959.8,320.0,1733.82,-56.93,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671588.9775155,36071,Person 68,-1465.6,953.6,320.0,1720.49,-56.88,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671589.0688431,36072,Person 68,-1453.0,947.4,390.0,1706.58,-56.74,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671589.1559622,36073,Person 68,-1439.8,941.6,480.0,1691.85,-56.57,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671589.2432466,36074,Person 68,-1425.4,936.6,480.0,1675.19,-56.32,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671589.3338323,36075,Person 68,-1410.0,932.2,560.0,1657.45,-56.12,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671589.422011,36076,Person 68,-1385.6,927.0,320.0,1604.73,-55.28,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671589.5113199,36077,Person 68,-1353.4,919.8,240.0,1553.3,-54.59,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671589.600096,36078,Person 68,-1312.8,909.2,320.0,1494.76,-53.98,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671589.6898763,36079,Person 68,-1264.6,895.0,240.0,1437.21,-53.35,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671589.7776976,36080,Person 68,-1201.0,876.8,160.0,1346.57,-51.79,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671589.867144,36081,Person 68,-1129.4,859.2,160.0,1267.2,-49.32,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671589.9556563,36082,Person 68,-1051.6,842.6,80.0,1198.59,-47.03,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671590.0510588,36083,Person 68,-970.8,829.4,80.0,1144.11,-44.72,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671590.1336968,36084,Person 68,-888.0,821.0,0.0,1100.9,-42.17,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671590.2223349,36085,Person 68,-811.8,818.2,0.0,1062.59,-39.58,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671590.3124573,36086,Person 68,-742.2,819.0,0.0,1031.83,-36.45,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671590.4073777,36087,Person 68,-677.2,824.4,-80.0,1008.48,-33.19,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671590.4897454,36088,Person 68,-614.4,834.6,-80.0,993.77,-29.61,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671590.57809,36089,Person 68,-553.2,848.8,-80.0,987.05,-26.02,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671590.6672995,36090,Person 68,-494.4,866.6,-80.0,985.47,-22.87,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671590.7566676,36091,Person 68,-440.4,884.4,-80.0,980.92,-20.47,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671590.845631,36092,Person 68,-390.2,900.4,-80.0,971.79,-18.04,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671590.9386985,36093,Person 68,-341.8,914.2,-80.0,965.66,-14.94,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671591.025114,36094,Person 68,-292.6,926.2,-80.0,965.29,-11.17,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671591.1122608,36095,Person 68,-241.8,936.4,-240.0,967.64,-7.66,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671591.2017941,36096,Person 68,-186.4,946.8,-240.0,973.24,-3.89,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671591.2905095,36097,Person 68,-126.6,958.0,-240.0,980.0,-0.12,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671591.3797061,36098,Person 68,-63.6,968.6,-390.0,988.21,3.83,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671591.4677918,36099,Person 68,0.4,978.2,-480.0,1003.85,7.61,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671591.556839,36100,Person 68,63.0,988.8,-240.0,1028.59,10.3,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671591.646979,36101,Person 68,120.8,1000.0,-320.0,1050.93,12.25,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671591.7421732,36102,Person 68,169.8,1012.0,-80.0,1068.01,13.15,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671591.824959,36103,Person 68,208.0,1025.8,-160.0,1085.85,13.69,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671591.912998,36104,Person 68,232.2,1045.0,-160.0,1120.18,13.11,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671592.0023394,36105,Person 68,243.2,1070.6,-160.0,1164.78,11.84,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671592.0917675,36106,Person 68,245.6,1099.2,-320.0,1193.37,11.36,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671592.184598,36107,Person 68,242.0,1130.6,-320.0,1217.96,10.65,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671592.2692971,36108,Person 68,233.6,1164.4,-480.0,1242.74,9.96,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671592.35776,36109,Person 68,225.2,1197.4,-480.0,1273.77,9.58,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671592.4465895,36110,Person 68,216.4,1227.8,-390.0,1306.63,8.58,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671592.5367668,36111,Person 68,203.6,1259.8,-480.0,1340.95,7.33,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671592.6320028,36112,Person 68,187.8,1295.4,-640.0,1382.73,6.06,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671592.7152736,36113,Person 68,167.2,1336.2,-1120.0,1432.39,4.48,True,Active,shahmeer,Forward,Normal,1: Walking
+1787671592.802447,36114,Person 68,139.8,1383.4,-1280.0,1493.88,2.88,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671592.8926728,36115,Person 68,109.4,1435.6,-1040.0,1553.6,1.59,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671592.9831252,36116,Person 68,77.6,1496.8,-2080.0,1636.04,0.42,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671593.0796206,36117,Person 68,40.0,1571.4,-2240.0,1748.5,-1.38,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671593.167279,36118,Person 68,-5.8,1667.0,2560.0,1909.59,-3.51,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671593.2475958,36119,Person 68,-63.0,1776.2,-160.0,2048.89,-5.91,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671593.3367624,36120,Person 68,-132.2,1894.4,-160.0,2165.3,-8.04,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671593.426177,36121,Person 68,-214.4,2015.6,-160.0,2277.23,-10.09,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671593.515313,36122,Person 68,-298.2,2134.6,-240.0,2387.92,-11.13,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671593.6043844,36123,Person 68,-368.4,2244.8,-80.0,2501.17,-10.78,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671593.6925516,36124,Person 68,-415.6,2345.0,-480.0,2578.05,-9.98,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671593.7818182,36125,Person 68,-431.8,2426.0,-320.0,2577.76,-8.57,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671593.87216,36126,Person 68,-413.4,2487.2,-320.0,2566.43,-6.87,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671593.9608226,36127,Person 68,-361.8,2530.4,80.0,2567.04,-4.54,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671594.0494702,36128,Person 68,-286.4,2552.6,80.0,2569.61,-2.03,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671594.1389253,36129,Person 68,-193.2,2560.2,80.0,2577.07,0.42,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671594.2271855,36130,Person 68,-99.6,2566.8,0.0,2583.37,1.86,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671594.3164537,36131,Person 68,-10.6,2574.4,0.0,2589.68,3.05,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671594.4049888,36132,Person 68,66.4,2580.4,0.0,2595.39,4.02,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671594.4945111,36133,Person 68,128.2,2585.2,0.0,2601.15,4.81,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671594.5820746,36134,Person 68,174.0,2588.4,0.0,2604.83,5.46,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671594.6720626,36135,Person 68,207.4,2593.8,0.0,2621.05,5.5,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671594.761481,36136,Person 68,228.0,2603.2,0.0,2644.01,5.23,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671594.8537111,36137,Person 68,221.4,2622.8,0.0,2691.13,3.17,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671594.9390337,36138,Person 68,172.8,2664.2,0.0,2799.11,-0.51,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671595.0282571,36139,Person 68,85.0,2728.8,0.0,2922.25,-3.75,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671595.1199715,36140,Person 68,-26.6,2807.8,0.0,3019.65,-5.84,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671595.2067132,36141,Person 68,-160.8,2894.0,0.0,3094.03,-7.99,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671595.3019567,36142,Person 68,-299.2,2980.0,0.0,3163.94,-9.88,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671595.390894,36143,Person 68,-423.0,3052.6,0.0,3226.91,-11.51,True,Active,shahmeer,Forward,Normal,6: Fall onset
+1787671595.472754,36144,Person 68,-531.0,3109.4,0.0,3282.43,-12.87,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671595.5619283,36145,Person 68,-631.0,3155.0,0.0,3331.23,-14.02,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671595.6518312,36146,Person 68,-719.4,3194.0,0.0,3373.64,-14.98,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671595.7402606,36147,Person 68,-796.0,3226.8,0.0,3409.17,-15.76,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671595.8284757,36148,Person 68,-858.4,3251.2,0.0,3420.32,-16.23,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671595.917156,36149,Person 68,-905.6,3267.8,0.0,3422.45,-16.41,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671596.0065496,36150,Person 68,-939.4,3277.8,0.0,3424.05,-16.56,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671596.096338,36151,Person 68,-962.0,3282.4,0.0,3426.62,-16.71,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671596.185096,36152,Person 68,-975.2,3282.4,0.0,3427.69,-16.82,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671596.2755954,36153,Person 68,-983.8,3281.6,0.0,3428.76,-16.94,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671596.3625247,36154,Person 68,-991.6,3280.8,0.0,3429.85,-17.06,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671596.4525166,36155,Person 68,-991.4,3276.8,0.0,3404.6,-16.64,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671596.5416672,36156,Person 68,-986.6,3271.4,0.0,3393.9,-16.45,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671596.6298788,36157,Person 68,-977.6,3264.6,0.0,3382.28,-16.26,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671596.7186565,36158,Person 68,-964.6,3256.6,0.0,3371.94,-16.08,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671596.8071978,36159,Person 68,-947.6,3247.4,0.0,3361.63,-15.9,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671596.8961432,36160,Person 68,-934.4,3240.4,0.0,3352.58,-15.73,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671596.9858294,36161,Person 68,-922.2,3233.4,80.0,3343.41,-15.62,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671597.0759084,36162,Person 68,-917.4,3226.6,0.0,3342.95,-16.03,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671597.164614,36163,Person 68,-920.6,3219.8,0.0,3343.79,-16.51,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671597.252774,36164,Person 68,-932.6,3213.2,0.0,3346.99,-17.04,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671597.3409839,36165,Person 68,-952.6,3206.8,-80.0,3350.54,-17.53,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671597.4312005,36166,Person 68,-979.6,3200.8,0.0,3353.7,-17.98,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671597.519081,36167,Person 68,-1007.8,3194.4,0.0,3354.23,-18.49,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671597.615758,36168,Person 68,-1035.6,3188.0,0.0,3355.62,-18.94,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671597.697359,36169,Person 68,-1062.4,3181.2,0.0,3356.6,-19.4,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671597.7866557,36170,Person 68,-1089.0,3173.6,0.0,3357.2,-19.89,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671597.8761754,36171,Person 68,-1115.4,3165.4,0.0,3358.29,-20.33,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671597.9698212,36172,Person 68,-1141.6,3157.2,0.0,3359.71,-20.84,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671598.0560544,36173,Person 68,-1167.2,3148.6,80.0,3359.2,-21.24,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671598.1422577,36174,Person 68,-1192.4,3140.8,-80.0,3364.25,-21.65,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671598.2323196,36175,Person 68,-1216.4,3134.0,-160.0,3368.35,-22.0,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671598.3212516,36176,Person 68,-1239.6,3127.6,0.0,3370.72,-22.37,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671598.4093995,36177,Person 68,-1261.2,3121.6,0.0,3371.93,-22.73,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671598.4991896,36178,Person 68,-1282.2,3116.0,0.0,3372.88,-23.08,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671598.5897322,36179,Person 68,-1302.2,3109.8,0.0,3373.94,-23.42,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671598.6759079,36180,Person 68,-1321.6,3103.2,0.0,3375.65,-23.74,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671598.7685552,36181,Person 68,-1339.6,3097.6,0.0,3380.39,-23.96,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671598.8614109,36182,Person 68,-1356.8,3094.2,0.0,3390.57,-24.18,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671598.9433303,36183,Person 68,-1374.2,3093.2,0.0,3403.36,-24.46,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671599.0320923,36184,Person 68,-1392.0,3095.0,0.0,3418.47,-24.73,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671599.120809,36185,Person 68,-1410.2,3099.4,0.0,3433.23,-24.98,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671599.2112262,36186,Person 68,-1428.2,3105.4,0.0,3445.07,-25.13,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671599.3044195,36187,Person 68,-1446.2,3112.6,0.0,3460.94,-25.3,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671599.389268,36188,Person 68,-1462.4,3120.4,0.0,3472.88,-25.41,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671599.4771671,36189,Person 68,-1477.2,3128.4,0.0,3486.12,-25.56,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671599.5666633,36190,Person 68,-1491.4,3136.6,-80.0,3500.69,-25.75,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671599.655839,36191,Person 68,-1506.6,3145.0,-80.0,3515.74,-25.96,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671599.7515857,36192,Person 68,-1523.0,3152.2,0.0,3529.01,-26.25,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671599.8333259,36193,Person 68,-1541.8,3158.2,0.0,3541.04,-26.57,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671599.9216397,36194,Person 68,-1561.8,3162.2,0.0,3548.24,-26.88,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671600.011315,36195,Person 68,-1581.0,3163.8,0.0,3550.58,-27.09,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671600.1005085,36196,Person 68,-1598.8,3162.4,0.0,3549.38,-27.3,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671600.1893034,36197,Person 68,-1614.4,3159.0,0.0,3549.12,-27.5,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671600.2847462,36198,Person 68,-1627.4,3154.0,0.0,3548.43,-27.69,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671600.3667343,36199,Person 68,-1638.4,3148.2,0.0,3547.78,-27.88,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671600.4553576,36200,Person 68,-1648.6,3142.2,0.0,3547.59,-28.05,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671600.547411,36201,Person 68,-1658.6,3136.4,0.0,3547.01,-28.23,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671600.6367438,36202,Person 68,-1668.2,3130.8,0.0,3546.88,-28.4,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671600.723301,36203,Person 68,-1677.4,3125.4,0.0,3546.3,-28.55,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671600.8146613,36204,Person 68,-1686.2,3120.2,0.0,3545.75,-28.7,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671600.902792,36205,Person 68,-1694.8,3115.2,0.0,3546.09,-28.85,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671600.9904,36206,Person 68,-1703.0,3110.4,0.0,3545.58,-29.0,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671601.0828247,36207,Person 68,-1710.8,3105.8,0.0,3545.49,-29.13,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671601.168328,36208,Person 68,-1718.6,3101.4,0.0,3545.9,-29.28,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671601.2594194,36209,Person 68,-1726.0,3097.2,0.0,3545.35,-29.39,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671601.3451116,36210,Person 68,-1733.2,3093.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671601.4362578,36211,Person 68,-1738.8,3089.8,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671601.5237696,36212,Person 68,-1743.0,3087.4,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671601.6131802,36213,Person 68,-1745.6,3085.8,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,7: Post-fall stillness
+1787671601.7014003,36214,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671601.791083,36215,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671601.8806255,36216,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671601.9693098,36217,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671602.0586424,36218,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671602.146762,36219,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671602.2356396,36220,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671602.3256297,36221,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671602.4147975,36222,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671602.5032651,36223,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671602.5948675,36224,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671602.6802669,36225,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671602.770745,36226,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671602.8590336,36227,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671602.9478424,36228,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671603.0370362,36229,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671603.1252687,36230,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671603.2155166,36231,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671603.3042257,36232,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671603.3932018,36233,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671603.4818335,36234,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671603.570321,36235,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671603.6602883,36236,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671603.7488227,36237,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671603.8385587,36238,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671603.92647,36239,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671604.0154314,36240,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671604.105788,36241,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671604.2005858,36242,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671604.283047,36243,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671604.3713257,36244,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671604.460456,36245,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671604.5498352,36246,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671604.643793,36247,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671604.7306485,36248,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671604.8158658,36249,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671604.905413,36250,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671604.9950004,36251,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671605.088085,36252,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671605.1775026,36253,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671605.2611256,36254,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671605.3505623,36255,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671605.4403133,36256,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671605.5285015,36257,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671605.618177,36258,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671605.7086668,36259,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671605.7951064,36260,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671605.8850472,36261,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671605.979402,36262,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671606.0705876,36263,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,8: Recovery / standing back up
+1787671606.1509879,36264,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671606.2397716,36265,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671606.3308964,36266,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671606.4191427,36267,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,2: Standing / idle
+1787671606.509876,36268,Person 68,-1747.0,3085.0,0.0,3545.31,-29.52,True,Active,shahmeer,Forward,Normal,2: Standing / idle

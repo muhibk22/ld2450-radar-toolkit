@@ -1,0 +1,781 @@
+timestamp,sequence_id,target_id,x_mm,y_mm,speed_mms,distance_mm,angle_deg,valid,status,volunteer_id,fall_subtype,pace_variant,action_label
+1787667778.8108702,5466,Target 0,1103.0,1000.0,0.0,1488.83,47.8,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667778.8958273,5467,Target 0,1104.0,1000.0,0.0,1489.57,47.83,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667778.9848113,5468,Target 0,1105.0,1002.0,0.0,1491.65,47.8,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667779.0739005,5469,Target 0,1107.0,1006.0,0.0,1495.82,47.74,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667779.1635437,5470,Target 0,1108.0,1009.0,0.0,1498.58,47.68,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667779.2509134,5471,Target 0,1110.0,1013.0,0.0,1502.75,47.62,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667779.341336,5472,Target 0,1111.0,1016.0,0.0,1505.52,47.56,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667779.4296577,5473,Target 0,1111.0,1020.0,0.0,1508.22,47.45,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667779.519003,5474,Target 0,1112.0,1024.0,0.0,1511.66,47.36,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667779.608215,5475,Target 0,1112.0,1027.0,0.0,1513.7,47.28,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667779.6970673,5476,Target 0,1113.0,1030.0,0.0,1516.47,47.22,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667779.785625,5477,Target 0,1118.0,1032.0,0.0,1521.5,47.29,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667779.8758311,5478,Target 0,1124.0,1034.0,0.0,1527.26,47.39,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667779.96461,5479,Target 0,1130.0,1035.0,0.0,1532.36,47.51,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667780.0529172,5480,Target 0,1132.0,1032.0,0.0,1531.81,47.65,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667780.1413586,5481,Target 0,1131.0,1028.0,0.0,1528.38,47.73,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667780.2301474,5482,Target 0,1129.0,1026.0,0.0,1525.55,47.74,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667780.3193858,5483,Target 0,1126.0,1027.0,0.0,1524.01,47.63,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667780.4083576,5484,Target 0,1123.0,1027.0,0.0,1521.79,47.56,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667780.49771,5485,Target 0,1119.0,1028.0,0.0,1519.52,47.43,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667780.5867937,5486,Target 0,1115.0,1029.0,0.0,1517.26,47.3,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667780.6755755,5487,Target 0,1111.0,1030.0,0.0,1515.0,47.17,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667780.764884,5488,Target 0,1108.0,1031.0,0.0,1513.48,47.06,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667780.8533225,5489,Target 0,1104.0,1034.0,0.0,1512.6,46.88,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667780.9424243,5490,Target 0,1100.0,1037.0,0.0,1511.74,46.69,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667781.0313635,5491,Target 0,1097.0,1038.0,80.0,1510.25,46.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667781.1201842,5492,Target 0,1094.0,1038.0,0.0,1508.07,46.5,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667781.208959,5493,Target 0,1093.0,1038.0,80.0,1507.35,46.48,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667781.298288,5494,Target 0,1091.0,1042.0,160.0,1508.66,46.32,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667781.3872948,5495,Target 0,1086.0,1047.0,160.0,1508.51,46.05,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667781.4763782,5496,Target 0,1079.0,1048.0,160.0,1504.18,45.83,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667781.5652764,5497,Target 0,1074.0,1050.0,160.0,1501.99,45.65,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667781.6544302,5498,Target 0,1067.0,1050.0,240.0,1496.99,45.46,True,Active,shahmeer,,Normal,1: Walking
+1787667781.743184,5499,Target 0,1061.0,1049.0,160.0,1492.02,45.33,True,Active,shahmeer,,Normal,1: Walking
+1787667781.8324575,5500,Target 0,1055.0,1048.0,240.0,1487.05,45.19,True,Active,shahmeer,,Normal,1: Walking
+1787667781.9211771,5501,Target 0,1049.0,1047.0,160.0,1482.1,45.05,True,Active,shahmeer,,Normal,1: Walking
+1787667782.010109,5502,Target 0,1042.0,1047.0,80.0,1477.15,44.86,True,Active,shahmeer,,Normal,1: Walking
+1787667782.099234,5503,Target 0,1035.0,1045.0,160.0,1470.8,44.72,True,Active,shahmeer,,Normal,1: Walking
+1787667782.1880996,5504,Target 0,1028.0,1044.0,160.0,1465.17,44.56,True,Active,shahmeer,,Normal,1: Walking
+1787667782.2766683,5505,Target 0,1020.0,1042.0,160.0,1458.14,44.39,True,Active,shahmeer,,Normal,1: Walking
+1787667782.3664098,5506,Target 0,1012.0,1040.0,160.0,1451.12,44.22,True,Active,shahmeer,,Normal,1: Walking
+1787667782.4549522,5507,Target 0,1003.0,1038.0,160.0,1443.42,44.02,True,Active,shahmeer,,Normal,1: Walking
+1787667782.5443275,5508,Target 0,992.0,1036.0,160.0,1434.35,43.76,True,Active,shahmeer,,Normal,1: Walking
+1787667782.63334,5509,Target 0,981.0,1037.0,240.0,1427.49,43.41,True,Active,shahmeer,,Normal,1: Walking
+1787667782.722133,5510,Target 0,971.0,1037.0,80.0,1420.64,43.12,True,Active,shahmeer,,Normal,1: Walking
+1787667782.8109367,5511,Target 0,962.0,1036.0,80.0,1413.77,42.88,True,Active,shahmeer,,Normal,1: Walking
+1787667782.900688,5512,Target 0,952.0,1035.0,80.0,1406.25,42.61,True,Active,shahmeer,,Normal,1: Walking
+1787667782.9890063,5513,Target 0,939.0,1037.0,160.0,1398.96,42.16,True,Active,shahmeer,,Normal,1: Walking
+1787667783.0780923,5514,Target 0,926.0,1038.0,160.0,1391.01,41.74,True,Active,shahmeer,,Normal,1: Walking
+1787667783.1665776,5515,Target 0,881.0,1052.0,80.0,1372.18,39.94,True,Active,shahmeer,,Normal,1: Walking
+1787667783.2555528,5516,Target 0,835.0,1066.0,0.0,1354.1,38.07,True,Active,shahmeer,,Normal,1: Walking
+1787667783.3454216,5517,Target 0,791.0,1079.0,0.0,1337.88,36.24,True,Active,shahmeer,,Normal,1: Walking
+1787667783.4346764,5518,Target 0,745.0,1088.0,80.0,1318.62,34.4,True,Active,shahmeer,,Normal,1: Walking
+1787667783.523185,5519,Target 0,660.0,1105.0,0.0,1287.1,30.85,True,Active,shahmeer,,Normal,1: Walking
+1787667783.6120524,5520,Target 0,583.0,1120.0,0.0,1262.65,27.5,True,Active,shahmeer,,Normal,1: Walking
+1787667783.7010164,5521,Target 0,507.0,1119.0,-80.0,1228.5,24.37,True,Active,shahmeer,,Normal,1: Walking
+1787667783.789793,5522,Target 0,432.0,1113.0,-80.0,1193.9,21.21,True,Active,shahmeer,,Normal,1: Walking
+1787667783.8789144,5523,Target 0,353.0,1110.0,-80.0,1164.78,17.64,True,Active,shahmeer,,Normal,1: Walking
+1787667783.967868,5524,Target 0,270.0,1114.0,0.0,1146.25,13.62,True,Active,shahmeer,,Normal,1: Walking
+1787667784.0567536,5525,Target 0,183.0,1125.0,-80.0,1139.79,9.24,True,Active,shahmeer,,Normal,1: Walking
+1787667784.14571,5526,Target 0,101.0,1135.0,-160.0,1139.48,5.09,True,Active,shahmeer,,Normal,1: Walking
+1787667784.2345428,5527,Target 0,27.0,1150.0,-80.0,1150.32,1.34,True,Active,shahmeer,,Normal,1: Walking
+1787667784.323357,5528,Target 0,-41.0,1163.0,-160.0,1163.72,-2.02,True,Active,shahmeer,,Normal,1: Walking
+1787667784.4130642,5529,Target 0,-102.0,1163.0,-240.0,1167.46,-5.01,True,Active,shahmeer,,Normal,1: Walking
+1787667784.5031188,5530,Target 0,-159.0,1166.0,-320.0,1176.79,-7.77,True,Active,shahmeer,,Normal,1: Walking
+1787667784.590623,5531,Target 0,-221.0,1163.0,-320.0,1183.81,-10.76,True,Active,shahmeer,,Normal,1: Walking
+1787667784.6798413,5532,Target 0,-285.0,1168.0,-390.0,1202.27,-13.71,True,Active,shahmeer,,Normal,1: Walking
+1787667784.768598,5533,Target 0,-350.0,1183.0,-480.0,1233.69,-16.48,True,Active,shahmeer,,Normal,1: Walking
+1787667784.8583732,5534,Target 0,-415.0,1189.0,-480.0,1259.34,-19.24,True,Active,shahmeer,,Normal,1: Walking
+1787667784.9469352,5535,Target 0,-474.0,1218.0,-480.0,1306.98,-21.26,True,Active,shahmeer,,Normal,1: Walking
+1787667785.0357404,5536,Target 0,-530.0,1237.0,-480.0,1345.76,-23.19,True,Active,shahmeer,,Normal,1: Walking
+1787667785.1246843,5537,Target 0,-578.0,1267.0,-480.0,1392.61,-24.52,True,Active,shahmeer,,Normal,1: Walking
+1787667785.2136018,5538,Target 0,-628.0,1294.0,-390.0,1438.34,-25.89,True,Active,shahmeer,,Normal,1: Walking
+1787667785.3025384,5539,Target 0,-672.0,1321.0,-320.0,1482.1,-26.96,True,Active,shahmeer,,Normal,1: Walking
+1787667785.391691,5540,Target 0,-709.0,1342.0,-320.0,1517.78,-27.85,True,Active,shahmeer,,Normal,1: Walking
+1787667785.4830282,5541,Target 0,-739.0,1376.0,-320.0,1561.89,-28.24,True,Active,shahmeer,,Normal,1: Walking
+1787667785.5695012,5542,Target 0,-759.0,1402.0,-80.0,1594.27,-28.43,True,Active,shahmeer,,Normal,1: Walking
+1787667785.6589067,5543,Target 0,-781.0,1430.0,-160.0,1629.37,-28.64,True,Active,shahmeer,,Normal,1: Walking
+1787667785.7478037,5544,Target 0,-799.0,1460.0,-160.0,1664.33,-28.69,True,Active,shahmeer,,Normal,1: Walking
+1787667785.8364148,5545,Target 0,-830.0,1486.0,-80.0,1702.09,-29.19,True,Active,shahmeer,,Normal,1: Walking
+1787667785.9260824,5546,Target 0,-851.0,1493.0,240.0,1718.5,-29.68,True,Active,shahmeer,,Normal,1: Walking
+1787667786.0152466,5547,Target 0,-883.0,1490.0,160.0,1731.99,-30.65,True,Active,shahmeer,,Normal,1: Walking
+1787667786.1034515,5548,Target 0,-912.0,1476.0,-80.0,1735.03,-31.71,True,Active,shahmeer,,Normal,1: Walking
+1787667786.1924355,5549,Target 0,-961.0,1459.0,80.0,1747.06,-33.37,True,Active,shahmeer,,Normal,1: Walking
+1787667786.281703,5550,Target 0,-1010.0,1417.0,0.0,1740.11,-35.48,True,Active,shahmeer,,Normal,1: Walking
+1787667786.3703184,5551,Target 0,-1052.0,1387.0,80.0,1740.83,-37.18,True,Active,shahmeer,,Normal,1: Walking
+1787667786.4598413,5552,Target 0,-1078.0,1370.0,160.0,1743.27,-38.2,True,Active,shahmeer,,Normal,1: Walking
+1787667786.5484328,5553,Target 0,-1109.0,1345.0,160.0,1743.25,-39.51,True,Active,shahmeer,,Normal,1: Walking
+1787667786.6376076,5554,Target 0,-1137.0,1317.0,320.0,1739.9,-40.8,True,Active,shahmeer,,Normal,1: Walking
+1787667786.726436,5555,Target 0,-1163.0,1300.0,320.0,1744.3,-41.82,True,Active,shahmeer,,Normal,1: Walking
+1787667786.8152409,5556,Target 0,-1188.0,1264.0,160.0,1734.66,-43.22,True,Active,shahmeer,,Normal,1: Walking
+1787667786.904719,5557,Target 0,-1216.0,1210.0,160.0,1715.45,-45.14,True,Active,shahmeer,,Normal,1: Walking
+1787667786.9931982,5558,Target 0,-1235.0,1158.0,240.0,1692.98,-46.84,True,Active,shahmeer,,Normal,1: Walking
+1787667787.0826464,5559,Target 0,-1237.0,1120.0,390.0,1668.7,-47.84,True,Active,shahmeer,,Normal,1: Walking
+1787667787.1716082,5560,Target 0,-1239.0,1097.0,320.0,1654.85,-48.48,True,Active,shahmeer,,Normal,1: Walking
+1787667787.2607574,5561,Target 0,-1214.0,1078.0,390.0,1623.54,-48.4,True,Active,shahmeer,,Normal,1: Walking
+1787667787.3514223,5562,Target 0,-1192.0,1059.0,390.0,1594.47,-48.38,True,Active,shahmeer,,Normal,1: Walking
+1787667787.4386609,5563,Target 0,-1173.0,1041.0,480.0,1568.31,-48.41,True,Active,shahmeer,,Normal,1: Walking
+1787667787.5278103,5564,Target 0,-1158.0,1027.0,390.0,1547.8,-48.43,True,Active,shahmeer,,Normal,1: Walking
+1787667787.6184337,5565,Target 0,-1142.0,984.0,640.0,1507.45,-49.25,True,Active,shahmeer,,Normal,1: Walking
+1787667787.7052894,5566,Target 0,-1129.0,948.0,480.0,1474.23,-49.98,True,Active,shahmeer,,Normal,1: Walking
+1787667787.7945344,5567,Target 0,-1115.0,921.0,390.0,1446.19,-50.44,True,Active,shahmeer,,Normal,1: Walking
+1787667787.8830354,5568,Target 0,-1098.0,888.0,480.0,1412.14,-51.04,True,Active,shahmeer,,Normal,1: Walking
+1787667787.9733765,5569,Target 0,-1074.0,873.0,160.0,1384.05,-50.89,True,Active,shahmeer,,Normal,1: Walking
+1787667788.061653,5570,Target 0,-1046.0,853.0,480.0,1349.71,-50.8,True,Active,shahmeer,,Normal,1: Walking
+1787667788.1508186,5571,Target 0,-1007.0,832.0,320.0,1306.24,-50.44,True,Active,shahmeer,,Normal,1: Walking
+1787667788.2392418,5572,Target 0,-965.0,813.0,390.0,1261.82,-49.89,True,Active,shahmeer,,Normal,1: Walking
+1787667788.3274908,5573,Target 0,-922.0,804.0,320.0,1223.32,-48.91,True,Active,shahmeer,,Normal,1: Walking
+1787667788.4168766,5574,Target 0,-879.0,797.0,320.0,1186.53,-47.8,True,Active,shahmeer,,Normal,1: Walking
+1787667788.5065403,5575,Target 0,-837.0,790.0,320.0,1150.94,-46.65,True,Active,shahmeer,,Normal,1: Walking
+1787667788.5954628,5576,Target 0,-790.0,787.0,160.0,1115.11,-45.11,True,Active,shahmeer,,Normal,1: Walking
+1787667788.6843057,5577,Target 0,-744.0,778.0,160.0,1076.49,-43.72,True,Active,shahmeer,,Normal,1: Walking
+1787667788.7732382,5578,Target 0,-702.0,779.0,-80.0,1048.64,-42.02,True,Active,shahmeer,,Normal,1: Walking
+1787667788.86281,5579,Target 0,-654.0,782.0,-160.0,1019.43,-39.91,True,Active,shahmeer,,Normal,1: Walking
+1787667788.9511766,5580,Target 0,-604.0,792.0,-240.0,996.03,-37.33,True,Active,shahmeer,,Normal,1: Walking
+1787667789.040303,5581,Target 0,-547.0,810.0,-320.0,977.4,-34.03,True,Active,shahmeer,,Normal,1: Walking
+1787667789.1291945,5582,Target 0,-481.0,832.0,-390.0,961.03,-30.03,True,Active,shahmeer,,Normal,1: Walking
+1787667789.2176385,5583,Target 0,-418.0,862.0,-390.0,958.0,-25.87,True,Active,shahmeer,,Normal,1: Walking
+1787667789.306813,5584,Target 0,-356.0,890.0,-390.0,958.56,-21.8,True,Active,shahmeer,,Normal,1: Walking
+1787667789.3956203,5585,Target 0,-304.0,919.0,-240.0,967.98,-18.3,True,Active,shahmeer,,Normal,1: Walking
+1787667789.4855528,5586,Target 0,-258.0,950.0,-160.0,984.41,-15.19,True,Active,shahmeer,,Normal,1: Walking
+1787667789.5740323,5587,Target 0,-217.0,980.0,-240.0,1003.74,-12.49,True,Active,shahmeer,,Normal,1: Walking
+1787667789.6626198,5588,Target 0,-170.0,1001.0,-160.0,1015.33,-9.64,True,Active,shahmeer,,Normal,1: Walking
+1787667789.755798,5589,Target 0,-121.0,1021.0,-160.0,1028.14,-6.76,True,Active,shahmeer,,Normal,1: Walking
+1787667789.841361,5590,Target 0,-73.0,1040.0,-240.0,1042.56,-4.02,True,Active,shahmeer,,Normal,1: Walking
+1787667789.9312248,5591,Target 0,-24.0,1059.0,-160.0,1059.27,-1.3,True,Active,shahmeer,,Normal,1: Walking
+1787667790.019138,5592,Target 0,24.0,1074.0,-80.0,1074.27,1.28,True,Active,shahmeer,,Normal,1: Walking
+1787667790.107861,5593,Target 0,74.0,1092.0,-160.0,1094.5,3.88,True,Active,shahmeer,,Normal,1: Walking
+1787667790.1968915,5594,Target 0,123.0,1102.0,-160.0,1108.84,6.37,True,Active,shahmeer,,Normal,1: Walking
+1787667790.285439,5595,Target 0,177.0,1107.0,-80.0,1121.06,9.08,True,Active,shahmeer,,Normal,1: Walking
+1787667790.3745706,5596,Target 0,231.0,1109.0,-80.0,1132.8,11.77,True,Active,shahmeer,,Normal,1: Walking
+1787667790.463833,5597,Target 0,282.0,1113.0,-160.0,1148.17,14.22,True,Active,shahmeer,,Normal,1: Walking
+1787667790.553021,5598,Target 0,318.0,1110.0,-240.0,1154.65,15.99,True,Active,shahmeer,,Normal,1: Walking
+1787667790.642165,5599,Target 0,357.0,1116.0,-240.0,1171.71,17.74,True,Active,shahmeer,,Normal,1: Walking
+1787667790.730301,5600,Target 0,396.0,1118.0,-320.0,1186.06,19.5,True,Active,shahmeer,,Normal,1: Walking
+1787667790.8197348,5601,Target 0,442.0,1134.0,-390.0,1217.09,21.29,True,Active,shahmeer,,Normal,1: Walking
+1787667790.9121535,5602,Target 0,491.0,1152.0,-240.0,1252.27,23.08,True,Active,shahmeer,,Normal,1: Walking
+1787667790.998036,5603,Target 0,533.0,1162.0,-160.0,1278.41,24.64,True,Active,shahmeer,,Normal,1: Walking
+1787667791.0872838,5604,Target 0,567.0,1176.0,-240.0,1305.55,25.74,True,Active,shahmeer,,Normal,1: Walking
+1787667791.1757722,5605,Target 0,594.0,1190.0,-320.0,1330.01,26.53,True,Active,shahmeer,,Normal,1: Walking
+1787667791.2648234,5606,Target 0,620.0,1194.0,-160.0,1345.38,27.44,True,Active,shahmeer,,Normal,1: Walking
+1787667791.3537211,5607,Target 0,661.0,1181.0,240.0,1353.4,29.24,True,Active,shahmeer,,Normal,1: Walking
+1787667791.4428282,5608,Target 0,710.0,1184.0,160.0,1380.56,30.95,True,Active,shahmeer,,Normal,1: Walking
+1787667791.532261,5609,Target 0,742.0,1188.0,240.0,1400.68,31.99,True,Active,shahmeer,,Normal,1: Walking
+1787667791.6213336,5610,Target 0,757.0,1176.0,240.0,1398.58,32.77,True,Active,shahmeer,,Normal,1: Walking
+1787667791.7099748,5611,Target 0,770.0,1166.0,390.0,1397.3,33.44,True,Active,shahmeer,,Normal,1: Walking
+1787667791.7985573,5612,Target 0,778.0,1161.0,390.0,1397.57,33.83,True,Active,shahmeer,,Normal,1: Walking
+1787667791.8875396,5613,Target 0,784.0,1151.0,320.0,1392.64,34.26,True,Active,shahmeer,,Normal,1: Walking
+1787667791.9766924,5614,Target 0,783.0,1142.0,160.0,1384.65,34.44,True,Active,shahmeer,,Normal,1: Walking
+1787667792.0664158,5615,Target 0,788.0,1136.0,240.0,1382.55,34.75,True,Active,shahmeer,,Normal,1: Walking
+1787667792.1556523,5616,Target 0,792.0,1125.0,240.0,1375.82,35.15,True,Active,shahmeer,,Normal,1: Walking
+1787667792.242988,5617,Target 0,791.0,1115.0,160.0,1367.08,35.35,True,Active,shahmeer,,Normal,1: Walking
+1787667792.3323529,5618,Target 0,787.0,1103.0,240.0,1354.98,35.51,True,Active,shahmeer,,Normal,1: Walking
+1787667792.4214382,5619,Target 0,787.0,1082.0,480.0,1337.94,36.03,True,Active,shahmeer,,Normal,1: Walking
+1787667792.5109107,5620,Target 0,780.0,1061.0,320.0,1316.86,36.32,True,Active,shahmeer,,Normal,1: Walking
+1787667792.5994804,5621,Target 0,777.0,1034.0,560.0,1293.4,36.92,True,Active,shahmeer,,Normal,1: Walking
+1787667792.68886,5622,Target 0,775.0,1004.0,560.0,1268.32,37.66,True,Active,shahmeer,,Normal,1: Walking
+1787667792.7777514,5623,Target 0,758.0,946.0,320.0,1212.22,38.7,True,Active,shahmeer,,Normal,1: Walking
+1787667792.8669271,5624,Target 0,731.0,895.0,160.0,1155.59,39.24,True,Active,shahmeer,,Normal,1: Walking
+1787667792.9631815,5625,Target 0,715.0,849.0,390.0,1109.97,40.1,True,Active,shahmeer,,Normal,1: Walking
+1787667793.0454812,5626,Target 0,689.0,811.0,80.0,1064.16,40.35,True,Active,shahmeer,,Normal,1: Walking
+1787667793.1337736,5627,Target 0,661.0,784.0,80.0,1025.46,40.13,True,Active,shahmeer,,Normal,1: Walking
+1787667793.2224672,5628,Target 0,633.0,757.0,80.0,986.78,39.9,True,Active,shahmeer,,Normal,1: Walking
+1787667793.311664,5629,Target 0,607.0,748.0,-80.0,963.3,39.06,True,Active,shahmeer,,Normal,1: Walking
+1787667793.3999624,5630,Target 0,585.0,751.0,-240.0,951.96,37.92,True,Active,shahmeer,,Normal,1: Walking
+1787667793.48969,5631,Target 0,574.0,756.0,-240.0,949.22,37.21,True,Active,shahmeer,,Normal,1: Walking
+1787667793.5786843,5632,Target 0,563.0,763.0,-320.0,948.23,36.42,True,Active,shahmeer,,Normal,1: Walking
+1787667793.667631,5633,Target 0,545.0,767.0,-320.0,940.91,35.4,True,Active,shahmeer,,Normal,1: Walking
+1787667793.7565155,5634,Target 0,531.0,777.0,-390.0,941.11,34.35,True,Active,shahmeer,,Normal,1: Walking
+1787667793.8453407,5635,Target 0,517.0,791.0,-480.0,944.97,33.17,True,Active,shahmeer,,Normal,1: Walking
+1787667793.934287,5636,Target 0,502.0,810.0,-560.0,952.94,31.79,True,Active,shahmeer,,Normal,1: Walking
+1787667794.0238397,5637,Target 0,487.0,833.0,-720.0,964.91,30.31,True,Active,shahmeer,,Normal,1: Walking
+1787667794.112362,5638,Target 0,464.0,883.0,-790.0,997.49,27.72,True,Active,shahmeer,,Normal,1: Walking
+1787667794.2012796,5639,Target 0,446.0,951.0,-640.0,1050.39,25.13,True,Active,shahmeer,,Normal,6: Fall onset
+1787667794.2907064,5640,Target 0,434.0,1025.0,-480.0,1113.1,22.95,True,Active,shahmeer,,Normal,6: Fall onset
+1787667794.3790157,5641,Target 0,421.0,1102.0,-960.0,1179.68,20.91,True,Active,shahmeer,,Normal,6: Fall onset
+1787667794.4685698,5642,Target 0,415.0,1168.0,-480.0,1239.54,19.56,True,Active,shahmeer,,Normal,6: Fall onset
+1787667794.5580418,5643,Target 0,411.0,1250.0,-1830.0,1315.83,18.2,True,Active,shahmeer,,Normal,6: Fall onset
+1787667794.6466467,5644,Target 0,409.0,1324.0,-720.0,1385.73,17.17,True,Active,shahmeer,,Normal,6: Fall onset
+1787667794.7354217,5645,Target 0,408.0,1416.0,-2320.0,1473.61,16.07,True,Active,shahmeer,,Normal,6: Fall onset
+1787667794.8261824,5646,Target 0,418.0,1591.0,2320.0,1644.99,14.72,True,Active,shahmeer,,Normal,6: Fall onset
+1787667794.912971,5647,Target 0,418.0,1737.0,-2000.0,1786.59,13.53,True,Active,shahmeer,,Normal,6: Fall onset
+1787667795.0018518,5648,Target 0,418.0,1858.0,-1120.0,1904.44,12.68,True,Active,shahmeer,,Normal,6: Fall onset
+1787667795.0914164,5649,Target 0,404.0,1961.0,-1120.0,2002.18,11.64,True,Active,shahmeer,,Normal,6: Fall onset
+1787667795.1799858,5650,Target 0,402.0,2057.0,-960.0,2095.91,11.06,True,Active,shahmeer,,Normal,6: Fall onset
+1787667795.2693198,5651,Target 0,392.0,2161.0,-480.0,2196.27,10.28,True,Active,shahmeer,,Normal,6: Fall onset
+1787667795.3578117,5652,Target 0,351.0,2303.0,-80.0,2329.59,8.67,True,Active,shahmeer,,Normal,6: Fall onset
+1787667795.447014,5653,Target 0,297.0,2471.0,0.0,2488.78,6.85,True,Active,shahmeer,,Normal,6: Fall onset
+1787667795.535866,5654,Target 0,236.0,2635.0,0.0,2645.55,5.12,True,Active,shahmeer,,Normal,6: Fall onset
+1787667795.625165,5655,Target 0,154.0,2812.0,0.0,2816.21,3.13,True,Active,shahmeer,,Normal,6: Fall onset
+1787667795.714013,5656,Target 0,81.0,2957.0,0.0,2958.11,1.57,True,Active,shahmeer,,Normal,6: Fall onset
+1787667795.8150249,5657,Target 0,20.0,3048.0,0.0,3048.07,0.38,True,Active,shahmeer,,Normal,6: Fall onset
+1787667795.8916483,5658,Target 0,-23.0,3095.0,0.0,3095.09,-0.43,True,Active,shahmeer,,Normal,6: Fall onset
+1787667795.9808905,5659,Target 0,-64.0,3126.0,0.0,3126.66,-1.17,True,Active,shahmeer,,Normal,6: Fall onset
+1787667796.0703225,5660,Target 0,-55.0,3136.0,-790.0,3136.48,-1.0,True,Active,shahmeer,,Normal,6: Fall onset
+1787667796.1589382,5661,Target 0,-3.0,3114.0,-480.0,3114.0,-0.06,True,Active,shahmeer,,Normal,6: Fall onset
+1787667796.247676,5662,Target 0,42.0,3101.0,-160.0,3101.28,0.78,True,Active,shahmeer,,Normal,6: Fall onset
+1787667796.337413,5663,Target 0,88.0,3097.0,-160.0,3098.25,1.63,True,Active,shahmeer,,Normal,6: Fall onset
+1787667796.4257576,5664,Target 0,193.0,3058.0,0.0,3064.08,3.61,True,Active,shahmeer,,Normal,6: Fall onset
+1787667796.5165386,5665,Target 0,302.0,3013.0,0.0,3028.1,5.72,True,Active,shahmeer,,Normal,6: Fall onset
+1787667796.6044116,5666,Target 0,406.0,2967.0,0.0,2994.65,7.79,True,Active,shahmeer,,Normal,6: Fall onset
+1787667796.6929867,5667,Target 0,501.0,2923.0,0.0,2965.62,9.73,True,Active,shahmeer,,Normal,6: Fall onset
+1787667796.7814598,5668,Target 0,587.0,2883.0,0.0,2942.15,11.51,True,Active,shahmeer,,Normal,6: Fall onset
+1787667796.871039,5669,Target 0,623.0,2882.0,-80.0,2948.57,12.2,True,Active,shahmeer,,Normal,6: Fall onset
+1787667796.9594886,5670,Target 0,643.0,2890.0,-80.0,2960.67,12.54,True,Active,shahmeer,,Normal,6: Fall onset
+1787667797.049959,5671,Target 0,650.0,2907.0,160.0,2978.78,12.6,True,Active,shahmeer,,Normal,6: Fall onset
+1787667797.13765,5672,Target 0,667.0,2925.0,80.0,3000.09,12.85,True,Active,shahmeer,,Normal,6: Fall onset
+1787667797.2266662,5673,Target 0,677.0,2940.0,-80.0,3016.94,12.97,True,Active,shahmeer,,Normal,6: Fall onset
+1787667797.315199,5674,Target 0,671.0,2959.0,-80.0,3034.13,12.78,True,Active,shahmeer,,Normal,6: Fall onset
+1787667797.404385,5675,Target 0,666.0,2967.0,-80.0,3040.83,12.65,True,Active,shahmeer,,Normal,6: Fall onset
+1787667797.49397,5676,Target 0,655.0,2987.0,0.0,3057.97,12.37,True,Active,shahmeer,,Normal,6: Fall onset
+1787667797.5826323,5677,Target 0,640.0,3009.0,0.0,3076.31,12.01,True,Active,shahmeer,,Normal,6: Fall onset
+1787667797.672335,5678,Target 0,627.0,3022.0,-80.0,3086.36,11.72,True,Active,shahmeer,,Normal,6: Fall onset
+1787667797.76018,5679,Target 0,628.0,3024.0,-80.0,3088.52,11.73,True,Active,shahmeer,,Normal,6: Fall onset
+1787667797.849559,5680,Target 0,630.0,3025.0,-80.0,3089.91,11.76,True,Active,shahmeer,,Normal,6: Fall onset
+1787667797.9379504,5681,Target 0,632.0,3026.0,-80.0,3091.29,11.8,True,Active,shahmeer,,Normal,6: Fall onset
+1787667798.0272784,5682,Target 0,634.0,3026.0,-80.0,3091.7,11.83,True,Active,shahmeer,,Normal,6: Fall onset
+1787667798.1171665,5683,Target 0,635.0,3023.0,0.0,3088.97,11.86,True,Active,shahmeer,,Normal,6: Fall onset
+1787667798.2053916,5684,Target 0,633.0,3020.0,0.0,3085.63,11.84,True,Active,shahmeer,,Normal,6: Fall onset
+1787667798.2941945,5685,Target 0,632.0,3017.0,0.0,3082.48,11.83,True,Active,shahmeer,,Normal,6: Fall onset
+1787667798.3850222,5686,Target 0,632.0,3014.0,0.0,3079.55,11.84,True,Active,shahmeer,,Normal,6: Fall onset
+1787667798.472744,5687,Target 0,632.0,3011.0,0.0,3076.61,11.85,True,Active,shahmeer,,Normal,6: Fall onset
+1787667798.5618515,5688,Target 0,632.0,3008.0,0.0,3073.68,11.87,True,Active,shahmeer,,Normal,6: Fall onset
+1787667798.6513906,5689,Target 0,627.0,3010.0,0.0,3074.61,11.77,True,Active,shahmeer,,Normal,6: Fall onset
+1787667798.7394283,5690,Target 0,621.0,3013.0,0.0,3076.33,11.65,True,Active,shahmeer,,Normal,6: Fall onset
+1787667798.828429,5691,Target 0,615.0,3015.0,0.0,3077.08,11.53,True,Active,shahmeer,,Normal,6: Fall onset
+1787667798.9170644,5692,Target 0,609.0,3018.0,0.0,3078.83,11.41,True,Active,shahmeer,,Normal,6: Fall onset
+1787667799.0065713,5693,Target 0,603.0,3021.0,0.0,3080.59,11.29,True,Active,shahmeer,,Normal,6: Fall onset
+1787667799.0956318,5694,Target 0,595.0,3025.0,0.0,3082.96,11.13,True,Active,shahmeer,,Normal,6: Fall onset
+1787667799.184414,5695,Target 0,586.0,3030.0,0.0,3086.15,10.95,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667799.2733138,5696,Target 0,547.0,3047.0,0.0,3095.71,10.18,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667799.3622258,5697,Target 0,436.0,3104.0,0.0,3134.47,8.0,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667799.4513955,5698,Target 0,227.0,3202.0,0.0,3210.04,4.06,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667799.5403335,5699,Target 0,66.0,3272.0,0.0,3272.67,1.16,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667799.629908,5700,Target 0,-87.0,3316.0,0.0,3317.14,-1.5,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667799.7186122,5701,Target 0,-227.0,3346.0,0.0,3353.69,-3.88,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667799.8076155,5702,Target 0,-319.0,3378.0,0.0,3393.03,-5.39,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667799.896225,5703,Target 0,-394.0,3404.0,0.0,3426.73,-6.6,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667799.9864051,5704,Target 0,-413.0,3411.0,0.0,3435.91,-6.9,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667800.074174,5705,Target 0,-412.0,3415.0,0.0,3439.76,-6.88,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667800.163704,5706,Target 0,-408.0,3418.0,0.0,3442.26,-6.81,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667800.2532363,5707,Target 0,-409.0,3425.0,0.0,3449.33,-6.81,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667800.3410735,5708,Target 0,-418.0,3431.0,0.0,3456.37,-6.95,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667800.4329855,5709,Target 0,-453.0,3449.0,0.0,3478.62,-7.48,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667800.5198083,5710,Target 0,-464.0,3455.0,0.0,3486.02,-7.65,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667800.608474,5711,Target 0,-476.0,3461.0,0.0,3493.58,-7.83,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667800.697646,5712,Target 0,-481.0,3468.0,0.0,3501.2,-7.9,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667800.7875185,5713,Target 0,-486.0,3474.0,0.0,3507.83,-7.96,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667800.8756735,5714,Target 0,-499.0,3479.0,0.0,3514.6,-8.16,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667800.964615,5715,Target 0,-523.0,3476.0,-160.0,3515.13,-8.56,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667801.053717,5716,Target 0,-600.0,3459.0,0.0,3510.65,-9.84,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667801.142573,5717,Target 0,-723.0,3428.0,0.0,3503.41,-11.91,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667801.2314763,5718,Target 0,-812.0,3399.0,0.0,3494.65,-13.44,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667801.3202972,5719,Target 0,-879.0,3388.0,80.0,3500.17,-14.54,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667801.4088306,5720,Target 0,-907.0,3383.0,80.0,3502.48,-15.01,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667801.4986043,5721,Target 0,-932.0,3379.0,80.0,3505.18,-15.42,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667801.5871933,5722,Target 0,-955.0,3375.0,80.0,3507.51,-15.8,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667801.676692,5723,Target 0,-975.0,3372.0,80.0,3510.13,-16.13,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667801.765269,5724,Target 0,-994.0,3369.0,80.0,3512.58,-16.44,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667801.8546312,5725,Target 0,-1010.0,3366.0,80.0,3514.26,-16.7,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667801.943411,5726,Target 0,-1025.0,3364.0,80.0,3516.69,-16.95,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667802.0325265,5727,Target 0,-1039.0,3362.0,80.0,3518.89,-17.17,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667802.121603,5728,Target 0,-1043.0,3361.0,80.0,3519.11,-17.24,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667802.210297,5729,Target 0,-1048.0,3360.0,80.0,3519.65,-17.32,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667802.3011131,5730,Target 0,549.0,3144.0,0.0,3191.57,9.91,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667802.388227,5731,Target 0,553.0,3141.0,320.0,3189.31,9.99,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667802.4773617,5732,Target 0,558.0,3135.0,320.0,3184.27,10.09,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667802.5664525,5733,Target 0,563.0,3129.0,240.0,3179.25,10.2,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667802.6552598,5734,Target 0,566.0,3122.0,160.0,3172.89,10.28,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667802.7444236,5735,Target 0,559.0,3112.0,160.0,3161.81,10.18,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667802.8332598,5736,Target 0,552.0,3100.0,560.0,3148.76,10.1,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667802.9221387,5737,Target 0,531.0,3054.0,720.0,3099.82,9.86,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667803.0106254,5738,Target 0,521.0,2990.0,790.0,3035.05,9.88,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667803.0995266,5739,Target 0,502.0,2854.0,880.0,2897.81,9.98,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667803.1890574,5740,Target 0,485.0,2722.0,1040.0,2764.87,10.1,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667803.278031,5741,Target 0,466.0,2602.0,960.0,2643.4,10.15,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667803.3670046,5742,Target 0,453.0,2500.0,880.0,2540.71,10.27,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667803.4557836,5743,Target 0,444.0,2404.0,720.0,2444.66,10.46,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667803.5447588,5744,Target 0,441.0,2341.0,1280.0,2382.18,10.67,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667803.6347466,5745,Target 0,443.0,2301.0,1190.0,2343.26,10.9,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667803.7234683,5746,Target 0,444.0,2265.0,1360.0,2308.11,11.09,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667803.8122537,5747,Target 0,437.0,2216.0,1520.0,2258.68,11.16,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667803.9010773,5748,Target 0,421.0,2152.0,560.0,2192.79,11.07,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667803.9897492,5749,Target 0,401.0,2084.0,640.0,2122.23,10.89,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667804.0791602,5750,Target 0,385.0,2014.0,720.0,2050.47,10.82,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667804.168074,5751,Target 0,370.0,1945.0,790.0,1979.88,10.77,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667804.2571714,5752,Target 0,358.0,1877.0,640.0,1910.84,10.8,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667804.345919,5753,Target 0,347.0,1814.0,480.0,1846.89,10.83,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667804.4354916,5754,Target 0,342.0,1747.0,240.0,1780.16,11.08,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667804.524258,5755,Target 0,341.0,1709.0,160.0,1742.69,11.28,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667804.6126604,5756,Target 0,336.0,1676.0,-80.0,1709.35,11.34,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667804.7020462,5757,Target 0,329.0,1648.0,-80.0,1680.52,11.29,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667804.790913,5758,Target 0,317.0,1625.0,-80.0,1655.63,11.04,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667804.879743,5759,Target 0,304.0,1603.0,-160.0,1631.57,10.74,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667804.9691398,5760,Target 0,294.0,1589.0,-160.0,1615.97,10.48,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667805.0576644,5761,Target 0,295.0,1583.0,-390.0,1610.25,10.56,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667805.1481922,5762,Target 0,298.0,1582.0,-560.0,1609.82,10.67,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667805.2362163,5763,Target 0,305.0,1582.0,-160.0,1611.13,10.91,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667805.3245604,5764,Target 0,308.0,1584.0,-320.0,1613.67,11.0,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667805.4136484,5765,Target 0,312.0,1588.0,80.0,1618.36,11.12,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667805.5028193,5766,Target 0,314.0,1588.0,790.0,1618.75,11.18,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667805.5920086,5767,Target 0,314.0,1582.0,720.0,1612.86,11.23,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667805.6808684,5768,Target 0,313.0,1573.0,560.0,1603.84,11.25,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667805.771241,5769,Target 0,308.0,1541.0,480.0,1571.48,11.3,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667805.8602133,5770,Target 0,308.0,1506.0,320.0,1537.17,11.56,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667805.947636,5771,Target 0,305.0,1475.0,160.0,1506.2,11.68,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667806.0379777,5772,Target 0,296.0,1421.0,0.0,1451.5,11.77,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667806.1253238,5773,Target 0,292.0,1400.0,0.0,1430.13,11.78,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667806.215243,5774,Target 0,291.0,1383.0,-80.0,1413.28,11.88,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667806.3033817,5775,Target 0,289.0,1370.0,-80.0,1400.15,11.91,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667806.39224,5776,Target 0,286.0,1359.0,0.0,1388.77,11.88,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667806.4814355,5777,Target 0,282.0,1349.0,160.0,1378.16,11.81,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667806.5702353,5778,Target 0,277.0,1337.0,160.0,1365.39,11.7,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667806.6592624,5779,Target 0,271.0,1323.0,80.0,1350.47,11.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667806.7484288,5780,Target 0,269.0,1309.0,80.0,1336.35,11.61,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667806.8375175,5781,Target 0,270.0,1302.0,0.0,1329.7,11.72,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667806.9261672,5782,Target 0,270.0,1302.0,-80.0,1329.7,11.72,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667807.0150113,5783,Target 0,271.0,1303.0,-80.0,1330.88,11.75,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667807.1044314,5784,Target 0,271.0,1300.0,0.0,1327.95,11.78,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667807.1943088,5785,Target 0,272.0,1301.0,0.0,1329.13,11.81,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667807.2829196,5786,Target 0,270.0,1302.0,0.0,1329.7,11.72,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667807.3712728,5787,Target 0,268.0,1300.0,80.0,1327.34,11.65,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667807.4601407,5788,Target 0,267.0,1296.0,80.0,1323.22,11.64,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667807.549669,5789,Target 0,266.0,1291.0,80.0,1318.12,11.64,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667807.6381233,5790,Target 0,267.0,1286.0,0.0,1313.42,11.73,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667807.7281628,5791,Target 0,268.0,1281.0,0.0,1308.73,11.82,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667807.8167284,5792,Target 0,270.0,1276.0,0.0,1304.25,11.95,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667807.9079232,5793,Target 0,272.0,1271.0,0.0,1299.78,12.08,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667807.9937642,5794,Target 0,273.0,1267.0,0.0,1296.08,12.16,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667808.0829148,5795,Target 0,274.0,1263.0,0.0,1292.38,12.24,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667808.1720262,5796,Target 0,274.0,1259.0,0.0,1288.47,12.28,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667808.2610033,5797,Target 0,274.0,1256.0,0.0,1285.54,12.31,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667808.35047,5798,Target 0,273.0,1253.0,0.0,1282.4,12.29,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667808.4389894,5799,Target 0,272.0,1250.0,0.0,1279.25,12.28,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667808.5282123,5800,Target 0,272.0,1247.0,0.0,1276.32,12.3,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667808.616819,5801,Target 0,271.0,1244.0,0.0,1273.18,12.29,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667808.706287,5802,Target 0,275.0,1238.0,0.0,1268.18,12.52,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667808.79556,5803,Target 0,276.0,1233.0,0.0,1263.51,12.62,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667808.8846362,5804,Target 0,275.0,1230.0,0.0,1260.37,12.6,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667808.973114,5805,Target 0,273.0,1227.0,0.0,1257.0,12.54,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667809.062656,5806,Target 0,272.0,1227.0,0.0,1256.79,12.5,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667809.1510358,5807,Target 0,270.0,1227.0,0.0,1256.36,12.41,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667809.2406764,5808,Target 0,269.0,1227.0,0.0,1256.14,12.37,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667809.329284,5809,Target 0,270.0,1227.0,0.0,1256.36,12.41,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667809.4179318,5810,Target 0,273.0,1227.0,0.0,1257.0,12.54,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667809.5072625,5811,Target 0,275.0,1227.0,0.0,1257.44,12.63,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667809.5953462,5812,Target 0,276.0,1226.0,0.0,1256.68,12.69,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667809.6847842,5813,Target 0,276.0,1225.0,0.0,1255.71,12.7,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667809.7758987,5814,Target 0,275.0,1224.0,0.0,1254.51,12.66,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667809.8629415,5815,Target 0,276.0,1220.0,0.0,1250.83,12.75,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667809.9520798,5816,Target 0,279.0,1220.0,0.0,1251.5,12.88,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667810.0405798,5817,Target 0,279.0,1219.0,0.0,1250.52,12.89,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667810.129855,5818,Target 0,279.0,1216.0,0.0,1247.6,12.92,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667810.2188945,5819,Target 0,277.0,1216.0,80.0,1247.15,12.83,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667810.307655,5820,Target 0,274.0,1216.0,80.0,1246.49,12.7,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667810.3968806,5821,Target 0,269.0,1217.0,80.0,1246.37,12.46,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667810.4862387,5822,Target 0,263.0,1216.0,0.0,1244.12,12.2,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667810.5743873,5823,Target 0,256.0,1214.0,0.0,1240.7,11.91,True,Active,shahmeer,,Normal,1: Walking
+1787667810.6636548,5824,Target 0,245.0,1211.0,-80.0,1235.53,11.44,True,Active,shahmeer,,Normal,1: Walking
+1787667810.7528083,5825,Target 0,232.0,1209.0,-80.0,1231.06,10.86,True,Active,shahmeer,,Normal,1: Walking
+1787667810.842303,5826,Target 0,189.0,1197.0,-80.0,1211.83,8.97,True,Active,shahmeer,,Normal,1: Walking
+1787667810.9315164,5827,Target 0,146.0,1195.0,-80.0,1203.89,6.97,True,Active,shahmeer,,Normal,1: Walking
+1787667811.0205686,5828,Target 0,103.0,1187.0,-80.0,1191.46,4.96,True,Active,shahmeer,,Normal,1: Walking
+1787667811.1090384,5829,Target 0,63.0,1182.0,-80.0,1183.68,3.05,True,Active,shahmeer,,Normal,1: Walking
+1787667811.19776,5830,Target 0,21.0,1177.0,-160.0,1177.19,1.02,True,Active,shahmeer,,Normal,1: Walking
+1787667811.2873063,5831,Target 0,-67.0,1175.0,-80.0,1176.91,-3.26,True,Active,shahmeer,,Normal,1: Walking
+1787667811.3772223,5832,Target 0,-144.0,1166.0,-240.0,1174.86,-7.04,True,Active,shahmeer,,Normal,1: Walking
+1787667811.4649956,5833,Target 0,-211.0,1162.0,-320.0,1181.0,-10.29,True,Active,shahmeer,,Normal,1: Walking
+1787667811.5537088,5834,Target 0,-278.0,1164.0,-320.0,1196.74,-13.43,True,Active,shahmeer,,Normal,1: Walking
+1787667811.642611,5835,Target 0,-347.0,1163.0,-320.0,1213.66,-16.61,True,Active,shahmeer,,Normal,1: Walking
+1787667811.731864,5836,Target 0,-409.0,1164.0,-320.0,1233.77,-19.36,True,Active,shahmeer,,Normal,1: Walking
+1787667811.8208213,5837,Target 0,-465.0,1165.0,-320.0,1254.37,-21.76,True,Active,shahmeer,,Normal,1: Walking
+1787667811.9102411,5838,Target 0,-519.0,1167.0,-320.0,1277.2,-23.98,True,Active,shahmeer,,Normal,1: Walking
+1787667811.999328,5839,Target 0,-573.0,1159.0,-240.0,1292.91,-26.31,True,Active,shahmeer,,Normal,1: Walking
+1787667812.088531,5840,Target 0,-629.0,1161.0,-390.0,1320.44,-28.45,True,Active,shahmeer,,Normal,1: Walking
+1787667812.178351,5841,Target 0,-684.0,1151.0,-390.0,1338.9,-30.72,True,Active,shahmeer,,Normal,1: Walking
+1787667812.2670033,5842,Target 0,-732.0,1162.0,-320.0,1373.34,-32.21,True,Active,shahmeer,,Normal,1: Walking
+1787667812.3571825,5843,Target 0,-781.0,1171.0,-480.0,1407.55,-33.7,True,Active,shahmeer,,Normal,1: Walking
+1787667812.4438243,5844,Target 0,-839.0,1172.0,-390.0,1441.36,-35.6,True,Active,shahmeer,,Normal,1: Walking
+1787667812.5328383,5845,Target 0,-895.0,1176.0,-480.0,1477.84,-37.27,True,Active,shahmeer,,Normal,1: Walking
+1787667812.6219113,5846,Target 0,-958.0,1178.0,-320.0,1518.37,-39.12,True,Active,shahmeer,,Normal,1: Walking
+1787667812.711246,5847,Target 0,-1019.0,1174.0,-320.0,1554.55,-40.96,True,Active,shahmeer,,Normal,1: Walking
+1787667812.8002985,5848,Target 0,-1065.0,1171.0,-320.0,1582.87,-42.29,True,Active,shahmeer,,Normal,1: Walking
+1787667812.8891556,5849,Target 0,-1103.0,1175.0,-320.0,1611.59,-43.19,True,Active,shahmeer,,Normal,1: Walking
+1787667812.9775774,5850,Target 0,-1141.0,1183.0,-240.0,1643.58,-43.96,True,Active,shahmeer,,Normal,1: Walking
+1787667813.0672126,5851,Target 0,-1184.0,1188.0,-320.0,1677.26,-44.9,True,Active,shahmeer,,Normal,1: Walking
+1787667813.1555395,5852,Target 0,-1219.0,1192.0,-160.0,1704.94,-45.64,True,Active,shahmeer,,Normal,1: Walking
+1787667813.2459905,5853,Target 0,-1242.0,1181.0,-320.0,1713.86,-46.44,True,Active,shahmeer,,Normal,1: Walking
+1787667813.335196,5854,Target 0,-1269.0,1172.0,-160.0,1727.41,-47.28,True,Active,shahmeer,,Normal,1: Walking
+1787667813.4224234,5855,Target 0,-1293.0,1173.0,-320.0,1745.79,-47.79,True,Active,shahmeer,,Normal,1: Walking
+1787667813.5118198,5856,Target 0,-1298.0,1183.0,-240.0,1756.22,-47.65,True,Active,shahmeer,,Normal,1: Walking
+1787667813.6006532,5857,Target 0,-1301.0,1198.0,-320.0,1768.56,-47.36,True,Active,shahmeer,,Normal,1: Walking
+1787667813.6892052,5858,Target 0,-1299.0,1211.0,-80.0,1775.93,-47.01,True,Active,shahmeer,,Normal,1: Walking
+1787667813.77995,5859,Target 0,-1305.0,1231.0,-80.0,1793.99,-46.67,True,Active,shahmeer,,Normal,1: Walking
+1787667813.8672984,5860,Target 0,-1313.0,1242.0,160.0,1807.36,-46.59,True,Active,shahmeer,,Normal,1: Walking
+1787667813.956741,5861,Target 0,-1335.0,1251.0,720.0,1829.54,-46.86,True,Active,shahmeer,,Normal,1: Walking
+1787667814.04556,5862,Target 0,-1350.0,1260.0,160.0,1846.65,-46.97,True,Active,shahmeer,,Normal,1: Walking
+1787667814.1346858,5863,Target 0,-1355.0,1265.0,320.0,1853.71,-46.97,True,Active,shahmeer,,Normal,1: Walking
+1787667814.2233334,5864,Target 0,-1350.0,1268.0,160.0,1852.11,-46.79,True,Active,shahmeer,,Normal,1: Walking
+1787667814.3125246,5865,Target 0,-1344.0,1271.0,320.0,1849.8,-46.6,True,Active,shahmeer,,Normal,1: Walking
+1787667814.4012072,5866,Target 0,-1339.0,1274.0,160.0,1848.24,-46.42,True,Active,shahmeer,,Normal,1: Walking
+1787667814.4913166,5867,Target 0,-1332.0,1279.0,160.0,1846.64,-46.16,True,Active,shahmeer,,Normal,1: Walking
+1787667814.579477,5868,Target 0,-1325.0,1284.0,240.0,1845.07,-45.9,True,Active,shahmeer,,Normal,1: Walking
+1787667814.668875,5869,Target 0,-1318.0,1287.0,320.0,1842.14,-45.68,True,Active,shahmeer,,Normal,1: Walking
+1787667814.7573934,5870,Target 0,-1312.0,1288.0,390.0,1838.56,-45.53,True,Active,shahmeer,,Normal,1: Walking
+1787667814.8460877,5871,Target 0,-1308.0,1288.0,560.0,1835.7,-45.44,True,Active,shahmeer,,Normal,1: Walking
+1787667814.935431,5872,Target 0,-1301.0,1288.0,560.0,1830.72,-45.29,True,Active,shahmeer,,Normal,1: Walking
+1787667815.0244043,5873,Target 0,-1293.0,1287.0,560.0,1824.34,-45.13,True,Active,shahmeer,,Normal,1: Walking
+1787667815.1130283,5874,Target 0,-1283.0,1284.0,880.0,1815.14,-44.98,True,Active,shahmeer,,Normal,1: Walking
+1787667815.2035823,5875,Target 0,-1272.0,1280.0,720.0,1804.55,-44.82,True,Active,shahmeer,,Normal,1: Walking
+1787667815.291408,5876,Target 0,-1260.0,1272.0,480.0,1790.41,-44.73,True,Active,shahmeer,,Normal,1: Walking
+1787667815.3831456,5877,Target 0,-1247.0,1266.0,390.0,1777.01,-44.57,True,Active,shahmeer,,Normal,1: Walking
+1787667815.46936,5878,Target 0,-1232.0,1259.0,320.0,1761.51,-44.38,True,Active,shahmeer,,Normal,1: Walking
+1787667815.559418,5879,Target 0,-1214.0,1254.0,240.0,1745.37,-44.07,True,Active,shahmeer,,Normal,1: Walking
+1787667815.6469374,5880,Target 0,-1160.0,1248.0,240.0,1703.85,-42.91,True,Active,shahmeer,,Normal,1: Walking
+1787667815.736086,5881,Target 0,-1107.0,1244.0,240.0,1665.23,-41.66,True,Active,shahmeer,,Normal,1: Walking
+1787667815.8251982,5882,Target 0,-1058.0,1240.0,240.0,1630.02,-40.47,True,Active,shahmeer,,Normal,1: Walking
+1787667815.913748,5883,Target 0,-1013.0,1235.0,320.0,1597.31,-39.36,True,Active,shahmeer,,Normal,1: Walking
+1787667816.0047686,5884,Target 0,-967.0,1227.0,320.0,1562.25,-38.24,True,Active,shahmeer,,Normal,1: Walking
+1787667816.092379,5885,Target 0,-914.0,1226.0,160.0,1529.21,-36.71,True,Active,shahmeer,,Normal,1: Walking
+1787667816.181233,5886,Target 0,-806.0,1227.0,80.0,1468.05,-33.3,True,Active,shahmeer,,Normal,1: Walking
+1787667816.2701786,5887,Target 0,-712.0,1222.0,160.0,1414.29,-30.23,True,Active,shahmeer,,Normal,1: Walking
+1787667816.3597023,5888,Target 0,-631.0,1211.0,80.0,1365.53,-27.52,True,Active,shahmeer,,Normal,1: Walking
+1787667816.4487765,5889,Target 0,-555.0,1205.0,80.0,1326.67,-24.73,True,Active,shahmeer,,Normal,1: Walking
+1787667816.5376666,5890,Target 0,-483.0,1223.0,80.0,1314.92,-21.55,True,Active,shahmeer,,Normal,1: Walking
+1787667816.626047,5891,Target 0,-414.0,1230.0,80.0,1297.8,-18.6,True,Active,shahmeer,,Normal,1: Walking
+1787667816.717285,5892,Target 0,-349.0,1225.0,80.0,1273.74,-15.9,True,Active,shahmeer,,Normal,1: Walking
+1787667816.8045475,5893,Target 0,-277.0,1214.0,80.0,1245.2,-12.85,True,Active,shahmeer,,Normal,1: Walking
+1787667816.8932118,5894,Target 0,-205.0,1207.0,0.0,1224.29,-9.64,True,Active,shahmeer,,Normal,1: Walking
+1787667816.9823685,5895,Target 0,-128.0,1193.0,-80.0,1199.85,-6.12,True,Active,shahmeer,,Normal,1: Walking
+1787667817.07119,5896,Target 0,-54.0,1180.0,0.0,1181.23,-2.62,True,Active,shahmeer,,Normal,1: Walking
+1787667817.1600866,5897,Target 0,15.0,1167.0,-80.0,1167.1,0.74,True,Active,shahmeer,,Normal,1: Walking
+1787667817.2517884,5898,Target 0,83.0,1159.0,-80.0,1161.97,4.1,True,Active,shahmeer,,Normal,1: Walking
+1787667817.338204,5899,Target 0,145.0,1155.0,-80.0,1164.07,7.16,True,Active,shahmeer,,Normal,1: Walking
+1787667817.427242,5900,Target 0,205.0,1151.0,-160.0,1169.11,10.1,True,Active,shahmeer,,Normal,1: Walking
+1787667817.5160153,5901,Target 0,259.0,1147.0,-240.0,1175.88,12.72,True,Active,shahmeer,,Normal,1: Walking
+1787667817.605219,5902,Target 0,307.0,1130.0,-160.0,1170.96,15.2,True,Active,shahmeer,,Normal,1: Walking
+1787667817.6941795,5903,Target 0,364.0,1128.0,-240.0,1185.28,17.88,True,Active,shahmeer,,Normal,1: Walking
+1787667817.783106,5904,Target 0,426.0,1136.0,-160.0,1213.25,20.56,True,Active,shahmeer,,Normal,1: Walking
+1787667817.871568,5905,Target 0,472.0,1144.0,-160.0,1237.55,22.42,True,Active,shahmeer,,Normal,1: Walking
+1787667817.9605289,5906,Target 0,524.0,1147.0,80.0,1261.03,24.55,True,Active,shahmeer,,Normal,1: Walking
+1787667818.0504036,5907,Target 0,560.0,1147.0,-80.0,1276.4,26.02,True,Active,shahmeer,,Normal,1: Walking
+1787667818.1388836,5908,Target 0,579.0,1139.0,-80.0,1277.72,26.95,True,Active,shahmeer,,Normal,1: Walking
+1787667818.2276442,5909,Target 0,604.0,1136.0,80.0,1286.59,28.0,True,Active,shahmeer,,Normal,1: Walking
+1787667818.3176243,5910,Target 0,631.0,1115.0,320.0,1281.17,29.51,True,Active,shahmeer,,Normal,1: Walking
+1787667818.4068184,5911,Target 0,657.0,1087.0,390.0,1270.13,31.15,True,Active,shahmeer,,Normal,1: Walking
+1787667818.495824,5912,Target 0,672.0,1070.0,320.0,1263.52,32.13,True,Active,shahmeer,,Normal,1: Walking
+1787667818.5838988,5913,Target 0,673.0,1062.0,390.0,1257.29,32.36,True,Active,shahmeer,,Normal,1: Walking
+1787667818.673137,5914,Target 0,673.0,1052.0,480.0,1248.85,32.61,True,Active,shahmeer,,Normal,1: Walking
+1787667818.7623882,5915,Target 0,672.0,1043.0,240.0,1240.74,32.79,True,Active,shahmeer,,Normal,1: Walking
+1787667818.8511567,5916,Target 0,671.0,1032.0,320.0,1230.96,33.03,True,Active,shahmeer,,Normal,1: Walking
+1787667818.939806,5917,Target 0,669.0,1024.0,240.0,1223.17,33.16,True,Active,shahmeer,,Normal,1: Walking
+1787667819.02888,5918,Target 0,667.0,1014.0,240.0,1213.71,33.34,True,Active,shahmeer,,Normal,1: Walking
+1787667819.118163,5919,Target 0,665.0,1001.0,320.0,1201.76,33.6,True,Active,shahmeer,,Normal,1: Walking
+1787667819.2067149,5920,Target 0,659.0,991.0,240.0,1190.11,33.62,True,Active,shahmeer,,Normal,1: Walking
+1787667819.2959745,5921,Target 0,653.0,974.0,390.0,1172.64,33.84,True,Active,shahmeer,,Normal,1: Walking
+1787667819.3851354,5922,Target 0,650.0,953.0,560.0,1153.56,34.3,True,Active,shahmeer,,Normal,1: Walking
+1787667819.4739275,5923,Target 0,645.0,930.0,560.0,1131.78,34.74,True,Active,shahmeer,,Normal,1: Walking
+1787667819.5633676,5924,Target 0,637.0,905.0,640.0,1106.7,35.14,True,Active,shahmeer,,Normal,1: Walking
+1787667819.6516588,5925,Target 0,617.0,879.0,390.0,1073.93,35.07,True,Active,shahmeer,,Normal,1: Walking
+1787667819.7403667,5926,Target 0,568.0,828.0,320.0,1004.1,34.45,True,Active,shahmeer,,Normal,1: Walking
+1787667819.8313727,5927,Target 0,515.0,787.0,160.0,940.53,33.2,True,Active,shahmeer,,Normal,1: Walking
+1787667819.918445,5928,Target 0,477.0,751.0,240.0,889.68,32.42,True,Active,shahmeer,,Normal,1: Walking
+1787667820.0075889,5929,Target 0,448.0,720.0,240.0,848.0,31.89,True,Active,shahmeer,,Normal,1: Walking
+1787667820.0969255,5930,Target 0,410.0,701.0,80.0,812.1,30.32,True,Active,shahmeer,,Normal,1: Walking
+1787667820.185815,5931,Target 0,371.0,664.0,80.0,760.62,29.19,True,Active,shahmeer,,Normal,1: Walking
+1787667820.274068,5932,Target 0,329.0,649.0,-80.0,727.63,26.88,True,Active,shahmeer,,Normal,1: Walking
+1787667820.3632865,5933,Target 0,290.0,651.0,-160.0,712.67,24.01,True,Active,shahmeer,,Normal,1: Walking
+1787667820.453384,5934,Target 0,250.0,664.0,-160.0,709.5,20.63,True,Active,shahmeer,,Normal,1: Walking
+1787667820.5416856,5935,Target 0,210.0,681.0,-240.0,712.64,17.14,True,Active,shahmeer,,Normal,1: Walking
+1787667820.630494,5936,Target 0,162.0,694.0,-160.0,712.66,13.14,True,Active,shahmeer,,Normal,1: Walking
+1787667820.720007,5937,Target 0,115.0,699.0,-240.0,708.4,9.34,True,Active,shahmeer,,Normal,1: Walking
+1787667820.810213,5938,Target 0,69.0,701.0,-240.0,704.39,5.62,True,Active,shahmeer,,Normal,1: Walking
+1787667820.8972027,5939,Target 0,22.0,702.0,-240.0,702.34,1.8,True,Active,shahmeer,,Normal,1: Walking
+1787667820.98585,5940,Target 0,-22.0,705.0,-240.0,705.34,-1.79,True,Active,shahmeer,,Normal,1: Walking
+1787667821.0930228,5941,Target 0,-70.0,702.0,-320.0,705.48,-5.69,True,Active,shahmeer,,Normal,1: Walking
+1787667821.1645536,5942,Target 0,-119.0,705.0,-390.0,714.97,-9.58,True,Active,shahmeer,,Normal,1: Walking
+1787667821.2535012,5943,Target 0,-168.0,711.0,-560.0,730.58,-13.29,True,Active,shahmeer,,Normal,1: Walking
+1787667821.342703,5944,Target 0,-215.0,722.0,-480.0,753.33,-16.58,True,Active,shahmeer,,Normal,1: Walking
+1787667821.4315195,5945,Target 0,-262.0,736.0,-480.0,781.24,-19.59,True,Active,shahmeer,,Normal,1: Walking
+1787667821.523238,5946,Target 0,-317.0,751.0,-480.0,815.16,-22.88,True,Active,shahmeer,,Normal,1: Walking
+1787667821.609663,5947,Target 0,-366.0,773.0,-320.0,855.27,-25.34,True,Active,shahmeer,,Normal,1: Walking
+1787667821.6987753,5948,Target 0,-409.0,798.0,-320.0,896.71,-27.14,True,Active,shahmeer,,Normal,1: Walking
+1787667821.787213,5949,Target 0,-445.0,828.0,-320.0,940.0,-28.26,True,Active,shahmeer,,Normal,1: Walking
+1787667821.8762505,5950,Target 0,-475.0,854.0,-320.0,977.21,-29.08,True,Active,shahmeer,,Normal,1: Walking
+1787667821.965124,5951,Target 0,-510.0,864.0,-390.0,1003.29,-30.55,True,Active,shahmeer,,Normal,1: Walking
+1787667822.0542097,5952,Target 0,-553.0,874.0,-390.0,1034.26,-32.32,True,Active,shahmeer,,Normal,1: Walking
+1787667822.1449254,5953,Target 0,-598.0,874.0,-480.0,1059.0,-34.38,True,Active,shahmeer,,Normal,1: Walking
+1787667822.2332728,5954,Target 0,-644.0,880.0,-480.0,1090.48,-36.2,True,Active,shahmeer,,Normal,1: Walking
+1787667822.3212326,5955,Target 0,-687.0,882.0,-480.0,1117.99,-37.92,True,Active,shahmeer,,Normal,1: Walking
+1787667822.4100623,5956,Target 0,-730.0,889.0,-560.0,1150.31,-39.39,True,Active,shahmeer,,Normal,1: Walking
+1787667822.4993763,5957,Target 0,-774.0,908.0,-390.0,1193.12,-40.45,True,Active,shahmeer,,Normal,1: Walking
+1787667822.5885642,5958,Target 0,-813.0,953.0,-320.0,1252.67,-40.47,True,Active,shahmeer,,Normal,1: Walking
+1787667822.6809769,5959,Target 0,-832.0,998.0,-240.0,1299.32,-39.82,True,Active,shahmeer,,Normal,1: Walking
+1787667822.7662766,5960,Target 0,-852.0,1030.0,-320.0,1336.71,-39.6,True,Active,shahmeer,,Normal,1: Walking
+1787667822.8580549,5961,Target 0,-874.0,1050.0,-390.0,1366.15,-39.77,True,Active,shahmeer,,Normal,1: Walking
+1787667822.9443438,5962,Target 0,-883.0,1074.0,-160.0,1390.38,-39.43,True,Active,shahmeer,,Normal,1: Walking
+1787667823.0337148,5963,Target 0,-904.0,1111.0,-240.0,1432.32,-39.13,True,Active,shahmeer,,Normal,1: Walking
+1787667823.1229167,5964,Target 0,-902.0,1134.0,-160.0,1448.99,-38.5,True,Active,shahmeer,,Normal,1: Walking
+1787667823.2115097,5965,Target 0,-898.0,1180.0,-240.0,1482.84,-37.27,True,Active,shahmeer,,Normal,1: Walking
+1787667823.2998774,5966,Target 0,-880.0,1219.0,-80.0,1503.45,-35.83,True,Active,shahmeer,,Normal,1: Walking
+1787667823.3915875,5967,Target 0,-856.0,1251.0,-80.0,1515.83,-34.38,True,Active,shahmeer,,Normal,1: Walking
+1787667823.478138,5968,Target 0,-830.0,1272.0,-80.0,1518.84,-33.13,True,Active,shahmeer,,Normal,1: Walking
+1787667823.5684736,5969,Target 0,-822.0,1298.0,-80.0,1536.39,-32.35,True,Active,shahmeer,,Normal,1: Walking
+1787667823.656037,5970,Target 0,-815.0,1328.0,-80.0,1558.14,-31.54,True,Active,shahmeer,,Normal,1: Walking
+1787667823.745411,5971,Target 0,-806.0,1341.0,-80.0,1564.58,-31.01,True,Active,shahmeer,,Normal,1: Walking
+1787667823.834556,5972,Target 0,-798.0,1340.0,0.0,1559.62,-30.77,True,Active,shahmeer,,Normal,1: Walking
+1787667823.9226618,5973,Target 0,-791.0,1348.0,240.0,1562.94,-30.4,True,Active,shahmeer,,Normal,1: Walking
+1787667824.011879,5974,Target 0,-784.0,1361.0,240.0,1570.66,-29.94,True,Active,shahmeer,,Normal,1: Walking
+1787667824.10157,5975,Target 0,-770.0,1380.0,320.0,1580.28,-29.16,True,Active,shahmeer,,Normal,1: Walking
+1787667824.190185,5976,Target 0,-746.0,1397.0,320.0,1583.71,-28.1,True,Active,shahmeer,,Normal,1: Walking
+1787667824.278999,5977,Target 0,-691.0,1427.0,320.0,1585.5,-25.84,True,Active,shahmeer,,Normal,1: Walking
+1787667824.3677237,5978,Target 0,-628.0,1455.0,320.0,1584.74,-23.35,True,Active,shahmeer,,Normal,1: Walking
+1787667824.4569263,5979,Target 0,-572.0,1458.0,320.0,1566.19,-21.42,True,Active,shahmeer,,Normal,1: Walking
+1787667824.5462277,5980,Target 0,-528.0,1443.0,240.0,1536.57,-20.1,True,Active,shahmeer,,Normal,1: Walking
+1787667824.6392229,5981,Target 0,-475.0,1428.0,240.0,1504.93,-18.4,True,Active,shahmeer,,Normal,1: Walking
+1787667824.7258213,5982,Target 0,-426.0,1414.0,160.0,1476.78,-16.77,True,Active,shahmeer,,Normal,1: Walking
+1787667824.812551,5983,Target 0,-375.0,1399.0,80.0,1448.39,-15.01,True,Active,shahmeer,,Normal,1: Walking
+1787667824.901594,5984,Target 0,-327.0,1389.0,80.0,1426.97,-13.25,True,Active,shahmeer,,Normal,1: Walking
+1787667824.9915476,5985,Target 0,-270.0,1385.0,80.0,1411.07,-11.03,True,Active,shahmeer,,Normal,1: Walking
+1787667825.0797162,5986,Target 0,-216.0,1382.0,80.0,1398.78,-8.88,True,Active,shahmeer,,Normal,1: Walking
+1787667825.168776,5987,Target 0,-163.0,1370.0,80.0,1379.66,-6.79,True,Active,shahmeer,,Normal,1: Walking
+1787667825.2577367,5988,Target 0,-112.0,1361.0,0.0,1365.6,-4.7,True,Active,shahmeer,,Normal,1: Walking
+1787667825.3475523,5989,Target 0,-65.0,1358.0,-80.0,1359.55,-2.74,True,Active,shahmeer,,Normal,1: Walking
+1787667825.435894,5990,Target 0,-16.0,1359.0,0.0,1359.09,-0.67,True,Active,shahmeer,,Normal,1: Walking
+1787667825.525085,5991,Target 0,35.0,1365.0,80.0,1365.45,1.47,True,Active,shahmeer,,Normal,1: Walking
+1787667825.6142433,5992,Target 0,93.0,1375.0,80.0,1378.14,3.87,True,Active,shahmeer,,Normal,1: Walking
+1787667825.7029865,5993,Target 0,130.0,1379.0,0.0,1385.11,5.39,True,Active,shahmeer,,Normal,1: Walking
+1787667825.7916806,5994,Target 0,148.0,1372.0,80.0,1379.96,6.16,True,Active,shahmeer,,Normal,1: Walking
+1787667825.880782,5995,Target 0,164.0,1350.0,160.0,1359.92,6.93,True,Active,shahmeer,,Normal,1: Walking
+1787667825.9697614,5996,Target 0,198.0,1321.0,160.0,1335.76,8.52,True,Active,shahmeer,,Normal,1: Walking
+1787667826.0590134,5997,Target 0,253.0,1297.0,240.0,1321.45,11.04,True,Active,shahmeer,,Normal,1: Walking
+1787667826.148604,5998,Target 0,309.0,1275.0,160.0,1311.91,13.62,True,Active,shahmeer,,Normal,1: Walking
+1787667826.2376063,5999,Target 0,361.0,1246.0,160.0,1297.24,16.16,True,Active,shahmeer,,Normal,1: Walking
+1787667826.325432,6000,Target 0,402.0,1218.0,80.0,1282.63,18.27,True,Active,shahmeer,,Normal,1: Walking
+1787667826.4144886,6001,Target 0,435.0,1187.0,80.0,1264.2,20.13,True,Active,shahmeer,,Normal,1: Walking
+1787667826.503989,6002,Target 0,459.0,1158.0,0.0,1245.65,21.62,True,Active,shahmeer,,Normal,1: Walking
+1787667826.592627,6003,Target 0,480.0,1139.0,0.0,1236.01,22.85,True,Active,shahmeer,,Normal,1: Walking
+1787667826.6820087,6004,Target 0,494.0,1128.0,-160.0,1231.43,23.65,True,Active,shahmeer,,Normal,1: Walking
+1787667826.770715,6005,Target 0,512.0,1129.0,-240.0,1239.67,24.39,True,Active,shahmeer,,Normal,1: Walking
+1787667826.859401,6006,Target 0,524.0,1130.0,-160.0,1245.58,24.88,True,Active,shahmeer,,Normal,1: Walking
+1787667826.948593,6007,Target 0,539.0,1132.0,-160.0,1253.77,25.46,True,Active,shahmeer,,Normal,1: Walking
+1787667827.0376606,6008,Target 0,558.0,1131.0,80.0,1261.16,26.26,True,Active,shahmeer,,Normal,1: Walking
+1787667827.1261604,6009,Target 0,579.0,1124.0,390.0,1264.36,27.25,True,Active,shahmeer,,Normal,1: Walking
+1787667827.2159076,6010,Target 0,598.0,1108.0,-480.0,1259.07,28.36,True,Active,shahmeer,,Normal,1: Walking
+1787667827.304319,6011,Target 0,607.0,1091.0,480.0,1248.49,29.09,True,Active,shahmeer,,Normal,1: Walking
+1787667827.3935032,6012,Target 0,613.0,1071.0,390.0,1234.02,29.79,True,Active,shahmeer,,Normal,1: Walking
+1787667827.4849355,6013,Target 0,613.0,1056.0,-240.0,1221.03,30.13,True,Active,shahmeer,,Normal,1: Walking
+1787667827.5725954,6014,Target 0,603.0,1051.0,-790.0,1211.7,29.84,True,Active,shahmeer,,Normal,1: Walking
+1787667827.6608288,6015,Target 0,591.0,1058.0,-960.0,1211.88,29.19,True,Active,shahmeer,,Normal,1: Walking
+1787667827.7499676,6016,Target 0,587.0,1065.0,-1190.0,1216.06,28.86,True,Active,shahmeer,,Normal,1: Walking
+1787667827.8388474,6017,Target 0,582.0,1076.0,-1520.0,1223.32,28.41,True,Active,shahmeer,,Normal,1: Walking
+1787667827.9277558,6018,Target 0,580.0,1092.0,-880.0,1236.47,27.97,True,Active,shahmeer,,Normal,1: Walking
+1787667828.016215,6019,Target 0,581.0,1106.0,-240.0,1249.32,27.71,True,Active,shahmeer,,Normal,1: Walking
+1787667828.105435,6020,Target 0,583.0,1120.0,-390.0,1262.65,27.5,True,Active,shahmeer,,Normal,1: Walking
+1787667828.1941986,6021,Target 0,586.0,1134.0,-480.0,1276.46,27.33,True,Active,shahmeer,,Normal,6: Fall onset
+1787667828.285376,6022,Target 0,589.0,1151.0,-640.0,1292.95,27.1,True,Active,shahmeer,,Normal,6: Fall onset
+1787667828.3722453,6023,Target 0,592.0,1201.0,-880.0,1338.98,26.24,True,Active,shahmeer,,Normal,6: Fall onset
+1787667828.461197,6024,Target 0,593.0,1258.0,-2080.0,1390.76,25.24,True,Active,shahmeer,,Normal,6: Fall onset
+1787667828.55067,6025,Target 0,600.0,1330.0,-1190.0,1459.08,24.28,True,Active,shahmeer,,Normal,6: Fall onset
+1787667828.6397667,6026,Target 0,614.0,1482.0,-1520.0,1604.16,22.5,True,Active,shahmeer,,Normal,6: Fall onset
+1787667828.7284932,6027,Target 0,623.0,1638.0,-1190.0,1752.48,20.82,True,Active,shahmeer,,Normal,6: Fall onset
+1787667828.8173993,6028,Target 0,618.0,1787.0,-1280.0,1890.84,19.08,True,Active,shahmeer,,Normal,6: Fall onset
+1787667828.90618,6029,Target 0,610.0,1954.0,-240.0,2047.0,17.34,True,Active,shahmeer,,Normal,6: Fall onset
+1787667828.9952853,6030,Target 0,567.0,2120.0,-240.0,2194.51,14.97,True,Active,shahmeer,,Normal,6: Fall onset
+1787667829.084057,6031,Target 0,509.0,2265.0,-80.0,2321.49,12.67,True,Active,shahmeer,,Normal,6: Fall onset
+1787667829.172729,6032,Target 0,442.0,2405.0,-80.0,2445.28,10.41,True,Active,shahmeer,,Normal,6: Fall onset
+1787667829.2622695,6033,Target 0,374.0,2534.0,-80.0,2561.45,8.4,True,Active,shahmeer,,Normal,6: Fall onset
+1787667829.3511584,6034,Target 0,308.0,2649.0,-80.0,2666.85,6.63,True,Active,shahmeer,,Normal,6: Fall onset
+1787667829.4412026,6035,Target 0,238.0,2712.0,0.0,2722.42,5.02,True,Active,shahmeer,,Normal,6: Fall onset
+1787667829.5295317,6036,Target 0,170.0,2758.0,0.0,2763.23,3.53,True,Active,shahmeer,,Normal,6: Fall onset
+1787667829.6178656,6037,Target 0,107.0,2792.0,0.0,2794.05,2.19,True,Active,shahmeer,,Normal,6: Fall onset
+1787667829.707011,6038,Target 0,83.0,2824.0,-80.0,2825.22,1.68,True,Active,shahmeer,,Normal,6: Fall onset
+1787667829.796298,6039,Target 0,98.0,2841.0,0.0,2842.69,1.98,True,Active,shahmeer,,Normal,6: Fall onset
+1787667829.8863957,6040,Target 0,114.0,2846.0,0.0,2848.28,2.29,True,Active,shahmeer,,Normal,6: Fall onset
+1787667829.9742143,6041,Target 0,136.0,2867.0,0.0,2870.22,2.72,True,Active,shahmeer,,Normal,6: Fall onset
+1787667830.0630636,6042,Target 0,169.0,2881.0,0.0,2885.95,3.36,True,Active,shahmeer,,Normal,6: Fall onset
+1787667830.1532829,6043,Target 0,206.0,2895.0,0.0,2902.32,4.07,True,Active,shahmeer,,Normal,6: Fall onset
+1787667830.2416909,6044,Target 0,239.0,2908.0,0.0,2917.8,4.7,True,Active,shahmeer,,Normal,6: Fall onset
+1787667830.330142,6045,Target 0,269.0,2919.0,0.0,2931.37,5.27,True,Active,shahmeer,,Normal,6: Fall onset
+1787667830.418713,6046,Target 0,296.0,2929.0,0.0,2943.92,5.77,True,Active,shahmeer,,Normal,6: Fall onset
+1787667830.5079606,6047,Target 0,320.0,2939.0,0.0,2956.37,6.21,True,Active,shahmeer,,Normal,6: Fall onset
+1787667830.596851,6048,Target 0,342.0,2947.0,0.0,2966.78,6.62,True,Active,shahmeer,,Normal,6: Fall onset
+1787667830.6858494,6049,Target 0,362.0,2955.0,0.0,2977.09,6.98,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667830.7749712,6050,Target 0,380.0,2961.0,0.0,2985.28,7.31,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667830.8639717,6051,Target 0,386.0,2964.0,0.0,2989.03,7.42,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667830.9530444,6052,Target 0,391.0,2966.0,0.0,2991.66,7.51,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667831.0418117,6053,Target 0,397.0,2968.0,0.0,2994.43,7.62,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667831.130479,6054,Target 0,402.0,2970.0,0.0,2997.08,7.71,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667831.2196448,6055,Target 0,407.0,2972.0,0.0,2999.74,7.8,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667831.310309,6056,Target 0,412.0,2974.0,0.0,3002.4,7.89,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667831.3977764,6057,Target 0,416.0,2975.0,0.0,3003.94,7.96,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667831.486705,6058,Target 0,416.0,2975.0,0.0,3003.94,7.96,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667831.575688,6059,Target 0,416.0,2975.0,0.0,3003.94,7.96,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667831.6645122,6060,Target 0,416.0,2975.0,0.0,3003.94,7.96,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667831.75382,6061,Target 0,416.0,2975.0,0.0,3003.94,7.96,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667831.84246,6062,Target 0,416.0,2975.0,0.0,3003.94,7.96,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667831.9317322,6063,Target 0,416.0,2975.0,0.0,3003.94,7.96,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667832.0204272,6064,Target 0,398.0,2984.0,0.0,3010.43,7.6,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667832.1109147,6065,Target 0,355.0,2995.0,0.0,3015.97,6.76,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667832.200262,6066,Target 0,250.0,3041.0,0.0,3051.26,4.7,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667832.287728,6067,Target 0,167.0,3097.0,80.0,3101.5,3.09,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667832.376796,6068,Target 0,-1.0,3211.0,0.0,3211.0,-0.02,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667832.4658904,6069,Target 0,-137.0,3321.0,0.0,3323.82,-2.36,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667832.555534,6070,Target 0,-236.0,3397.0,0.0,3405.19,-3.97,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667832.644097,6071,Target 0,-307.0,3395.0,0.0,3408.85,-5.17,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667832.7327302,6072,Target 0,-336.0,3385.0,0.0,3401.64,-5.67,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667832.8218286,6073,Target 0,-362.0,3376.0,0.0,3395.35,-6.12,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667832.91036,6074,Target 0,-386.0,3368.0,0.0,3390.05,-6.54,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667832.999479,6075,Target 0,-407.0,3360.0,0.0,3384.56,-6.91,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667833.0883496,6076,Target 0,-426.0,3354.0,0.0,3380.95,-7.24,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667833.17716,6077,Target 0,-433.0,3361.0,0.0,3388.78,-7.34,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667833.2662566,6078,Target 0,-425.0,3374.0,0.0,3400.66,-7.18,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667833.3567245,6079,Target 0,-410.0,3387.0,0.0,3411.73,-6.9,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667833.4444,6080,Target 0,-402.0,3389.0,0.0,3412.76,-6.76,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667833.5334198,6081,Target 0,-410.0,3382.0,0.0,3406.76,-6.91,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667833.6227942,6082,Target 0,-412.0,3379.0,0.0,3404.02,-6.95,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667833.7125845,6083,Target 0,-414.0,3375.0,0.0,3400.3,-6.99,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667833.80065,6084,Target 0,-417.0,3371.0,0.0,3396.69,-7.05,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667833.8892665,6085,Target 0,-420.0,3367.0,0.0,3393.09,-7.11,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667833.9784331,6086,Target 0,-422.0,3363.0,0.0,3389.37,-7.15,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667834.067478,6087,Target 0,-428.0,3360.0,0.0,3387.15,-7.26,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667834.1566794,6088,Target 0,-473.0,3352.0,0.0,3385.21,-8.03,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667834.246697,6089,Target 0,-611.0,3327.0,0.0,3382.64,-10.41,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667834.3343585,6090,Target 0,-736.0,3305.0,0.0,3385.96,-12.55,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667834.4233916,6091,Target 0,-848.0,3285.0,0.0,3392.69,-14.47,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667834.512502,6092,Target 0,-884.0,3278.0,0.0,3395.11,-15.09,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667834.60113,6093,Target 0,-919.0,3272.0,0.0,3398.61,-15.69,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667834.6902046,6094,Target 0,-953.0,3266.0,0.0,3402.2,-16.27,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667834.779285,6095,Target 0,-986.0,3260.0,0.0,3405.85,-16.83,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667834.8685985,6096,Target 0,-1017.0,3255.0,0.0,3410.18,-17.35,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667834.957261,6097,Target 0,-1048.0,3249.0,0.0,3413.84,-17.88,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667835.046421,6098,Target 0,-1077.0,3244.0,0.0,3418.11,-18.37,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667835.1350384,6099,Target 0,-1105.0,3239.0,0.0,3422.3,-18.84,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667835.2240803,6100,Target 0,-1133.0,3234.0,0.0,3426.73,-19.31,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667835.313159,6101,Target 0,-1159.0,3229.0,0.0,3430.7,-19.74,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667835.4024808,6102,Target 0,-1185.0,3225.0,0.0,3435.82,-20.18,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667835.4913354,6103,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667835.5803246,6104,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667835.6692023,6105,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667835.760405,6106,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667835.8471808,6107,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667835.9362965,6108,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667836.025413,6109,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667836.1160083,6110,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667836.203729,6111,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667836.2916958,6112,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667836.3809843,6113,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667836.470262,6114,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667836.5592077,6115,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667836.6504304,6116,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667836.7371964,6117,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667836.8282485,6118,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667836.915156,6119,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667837.0041924,6120,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667837.0926983,6121,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667837.1817577,6122,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667837.271305,6123,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667837.3602636,6124,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667837.44937,6125,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667837.5381978,6126,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667837.6283689,6127,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667837.715787,6128,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667837.805067,6129,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667837.8941202,6130,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667837.982977,6131,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667838.0714667,6132,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667838.1604235,6133,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667838.2496262,6134,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667838.339425,6135,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667838.4276648,6136,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667838.5168238,6137,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667838.6054237,6138,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667838.6948512,6139,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667838.7835789,6140,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667838.8744032,6141,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667838.9639304,6142,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667839.053157,6143,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667839.140314,6144,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667839.2284696,6145,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667839.3169692,6146,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667839.4063587,6147,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667839.4955952,6148,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667839.5847795,6149,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667839.675834,6150,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667839.76248,6151,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667839.8519208,6152,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,7: Post-fall stillness
+1787667839.941254,6153,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667840.030093,6154,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667840.1197956,6155,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667840.2081928,6156,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667840.297825,6157,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667840.385577,6158,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667840.475001,6159,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667840.5640352,6160,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667840.6541474,6161,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667840.7413816,6162,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667840.8308198,6163,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667840.919642,6164,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667841.0084095,6165,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667841.097177,6166,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667841.1874783,6167,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667841.2755203,6168,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667841.3642695,6169,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667841.4532945,6170,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667841.5432198,6171,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667841.6321745,6172,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667841.720563,6173,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667841.8095453,6174,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667841.89858,6175,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667841.9880862,6176,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667842.0766947,6177,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667842.165053,6178,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667842.254677,6179,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667842.3438563,6180,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667842.4319513,6181,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667842.5215836,6182,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667842.609934,6183,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667842.700158,6184,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667842.7883594,6185,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667842.8773673,6186,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667842.9663603,6187,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667843.05568,6188,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667843.1441495,6189,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667843.2353697,6190,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667843.3220112,6191,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667843.4112236,6192,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667843.5002816,6193,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667843.5894368,6194,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667843.678063,6195,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667843.7672195,6196,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667843.8562906,6197,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667843.9452484,6198,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667844.034491,6199,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667844.1229317,6200,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667844.212036,6201,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667844.3009531,6202,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667844.389949,6203,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667844.479758,6204,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667844.568723,6205,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667844.657113,6206,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667844.7466605,6207,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667844.8357005,6208,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667844.923995,6209,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667845.0136132,6210,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,8: Recovery / standing back up
+1787667845.102949,6211,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667845.1907208,6212,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667845.279817,6213,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667845.369192,6214,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667845.4574986,6215,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667845.5477788,6216,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667845.6357996,6217,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667845.724789,6218,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667845.8139343,6219,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667845.903521,6220,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667845.991498,6221,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667846.0809436,6222,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667846.1696012,6223,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667846.2586925,6224,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667846.3473148,6225,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667846.4363236,6226,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667846.525788,6227,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667846.6148512,6228,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667846.7031326,6229,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667846.7929957,6230,Target 0,-1209.0,3220.0,0.0,3439.49,-20.58,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667846.8818717,6231,Target 0,-1198.0,3230.0,160.0,3445.01,-20.35,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667846.9704978,6232,Target 0,-1186.0,3239.0,160.0,3449.31,-20.11,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667847.0600023,6233,Target 0,-1168.0,3248.0,80.0,3451.63,-19.78,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667847.150573,6234,Target 0,-1147.0,3257.0,80.0,3453.07,-19.4,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667847.237411,6235,Target 0,-1127.0,3265.0,80.0,3454.03,-19.04,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667847.3264728,6236,Target 0,-1107.0,3274.0,80.0,3456.09,-18.68,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667847.4151895,6237,Target 0,-1089.0,3282.0,80.0,3457.95,-18.36,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667847.5045197,6238,Target 0,-1070.0,3289.0,80.0,3458.67,-18.02,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667847.594083,6239,Target 0,-1053.0,3297.0,80.0,3461.07,-17.71,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667847.6829755,6240,Target 0,-1036.0,3304.0,80.0,3462.62,-17.41,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667847.7717383,6241,Target 0,-1019.0,3311.0,80.0,3464.26,-17.11,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667847.8606198,6242,Target 0,-1004.0,3318.0,80.0,3466.57,-16.84,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667847.9496627,6243,Target 0,-988.0,3324.0,80.0,3467.73,-16.55,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667848.0387228,6244,Target 0,-972.0,3330.0,0.0,3468.96,-16.27,True,Active,shahmeer,,Normal,2: Standing / idle
+1787667848.1280866,6245,Target 0,-956.0,3336.0,0.0,3470.28,-15.99,True,Active,shahmeer,,Normal,2: Standing / idle
