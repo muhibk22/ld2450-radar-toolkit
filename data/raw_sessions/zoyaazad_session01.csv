@@ -1,0 +1,787 @@
+timestamp,sequence_id,target_id,x_mm,y_mm,speed_mms,distance_mm,angle_deg,valid,status,volunteer_id,fall_subtype,pace_variant,action_label
+1789920407.6879587,781,Person B,1218.6,1051.8,-320.0,1397.73,41.05,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920407.7690516,782,Person B,1156.6,1051.4,-390.0,1375.42,38.59,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920407.8471684,783,Person B,1096.5,1054.1,-480.0,1368.2,36.98,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920407.909645,784,Person B,1040.6,1059.0,-480.0,1368.47,36.29,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920407.9877641,785,Person B,987.7,1066.7,-390.0,1371.56,34.96,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920408.1035874,786,Person B,935.8,1079.1,-390.0,1385.37,32.53,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920408.2034202,787,Person B,884.6,1095.8,-390.0,1397.89,30.05,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920408.2720327,788,Person B,833.9,1116.6,-480.0,1413.41,27.56,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920408.353528,789,Person B,789.2,1141.6,-480.0,1433.19,25.37,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920408.454707,790,Person B,748.6,1170.6,-390.0,1451.08,23.47,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920408.553646,791,Person B,711.4,1201.1,-480.0,1464.58,21.89,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920408.6372259,792,Person B,677.0,1232.5,-480.0,1481.05,20.31,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920408.7206461,793,Person B,644.3,1265.3,-480.0,1505.08,19.24,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920408.801863,794,Person B,611.8,1300.9,-390.0,1537.5,18.39,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920408.8704536,795,Person B,580.9,1339.0,-320.0,1578.78,17.59,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920408.9554176,796,Person B,554.0,1377.1,-390.0,1620.49,17.08,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920409.0381658,797,Person B,531.9,1415.1,-480.0,1660.58,16.77,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920409.1039214,798,Person B,515.3,1452.8,-480.0,1701.48,16.67,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920409.1883886,799,Person B,503.3,1490.5,-480.0,1743.45,16.46,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920409.2717347,800,Person B,496.3,1528.1,-480.0,1780.99,16.57,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920409.369905,801,Person B,493.2,1568.3,-390.0,1834.76,16.3,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920409.4555538,802,Person B,494.7,1610.4,-390.0,1885.72,16.29,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920409.5373151,803,Person B,498.6,1653.6,-480.0,1928.69,16.1,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920409.7328525,804,Person B,504.3,1696.5,-480.0,1964.26,16.02,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920409.8265934,805,Person B,511.3,1737.9,-480.0,1995.44,15.91,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920409.9203558,806,Person B,521.5,1776.4,-240.0,2018.52,16.64,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920409.9828317,807,Person B,535.0,1813.4,0.0,2053.92,17.39,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920410.060951,808,Person B,548.5,1852.5,-240.0,2114.85,17.13,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920410.1390734,809,Person B,562.4,1892.4,-240.0,2165.58,17.0,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920410.2328165,810,Person B,574.9,1931.9,-240.0,2195.24,16.76,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920410.3109338,811,Person B,586.5,1968.8,-240.0,2221.5,16.5,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920410.389053,812,Person B,596.3,2003.2,-240.0,2243.4,16.23,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920410.4515486,813,Person B,605.0,2035.3,-240.0,2261.23,15.97,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920410.52967,814,Person B,612.9,2064.4,240.0,2265.76,15.91,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920410.623431,815,Person B,620.1,2090.8,240.0,2269.06,15.83,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920410.685907,816,Person B,624.0,2116.0,240.0,2271.41,15.76,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920410.764027,817,Person B,624.5,2137.8,390.0,2264.25,15.87,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920410.842168,818,Person B,624.2,2153.1,320.0,2260.68,15.92,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920410.9046452,819,Person B,622.7,2162.9,390.0,2255.32,15.9,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920411.014009,820,Person B,620.8,2169.2,320.0,2250.38,15.83,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920411.0921295,821,Person B,618.4,2172.3,240.0,2244.63,15.69,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920411.170268,822,Person B,615.6,2172.5,240.0,2237.66,15.53,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920411.2327473,823,Person B,613.0,2170.1,320.0,2231.08,15.49,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920411.2952397,824,Person B,610.0,2166.8,160.0,2225.89,15.4,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920411.4046073,825,Person B,606.7,2162.6,240.0,2219.75,15.31,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920411.4671023,826,Person B,603.2,2157.3,240.0,2210.98,15.26,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920411.560866,827,Person B,599.1,2151.7,320.0,2199.31,15.24,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920411.6389663,828,Person B,594.5,2145.4,320.0,2187.65,15.21,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920411.7014613,829,Person B,589.6,2138.4,320.0,2174.76,15.17,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920411.7952054,830,Person B,584.7,2130.5,320.0,2161.16,15.16,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920411.8889482,831,Person B,580.2,2121.6,320.0,2146.86,15.18,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920411.9514437,832,Person B,576.4,2112.0,240.0,2135.02,15.23,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920412.0139391,833,Person B,572.7,2101.5,320.0,2120.02,15.29,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920412.1076825,834,Person B,569.4,2089.7,390.0,2103.37,15.38,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920412.2014306,835,Person B,566.6,2076.6,390.0,2086.02,15.52,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920412.2795448,836,Person B,564.1,2062.5,480.0,2068.41,15.62,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920412.357685,837,Person B,561.2,2043.8,480.0,2011.37,15.84,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920412.4201815,838,Person B,557.6,2021.7,640.0,1965.08,15.89,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920412.498281,839,Person B,553.6,1996.3,560.0,1919.34,16.0,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920412.5764017,840,Person B,548.3,1967.7,560.0,1871.4,15.88,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920412.6388955,841,Person B,541.5,1936.1,560.0,1824.16,15.71,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920412.732641,842,Person B,533.3,1901.7,480.0,1781.6,15.6,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920412.8107584,843,Person B,524.9,1864.2,240.0,1736.24,15.88,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920412.8888779,844,Person B,516.4,1823.2,240.0,1685.72,16.3,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920412.9669979,845,Person B,507.9,1775.9,240.0,1608.13,17.11,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920413.045118,846,Person B,498.5,1726.7,390.0,1569.83,17.15,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920413.1232562,847,Person B,488.9,1679.7,320.0,1533.44,17.18,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920413.2013764,848,Person B,480.3,1633.9,160.0,1501.64,17.52,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920413.2794948,849,Person B,471.9,1589.1,240.0,1466.16,17.67,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920413.357599,850,Person B,465.6,1545.9,160.0,1439.8,18.17,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920413.4357207,851,Person B,461.3,1504.2,160.0,1412.91,18.61,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920413.5138373,852,Person B,459.7,1463.4,80.0,1387.53,19.49,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920413.5763295,853,Person B,460.0,1424.0,160.0,1362.59,20.54,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920413.6544497,854,Person B,462.6,1384.2,160.0,1318.11,22.25,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920413.7481968,855,Person B,467.6,1347.5,80.0,1281.57,24.09,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920413.8419363,856,Person B,476.7,1309.5,160.0,1249.53,26.32,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920413.904435,857,Person B,488.9,1270.0,160.0,1214.71,28.25,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920413.9669309,858,Person B,502.9,1229.0,160.0,1181.08,30.08,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920414.0450497,859,Person B,519.4,1187.6,80.0,1156.89,31.82,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920414.1544335,860,Person B,537.6,1145.6,80.0,1138.8,33.65,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920414.2481573,861,Person B,556.4,1102.3,0.0,1108.67,35.2,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920414.3262775,862,Person B,575.8,1059.3,-80.0,1096.6,36.81,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920414.3887727,863,Person B,596.4,1016.7,-160.0,1091.03,38.82,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920414.466893,864,Person B,619.0,977.5,-160.0,1100.55,41.21,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920414.5762641,865,Person B,643.8,940.8,-240.0,1113.22,43.84,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920414.685646,866,Person B,668.5,906.6,-390.0,1116.64,45.83,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920414.7481234,867,Person B,693.5,875.2,-390.0,1119.0,47.5,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920414.8106189,868,Person B,719.1,845.9,-480.0,1118.28,49.32,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920414.8887384,869,Person B,744.6,819.3,-390.0,1123.53,50.34,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920414.9824817,870,Person B,769.5,795.4,-390.0,1130.08,51.14,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920415.0762281,871,Person B,795.7,775.4,-390.0,1144.66,51.92,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920415.13872,872,Person B,822.2,758.2,-390.0,1161.26,52.56,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920415.2168434,873,Person B,848.4,743.9,-390.0,1181.0,53.23,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920415.294961,874,Person B,872.2,732.8,-320.0,1200.61,53.33,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920415.4043288,875,Person B,892.8,726.7,-320.0,1226.82,52.78,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920415.4824493,876,Person B,912.0,725.2,-390.0,1252.29,52.46,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920415.5449615,877,Person B,930.8,726.9,-390.0,1274.24,52.65,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920415.6387053,878,Person B,949.9,731.7,-390.0,1297.4,53.21,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920415.701201,879,Person B,969.8,738.9,-320.0,1324.62,53.44,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920415.7949243,880,Person B,990.7,746.9,-320.0,1344.78,54.08,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920415.888668,881,Person B,1011.8,755.8,-320.0,1366.96,54.44,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920415.9668071,882,Person B,1032.9,766.3,-320.0,1393.34,54.4,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920416.0449097,883,Person B,1053.8,777.8,-320.0,1417.64,54.56,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920416.1074026,884,Person B,1075.5,790.7,-320.0,1451.94,54.36,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920416.2011495,885,Person B,1098.5,803.3,-320.0,1486.7,54.28,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920416.2792857,886,Person B,1125.9,815.2,-320.0,1543.77,55.16,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920416.3574054,887,Person B,1157.2,826.7,-320.0,1595.88,56.19,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920416.435505,888,Person B,1191.4,837.8,-320.0,1641.86,57.26,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920416.5136456,889,Person B,1227.0,850.2,-240.0,1688.19,57.26,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920416.5917473,890,Person B,1261.9,864.0,-240.0,1710.9,57.19,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920416.7011304,891,Person B,1295.5,878.8,-240.0,1727.99,56.93,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920416.77925,892,Person B,1327.8,893.6,-240.0,1743.45,56.63,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920416.841727,893,Person B,1359.6,908.8,-320.0,1765.9,56.53,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920416.919866,894,Person B,1389.7,923.6,-240.0,1783.65,56.13,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920416.9979851,895,Person B,1417.1,938.7,-160.0,1797.7,55.47,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920417.076088,896,Person B,1437.2,955.4,-160.0,1804.28,54.45,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920417.1542044,897,Person B,1449.6,974.8,-160.0,1809.21,53.27,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920417.263595,898,Person B,1456.5,996.9,-240.0,1825.48,52.59,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920417.3417108,899,Person B,1461.0,1019.3,-240.0,1854.45,52.18,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920417.435434,900,Person B,1465.7,1042.3,-80.0,1882.52,52.08,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920417.4979303,901,Person B,1470.9,1066.3,-80.0,1910.36,51.74,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920417.5916765,902,Person B,1477.4,1092.8,80.0,1952.34,51.18,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920417.6541696,903,Person B,1482.1,1120.2,160.0,1966.7,50.61,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920417.7323086,904,Person B,1485.8,1147.8,160.0,1979.2,50.08,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920417.8260353,905,Person B,1489.1,1175.1,160.0,1990.34,49.52,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920417.9353983,906,Person B,1493.9,1201.4,390.0,2004.89,49.13,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920418.0135393,907,Person B,1499.8,1225.8,390.0,2008.82,48.69,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920418.0916405,908,Person B,1504.3,1248.8,320.0,2006.97,48.15,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920418.2322538,909,Person B,1506.6,1269.5,320.0,2005.11,47.91,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920418.3416219,910,Person B,1506.3,1288.6,320.0,2003.35,47.71,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920418.4822364,911,Person B,1504.2,1304.9,160.0,1999.79,47.7,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920418.5759795,912,Person B,1499.4,1317.2,160.0,1996.03,47.56,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920418.6384747,913,Person B,1494.0,1327.2,80.0,1991.55,47.4,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920418.7166145,914,Person B,1487.9,1335.5,80.0,1988.33,47.12,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920418.8103392,915,Person B,1481.3,1341.8,80.0,1983.11,46.9,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920418.9197085,916,Person B,1473.3,1346.7,80.0,1978.49,46.54,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920418.99783,917,Person B,1464.7,1351.2,0.0,1976.0,46.07,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920419.0603256,918,Person B,1456.0,1355.2,0.0,1970.81,45.6,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920419.1384597,919,Person B,1443.7,1361.3,80.0,1958.89,44.17,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920419.2165596,920,Person B,1427.9,1369.3,160.0,1947.35,42.84,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920419.3103032,921,Person B,1407.1,1379.4,160.0,1925.94,41.3,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920419.3884223,922,Person B,1381.2,1391.2,160.0,1902.64,39.65,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920419.466562,923,Person B,1352.4,1404.1,320.0,1889.24,38.57,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920419.5446613,924,Person B,1321.1,1417.4,320.0,1875.35,37.59,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920419.6384053,925,Person B,1289.4,1430.8,390.0,1869.83,37.22,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920419.7165294,926,Person B,1257.4,1443.8,390.0,1862.4,36.81,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920419.8415184,927,Person B,1225.0,1455.9,390.0,1853.07,36.38,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920419.9821327,928,Person B,1192.5,1467.4,240.0,1845.24,35.94,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920420.0915022,929,Person B,1162.7,1476.6,240.0,1838.34,35.48,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920420.1696188,930,Person B,1135.4,1483.3,80.0,1827.46,35.11,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920420.2789855,931,Person B,1111.9,1487.9,160.0,1817.24,34.76,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920420.357124,932,Person B,1092.7,1490.4,160.0,1806.82,34.45,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920420.4352436,933,Person B,1075.7,1491.6,80.0,1798.11,34.1,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920420.497739,934,Person B,1060.6,1491.8,160.0,1788.91,33.72,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920420.5914629,935,Person B,1045.2,1491.7,160.0,1780.08,33.29,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920420.6539588,936,Person B,1029.4,1491.3,240.0,1768.88,32.79,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920420.7633266,937,Person B,1013.6,1490.6,0.0,1758.04,32.36,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920420.8258252,938,Person B,997.8,1489.6,80.0,1748.68,31.94,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920420.9039617,939,Person B,982.2,1488.2,160.0,1740.46,31.56,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920420.9820652,940,Person B,966.7,1486.9,320.0,1731.8,31.16,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920421.0758245,941,Person B,951.5,1485.5,320.0,1723.05,30.87,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920421.153925,942,Person B,936.3,1484.1,320.0,1713.32,30.52,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920421.2320633,943,Person B,921.0,1482.3,320.0,1701.43,30.17,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920421.3101826,944,Person B,905.8,1480.0,320.0,1689.23,29.86,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920421.4039059,945,Person B,891.0,1477.1,320.0,1678.07,29.61,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920421.5101864,946,Person B,877.0,1473.7,240.0,1667.43,29.38,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920421.5897655,947,Person B,863.9,1470.0,80.0,1659.16,29.22,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920421.65226,948,Person B,851.3,1465.9,-80.0,1649.44,28.97,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920421.7304,949,Person B,838.6,1461.4,-80.0,1637.83,28.6,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920421.824142,950,Person B,825.7,1456.4,-160.0,1624.47,28.17,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920421.9178858,951,Person B,812.5,1451.3,-390.0,1613.9,27.77,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920422.0116103,952,Person B,799.4,1446.2,-240.0,1605.22,27.41,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920422.136605,953,Person B,786.7,1441.6,-390.0,1600.19,27.06,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920422.1991165,954,Person B,774.4,1437.7,-320.0,1596.56,26.73,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920422.2928436,955,Person B,762.3,1434.7,-320.0,1594.77,26.36,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920422.4022117,956,Person B,750.3,1432.5,-240.0,1592.16,26.0,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920422.4803274,957,Person B,738.1,1431.1,-320.0,1590.5,25.63,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920422.5740716,958,Person B,726.3,1430.2,-320.0,1587.49,25.4,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920422.6521945,959,Person B,715.2,1429.9,-390.0,1584.98,25.13,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920422.7519937,960,Person B,705.2,1430.6,-320.0,1586.07,24.87,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920422.8409457,961,Person B,695.9,1432.4,-240.0,1589.09,24.5,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920422.9219162,962,Person B,687.1,1435.1,-240.0,1591.26,24.15,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920422.9958541,963,Person B,678.5,1438.8,-80.0,1596.75,23.71,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920423.072225,964,Person B,670.1,1443.3,-80.0,1601.81,23.32,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920423.1659691,965,Person B,662.3,1447.9,-80.0,1603.91,23.13,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920423.2753334,966,Person B,655.1,1453.0,-240.0,1608.79,22.9,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920423.3534732,967,Person B,648.4,1458.2,0.0,1610.54,22.68,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920423.4472167,968,Person B,641.8,1463.6,0.0,1610.08,22.46,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920423.5253167,969,Person B,635.5,1469.1,0.0,1610.03,22.26,True,Active,ZoyaAzad,None,Normal,1: Walking
+1789920423.6279602,970,Person B,628.9,1473.8,-160.0,1602.93,22.02,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920423.7081487,971,Person B,622.3,1477.7,-240.0,1599.02,21.77,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920423.7953181,972,Person B,615.6,1480.8,-240.0,1593.85,21.49,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920423.8831494,973,Person B,609.0,1482.7,-240.0,1589.07,21.25,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920423.9718084,974,Person B,602.3,1483.5,-240.0,1583.96,20.98,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920424.0634177,975,Person B,595.3,1483.7,-240.0,1579.6,20.76,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920424.1571589,976,Person B,588.1,1483.8,-880.0,1583.1,20.48,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920424.2352972,977,Person B,580.8,1484.4,-880.0,1589.46,20.17,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920424.3134165,978,Person B,573.6,1485.7,-880.0,1596.2,19.89,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920424.516511,979,Person B,566.4,1488.5,-720.0,1610.52,19.52,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920424.6258798,980,Person B,559.6,1493.8,-720.0,1628.68,19.1,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920424.6883743,981,Person B,553.2,1501.1,-720.0,1645.36,18.75,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920424.7821343,982,Person B,547.2,1510.5,-720.0,1661.78,18.38,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920424.8446102,983,Person B,541.8,1522.5,-80.0,1683.95,18.06,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920424.9227495,984,Person B,537.2,1537.3,-80.0,1708.38,17.76,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920425.0008693,985,Person B,533.3,1554.7,-80.0,1731.25,17.51,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920425.110216,986,Person B,529.9,1573.9,-80.0,1753.86,17.25,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920425.1727324,987,Person B,527.0,1594.5,-80.0,1775.55,17.0,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920425.2664757,988,Person B,524.6,1616.4,-80.0,1796.6,16.79,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920425.3445942,989,Person B,522.6,1638.7,-80.0,1816.43,16.57,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920425.4539435,990,Person B,521.0,1660.9,-80.0,1835.32,16.36,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920425.5476882,991,Person B,519.8,1683.2,-80.0,1854.52,16.19,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920425.6102011,992,Person B,519.0,1705.5,-80.0,1872.5,16.0,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920425.6883214,993,Person B,518.4,1727.3,-80.0,1890.77,15.84,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920425.7664402,994,Person B,517.8,1748.3,-80.0,1907.82,15.66,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920425.860167,995,Person B,517.2,1768.6,-80.0,1924.2,15.52,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920425.9695346,996,Person B,516.6,1788.1,-80.0,1939.35,15.37,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920426.0320299,997,Person B,516.1,1806.9,-80.0,1954.79,15.24,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920426.1101665,998,Person B,515.5,1825.1,-80.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920426.1882699,999,Person B,515.0,1841.2,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920426.28201,1000,Person B,514.6,1855.3,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920426.3913774,1001,Person B,514.2,1867.4,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920426.4538925,1002,Person B,513.9,1877.6,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920426.5320113,1003,Person B,513.6,1885.9,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920426.6257548,1004,Person B,513.4,1892.4,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920426.719482,1005,Person B,513.2,1897.2,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920426.813241,1006,Person B,513.1,1900.4,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920426.8913612,1007,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920426.9851055,1008,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920427.0788476,1009,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920427.1882193,1010,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920427.2663352,1011,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920427.3444352,1012,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920427.4225738,1013,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920427.5475698,1014,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920427.6256654,1015,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920427.7038045,1016,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920427.7819233,1017,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920427.8756506,1018,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920427.9693952,1019,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920428.0475135,1020,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920428.141258,1021,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920428.2662473,1022,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920428.3287444,1023,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920428.4068797,1024,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920428.5006237,1025,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920428.594347,1026,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920428.7193418,1027,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920428.7818367,1028,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920428.8599558,1029,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920428.9537034,1030,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920429.094317,1031,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920429.1880612,1032,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920429.2661953,1033,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920429.3286912,1034,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920429.4068103,1035,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920429.4849296,1036,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920429.5786738,1037,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920429.6567762,1038,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920429.7505357,1039,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920429.8599045,1040,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920429.9380066,1041,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920430.0317464,1042,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920430.1098669,1043,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920430.1880052,1044,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920430.2817304,1045,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920430.3911192,1046,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920430.484877,1047,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920430.578603,1048,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920430.641082,1049,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920430.7192173,1050,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920430.8442137,1051,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920430.9067054,1052,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920431.0004485,1053,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920431.1254406,1054,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920431.187919,1055,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920431.2660553,1056,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920431.3597987,1057,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920431.4379017,1058,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920431.5472667,1059,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920431.6254046,1060,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920431.7035043,1061,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920431.7972672,1062,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920431.875387,1063,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920431.969112,1064,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920432.0628555,1065,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920432.1409934,1066,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920432.2503614,1067,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920432.3284805,1068,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920432.4065833,1069,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920432.5003266,1070,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920432.5940871,1071,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920432.73469,1072,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920432.797198,1073,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920432.8769722,1074,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920432.9550767,1075,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920433.033192,1076,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920433.1269548,1077,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920433.2363234,1078,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920433.314442,1079,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920433.3925617,1080,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920433.5175533,1081,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920433.5800483,1082,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920433.6893992,1083,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920433.8143919,1084,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920433.9237745,1085,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920434.0018744,1086,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920434.0643702,1087,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920434.1424897,1088,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920434.220609,1089,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920434.2831054,1090,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920434.3612273,1091,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920434.4706104,1092,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920434.5487134,1093,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920434.6424732,1094,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920434.7205932,1095,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920434.814337,1096,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920434.9080799,1097,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920435.0018234,1098,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920435.079944,1099,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920435.1736863,1100,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920435.2830572,1101,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920435.3611743,1102,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920435.4392936,1103,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920435.5799084,1104,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920435.642404,1105,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920435.7205236,1106,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920435.7986426,1107,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920435.892387,1108,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920435.9704893,1109,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920436.064249,1110,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920436.1423533,1111,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920436.2673438,1112,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920436.3454602,1113,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920436.4236,1114,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920436.501699,1115,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920436.5954618,1116,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920436.720454,1117,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920436.782931,1118,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920436.8766923,1119,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920436.9860597,1120,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920437.0485559,1121,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920437.1266568,1122,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920437.220419,1123,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920437.3141453,1124,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920437.3922806,1125,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920437.4860077,1126,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920437.5797515,1127,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920437.6578877,1128,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920437.7516308,1129,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920437.845358,1130,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920437.9234936,1131,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920438.0172203,1132,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920438.142235,1133,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920438.2203312,1134,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920438.2984517,1135,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920438.4390678,1136,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920438.5640564,1137,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920438.6578178,1138,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920438.720294,1139,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920438.7984326,1140,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920438.876552,1141,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920438.9546726,1142,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920439.0327919,1143,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920439.110911,1144,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920439.2202587,1145,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920439.3608744,1146,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920439.5014896,1147,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920439.6108582,1148,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920439.7202246,1149,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920439.798363,1150,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920439.8764827,1151,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920439.9545858,1152,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920440.0483265,1153,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920440.1108217,1154,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920440.1889424,1155,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920440.2670605,1156,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920440.345183,1157,Person B,513.0,1902.0,0.0,1969.97,15.09,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920440.4233036,1158,Person B,513.2,1902.1,-80.0,1971.45,15.14,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920440.5014377,1159,Person B,513.6,1902.4,-80.0,1973.91,15.18,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920440.5639346,1160,Person B,514.2,1902.8,-80.0,1975.4,15.23,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920440.6420343,1161,Person B,514.9,1903.4,-80.0,1977.59,15.24,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920440.7045302,1162,Person B,515.8,1904.1,-80.0,1979.08,15.29,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920440.7982738,1163,Person B,516.8,1905.0,-80.0,1981.27,15.31,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920440.8764129,1164,Person B,518.0,1906.0,-80.0,1982.77,15.35,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920440.9545317,1165,Person B,519.3,1907.1,-80.0,1984.0,15.37,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920441.0482752,1166,Person B,520.8,1908.3,-80.0,1985.49,15.42,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920441.1420026,1167,Person B,522.4,1909.7,-80.0,1987.69,15.43,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920441.2357616,1168,Person B,523.9,1911.1,-80.0,1988.92,15.45,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920441.3138826,1169,Person B,525.3,1912.4,-80.0,1990.15,15.47,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920441.4076085,1170,Person B,526.7,1913.7,-80.0,1991.65,15.52,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920441.4857442,1171,Person B,528.1,1914.9,-80.0,1992.88,15.54,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920441.626343,1172,Person B,529.4,1916.1,-80.0,1994.11,15.56,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920441.7357101,1173,Person B,530.7,1917.2,-80.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920441.8606992,1174,Person B,531.8,1918.2,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920441.9700708,1175,Person B,532.8,1919.1,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920442.0794344,1176,Person B,533.6,1919.9,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920442.1731794,1177,Person B,534.3,1920.5,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920442.3762896,1178,Person B,534.9,1921.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920442.4544067,1179,Person B,535.4,1921.4,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920442.5169024,1180,Person B,535.7,1921.7,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920442.657519,1181,Person B,535.9,1921.9,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920442.7825139,1182,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920442.8450081,1183,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920442.9231448,1184,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920443.0012639,1185,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920443.0637615,1186,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920443.1418784,1187,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920443.2668736,1188,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920443.329366,1189,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920443.4074647,1190,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920443.469961,1191,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920443.579349,1192,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920443.6418443,1193,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920443.7199626,1194,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920443.8605614,1195,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920443.9230576,1196,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920444.0011768,1197,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920444.0792947,1198,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920444.2199116,1199,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920444.2824063,1200,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920444.3449013,1201,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920444.485514,1202,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920444.5480108,1203,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920444.7042506,1204,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920444.8136194,1205,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920444.9073622,1206,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920444.9854834,1207,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920445.047976,1208,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920445.1260986,1209,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920445.1885905,1210,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920445.2667294,1211,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920445.3448505,1212,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920445.501108,1213,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920445.5948493,1214,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920445.6729512,1215,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920445.7510514,1216,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920445.813566,1217,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920445.876062,1218,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920445.9541814,1219,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920446.094783,1220,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920446.1729012,1221,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920446.2666416,1222,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920446.360384,1223,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920446.469753,1224,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920446.563499,1225,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920446.62599,1226,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920446.735358,1227,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920446.7978733,1228,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920446.875993,1229,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920446.9384878,1230,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920447.0322158,1231,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920447.172829,1232,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920447.2665749,1233,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920447.3447099,1234,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920447.4228103,1235,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920447.4853244,1236,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920447.563445,1237,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920447.6259224,1238,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920447.7040596,1239,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920447.7821786,1240,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920447.8602977,1241,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920447.9383984,1242,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920448.0008962,1243,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920448.094657,1244,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920448.188381,1245,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920448.2821238,1246,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920448.360247,1247,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920448.469631,1248,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920448.5477502,1249,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920448.6258535,1250,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920448.719594,1251,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920448.797713,1252,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920448.8914602,1253,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920449.0008242,1254,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920449.0789628,1255,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920449.1414587,1256,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920449.2195594,1257,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920449.297678,1258,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920449.375797,1259,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920449.4539366,1260,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920449.516432,1261,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920449.5945354,1262,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920449.6726518,1263,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920449.7663949,1264,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920449.8757658,1265,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920449.9539015,1266,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920450.0320046,1267,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920450.1413875,1268,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920450.2038832,1269,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920450.2976272,1270,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920450.3913708,1271,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920450.4694736,1272,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920450.5632334,1273,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920450.656978,1274,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920450.750701,1275,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920450.8444643,1276,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920450.9538357,1277,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920451.0475776,1278,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920451.125675,1279,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920451.2038133,1280,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920451.2819333,1281,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920451.3756614,1282,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920451.5162766,1283,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920451.6256409,1284,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920451.7037785,1285,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920451.7818997,1286,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920451.8599987,1287,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920451.922494,1288,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920452.000633,1289,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920452.0787523,1290,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920452.172479,1291,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920452.26624,1292,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920452.3756094,1293,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920452.4381022,1294,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920452.5318463,1295,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920452.6412163,1296,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920452.7193162,1297,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920452.7974515,1298,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920452.9067996,1299,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920452.9849393,1300,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920453.063059,1301,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920453.141178,1302,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920453.2349212,1303,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920453.3286655,1304,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920453.4224095,1305,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920453.5005279,1306,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920453.594272,1307,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920453.672376,1308,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920453.766134,1309,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920453.859879,1310,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920453.9536211,1311,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920454.0473652,1312,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920454.1254842,1313,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920454.2192278,1314,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920454.3598433,1315,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920454.4223387,1316,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920454.5004582,1317,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920454.5941818,1318,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920454.672321,1319,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920454.7504406,1320,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920454.8441844,1321,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920454.9535582,1322,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920455.0316544,1323,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920455.1097903,1324,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920455.1878932,1325,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920455.2972772,1326,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920455.3753958,1327,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920455.4847486,1328,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920455.5628674,1329,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920455.6410036,1330,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920455.734747,1331,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920455.844118,1332,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920455.9222138,1333,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920456.031585,1334,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920456.1565762,1335,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920456.26594,1336,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920456.328455,1337,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920456.406555,1338,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920456.4690702,1339,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920456.5628135,1340,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920456.6252928,1341,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920456.7190325,1342,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920456.7971523,1343,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920456.8752713,1344,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920456.9846597,1345,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920457.1096308,1346,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920457.1877503,1347,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920457.265889,1348,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920457.3440084,1349,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920457.422128,1350,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920457.5158725,1351,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920457.6252418,1352,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920457.7033389,1353,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920457.781459,1354,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920457.8595798,1355,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920457.9533412,1356,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920458.0470846,1357,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920458.1720762,1358,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920458.234571,1359,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920458.3126907,1360,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920458.4064155,1361,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920458.484554,1362,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920458.5719702,1363,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920458.6657133,1364,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920458.7594402,1365,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920458.884453,1366,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920458.9625685,1367,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920459.0406873,1368,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920459.149697,1369,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920459.212189,1370,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920459.3016632,1371,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920459.3797836,1372,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920459.523901,1373,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920459.602002,1374,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920459.6801226,1375,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920459.7895086,1376,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920459.8676276,1377,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920459.94573,1378,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920460.023867,1379,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920460.1019664,1380,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920460.226963,1381,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920460.289456,1382,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920460.3675728,1383,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920460.4457128,1384,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920460.539456,1385,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920460.617558,1386,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920460.7269251,1387,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920460.8519173,1388,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920460.9925313,1389,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920461.0550447,1390,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920461.133163,1391,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920461.2112825,1392,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920461.2737796,1393,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920461.3518815,1394,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920461.4300177,1395,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920461.5081367,1396,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920461.6018639,1397,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920461.6956236,1398,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920461.789367,1399,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920461.86747,1400,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920461.9612296,1401,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920462.0393496,1402,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920462.1330926,1403,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920462.2268374,1404,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920462.3205812,1405,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920462.4143229,1406,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920462.4924264,1407,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920462.5705464,1408,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920462.6955569,1409,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920462.7736733,1410,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920462.851793,1411,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920462.9611638,1412,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920463.0392797,1413,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920463.1173992,1414,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920463.2267702,1415,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920463.3048666,1416,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920463.4142377,1417,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920463.4767485,1418,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920463.554852,1419,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920463.6486118,1420,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920463.7423403,1421,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920463.820475,1422,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920463.9454691,1423,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920464.007963,1424,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920464.086065,1425,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920464.179806,1426,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920464.273568,1427,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920464.3673117,1428,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920464.445429,1429,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920464.5704238,1430,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920464.648542,1431,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920464.711021,1432,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920464.8047807,1433,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920464.9297717,1434,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920464.9922676,1435,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920465.0859928,1436,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920465.1641142,1437,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920465.2422338,1438,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920465.3359935,1439,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920465.4297373,1440,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920465.585961,1441,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920465.6797016,1442,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920465.7578397,1443,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920465.8203351,1444,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920465.8984556,1445,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920465.9765737,1446,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920466.054677,1447,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920466.1328135,1448,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920466.257804,1449,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920466.3359232,1450,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920466.4140434,1451,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920466.4921432,1452,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920466.5858862,1453,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920466.664025,1454,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920466.7577689,1455,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920466.851496,1456,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920466.9452562,1457,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920467.023359,1458,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920467.117103,1459,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920467.2108626,1460,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920467.3046062,1461,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920467.3827083,1462,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920467.492077,1463,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920467.5702121,1464,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920467.6483154,1465,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920467.7420752,1466,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920467.8358183,1467,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920467.9451892,1468,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920468.0233057,1469,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920468.1014092,1470,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920468.1951683,1471,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920468.304539,1472,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920468.382656,1473,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920468.4607587,1474,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920468.5388787,1475,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920468.6326377,1476,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920468.710741,1477,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920468.8045022,1478,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920468.8982441,1479,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920468.991968,1480,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920469.085731,1481,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920469.1950994,1482,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920469.2732172,1483,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920469.351338,1484,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920469.429441,1485,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920469.5700524,1486,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920469.632548,1487,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920469.7263124,1488,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920469.8200545,1489,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920469.8825502,1490,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920469.9606698,1491,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920470.070038,1492,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920470.1793869,1493,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920470.3043785,1494,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920470.3981202,1495,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920470.4762397,1496,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920470.5543618,1497,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920470.6168573,1498,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920470.6949773,1499,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920470.7731128,1500,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920470.8824642,1501,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920470.9449594,1502,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920471.0387025,1503,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920471.1324625,1504,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920471.2418334,1505,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920471.304325,1506,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920471.3980687,1507,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920471.4761887,1508,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920471.5699322,1509,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920471.6636758,1510,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920471.741795,1511,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920471.86679,1512,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920471.9292822,1513,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920472.007385,1514,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920472.1011443,1515,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920472.1948886,1516,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920472.2886314,1517,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920472.366734,1518,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920472.4604783,1519,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920472.6010914,1520,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920472.6635866,1521,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920472.757349,1522,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920472.8198447,1523,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920472.897964,1524,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920473.0298827,1525,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920473.1018255,1526,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920473.1827781,1527,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920473.2574785,1528,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920473.3512385,1529,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920473.4449816,1530,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920473.5543535,1531,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920473.616845,1532,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920473.6949492,1533,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920473.8355808,1534,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920473.898075,1535,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920473.9761791,1536,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920474.0542974,1537,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920474.148058,1538,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920474.2418008,1539,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920474.335525,1540,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920474.4584804,1541,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920474.5366006,1542,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920474.6147194,1543,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920474.6928403,1544,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920474.8178122,1545,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920474.95843,1546,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920475.0990431,1547,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920475.1615381,1548,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920475.2396772,1549,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920475.317796,1550,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920475.3959146,1551,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920475.4740345,1552,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920475.5521371,1553,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920475.6302743,1554,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920475.6927695,1555,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920475.802123,1556,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920475.958357,1557,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920476.0208526,1558,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920476.0989912,1559,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920476.1927185,1560,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920476.2708347,1561,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920476.3630347,1562,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920476.436993,1563,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920476.516953,1564,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920476.5912516,1565,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
+1789920476.6731884,1566,Person B,536.0,1922.0,0.0,1995.34,15.58,True,Active,ZoyaAzad,None,Normal,5: Lying down (controlled)
