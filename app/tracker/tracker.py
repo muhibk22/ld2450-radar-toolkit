@@ -147,9 +147,14 @@ class TargetTracker:
         try:
             self.fall_detector = FallDetector(model_dir=model_dir)
             self._last_locked_target = None
+            self._fall_consecutive_count = 0
+            self._fall_latch_frames = 0
         except Exception as e:
             print(f"Warning: FallDetector failed to load: {e}")
             self.fall_detector = None
+            self._last_locked_target = None
+            self._fall_consecutive_count = 0
+            self._fall_latch_frames = 0
 
     def set_target_lock(self, target_id: Optional[str]):
         """Sets target focus lock. If set, tracker processes ONLY this target."""
@@ -291,6 +296,8 @@ class TargetTracker:
                 if self._last_locked_target != self.locked_target_id:
                     self.fall_detector.reset_buffer()
                     self._last_locked_target = self.locked_target_id
+                    self._fall_consecutive_count = 0
+                    self._fall_latch_frames = 0
                 
                 # Run inference
                 prob = self.fall_detector.update(
@@ -301,7 +308,23 @@ class TargetTracker:
                 
                 # Attach metadata to target object
                 locked_target.fall_prob = prob
-                locked_target.fall_alert = (prob >= 0.5)
+                
+                # Hysteresis confirmation: require probability >= 0.70
+                # Confirmed after 2 positive detections, then latched for 20 frames (~2 seconds)
+                FALL_THRESHOLD = 0.70
+                if prob >= FALL_THRESHOLD:
+                    self._fall_consecutive_count += 1
+                else:
+                    self._fall_consecutive_count = max(0, self._fall_consecutive_count - 1)
+                    
+                if self._fall_consecutive_count >= 2:
+                    self._fall_latch_frames = 20  # Latch for ~2 seconds
+                    
+                if self._fall_latch_frames > 0:
+                    locked_target.fall_alert = True
+                    self._fall_latch_frames -= 1
+                else:
+                    locked_target.fall_alert = False
                 
             return filtered
 

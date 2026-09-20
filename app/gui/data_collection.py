@@ -14,7 +14,7 @@ class DataCollectionWindow(QWidget):
     
     # Signals to communicate with MainWindow/Recorder
     start_recording_req = Signal(str, dict) # filename, metadata dict
-    stop_recording_req = Signal()
+    stop_recording_req = Signal(bool) # True = save, False = discard
     label_changed = Signal(str) # The new active label
 
     HOTKEYS = {
@@ -169,7 +169,27 @@ class DataCollectionWindow(QWidget):
                 self.val_fall.setEnabled(False)
                 self.val_pace.setEnabled(False)
         else:
-            self.stop_recording_req.emit()
+            # Prompt user to Save or Discard the session
+            box = QMessageBox(self)
+            box.setWindowTitle("Session Finished")
+            box.setIcon(QMessageBox.Icon.Question)
+            box.setText("Session recording stopped.")
+            frame_count = getattr(self.main_window.recorder, 'record_count', 0)
+            box.setInformativeText(f"Recorded {frame_count} frames.\n\nDo you want to SAVE this session or DISCARD it?")
+            btn_save = box.addButton("Save Session", QMessageBox.ButtonRole.AcceptRole)
+            btn_discard = box.addButton("Discard Session", QMessageBox.ButtonRole.DestructiveRole)
+            btn_cancel = box.addButton("Cancel (Keep Recording)", QMessageBox.ButtonRole.RejectRole)
+            box.setDefaultButton(btn_save)
+            
+            box.exec()
+            clicked = box.clickedButton()
+            
+            if clicked == btn_cancel:
+                # Cancelled: Keep recording active
+                return
+
+            save_session = (clicked == btn_save)
+            self.stop_recording_req.emit(save_session)
             self.is_recording = False
             self.btn_record.setText("● Start Session")
             self.btn_record.setStyleSheet("background-color: #EF4444; color: white;")
@@ -177,3 +197,38 @@ class DataCollectionWindow(QWidget):
             self.val_volunteer.setEnabled(True)
             self.val_fall.setEnabled(True)
             self.val_pace.setEnabled(True)
+            
+            if save_session:
+                QMessageBox.information(self, "Saved", "Session successfully saved and recorded in dataset index.")
+            else:
+                QMessageBox.information(self, "Discarded", "Session discarded. File has been deleted.")
+
+    def closeEvent(self, event):
+        if self.is_recording:
+            box = QMessageBox(self)
+            box.setWindowTitle("Recording in Progress")
+            box.setIcon(QMessageBox.Icon.Warning)
+            box.setText("A dataset session is currently recording.")
+            box.setInformativeText("Do you want to save the session, discard it, or cancel?")
+            btn_save = box.addButton("Save & Close", QMessageBox.ButtonRole.AcceptRole)
+            btn_discard = box.addButton("Discard & Close", QMessageBox.ButtonRole.DestructiveRole)
+            btn_cancel = box.addButton("Cancel", QMessageBox.ButtonRole.RejectRole)
+            box.setDefaultButton(btn_save)
+            
+            box.exec()
+            clicked = box.clickedButton()
+            if clicked == btn_cancel:
+                event.ignore()
+                return
+
+            save_session = (clicked == btn_save)
+            self.stop_recording_req.emit(save_session)
+            self.is_recording = False
+            self.btn_record.setText("● Start Session")
+            self.btn_record.setStyleSheet("background-color: #EF4444; color: white;")
+            self.val_volunteer.setEnabled(True)
+            self.val_fall.setEnabled(True)
+            self.val_pace.setEnabled(True)
+
+        event.accept()
+

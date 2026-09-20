@@ -509,10 +509,15 @@ class MainWindow(QMainWindow):
         except Exception as e:
             logger.error(f"Failed to start dataset recording: {e}")
 
-    @Slot()
-    def _on_stop_data_collection(self):
-        self.recorder.stop_recording()
-        logger.info("Dataset recording stopped.")
+    @Slot(bool)
+    def _on_stop_data_collection(self, save: bool = True):
+        self.recorder.stop_recording(save=save)
+        if save:
+            logger.info("Dataset recording saved to disk and indexed.")
+            self.statusBar().showMessage("Dataset recording saved and indexed.", 4000)
+        else:
+            logger.info("Dataset recording discarded and deleted.")
+            self.statusBar().showMessage("Dataset recording discarded (file deleted).", 4000)
 
     def closeEvent(self, event):
         if self.active_worker:

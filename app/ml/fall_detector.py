@@ -81,10 +81,14 @@ class FallDetector:
         speed = speed_mms * MM_TO_M # mm/s to m/s
         now = time.time()
         
-        if self.prev_x is not None:
-            dt = max(now - self.prev_t, 1e-3)
-            vel_x = (x - self.prev_x) / dt
-            vel_y = (y - self.prev_y) / dt
+        if self.prev_x is not None and self.prev_y is not None and self.prev_t is not None:
+            # Clamp dt to [0.07, 0.15] (nominal 10Hz) to prevent socket packet bursts from generating fake velocity spikes
+            dt = float(np.clip(now - self.prev_t, 0.07, 0.15))
+            # Bound velocity to realistic human kinematics (max 3.5 m/s) to prevent tracking jump glitches from triggering falls
+            raw_vx = (x - self.prev_x) / dt
+            raw_vy = (y - self.prev_y) / dt
+            vel_x = float(np.clip(raw_vx, -3.5, 3.5))
+            vel_y = float(np.clip(raw_vy, -3.5, 3.5))
         else:
             vel_x, vel_y = 0.0, 0.0
             
@@ -95,6 +99,18 @@ class FallDetector:
         
         if len(self.buffer) == WINDOW_LEN and self.frame_count % PREDICT_EVERY == 0:
             arr = np.array(self.buffer, dtype=np.float32)
+            
+            # Kinematic check: if max absolute speed and net displacement are minimal, target is stationary
+            max_speed = float(np.max(np.abs(arr[:, 4])))
+            displacement = float(np.hypot(arr[-1, 0] - arr[0, 0], arr[-1, 1] - arr[0, 1]))
+            if max_speed < 0.35 and displacement < 0.35:
+                self.current_prob = 0.01
+                return self.current_prob
+
+            # Convert absolute x, y into position-invariant relative displacement from window start
+            arr[:, 0] = arr[:, 0] - arr[0, 0]
+            arr[:, 1] = arr[:, 1] - arr[0, 1]
+            
             arr = (arr - self.mean) / self.std
             tensor_in = torch.tensor(arr, dtype=torch.float32).unsqueeze(0).to(self.device)
             

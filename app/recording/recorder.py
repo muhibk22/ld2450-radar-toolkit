@@ -30,7 +30,7 @@ class DataRecorder:
     def set_action_label(self, label: str):
         self.current_action_label = label
 
-    def start_recording(self, file_path: str | Path, format_type: str = "csv", metadata: dict = None) -> bool:
+    def start_recording(self, file_path: str | Path, format_type: str = "csv", metadata: dict | None = None) -> bool:
         """Starts recording session."""
         self.stop_recording()
         self.file_path = Path(file_path)
@@ -94,39 +94,67 @@ class DataRecorder:
         if self.format == "csv" and self._file_handle:
             self._file_handle.flush()
 
-    def stop_recording(self):
-        """Stops recording and logs dataset metadata to index."""
+    def discard_recording(self):
+        """Stops recording without logging to index, and deletes the recording file."""
+        self.stop_recording(save=False)
+
+    def stop_recording(self, save: bool = True):
+        """
+        Stops recording.
+        If save=True, flushes file and logs dataset metadata to dataset_index.csv.
+        If save=False, closes and deletes the file without logging to index.
+        """
         if not self.is_recording:
             return
 
         self.is_recording = False
+        target_path = self.file_path
         
         if self.format == "csv" and self._file_handle:
-            self._file_handle.close()
+            try:
+                self._file_handle.flush()
+                self._file_handle.close()
+            except Exception as e:
+                print(f"Error closing recording file: {e}")
             self._file_handle = None
             
-            # Write to global dataset index
-            if hasattr(self, 'session_metadata') and self.file_path:
-                index_path = self.file_path.parent / "dataset_index.csv"
-                file_exists = index_path.exists()
-                try:
-                    with open(index_path, mode="a", newline="", encoding="utf-8") as idx_file:
-                        idx_writer = csv.writer(idx_file)
-                        if not file_exists:
-                            idx_writer.writerow(["session_file", "volunteer_id", "fall_subtype", "pace_variant", "timestamp"])
-                        idx_writer.writerow([
-                            self.file_path.name,
-                            self.session_metadata.get("volunteer_id", ""),
-                            self.session_metadata.get("fall_subtype", ""),
-                            self.session_metadata.get("pace_variant", ""),
-                            time.strftime("%Y-%m-%d %H:%M:%S")
-                        ])
-                except Exception as e:
-                    print(f"Failed to write to dataset index: {e}")
+            if save:
+                # Write to global dataset index
+                if hasattr(self, 'session_metadata') and target_path:
+                    index_path = target_path.parent / "dataset_index.csv"
+                    file_exists = index_path.exists()
+                    try:
+                        with open(index_path, mode="a", newline="", encoding="utf-8") as idx_file:
+                            idx_writer = csv.writer(idx_file)
+                            if not file_exists:
+                                idx_writer.writerow(["session_file", "volunteer_id", "fall_subtype", "pace_variant", "timestamp"])
+                            idx_writer.writerow([
+                                target_path.name,
+                                self.session_metadata.get("volunteer_id", ""),
+                                self.session_metadata.get("fall_subtype", ""),
+                                self.session_metadata.get("pace_variant", ""),
+                                time.strftime("%Y-%m-%d %H:%M:%S")
+                            ])
+                    except Exception as e:
+                        print(f"Failed to write to dataset index: {e}")
+            else:
+                # Discard session: delete file from disk and do not write to dataset_index.csv
+                if target_path and target_path.exists():
+                    try:
+                        target_path.unlink()
+                    except Exception as e:
+                        print(f"Failed to delete discarded file {target_path}: {e}")
 
-        elif self.format == "json" and self.file_path:
-            try:
-                with open(self.file_path, "w", encoding="utf-8") as f:
-                    json.dump(self._json_frames, f, indent=2)
-            except Exception as e:
-                print(f"Failed to save JSON recording: {e}")
+        elif self.format == "json":
+            if save and target_path:
+                try:
+                    with open(target_path, "w", encoding="utf-8") as f:
+                        json.dump(self._json_frames, f, indent=2)
+                except Exception as e:
+                    print(f"Failed to save JSON recording: {e}")
+            elif not save and target_path and target_path.exists():
+                try:
+                    target_path.unlink()
+                except Exception as e:
+                    print(f"Failed to delete discarded JSON file {target_path}: {e}")
+
