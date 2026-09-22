@@ -1,0 +1,533 @@
+timestamp,sequence_id,target_id,x_mm,y_mm,speed_mms,distance_mm,angle_deg,valid,status,volunteer_id,fall_subtype,pace_variant,action_label
+1790089133.0334551,3721,Person B,799.4,815.1,-480.0,1471.88,40.45,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089133.1149757,3722,Person B,820.8,864.7,-560.0,1538.75,39.75,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089133.1931152,3723,Person B,847.6,920.3,-390.0,1599.18,39.72,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089133.2712338,3724,Person B,879.4,982.5,-720.0,1655.43,39.41,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089133.3493555,3725,Person B,914.6,1047.4,-880.0,1714.97,38.99,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089133.431826,3726,Person B,952.2,1114.7,-320.0,1763.53,38.92,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089133.5566258,3727,Person B,990.7,1180.2,-390.0,1810.72,39.06,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089133.714564,3728,Person B,1025.8,1237.8,-240.0,1842.7,38.85,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089133.8488874,3729,Person B,1056.6,1286.2,-160.0,1856.28,38.64,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089133.932251,3730,Person B,1082.0,1327.2,0.0,1870.97,38.51,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089134.0078616,3731,Person B,1103.6,1363.1,0.0,1886.45,38.37,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089134.082356,3732,Person B,1124.1,1393.3,320.0,1902.35,38.68,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089134.1646662,3733,Person B,1142.1,1419.7,80.0,1917.51,38.82,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089134.2496977,3734,Person B,1157.3,1441.6,240.0,1921.25,38.77,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089134.3168907,3735,Person B,1168.9,1458.3,480.0,1917.82,38.54,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089134.3991463,3736,Person B,1177.1,1470.9,480.0,1913.14,38.46,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089134.499906,3737,Person B,1181.3,1479.7,480.0,1905.66,38.37,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089134.5825877,3738,Person B,1183.7,1485.1,560.0,1899.87,38.4,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089134.6773458,3739,Person B,1185.1,1488.6,320.0,1892.39,38.31,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089134.7492888,3740,Person B,1185.4,1490.2,390.0,1885.37,38.28,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089134.8495767,3741,Person B,1184.6,1489.7,240.0,1877.56,38.27,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089134.9361207,3742,Person B,1181.4,1487.9,240.0,1868.35,38.26,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089135.0142372,3743,Person B,1176.1,1485.0,240.0,1861.83,38.11,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089135.0923567,3744,Person B,1170.0,1481.4,390.0,1855.16,37.99,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089135.1548727,3745,Person B,1164.1,1477.1,390.0,1847.52,37.94,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089135.232976,3746,Person B,1158.1,1472.1,390.0,1836.74,37.97,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089135.3110924,3747,Person B,1151.9,1466.7,160.0,1824.89,37.9,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089135.4048367,3748,Person B,1145.0,1461.0,160.0,1812.44,37.81,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089135.4985979,3749,Person B,1138.1,1454.7,480.0,1800.25,37.82,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089135.576698,3750,Person B,1131.1,1447.9,480.0,1788.67,37.87,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089135.6548214,3751,Person B,1124.0,1440.5,560.0,1775.52,37.95,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089135.732938,3752,Person B,1116.8,1432.4,560.0,1760.18,38.05,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089135.8423243,3753,Person B,1109.6,1422.9,560.0,1742.65,38.17,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089135.9204297,3754,Person B,1102.2,1412.1,390.0,1724.51,38.27,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089135.9829223,3755,Person B,1094.5,1400.1,390.0,1705.59,38.38,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089136.0454183,3756,Person B,1086.2,1387.4,160.0,1685.6,38.4,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089136.1235344,3757,Person B,1077.5,1373.8,0.0,1664.2,38.41,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089136.2016551,3758,Person B,1069.0,1359.4,160.0,1646.7,38.54,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089136.2797775,3759,Person B,1060.7,1344.2,240.0,1629.52,38.8,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089136.3579133,3760,Person B,1052.5,1327.9,240.0,1610.05,39.13,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089136.4204094,3761,Person B,1044.6,1310.6,240.0,1591.13,39.54,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089136.4985094,3762,Person B,1036.8,1292.4,0.0,1569.61,39.91,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089136.5922537,3763,Person B,1029.3,1273.1,320.0,1545.75,40.41,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089136.670393,3764,Person B,1021.5,1247.7,320.0,1479.9,41.99,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089136.732871,3765,Person B,1013.5,1217.0,320.0,1421.04,43.55,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089136.8109884,3766,Person B,1005.9,1185.5,0.0,1398.17,43.99,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089136.889107,3767,Person B,998.7,1149.9,-560.0,1350.61,45.42,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089136.9672258,3768,Person B,992.3,1114.4,-640.0,1340.12,45.88,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089137.0453494,3769,Person B,986.6,1079.4,-640.0,1332.55,46.34,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089137.1234853,3770,Person B,981.2,1045.4,-320.0,1323.53,46.62,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089137.185962,3771,Person B,975.9,1012.6,-320.0,1315.22,46.88,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089137.2797046,3772,Person B,971.1,981.4,-240.0,1309.71,47.07,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089137.357828,3773,Person B,967.2,952.3,-480.0,1308.57,47.38,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089137.4359639,3774,Person B,965.2,930.3,-480.0,1309.69,47.79,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089137.5189729,3775,Person B,964.9,915.0,-390.0,1312.14,48.06,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089137.5939345,3776,Person B,965.9,901.8,0.0,1313.86,48.3,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089137.6868794,3777,Person B,965.8,892.3,0.0,1284.96,48.41,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089137.7598424,3778,Person B,963.1,881.8,0.0,1248.92,48.47,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089137.8318017,3779,Person B,952.2,865.0,0.0,1138.65,48.67,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089137.9050567,3780,Person B,927.3,836.0,0.0,944.21,49.04,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089137.984019,3781,Person B,889.6,796.0,0.0,767.39,49.44,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089138.0789604,3782,Person B,840.3,746.0,0.0,608.95,49.93,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089138.159915,3783,Person B,780.4,687.3,0.0,471.06,50.6,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089138.2338724,3784,Person B,711.0,621.2,0.0,352.33,51.57,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089138.3048515,3785,Person B,711.0,621.2,0.0,352.33,51.57,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089138.3787937,3786,Person B,711.0,621.2,0.0,352.33,51.57,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089138.4587464,3787,Person B,727.6,651.4,-390.0,1641.4,44.09,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089138.5411644,3788,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089138.6036794,3789,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089138.6817806,3790,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089138.759918,3791,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089138.8380373,3792,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089138.9317644,3793,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089139.025525,3794,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089139.0880065,3795,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089139.1661403,3796,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089139.2442436,3797,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089139.32236,3798,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089139.400481,3799,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089139.4786189,3800,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089139.5411148,3801,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089139.6192138,3802,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089139.6973343,3803,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Predicted,ArslanAzad,None,Normal,1: Walking
+1790089139.7754538,3804,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089139.8535755,3805,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089139.916072,3806,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089140.0098126,3807,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089140.1035554,3808,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089140.1816952,3809,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089140.2441912,3810,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089140.322294,3811,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089140.43166,3812,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089140.5097766,3813,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089140.6035242,3814,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089140.666038,3815,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089140.7754035,3816,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089140.8847709,3817,Person B,744.3,682.7,-390.0,1651.32,44.04,True,Searching,ArslanAzad,None,Normal,1: Walking
+1790089140.9472501,3818,Person B,993.0,1206.0,640.0,1562.21,39.47,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089141.040991,3819,Person B,966.0,1168.0,240.0,1469.22,39.73,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089141.1191308,3820,Person B,937.33,1122.33,80.0,1355.49,40.48,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089141.2128563,3821,Person B,912.75,1080.0,-80.0,1269.7,41.36,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089141.3065972,3822,Person B,890.0,1045.4,-320.0,1208.74,41.38,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089141.38472,3823,Person B,870.0,1020.67,-80.0,1182.16,40.64,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089141.4784632,3824,Person B,854.14,1003.43,-160.0,1177.32,40.14,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089141.5878282,3825,Person B,841.5,990.38,-240.0,1172.69,39.95,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089141.6659677,3826,Person B,830.89,980.44,-390.0,1169.75,39.62,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089141.7596905,3827,Person B,822.2,972.6,-560.0,1169.25,39.52,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089141.853437,3828,Person B,796.9,942.4,-560.0,1168.25,39.3,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089141.931574,3829,Person B,776.6,919.9,0.0,1166.5,39.12,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089142.0253005,3830,Person B,761.8,908.0,-880.0,1169.43,38.75,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089142.1034362,3831,Person B,751.1,904.8,-480.0,1176.46,38.48,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089142.1971605,3832,Person B,744.9,907.1,240.0,1186.62,38.4,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089142.2909067,3833,Person B,742.2,911.6,-390.0,1199.76,38.26,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089142.3690279,3834,Person B,741.4,917.2,-390.0,1215.7,38.15,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089142.4627867,3835,Person B,741.4,924.6,-1680.0,1230.34,37.74,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089142.5408876,3836,Person B,742.1,934.2,-1760.0,1249.41,37.06,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089142.6502542,3837,Person B,743.1,946.5,-1680.0,1272.45,36.34,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089142.743999,3838,Person B,745.4,967.0,-1830.0,1346.12,34.53,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089142.8377604,3839,Person B,748.8,996.0,-1040.0,1421.59,32.8,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089142.9243853,3840,Person B,754.3,1040.0,-790.0,1564.38,30.2,True,Active,ArslanAzad,None,Normal,1: Walking
+1790089143.0073242,3841,Person B,763.5,1098.4,-1040.0,1715.81,28.7,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089143.1129398,3842,Person B,776.5,1170.4,-1040.0,1863.92,27.72,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089143.1888993,3843,Person B,793.2,1254.3,-1040.0,2000.02,27.06,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089143.2688706,3844,Person B,814.9,1348.5,320.0,2130.59,27.02,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089143.361043,3845,Person B,840.8,1448.4,-480.0,2216.51,27.17,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089143.439143,3846,Person B,869.7,1552.9,320.0,2292.49,27.03,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089143.5485125,3847,Person B,901.3,1660.8,320.0,2360.45,26.96,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089143.6422522,3848,Person B,934.1,1763.0,320.0,2394.04,27.11,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089143.7203712,3849,Person B,969.1,1859.1,240.0,2429.55,27.45,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089143.7984908,3850,Person B,1010.5,1942.9,320.0,2497.7,28.74,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089143.87661,3851,Person B,1070.2,2016.7,240.0,2655.24,32.36,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089143.9859965,3852,Person B,1144.5,2081.8,160.0,2808.33,34.98,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089144.064101,3853,Person B,1230.8,2138.3,320.0,2940.62,37.08,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089144.142217,3854,Person B,1326.3,2187.5,320.0,3067.58,38.82,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089144.2359793,3855,Person B,1427.3,2232.4,320.0,3154.32,39.87,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089144.3297048,3856,Person B,1532.2,2272.8,-80.0,3217.95,40.53,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089144.4234464,3857,Person B,1626.3,2303.6,-240.0,3140.36,39.82,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089144.5171897,3858,Person B,1715.9,2331.2,-240.0,3121.19,39.54,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089144.5796862,3859,Person B,1794.6,2353.9,-240.0,3052.1,38.67,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089144.70468,3860,Person B,1857.5,2369.5,80.0,2975.33,37.96,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089144.7828164,3861,Person B,1891.3,2375.8,80.0,2900.3,37.34,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089144.8609197,3862,Person B,1899.9,2372.6,80.0,2832.8,36.78,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089144.9546602,3863,Person B,1886.4,2361.7,80.0,2772.58,36.21,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089145.048424,3864,Person B,1852.7,2343.4,80.0,2717.76,35.7,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089145.1421473,3865,Person B,1804.4,2319.4,80.0,2669.32,35.21,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089145.220267,3866,Person B,1748.0,2292.2,320.0,2656.69,35.08,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089145.314015,3867,Person B,1697.9,2267.2,80.0,2637.11,34.93,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089145.4233775,3868,Person B,1648.5,2241.4,80.0,2616.73,34.79,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089145.4858928,3869,Person B,1605.5,2217.4,-160.0,2602.69,34.58,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089145.5640142,3870,Person B,1568.8,2196.8,-160.0,2592.29,34.36,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089145.6577559,3871,Person B,1537.5,2180.6,-160.0,2586.05,34.0,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089145.7671032,3872,Person B,1510.7,2168.9,-160.0,2582.69,33.57,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089145.860847,3873,Person B,1487.5,2160.8,-240.0,2573.94,33.11,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089145.9389865,3874,Person B,1466.3,2155.4,-160.0,2554.07,32.55,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089146.0483356,3875,Person B,1439.5,2151.1,-160.0,2487.26,30.73,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089146.1108305,3876,Person B,1404.6,2146.1,-160.0,2428.8,29.01,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089146.1889691,3877,Person B,1364.7,2141.6,80.0,2390.82,27.69,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089146.2827125,3878,Person B,1324.3,2138.3,80.0,2379.79,27.23,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089146.3764565,3879,Person B,1283.2,2135.4,80.0,2367.56,26.76,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089146.4545753,3880,Person B,1241.4,2132.8,-790.0,2358.18,26.3,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089146.579572,3881,Person B,1201.4,2131.2,-720.0,2371.18,26.18,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089146.6576698,3882,Person B,1163.8,2130.6,-480.0,2389.98,26.11,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089146.7514136,3883,Person B,1132.0,2135.7,80.0,2460.61,26.24,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089146.8295512,3884,Person B,1112.0,2150.7,0.0,2584.97,27.01,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089146.90767,3885,Person B,1114.0,2174.9,720.0,2707.6,28.48,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089147.0014129,3886,Person B,1134.0,2206.0,-80.0,2797.88,29.51,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089147.1107614,3887,Person B,1165.8,2239.0,480.0,2833.7,30.28,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089147.2045043,3888,Person B,1206.1,2272.4,320.0,2868.55,31.34,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089147.2670033,3889,Person B,1263.0,2308.0,240.0,2962.11,33.5,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089147.3451238,3890,Person B,1335.3,2343.3,480.0,3035.11,35.63,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089147.4388824,3891,Person B,1418.9,2376.4,240.0,3096.55,37.43,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089147.5482292,3892,Person B,1513.8,2407.5,320.0,3168.73,39.16,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089147.6419768,3893,Person B,1616.7,2432.3,320.0,3241.71,40.77,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089147.720114,3894,Person B,1718.8,2447.8,320.0,3295.42,41.76,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089147.7982128,3895,Person B,1815.0,2456.0,240.0,3337.28,42.46,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089147.8919778,3896,Person B,1907.0,2459.1,240.0,3370.75,42.98,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089148.001324,3897,Person B,1998.2,2461.5,320.0,3403.84,43.45,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089148.0794437,3898,Person B,2086.6,2464.1,320.0,3431.61,43.82,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089148.157564,3899,Person B,2163.5,2463.8,320.0,3444.61,44.26,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089148.2357028,3900,Person B,2229.3,2462.5,320.0,3450.74,44.67,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089148.3294265,3901,Person B,2283.1,2461.8,320.0,3445.1,44.62,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089148.4388137,3902,Person B,2323.9,2461.1,320.0,3435.95,44.52,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089148.5325396,3903,Person B,2353.7,2460.0,240.0,3435.89,44.66,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089148.610676,3904,Person B,2376.8,2457.8,240.0,3437.96,44.88,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089148.6887772,3905,Person B,2395.1,2454.6,240.0,3440.78,45.07,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089148.7668986,3906,Person B,2409.8,2450.4,240.0,3442.93,45.25,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089148.8762658,3907,Person B,2420.0,2445.2,320.0,3438.0,45.28,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089148.9700117,3908,Person B,2426.5,2439.3,320.0,3435.17,45.28,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089149.1106267,3909,Person B,2430.0,2434.2,320.0,3433.04,45.27,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089149.2043672,3910,Person B,2431.4,2430.5,320.0,3434.46,45.27,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089149.2825046,3911,Person B,2433.4,2427.4,80.0,3437.27,45.22,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089149.3606243,3912,Person B,2436.6,2425.2,80.0,3442.92,45.15,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089149.4387276,3913,Person B,2438.9,2424.1,240.0,3444.32,45.06,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089149.5324874,3914,Person B,2439.7,2423.9,480.0,3442.2,45.0,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089149.6105876,3915,Person B,2438.9,2424.5,720.0,3439.37,44.91,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089149.6730828,3916,Person B,2436.5,2425.7,720.0,3434.43,44.82,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089149.7980943,3917,Person B,2433.5,2427.5,720.0,3429.51,44.72,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089149.8918214,3918,Person B,2430.5,2429.7,320.0,3429.53,44.67,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089149.9543169,3919,Person B,2428.1,2432.5,320.0,3435.89,44.66,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089150.032453,3920,Person B,2425.8,2435.6,720.0,3440.14,44.63,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089150.1261961,3921,Person B,2423.7,2438.6,320.0,3443.68,44.62,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089150.2199192,3922,Person B,2421.5,2440.9,480.0,3443.68,44.62,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089150.2980387,3923,Person B,2419.6,2442.4,480.0,3441.55,44.66,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089150.3761785,3924,Person B,2418.0,2443.6,480.0,3439.42,44.67,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089150.50117,3925,Person B,2417.1,2444.0,320.0,3435.86,44.75,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089150.5636652,3926,Person B,2417.0,2443.6,320.0,3430.89,44.86,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089150.6573894,3927,Person B,2417.9,2442.4,320.0,3427.35,44.96,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089150.7511325,3928,Person B,2419.1,2440.3,320.0,3423.11,45.06,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089150.8292723,3929,Person B,2420.0,2437.0,320.0,3418.87,45.15,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089150.9229965,3930,Person B,2421.3,2433.0,240.0,3421.02,45.26,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089151.0011358,3931,Person B,2423.0,2428.6,240.0,3424.58,45.34,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089151.0948596,3932,Person B,2425.4,2424.1,240.0,3428.86,45.44,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089151.1886032,3933,Person B,2428.4,2419.8,240.0,3432.44,45.52,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089151.2667432,3934,Person B,2432.1,2415.6,240.0,3436.02,45.6,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089151.3604853,3935,Person B,2436.3,2411.9,240.0,3439.61,45.68,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089151.454232,3936,Person B,2440.9,2408.9,240.0,3442.49,45.75,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089151.5479555,3937,Person B,2445.3,2406.7,320.0,3443.19,45.74,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089151.6417,3938,Person B,2449.4,2405.5,320.0,3443.85,45.68,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089151.7198164,3939,Person B,2453.2,2405.3,320.0,3444.52,45.62,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089151.797938,3940,Person B,2456.2,2405.6,320.0,3444.49,45.58,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089151.938554,3941,Person B,2458.4,2406.3,320.0,3445.16,45.52,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089152.001049,3942,Person B,2459.2,2407.3,320.0,3441.58,45.41,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089152.0947897,3943,Person B,2459.1,2408.7,320.0,3441.55,45.34,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089152.157305,3944,Person B,2458.2,2410.6,320.0,3442.94,45.27,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089152.2510493,3945,Person B,2456.5,2412.8,320.0,3442.93,45.22,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089152.3291497,3946,Person B,2454.3,2415.2,320.0,3443.63,45.21,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089152.4229114,3947,Person B,2451.5,2417.8,320.0,3441.49,45.11,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089152.5322824,3948,Person B,2448.1,2420.7,240.0,3440.08,44.94,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089152.610379,3949,Person B,2444.4,2423.9,320.0,3440.8,44.81,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089152.6884992,3950,Person B,2440.7,2426.9,720.0,3439.39,44.79,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089152.782262,3951,Person B,2437.3,2429.8,320.0,3441.51,44.78,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089152.8759856,3952,Person B,2434.6,2432.7,240.0,3442.93,44.75,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089152.9697323,3953,Person B,2432.2,2435.2,320.0,3442.22,44.76,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089153.0478494,3954,Person B,2430.1,2437.6,320.0,3445.06,44.74,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089153.1416123,3955,Person B,2427.9,2440.1,320.0,3445.08,44.67,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089153.25096,3956,Person B,2425.7,2442.8,320.0,3447.22,44.64,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089153.3290796,3957,Person B,2424.1,2445.4,240.0,3448.64,44.61,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089153.4071982,3958,Person B,2423.4,2447.6,240.0,3450.76,44.6,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089153.5009623,3959,Person B,2422.9,2449.5,320.0,3450.8,44.53,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089153.579065,3960,Person B,2422.7,2451.6,240.0,3452.92,44.52,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089153.6728249,3961,Person B,2422.4,2453.5,240.0,3452.92,44.52,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089153.7665486,3962,Person B,2422.4,2455.3,320.0,3455.74,44.54,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089153.8759358,3963,Person B,2422.4,2457.3,720.0,3456.45,44.53,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089153.9540374,3964,Person B,2422.1,2459.0,720.0,3455.05,44.51,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089154.0321558,3965,Person B,2421.9,2460.5,720.0,3454.36,44.47,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089154.1102786,3966,Person B,2421.5,2461.4,320.0,3450.82,44.48,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089154.2196617,3967,Person B,2421.1,2462.0,320.0,3450.11,44.5,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089154.2977617,3968,Person B,2420.7,2461.9,480.0,3447.24,44.57,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089154.3759005,3969,Person B,2420.5,2461.4,320.0,3445.83,44.56,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089154.5008736,3970,Person B,2420.1,2460.5,320.0,3443.7,44.58,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089154.5633688,3971,Person B,2419.2,2459.8,320.0,3441.62,44.49,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089154.672736,3972,Person B,2417.6,2459.2,720.0,3440.25,44.42,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089154.7508583,3973,Person B,2416.1,2458.7,320.0,3442.38,44.41,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089154.8289762,3974,Person B,2414.9,2458.0,720.0,3441.65,44.45,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089154.907114,3975,Person B,2413.8,2457.4,320.0,3442.38,44.41,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089155.00795,3976,Person B,2412.9,2457.3,320.0,3443.81,44.39,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089155.1019776,3977,Person B,2411.5,2457.7,240.0,3443.17,44.28,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089155.1752956,3978,Person B,2409.3,2459.2,240.0,3442.59,44.13,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089155.277486,3979,Person B,2406.5,2460.9,720.0,3438.44,44.03,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089155.3500314,3980,Person B,2403.1,2462.7,720.0,3432.86,43.96,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089155.4750035,3981,Person B,2399.8,2464.1,480.0,3428.64,43.94,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089155.568747,3982,Person B,2396.7,2465.1,480.0,3425.82,43.94,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089155.6624892,3983,Person B,2393.0,2466.2,240.0,3424.51,43.84,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089155.7250054,3984,Person B,2388.8,2467.3,790.0,3420.3,43.82,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089155.8031256,3985,Person B,2384.0,2468.5,240.0,3417.63,43.7,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089155.928097,3986,Person B,2378.4,2469.8,240.0,3414.28,43.56,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089156.0218437,3987,Person B,2372.5,2471.1,240.0,3411.67,43.42,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089156.0999594,3988,Person B,2366.5,2472.2,240.0,3409.09,43.28,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089156.1780994,3989,Person B,2360.0,2473.3,0.0,3401.6,43.12,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089156.2562187,3990,Person B,2352.8,2474.5,0.0,3392.05,42.95,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089156.3343377,3991,Person B,2344.6,2475.9,0.0,3382.53,42.77,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089156.4436853,3992,Person B,2335.3,2477.5,0.0,3373.71,42.61,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089156.5530741,3993,Person B,2325.3,2478.8,0.0,3365.6,42.46,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089156.6155686,3994,Person B,2314.5,2480.3,0.0,3357.51,42.31,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089156.6936886,3995,Person B,2303.2,2481.5,0.0,3349.45,42.16,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089156.792591,3996,Person B,2291.5,2482.4,0.0,3341.4,42.0,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089156.8791556,3997,Person B,2279.6,2483.0,0.0,3335.47,41.86,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089156.9728825,3998,Person B,2267.4,2483.2,0.0,3328.13,41.72,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089157.0509994,3999,Person B,2255.4,2483.3,0.0,3321.49,41.59,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089157.1447423,4000,Person B,2244.3,2483.1,720.0,3315.93,41.56,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089157.222881,4001,Person B,2235.2,2482.8,320.0,3319.16,41.65,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089157.3322325,4002,Person B,2228.5,2482.3,240.0,3324.99,41.82,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089157.4103525,4003,Person B,2224.2,2481.6,320.0,3331.52,41.99,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089157.4884877,4004,Person B,2223.9,2481.2,320.0,3352.53,42.32,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089157.5822122,4005,Person B,2225.9,2480.3,480.0,3356.26,42.51,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089157.6759593,4006,Person B,2229.1,2479.5,320.0,3357.0,42.5,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089157.7853239,4007,Person B,2233.0,2478.6,80.0,3354.97,42.46,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089157.8790693,4008,Person B,2237.9,2477.3,720.0,3351.35,42.5,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089157.957189,4009,Person B,2243.6,2476.0,790.0,3350.0,42.47,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089158.0353255,4010,Person B,2249.5,2475.0,790.0,3347.97,42.43,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089158.1134446,4011,Person B,2254.6,2474.0,790.0,3345.89,42.42,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089158.2071717,4012,Person B,2258.3,2473.2,790.0,3343.86,42.38,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089158.300915,4013,Person B,2260.5,2472.6,790.0,3341.84,42.34,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089158.379034,4014,Person B,2259.1,2471.8,0.0,3337.2,42.23,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089158.4727945,4015,Person B,2255.6,2471.5,0.0,3330.48,42.1,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089158.582166,4016,Person B,2251.7,2471.1,720.0,3327.8,42.05,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089158.6602647,4017,Person B,2247.9,2470.7,720.0,3326.47,42.03,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089158.7540083,4018,Person B,2244.0,2470.7,720.0,3325.13,42.0,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089158.8321455,4019,Person B,2240.1,2470.6,720.0,3323.05,41.99,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089158.910264,4020,Person B,2236.3,2470.5,720.0,3321.71,41.96,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089159.0352592,4021,Person B,2232.5,2470.5,720.0,3320.37,41.94,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089159.129,4022,Person B,2229.4,2470.2,720.0,3320.82,42.02,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089159.2071028,4023,Person B,2227.1,2470.0,320.0,3324.91,42.07,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089159.2852383,4024,Person B,2226.3,2470.0,320.0,3331.83,42.13,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089159.3633578,4025,Person B,2227.1,2469.9,320.0,3335.11,42.22,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089159.4570825,4026,Person B,2229.2,2469.8,320.0,3341.17,42.33,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089159.5508254,4027,Person B,2232.1,2469.4,720.0,3343.0,42.44,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089159.6445696,4028,Person B,2235.7,2469.0,320.0,3346.37,42.51,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089159.7226925,4029,Person B,2239.8,2468.6,480.0,3347.66,42.55,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089159.8164518,4030,Person B,2244.0,2468.3,320.0,3347.72,42.53,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089159.8945708,4031,Person B,2248.1,2468.1,320.0,3346.43,42.48,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089159.9882977,4032,Person B,2251.9,2468.1,790.0,3346.37,42.51,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089160.0820577,4033,Person B,2255.5,2467.7,720.0,3346.19,42.58,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089160.160178,4034,Person B,2259.3,2466.9,320.0,3351.55,42.7,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089160.2539017,4035,Person B,2263.7,2466.1,320.0,3358.97,42.86,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089160.3476653,4036,Person B,2267.8,2465.4,320.0,3363.79,42.93,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089160.4570127,4037,Person B,2272.0,2464.9,240.0,3367.83,43.03,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089160.5195081,4038,Person B,2275.7,2464.4,80.0,3367.83,43.03,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089160.6132712,4039,Person B,2279.6,2463.8,320.0,3369.78,43.11,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089160.7226422,4040,Person B,2283.8,2462.7,480.0,3368.23,43.18,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089160.8007581,4041,Person B,2288.4,2461.1,480.0,3366.0,43.24,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089160.8788617,4042,Person B,2293.0,2459.1,480.0,3363.04,43.31,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089160.972602,4043,Person B,2297.2,2457.1,720.0,3360.17,43.34,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089161.050741,4044,Person B,2300.2,2455.2,640.0,3358.12,43.3,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089161.144467,4045,Person B,2301.7,2453.7,640.0,3358.24,43.23,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089161.2538328,4046,Person B,2301.7,2452.6,320.0,3355.74,43.06,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089161.3319519,4047,Person B,2300.4,2452.1,320.0,3355.31,42.92,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089161.4413238,4048,Person B,2299.2,2451.4,790.0,3354.52,42.96,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089161.5038347,4049,Person B,2297.5,2450.8,320.0,3353.79,42.97,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089161.6132197,4050,Person B,2296.2,2450.7,320.0,3358.61,43.03,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089161.6913211,4051,Person B,2295.1,2451.1,320.0,3361.39,43.06,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089161.7850447,4052,Person B,2294.2,2452.1,320.0,3364.17,43.08,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089161.8788087,4053,Person B,2293.6,2454.1,80.0,3370.65,43.03,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089161.9569087,4054,Person B,2293.5,2456.5,320.0,3374.94,43.01,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089162.0350487,4055,Person B,2293.7,2459.0,240.0,3377.87,42.96,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089162.1131668,4056,Person B,2294.8,2461.5,240.0,3381.53,42.9,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089162.2225142,4057,Person B,2296.5,2463.5,320.0,3381.53,42.9,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089162.316259,4058,Person B,2298.1,2465.6,320.0,3380.8,42.91,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089162.3943815,4059,Person B,2299.7,2467.7,320.0,3380.06,42.93,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089162.4724984,4060,Person B,2300.7,2469.6,320.0,3379.33,42.94,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089162.5662606,4061,Person B,2302.0,2471.0,240.0,3380.5,43.06,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089162.6756108,4062,Person B,2303.2,2472.1,320.0,3380.4,43.11,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089162.7537315,4063,Person B,2305.0,2472.3,320.0,3384.42,43.23,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089162.8318508,4064,Person B,2307.5,2471.9,320.0,3389.13,43.36,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089162.9412382,4065,Person B,2311.0,2470.9,320.0,3394.56,43.51,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089163.0349653,4066,Person B,2315.1,2469.8,80.0,3401.59,43.53,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089163.144326,4067,Person B,2319.7,2469.2,80.0,3408.66,43.54,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089163.222465,4068,Person B,2324.8,2469.2,80.0,3415.73,43.54,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089163.3005662,4069,Person B,2329.8,2469.6,320.0,3417.21,43.49,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089163.3943284,4070,Person B,2334.8,2469.8,320.0,3415.04,43.53,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089163.4724483,4071,Person B,2339.7,2470.2,320.0,3417.03,43.61,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089163.5349243,4072,Person B,2344.6,2470.5,240.0,3416.24,43.67,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089163.6286669,4073,Person B,2349.0,2470.9,320.0,3417.59,43.72,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089163.7224307,4074,Person B,2352.8,2471.4,240.0,3418.95,43.77,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089163.816174,4075,Person B,2355.7,2471.8,320.0,3417.47,43.81,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089163.894294,4076,Person B,2358.5,2471.7,320.0,3420.21,43.89,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089163.988037,4077,Person B,2360.9,2470.8,320.0,3418.75,43.93,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089164.0817804,4078,Person B,2363.3,2469.0,320.0,3419.34,44.04,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089164.1599,4079,Person B,2366.0,2466.7,80.0,3419.29,44.09,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089164.2536435,4080,Person B,2368.7,2464.5,320.0,3417.86,44.11,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089164.3473678,4081,Person B,2370.7,2462.8,240.0,3418.62,44.05,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089164.4567394,4082,Person B,2372.3,2461.9,240.0,3420.83,43.97,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089164.5348747,4083,Person B,2373.1,2461.5,240.0,3420.24,43.86,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089164.6129942,4084,Person B,2373.0,2461.6,240.0,3418.98,43.74,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089164.7223418,4085,Person B,2372.1,2462.2,320.0,3415.59,43.64,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089164.800481,4086,Person B,2370.0,2462.9,320.0,3410.76,43.55,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089164.8786018,4087,Person B,2367.2,2463.9,320.0,3406.63,43.48,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089164.9567006,4088,Person B,2363.6,2465.2,320.0,3403.84,43.45,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089165.066087,4089,Person B,2359.7,2466.6,320.0,3402.43,43.45,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089165.1441875,4090,Person B,2355.7,2468.1,320.0,3401.01,43.45,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089165.2535918,4091,Person B,2351.8,2469.2,320.0,3399.6,43.45,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089165.3316748,4092,Person B,2348.0,2469.7,320.0,3398.18,43.45,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089165.4098144,4093,Person B,2344.6,2469.6,320.0,3396.04,43.46,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089165.503557,4094,Person B,2341.7,2469.0,320.0,3394.63,43.46,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089165.612907,4095,Person B,2339.2,2468.1,320.0,3391.84,43.44,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089165.6910439,4096,Person B,2337.2,2467.1,320.0,3389.74,43.42,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089165.7691634,4097,Person B,2335.8,2465.5,480.0,3385.39,43.49,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089165.8785348,4098,Person B,2334.8,2463.7,720.0,3383.9,43.54,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089165.9566507,4099,Person B,2334.4,2461.9,320.0,3386.62,43.61,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089166.050379,4100,Person B,2334.4,2460.0,720.0,3387.24,43.67,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089166.206618,4101,Person B,2334.6,2458.1,320.0,3387.21,43.7,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089166.3003576,4102,Person B,2335.5,2456.1,240.0,3389.92,43.79,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089166.3941038,4103,Person B,2336.6,2454.1,320.0,3389.16,43.83,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089166.4722216,4104,Person B,2338.5,2452.1,320.0,3393.3,43.93,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089166.5503595,4105,Person B,2341.0,2450.0,720.0,3393.94,43.99,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089166.612856,4106,Person B,2344.0,2447.7,720.0,3393.87,44.06,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089166.7065828,4107,Person B,2347.0,2446.2,240.0,3395.3,44.03,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089166.8003225,4108,Person B,2349.8,2445.1,320.0,3395.33,44.01,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089166.8784428,4109,Person B,2352.0,2444.4,320.0,3396.79,43.96,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089166.9409382,4110,Person B,2354.1,2443.9,240.0,3398.18,43.99,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089167.019058,4111,Person B,2356.1,2443.5,320.0,3398.18,43.99,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089167.1128223,4112,Person B,2358.0,2443.2,320.0,3400.94,44.06,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089167.2065477,4113,Person B,2360.0,2442.8,720.0,3400.17,44.12,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089167.2846835,4114,Person B,2361.5,2442.1,720.0,3398.7,44.19,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089167.3627868,4115,Person B,2363.2,2441.1,240.0,3398.6,44.31,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089167.487794,4116,Person B,2364.9,2440.1,320.0,3398.55,44.38,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089167.5815375,4117,Person B,2366.8,2438.6,320.0,3397.81,44.44,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089167.6596386,4118,Person B,2368.5,2436.7,720.0,3393.57,44.44,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089167.737777,4119,Person B,2370.2,2434.6,320.0,3393.58,44.42,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089167.8158965,4120,Person B,2371.5,2432.7,320.0,3393.61,44.37,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089167.9096208,4121,Person B,2372.7,2431.0,320.0,3394.34,44.33,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089168.0190077,4122,Person B,2373.1,2429.9,240.0,3395.83,44.24,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089168.112751,4123,Person B,2373.1,2429.4,320.0,3396.58,44.18,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089168.2221367,4124,Person B,2372.6,2429.6,320.0,3396.65,44.11,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089168.2846138,4125,Person B,2371.5,2430.3,240.0,3395.95,44.09,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089168.3627338,4126,Person B,2369.8,2431.4,320.0,3394.58,44.05,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089168.4720821,4127,Person B,2368.0,2432.8,320.0,3395.28,44.06,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089168.5345807,4128,Person B,2366.7,2434.3,240.0,3395.23,44.11,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089168.6127172,4129,Person B,2365.9,2435.5,320.0,3396.58,44.18,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089168.7220647,4130,Person B,2365.8,2436.1,320.0,3397.21,44.28,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089168.800187,4131,Person B,2365.8,2436.3,320.0,3395.77,44.31,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089168.909571,4132,Person B,2366.0,2436.0,320.0,3395.08,44.3,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089168.9720502,4133,Person B,2366.2,2435.3,320.0,3392.96,44.28,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089169.0657902,4134,Person B,2366.5,2434.2,320.0,3390.85,44.27,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089169.1439304,4135,Person B,2366.7,2433.0,320.0,3388.74,44.26,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089169.237674,4136,Person B,2366.9,2431.9,320.0,3388.08,44.2,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089169.34704,4137,Person B,2366.6,2431.2,320.0,3388.16,44.1,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089169.4407637,4138,Person B,2366.1,2430.9,240.0,3389.6,44.08,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089169.5189033,4139,Person B,2365.1,2430.8,320.0,3388.9,44.07,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089169.6282742,4140,Person B,2364.0,2431.3,320.0,3393.12,44.09,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089169.7063906,4141,Person B,2363.2,2431.9,240.0,3394.49,44.14,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089169.7845104,4142,Person B,2362.6,2432.7,320.0,3396.63,44.13,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089169.86261,4143,Person B,2362.6,2433.6,240.0,3399.41,44.18,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089169.9563742,4144,Person B,2363.0,2434.4,320.0,3399.37,44.23,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089170.0344932,4145,Person B,2363.7,2435.0,320.0,3397.92,44.27,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089170.1438406,4146,Person B,2364.9,2435.2,320.0,3397.89,44.32,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089170.2219634,4147,Person B,2366.6,2434.7,320.0,3396.44,44.37,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089170.331347,4148,Person B,2368.2,2434.3,80.0,3397.89,44.32,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089170.409467,4149,Person B,2369.6,2434.3,80.0,3398.66,44.24,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089170.4875674,4150,Person B,2369.6,2434.8,640.0,3396.72,44.03,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089170.5813296,4151,Person B,2368.1,2436.2,640.0,3394.16,43.79,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089170.659433,4152,Person B,2365.1,2438.1,240.0,3389.55,43.54,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089170.7531762,4153,Person B,2360.6,2440.6,320.0,3386.35,43.34,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089170.831293,4154,Person B,2355.5,2443.4,720.0,3384.33,43.28,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089170.9406798,4155,Person B,2350.5,2446.6,320.0,3386.43,43.29,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089171.0187807,4156,Person B,2345.9,2449.6,480.0,3387.64,43.41,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089171.1125262,4157,Person B,2343.1,2451.4,320.0,3389.89,43.82,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089171.2062669,4158,Person B,2342.7,2452.2,320.0,3400.83,44.18,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089171.2843893,4159,Person B,2343.9,2452.1,720.0,3406.32,44.39,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089171.3937767,4160,Person B,2346.6,2452.0,320.0,3414.82,44.37,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089171.4875028,4161,Person B,2349.4,2452.8,80.0,3419.34,44.04,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089171.581242,4162,Person B,2353.2,2453.4,320.0,3420.16,43.93,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089171.6749878,4163,Person B,2357.5,2454.0,320.0,3420.33,43.79,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089171.7375,4164,Person B,2361.7,2455.3,80.0,3422.66,43.64,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089171.831244,4165,Person B,2365.4,2456.8,320.0,3422.76,43.57,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089171.9093637,4166,Person B,2368.1,2459.3,80.0,3424.36,43.45,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089172.0187142,4167,Person B,2368.2,2463.5,320.0,3421.0,43.34,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089172.0968344,4168,Person B,2365.6,2468.7,320.0,3420.44,43.26,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089172.1749504,4169,Person B,2361.5,2474.0,720.0,3416.16,43.28,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089172.2843385,4170,Person B,2356.8,2478.4,320.0,3414.02,43.29,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089172.362437,4171,Person B,2353.7,2480.7,240.0,3414.54,43.4,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089172.4561799,4172,Person B,2351.3,2482.1,720.0,3413.7,43.48,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089172.5499427,4173,Person B,2350.1,2482.7,320.0,3416.38,43.58,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089172.6280434,4174,Person B,2350.8,2482.4,-80.0,3425.32,43.76,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089172.706182,4175,Person B,2349.4,2483.5,0.0,3421.13,43.27,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089172.7999268,4176,Person B,2347.2,2484.9,0.0,3419.49,43.02,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089172.9092736,4177,Person B,2344.9,2486.6,320.0,3417.7,42.87,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089172.9873924,4178,Person B,2342.8,2488.3,640.0,3418.54,42.81,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089173.0655334,4179,Person B,2340.8,2490.7,0.0,3420.06,42.76,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089173.1748803,4180,Person B,2339.0,2493.4,720.0,3421.47,42.76,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089173.2530196,4181,Person B,2336.7,2496.4,0.0,3420.74,42.77,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089173.3311238,4182,Person B,2334.1,2499.6,0.0,3419.27,42.8,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089173.4248662,4183,Person B,2330.9,2502.7,0.0,3417.07,42.83,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089173.5186257,4184,Person B,2326.3,2505.7,0.0,3415.6,42.85,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089173.627993,4185,Person B,2324.1,2506.8,0.0,3414.14,42.88,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089173.7061126,4186,Person B,2323.6,2506.9,240.0,3416.81,42.95,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089173.799837,4187,Person B,2324.6,2506.4,240.0,3420.85,43.05,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089173.893584,4188,Person B,2326.4,2505.5,240.0,3424.22,43.13,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089173.971703,4189,Person B,2329.0,2504.2,240.0,3428.28,43.23,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089174.0498397,4190,Person B,2332.1,2502.7,240.0,3431.67,43.31,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089174.1950908,4191,Person B,2335.1,2501.2,80.0,3430.25,43.31,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089174.3040266,4192,Person B,2337.9,2499.7,320.0,3427.42,43.31,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089174.3939846,4193,Person B,2340.3,2498.6,320.0,3425.41,43.25,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089174.4699523,4194,Person B,2342.2,2497.4,390.0,3419.8,43.22,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089174.614421,4195,Person B,2343.5,2496.0,390.0,3412.78,43.2,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089174.6925216,4196,Person B,2343.6,2494.3,390.0,3405.07,43.16,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089174.7706404,4197,Person B,2342.4,2492.3,390.0,3398.05,43.13,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089174.864384,4198,Person B,2339.8,2490.4,240.0,3392.58,43.03,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089174.9268992,4199,Person B,2335.7,2488.7,240.0,3387.86,42.92,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089175.0050025,4200,Person B,2330.2,2487.2,240.0,3383.15,42.81,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089175.0831194,4201,Person B,2324.0,2485.9,240.0,3378.46,42.7,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089175.1456149,4202,Person B,2317.3,2484.9,240.0,3374.45,42.6,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089175.239362,4203,Person B,2310.3,2483.9,240.0,3370.45,42.5,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089175.317497,4204,Person B,2303.5,2483.0,480.0,3366.95,42.48,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089175.3956003,4205,Person B,2297.3,2482.6,320.0,3367.69,42.47,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089175.4737363,4206,Person B,2292.0,2482.7,320.0,3369.78,42.49,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089175.56748,4207,Person B,2287.4,2483.2,320.0,3370.45,42.5,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089175.6924713,4208,Person B,2283.5,2483.7,320.0,3369.78,42.49,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089175.7705753,4209,Person B,2280.3,2483.7,480.0,3366.15,42.52,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089175.8643348,4210,Person B,2277.6,2482.9,80.0,3358.97,42.56,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089175.942454,4211,Person B,2275.8,2481.6,320.0,3356.7,42.62,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089176.0205543,4212,Person B,2274.9,2479.8,320.0,3355.11,42.69,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089176.1142979,4213,Person B,2275.0,2477.9,320.0,3357.15,42.73,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089176.192422,4214,Person B,2275.7,2476.3,240.0,3359.92,42.76,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089176.2705364,4215,Person B,2276.6,2474.8,240.0,3362.74,42.76,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089176.3643,4216,Person B,2277.5,2473.4,240.0,3365.57,42.76,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089176.4736502,4217,Person B,2278.5,2472.2,240.0,3368.4,42.76,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089176.5673914,4218,Person B,2279.8,2471.1,240.0,3370.49,42.78,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089176.6455104,4219,Person B,2281.4,2470.6,240.0,3373.32,42.78,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089176.739291,4220,Person B,2283.3,2471.0,320.0,3374.78,42.75,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089176.8173766,4221,Person B,2285.1,2472.1,320.0,3376.99,42.72,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089176.9267602,4222,Person B,2286.7,2473.8,320.0,3378.46,42.7,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089177.0205045,4223,Person B,2288.0,2475.7,320.0,3379.93,42.67,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089177.0986073,4224,Person B,2289.0,2477.7,320.0,3381.4,42.65,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089177.1767435,4225,Person B,2289.6,2479.6,320.0,3380.78,42.61,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089177.2548435,4226,Person B,2290.0,2481.7,320.0,3383.72,42.57,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089177.34859,4227,Person B,2290.2,2483.8,240.0,3385.2,42.55,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089177.4579546,4228,Person B,2290.4,2486.1,240.0,3388.76,42.54,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089177.5360947,4229,Person B,2290.9,2488.3,240.0,3392.88,42.59,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089177.6142135,4230,Person B,2291.9,2490.0,720.0,3394.06,42.68,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089177.7079563,4231,Person B,2293.4,2491.5,320.0,3398.18,42.73,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089177.8016798,4232,Person B,2295.3,2492.8,320.0,3400.9,42.78,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089177.8954432,4233,Person B,2297.4,2494.2,320.0,3404.46,42.77,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089177.9735627,4234,Person B,2299.4,2495.2,480.0,3402.31,42.78,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089178.0673065,4235,Person B,2301.4,2496.1,320.0,3400.95,42.76,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089178.145407,4236,Person B,2302.8,2496.6,-80.0,3396.88,42.69,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089178.254794,4237,Person B,2303.8,2497.2,320.0,3396.38,42.6,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089178.3485377,4238,Person B,2304.1,2497.8,320.0,3395.21,42.51,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089178.4266562,4239,Person B,2304.1,2499.1,80.0,3402.46,42.44,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089178.536004,4240,Person B,2303.9,2501.6,80.0,3411.13,42.37,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089178.6141431,4241,Person B,2303.5,2504.9,80.0,3419.8,42.31,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089178.7234914,4242,Person B,2303.0,2509.1,80.0,3428.48,42.25,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089178.8021238,4243,Person B,2302.1,2513.5,320.0,3430.84,42.16,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089178.8840969,4244,Person B,2301.4,2518.3,320.0,3432.99,42.15,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089178.959033,4245,Person B,2301.0,2523.1,320.0,3433.66,42.17,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089179.0420446,4246,Person B,2301.3,2527.8,320.0,3433.59,42.19,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089179.1236238,4247,Person B,2302.2,2532.2,320.0,3434.94,42.22,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089179.2486143,4248,Person B,2303.3,2536.3,320.0,3432.92,42.18,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089179.3267539,4249,Person B,2303.9,2539.6,320.0,3430.91,42.14,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089179.404873,4250,Person B,2303.9,2541.5,790.0,3425.19,42.16,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089179.482975,4251,Person B,2303.2,2542.4,320.0,3421.76,42.12,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
+1790089179.5767162,4252,Person B,2302.1,2542.5,240.0,3421.84,42.1,True,Active,ArslanAzad,None,Normal,5: Lying down (controlled)
