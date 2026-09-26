@@ -1,0 +1,752 @@
+timestamp,sequence_id,target_id,x_mm,y_mm,speed_mms,distance_mm,angle_deg,valid,status,volunteer_id,fall_subtype,pace_variant,action_label
+1790412882.364316,20755,Person 8,785.4,1071.5,320.0,1287.24,36.41,True,Active,hafsa,None,Normal,1: Walking
+1790412882.4598475,20756,Person 8,779.4,1061.4,320.0,1238.54,36.0,True,Active,hafsa,None,Normal,1: Walking
+1790412882.5221012,20757,Person 8,769.6,1048.7,320.0,1191.54,35.5,True,Active,hafsa,None,Normal,1: Walking
+1790412882.5909135,20758,Person 8,756.0,1033.7,320.0,1144.63,34.97,True,Active,hafsa,None,Normal,1: Walking
+1790412882.6503446,20759,Person 8,735.2,1013.9,320.0,1057.82,33.51,True,Active,hafsa,None,Normal,1: Walking
+1790412882.7398539,20760,Person 8,707.3,990.0,390.0,979.47,31.52,True,Active,hafsa,None,Normal,1: Walking
+1790412882.8408222,20761,Person 8,672.5,962.3,390.0,906.12,29.2,True,Active,hafsa,None,Normal,1: Walking
+1790412882.9230938,20762,Person 8,631.1,930.9,390.0,837.63,26.6,True,Active,hafsa,None,Normal,1: Walking
+1790412882.9959872,20763,Person 8,584.4,896.5,320.0,779.89,23.9,True,Active,hafsa,None,Normal,1: Walking
+1790412883.0787191,20764,Person 8,532.4,859.8,80.0,728.11,20.5,True,Active,hafsa,None,Normal,1: Walking
+1790412883.186745,20765,Person 8,474.7,822.5,-80.0,688.87,15.75,True,Active,hafsa,None,Normal,1: Walking
+1790412883.3113453,20766,Person 8,413.4,786.2,-240.0,649.27,10.2,True,Active,hafsa,None,Normal,1: Walking
+1790412883.3971672,20767,Person 8,348.2,751.5,-320.0,624.28,3.67,True,Active,hafsa,None,Normal,1: Walking
+1790412883.458255,20768,Person 8,279.6,718.7,-480.0,610.74,-2.82,True,Active,hafsa,None,Normal,1: Walking
+1790412883.533026,20769,Person 8,211.1,690.3,-560.0,606.47,-9.59,True,Active,hafsa,None,Normal,1: Walking
+1790412883.611795,20770,Person 8,142.8,665.3,-640.0,609.48,-16.29,True,Active,hafsa,None,Normal,1: Walking
+1790412883.6808221,20771,Person 8,74.6,644.3,-640.0,628.62,-22.44,True,Active,hafsa,None,Normal,1: Walking
+1790412883.7813404,20772,Person 8,7.3,628.0,-480.0,657.42,-26.95,True,Active,hafsa,None,Normal,1: Walking
+1790412883.8562706,20773,Person 8,-59.7,615.7,-480.0,688.05,-30.96,True,Active,hafsa,None,Normal,1: Walking
+1790412883.9154022,20774,Person 8,-126.1,607.3,-480.0,724.49,-34.37,True,Active,hafsa,None,Normal,1: Walking
+1790412883.9857264,20775,Person 8,-191.2,602.1,-640.0,767.21,-37.21,True,Active,hafsa,None,Normal,1: Walking
+1790412884.0587127,20776,Person 8,-254.6,600.7,-720.0,812.4,-39.71,True,Active,hafsa,None,Normal,1: Walking
+1790412884.1313875,20777,Person 8,-317.3,600.9,-640.0,857.43,-43.2,True,Active,hafsa,None,Normal,1: Walking
+1790412884.2021778,20778,Person 8,-379.5,603.0,-640.0,907.34,-45.94,True,Active,hafsa,None,Normal,1: Walking
+1790412884.2912261,20779,Person 8,-441.1,607.1,-640.0,960.42,-48.29,True,Active,hafsa,None,Normal,1: Walking
+1790412884.381315,20780,Person 8,-501.4,613.8,-640.0,1012.02,-49.89,True,Active,hafsa,None,Normal,1: Walking
+1790412884.4711573,20781,Person 8,-561.0,622.2,-640.0,1068.23,-51.5,True,Active,hafsa,None,Normal,1: Walking
+1790412884.551393,20782,Person 8,-621.6,630.2,-560.0,1122.84,-53.62,True,Active,hafsa,None,Normal,1: Walking
+1790412884.631479,20783,Person 8,-682.0,639.5,-560.0,1176.54,-54.51,True,Active,hafsa,None,Normal,1: Walking
+1790412884.7596576,20784,Person 8,-740.7,648.9,-560.0,1212.8,-55.21,True,Active,hafsa,None,Normal,1: Walking
+1790412884.8210187,20785,Person 8,-797.7,657.7,-390.0,1248.1,-55.94,True,Active,hafsa,None,Normal,1: Walking
+1790412884.910034,20786,Person 8,-852.0,666.8,-390.0,1280.82,-56.01,True,Active,hafsa,None,Normal,1: Walking
+1790412884.9946578,20787,Person 8,-903.5,679.5,-480.0,1334.13,-55.69,True,Active,hafsa,None,Normal,1: Walking
+1790412885.0779154,20788,Person 8,-952.6,694.5,-480.0,1384.34,-55.66,True,Active,hafsa,None,Normal,1: Walking
+1790412885.1981459,20789,Person 8,-997.4,713.0,-390.0,1426.96,-54.73,True,Active,hafsa,None,Normal,1: Walking
+1790412885.2547555,20790,Person 8,-1036.2,737.2,-480.0,1466.11,-52.43,True,Active,hafsa,None,Normal,1: Walking
+1790412885.3674343,20791,Person 8,-1068.7,767.8,-640.0,1513.53,-50.09,True,Active,hafsa,None,Normal,1: Walking
+1790412885.4222746,20792,Person 8,-1094.9,804.8,-560.0,1559.76,-48.38,True,Active,hafsa,None,Normal,1: Walking
+1790412885.5400162,20793,Person 8,-1117.2,846.0,-640.0,1610.52,-47.16,True,Active,hafsa,None,Normal,1: Walking
+1790412885.624255,20794,Person 8,-1137.1,892.2,-480.0,1661.25,-46.0,True,Active,hafsa,None,Normal,1: Walking
+1790412885.7196646,20795,Person 8,-1155.7,943.3,-390.0,1718.28,-45.24,True,Active,hafsa,None,Normal,1: Walking
+1790412885.7950573,20796,Person 8,-1172.8,998.0,-320.0,1765.07,-44.31,True,Active,hafsa,None,Normal,1: Walking
+1790412885.884791,20797,Person 8,-1186.1,1054.3,-320.0,1804.01,-43.2,True,Active,hafsa,None,Normal,1: Walking
+1790412885.9819672,20798,Person 8,-1197.0,1111.9,-240.0,1846.34,-42.7,True,Active,hafsa,None,Normal,1: Walking
+1790412886.0913942,20799,Person 8,-1207.5,1168.4,-80.0,1882.08,-42.44,True,Active,hafsa,None,Normal,1: Walking
+1790412886.1749122,20800,Person 8,-1218.5,1221.8,-160.0,1912.37,-41.69,True,Active,hafsa,None,Normal,1: Walking
+1790412886.2606907,20801,Person 8,-1225.3,1273.6,-160.0,1930.69,-39.54,True,Active,hafsa,None,Normal,1: Walking
+1790412886.3567097,20802,Person 8,-1226.4,1325.4,-80.0,1949.42,-37.14,True,Active,hafsa,None,Normal,1: Walking
+1790412886.4237447,20803,Person 8,-1220.8,1377.1,-80.0,1965.75,-34.91,True,Active,hafsa,None,Normal,1: Walking
+1790412886.5102236,20804,Person 8,-1209.6,1428.2,-160.0,1986.23,-33.04,True,Active,hafsa,None,Normal,1: Walking
+1790412886.6066542,20805,Person 8,-1192.7,1478.1,-240.0,2006.31,-31.59,True,Active,hafsa,None,Normal,1: Walking
+1790412886.7000194,20806,Person 8,-1171.4,1527.1,-240.0,2028.15,-30.19,True,Active,hafsa,None,Normal,1: Walking
+1790412886.8025064,20807,Person 8,-1144.8,1575.2,-80.0,2040.73,-28.35,True,Active,hafsa,None,Normal,1: Walking
+1790412886.8836715,20808,Person 8,-1111.3,1624.8,-320.0,2067.49,-26.33,True,Active,hafsa,None,Normal,1: Walking
+1790412886.9764686,20809,Person 8,-1069.8,1675.7,-80.0,2081.69,-24.25,True,Active,hafsa,None,Normal,1: Walking
+1790412887.0731122,20810,Person 8,-1024.1,1726.9,-80.0,2104.24,-22.79,True,Active,hafsa,None,Normal,1: Walking
+1790412887.1518624,20811,Person 8,-979.0,1776.1,-80.0,2128.3,-21.44,True,Active,hafsa,None,Normal,1: Walking
+1790412887.228775,20812,Person 8,-933.2,1822.4,80.0,2141.32,-19.62,True,Active,hafsa,None,Normal,1: Walking
+1790412887.315332,20813,Person 8,-886.4,1866.5,240.0,2155.56,-17.75,True,Active,hafsa,None,Normal,1: Walking
+1790412887.4127157,20814,Person 8,-838.0,1907.5,320.0,2159.73,-16.1,True,Active,hafsa,None,Normal,1: Walking
+1790412887.5052412,20815,Person 8,-785.8,1943.7,320.0,2137.49,-14.33,True,Active,hafsa,None,Normal,1: Walking
+1790412887.5990968,20816,Person 8,-727.6,1973.0,320.0,2092.36,-12.08,True,Active,hafsa,None,Normal,1: Walking
+1790412887.6972988,20817,Person 8,-665.5,1996.2,240.0,2057.64,-9.74,True,Active,hafsa,None,Normal,1: Walking
+1790412887.7600248,20818,Person 8,-600.5,2011.9,160.0,2027.66,-7.57,True,Active,hafsa,None,Normal,1: Walking
+1790412887.8552983,20819,Person 8,-534.5,2023.6,240.0,2024.41,-5.53,True,Active,hafsa,None,Normal,1: Walking
+1790412887.9287243,20820,Person 8,-466.1,2031.1,160.0,2019.25,-3.72,True,Active,hafsa,None,Normal,1: Walking
+1790412888.019436,20821,Person 8,-394.0,2035.6,160.0,2026.8,-1.61,True,Active,hafsa,None,Normal,1: Walking
+1790412888.1164684,20822,Person 8,-319.1,2038.3,80.0,2044.22,0.84,True,Active,hafsa,None,Normal,1: Walking
+1790412888.2207677,20823,Person 8,-239.8,2037.7,320.0,2051.51,3.8,True,Active,hafsa,None,Normal,1: Walking
+1790412888.309706,20824,Person 8,-157.3,2033.7,560.0,2047.51,6.34,True,Active,hafsa,None,Normal,1: Walking
+1790412888.404815,20825,Person 8,-74.7,2026.9,160.0,2024.9,8.43,True,Active,hafsa,None,Normal,1: Walking
+1790412888.4958766,20826,Person 8,3.8,2019.2,80.0,1999.34,9.99,True,Active,hafsa,None,Normal,1: Walking
+1790412888.5830894,20827,Person 8,77.5,2009.6,160.0,1970.77,11.38,True,Active,hafsa,None,Normal,1: Walking
+1790412888.6547022,20828,Person 8,146.5,1998.0,160.0,1940.66,12.59,True,Active,hafsa,None,Normal,1: Walking
+1790412888.7428195,20829,Person 8,210.6,1981.9,240.0,1906.89,13.53,True,Active,hafsa,None,Normal,1: Walking
+1790412888.8413317,20830,Person 8,272.3,1961.3,390.0,1873.15,15.04,True,Active,hafsa,None,Normal,1: Walking
+1790412888.9179573,20831,Person 8,330.7,1935.5,480.0,1844.87,16.6,True,Active,hafsa,None,Normal,1: Walking
+1790412888.998673,20832,Person 8,383.2,1902.7,560.0,1803.52,17.92,True,Active,hafsa,None,Normal,1: Walking
+1790412889.0883589,20833,Person 8,426.5,1864.3,480.0,1757.65,18.89,True,Active,hafsa,None,Normal,1: Walking
+1790412889.215552,20834,Person 8,462.3,1822.8,390.0,1722.05,19.82,True,Active,hafsa,None,Normal,1: Walking
+1790412889.2689633,20835,Person 8,494.4,1781.3,320.0,1704.02,21.26,True,Active,hafsa,None,Normal,1: Walking
+1790412889.3396373,20836,Person 8,524.4,1741.8,320.0,1701.79,22.35,True,Active,hafsa,None,Normal,1: Walking
+1790412889.4305174,20837,Person 8,551.3,1704.1,320.0,1688.49,22.94,True,Active,hafsa,None,Normal,1: Walking
+1790412889.5330842,20838,Person 8,575.5,1666.7,560.0,1659.1,23.63,True,Active,hafsa,None,Normal,1: Walking
+1790412889.651904,20839,Person 8,598.6,1629.2,640.0,1626.58,24.6,True,Active,hafsa,None,Normal,1: Walking
+1790412889.7475922,20840,Person 8,618.3,1591.7,720.0,1588.35,25.47,True,Active,hafsa,None,Normal,1: Walking
+1790412889.8315394,20841,Person 8,633.0,1554.8,640.0,1552.89,25.72,True,Active,hafsa,None,Normal,1: Walking
+1790412889.921441,20842,Person 8,644.8,1519.3,640.0,1518.3,26.31,True,Active,hafsa,None,Normal,1: Walking
+1790412889.9846363,20843,Person 8,655.5,1484.4,720.0,1477.69,27.22,True,Active,hafsa,None,Normal,1: Walking
+1790412890.0759099,20844,Person 8,664.0,1448.7,560.0,1429.24,27.91,True,Active,hafsa,None,Normal,1: Walking
+1790412890.1707036,20845,Person 8,667.5,1412.3,390.0,1387.29,28.08,True,Active,hafsa,None,Normal,1: Walking
+1790412890.2515109,20846,Person 8,665.5,1373.6,320.0,1342.42,27.84,True,Active,hafsa,None,Normal,1: Walking
+1790412890.3419142,20847,Person 8,658.9,1333.7,240.0,1298.77,27.12,True,Active,hafsa,None,Normal,1: Walking
+1790412890.42072,20848,Person 8,646.9,1296.4,160.0,1269.9,25.41,True,Active,hafsa,None,Normal,1: Walking
+1790412890.555424,20849,Person 8,629.0,1261.0,320.0,1230.3,23.88,True,Active,hafsa,None,Normal,1: Walking
+1790412890.6619759,20850,Person 8,607.5,1226.5,320.0,1185.3,23.26,True,Active,hafsa,None,Normal,1: Walking
+1790412890.7471435,20851,Person 8,584.1,1191.8,240.0,1140.31,22.7,True,Active,hafsa,None,Normal,1: Walking
+1790412890.8303483,20852,Person 8,557.7,1157.5,240.0,1097.09,21.89,True,Active,hafsa,None,Normal,1: Walking
+1790412890.894788,20853,Person 8,526.9,1125.8,160.0,1062.75,20.26,True,Active,hafsa,None,Normal,1: Walking
+1790412890.9822803,20854,Person 8,492.1,1097.6,80.0,1032.18,18.12,True,Active,hafsa,None,Normal,1: Walking
+1790412891.0734565,20855,Person 8,453.1,1072.5,80.0,1007.92,15.13,True,Active,hafsa,None,Normal,1: Walking
+1790412891.1597493,20856,Person 8,411.3,1050.5,-80.0,989.33,12.2,True,Active,hafsa,None,Normal,1: Walking
+1790412891.245451,20857,Person 8,366.3,1031.1,-160.0,972.42,8.4,True,Active,hafsa,None,Normal,1: Walking
+1790412891.3229558,20858,Person 8,319.7,1012.7,-240.0,966.23,4.69,True,Active,hafsa,None,Normal,1: Walking
+1790412891.4052022,20859,Person 8,271.6,997.0,-320.0,968.15,1.01,True,Active,hafsa,None,Normal,1: Walking
+1790412891.5021062,20860,Person 8,221.6,986.0,-480.0,979.52,-1.87,True,Active,hafsa,None,Normal,1: Walking
+1790412891.5936637,20861,Person 8,170.4,979.9,-560.0,993.61,-4.16,True,Active,hafsa,None,Normal,1: Walking
+1790412891.6824389,20862,Person 8,119.0,978.6,-640.0,1010.47,-5.96,True,Active,hafsa,None,Normal,1: Walking
+1790412891.7571537,20863,Person 8,68.7,981.4,-720.0,1033.85,-7.5,True,Active,hafsa,None,Normal,1: Walking
+1790412891.8557756,20864,Person 8,19.7,990.1,-960.0,1081.29,-8.99,True,Active,hafsa,None,Normal,1: Walking
+1790412891.9427757,20865,Person 8,-27.4,1005.2,-720.0,1143.08,-10.48,True,Active,hafsa,None,Normal,1: Walking
+1790412892.047084,20866,Person 8,-73.3,1026.8,-480.0,1209.13,-11.93,True,Active,hafsa,None,Normal,1: Walking
+1790412892.1168916,20867,Person 8,-114.3,1054.8,-160.0,1270.59,-12.18,True,Active,hafsa,None,Normal,1: Walking
+1790412892.1980891,20868,Person 8,-145.3,1086.1,-80.0,1296.74,-10.26,True,Active,hafsa,None,Normal,1: Walking
+1790412892.3044264,20869,Person 8,-167.3,1119.9,-80.0,1321.68,-8.84,True,Active,hafsa,None,Normal,1: Walking
+1790412892.3982167,20870,Person 8,-178.6,1154.8,-160.0,1335.89,-6.23,True,Active,hafsa,None,Normal,1: Walking
+1790412892.4803598,20871,Person 8,-181.3,1190.3,-80.0,1349.64,-4.21,True,Active,hafsa,None,Normal,1: Walking
+1790412892.56496,20872,Person 8,-183.6,1227.2,-80.0,1379.95,-5.32,True,Active,hafsa,None,Normal,1: Walking
+1790412892.6569788,20873,Person 8,-185.5,1266.5,-80.0,1426.34,-6.2,True,Active,hafsa,None,Normal,1: Walking
+1790412892.7504117,20874,Person 8,-187.4,1304.6,80.0,1461.15,-7.39,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412892.8554182,20875,Person 8,-187.3,1338.5,160.0,1477.57,-8.05,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412892.9574163,20876,Person 8,-182.2,1367.0,-240.0,1481.43,-7.72,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412893.042123,20877,Person 8,-172.1,1389.6,-240.0,1477.47,-6.49,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412893.1081254,20878,Person 8,-161.5,1410.0,-160.0,1485.27,-4.83,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412893.1948378,20879,Person 8,-146.6,1432.6,-160.0,1532.95,-2.02,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412893.27288,20880,Person 8,-131.9,1459.8,-80.0,1600.0,0.07,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412893.3765664,20881,Person 8,-117.3,1491.7,-80.0,1665.66,1.62,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412893.4594426,20882,Person 8,-95.1,1525.2,-80.0,1711.58,3.15,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412893.550569,20883,Person 8,-66.3,1555.9,-160.0,1730.2,4.44,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412893.6387126,20884,Person 8,-29.4,1582.9,-80.0,1728.5,6.01,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412893.7348683,20885,Person 8,13.5,1605.2,-80.0,1700.55,7.5,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412893.8201146,20886,Person 8,59.6,1622.2,-80.0,1658.82,9.09,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412893.9030075,20887,Person 8,105.3,1635.6,-80.0,1628.04,10.26,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412893.9773002,20888,Person 8,149.1,1648.4,0.0,1638.18,11.01,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412894.085073,20889,Person 8,186.3,1658.9,-80.0,1667.6,10.99,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412894.1789289,20890,Person 8,217.8,1666.4,-80.0,1704.73,10.72,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412894.262613,20891,Person 8,244.5,1670.7,0.0,1736.62,10.42,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412894.3509433,20892,Person 8,266.6,1671.1,0.0,1741.72,10.42,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412894.4428484,20893,Person 8,284.9,1670.2,0.0,1745.03,10.47,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412894.5240495,20894,Person 8,299.7,1670.8,0.0,1756.09,10.8,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412894.6208858,20895,Person 8,310.6,1676.0,0.0,1769.24,10.78,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412894.727254,20896,Person 8,316.9,1687.6,80.0,1783.86,10.5,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412894.8009062,20897,Person 8,320.6,1703.8,0.0,1794.05,10.5,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412894.8765025,20898,Person 8,320.9,1720.4,0.0,1801.92,10.1,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412894.9745152,20899,Person 8,319.8,1735.0,0.0,1809.24,9.77,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412895.064449,20900,Person 8,318.8,1745.7,0.0,1808.25,9.77,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412895.1573997,20901,Person 8,318.4,1752.7,0.0,1804.82,9.89,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412895.2568874,20902,Person 8,318.8,1758.7,0.0,1801.47,10.2,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412895.3281472,20903,Person 8,320.3,1763.8,0.0,1797.92,10.64,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412895.4246063,20904,Person 8,321.8,1767.3,0.0,1793.3,11.06,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412895.503906,20905,Person 8,324.3,1768.9,0.0,1789.76,11.47,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412895.5872746,20906,Person 8,328.6,1768.3,0.0,1786.32,11.89,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412895.7367854,20907,Person 8,333.2,1766.3,0.0,1783.44,12.07,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412895.8889966,20908,Person 8,339.0,1763.1,0.0,1781.7,12.12,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412895.983792,20909,Person 8,345.8,1758.6,0.0,1778.0,12.18,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412896.1250677,20910,Person 8,352.5,1753.8,0.0,1773.87,12.17,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412896.2776778,20911,Person 8,358.9,1748.7,0.0,1767.03,12.22,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412896.3736877,20912,Person 8,364.2,1743.8,0.0,1763.68,12.18,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412896.4721794,20913,Person 8,368.2,1738.9,0.0,1757.81,12.22,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412896.5428302,20914,Person 8,370.9,1734.2,0.0,1752.72,12.22,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412896.6152134,20915,Person 8,372.4,1729.7,0.0,1748.81,12.25,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412896.720067,20916,Person 8,372.7,1725.4,0.0,1744.9,12.28,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412896.8218985,20917,Person 8,372.5,1721.2,0.0,1741.97,12.3,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412896.943928,20918,Person 8,372.3,1716.9,0.0,1739.25,12.35,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412897.0660613,20919,Person 8,372.0,1712.8,0.0,1737.29,12.36,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412897.1878862,20920,Person 8,371.7,1708.8,0.0,1734.15,12.35,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412897.3043776,20921,Person 8,371.3,1705.4,0.0,1732.96,12.33,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412897.4080021,20922,Person 8,371.0,1701.9,0.0,1728.84,12.32,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412897.5087047,20923,Person 8,370.6,1698.5,0.0,1723.74,12.33,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412897.615684,20924,Person 8,370.4,1695.0,0.0,1718.09,12.4,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412897.769844,20925,Person 8,370.2,1691.4,80.0,1713.21,12.44,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412897.8693204,20926,Person 8,369.6,1688.5,0.0,1715.28,12.29,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412897.9762676,20927,Person 8,368.9,1686.5,0.0,1720.94,12.21,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412898.0906386,20928,Person 8,367.8,1685.5,-80.0,1727.15,12.06,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412898.1863987,20929,Person 8,366.5,1685.6,0.0,1735.54,11.94,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412898.2874255,20930,Person 8,365.5,1687.3,0.0,1748.67,11.91,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412898.4068944,20931,Person 8,364.7,1689.5,0.0,1752.79,11.92,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412898.5761673,20932,Person 8,364.2,1692.5,0.0,1757.12,11.96,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412898.7863014,20933,Person 8,364.0,1696.3,0.0,1760.47,12.0,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412898.9261253,20934,Person 8,363.8,1701.1,0.0,1764.59,12.0,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412899.022252,20935,Person 8,363.6,1706.5,0.0,1765.56,12.0,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412899.1314785,20936,Person 8,364.1,1711.6,0.0,1766.19,12.09,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412899.2420871,20937,Person 8,365.1,1715.9,0.0,1765.08,12.23,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412899.3296719,20938,Person 8,366.7,1719.4,0.0,1764.74,12.34,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412899.4140072,20939,Person 8,368.6,1722.2,0.0,1766.91,12.35,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412899.4887872,20940,Person 8,370.5,1723.9,0.0,1769.29,12.4,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412899.6035178,20941,Person 8,372.6,1725.4,0.0,1771.89,12.48,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412899.7079194,20942,Person 8,374.6,1726.6,0.0,1773.08,12.51,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412899.788464,20943,Person 8,376.4,1727.1,0.0,1769.18,12.54,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412899.87628,20944,Person 8,378.1,1726.6,0.0,1763.32,12.58,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412900.0057256,20945,Person 8,379.8,1725.3,0.0,1756.49,12.63,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412900.102626,20946,Person 8,381.1,1723.6,0.0,1752.37,12.62,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412900.1999757,20947,Person 8,381.8,1721.8,0.0,1749.0,12.58,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412900.2783067,20948,Person 8,382.1,1720.2,0.0,1749.76,12.54,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412900.3615992,20949,Person 8,381.8,1718.7,80.0,1751.61,12.36,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412900.4424524,20950,Person 8,380.7,1717.4,80.0,1754.25,12.14,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412900.5270672,20951,Person 8,378.8,1716.2,0.0,1756.14,11.96,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412900.6293545,20952,Person 8,376.2,1715.5,0.0,1760.78,11.73,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412900.711002,20953,Person 8,373.3,1715.5,0.0,1763.11,11.62,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412900.8250024,20954,Person 8,370.1,1716.4,0.0,1765.45,11.5,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412900.9152348,20955,Person 8,366.7,1718.2,0.0,1767.01,11.42,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412900.9876275,20956,Person 8,363.2,1720.6,0.0,1768.58,11.35,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412901.055658,20957,Person 8,359.6,1723.5,0.0,1769.95,11.24,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412901.1263092,20958,Person 8,355.8,1726.5,0.0,1771.33,11.13,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412901.1868372,20959,Person 8,352.3,1729.4,0.0,1772.91,11.06,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412901.2626503,20960,Person 8,349.7,1731.9,0.0,1773.48,11.15,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412901.3384554,20961,Person 8,348.1,1733.8,0.0,1771.52,11.33,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412901.404019,20962,Person 8,347.5,1734.7,0.0,1768.39,11.48,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412901.5080457,20963,Person 8,347.5,1735.3,0.0,1768.99,11.58,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412901.583874,20964,Person 8,348.1,1735.7,0.0,1770.57,11.67,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412901.6554687,20965,Person 8,349.0,1735.9,0.0,1770.77,11.7,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412901.742614,20966,Person 8,349.7,1736.0,0.0,1770.95,11.56,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412901.8343613,20967,Person 8,350.2,1736.1,0.0,1771.91,11.39,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412901.9066153,20968,Person 8,350.1,1737.2,0.0,1781.93,11.03,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412901.971691,20969,Person 8,349.2,1739.6,0.0,1794.79,10.63,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412902.041556,20970,Person 8,347.5,1743.1,0.0,1804.69,10.41,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412902.1322665,20971,Person 8,345.3,1747.0,0.0,1805.67,10.4,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412902.2261646,20972,Person 8,342.3,1751.4,0.0,1805.94,10.27,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412902.294271,20973,Person 8,338.8,1755.5,0.0,1802.63,10.23,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412902.361277,20974,Person 8,335.0,1759.0,0.0,1797.71,10.25,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412902.4403038,20975,Person 8,331.2,1761.8,0.0,1791.0,10.32,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412902.5334167,20976,Person 8,328.1,1763.7,0.0,1783.67,10.47,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412902.6229591,20977,Person 8,325.7,1764.6,0.0,1776.17,10.58,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412902.7047327,20978,Person 8,324.5,1763.5,0.0,1768.87,10.72,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412902.8108141,20979,Person 8,324.5,1760.2,0.0,1762.36,10.83,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412902.8982537,20980,Person 8,325.5,1755.7,0.0,1762.33,10.99,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412902.9650648,20981,Person 8,326.4,1751.2,0.0,1763.12,10.95,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412903.0344667,20982,Person 8,327.5,1746.5,0.0,1761.76,10.9,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412903.1121209,20983,Person 8,328.6,1741.9,0.0,1759.42,10.84,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412903.2102044,20984,Person 8,329.4,1737.7,0.0,1757.87,10.75,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412903.2921112,20985,Person 8,329.9,1734.0,0.0,1755.53,10.7,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412903.368888,20986,Person 8,329.9,1731.0,0.0,1754.18,10.64,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412903.432639,20987,Person 8,329.4,1728.6,0.0,1751.66,10.56,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412903.4954147,20988,Person 8,328.5,1727.2,0.0,1753.45,10.52,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412903.556778,20989,Person 8,327.4,1726.9,0.0,1757.38,10.49,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412903.6368968,20990,Person 8,325.5,1727.0,0.0,1759.79,10.38,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412903.7114651,20991,Person 8,323.4,1727.4,0.0,1763.18,10.26,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412903.7846293,20992,Person 8,321.3,1728.5,0.0,1768.74,10.16,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412903.8677952,20993,Person 8,319.0,1730.4,-160.0,1773.94,10.0,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412903.976656,20994,Person 8,316.5,1733.1,-160.0,1779.98,9.8,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412904.065476,20995,Person 8,314.0,1736.2,0.0,1781.61,9.73,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412904.2410252,20996,Person 8,311.9,1738.7,0.0,1775.05,9.83,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412904.3073719,20997,Person 8,310.6,1740.3,0.0,1765.08,10.05,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412904.4152923,20998,Person 8,309.7,1740.5,0.0,1753.8,10.21,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412904.4939876,20999,Person 8,309.3,1739.5,0.0,1746.82,10.42,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412904.5913372,21000,Person 8,309.3,1737.9,0.0,1744.05,10.47,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412904.7060475,21001,Person 8,309.6,1735.7,0.0,1742.08,10.48,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412904.8182423,21002,Person 8,310.2,1732.8,0.0,1741.28,10.52,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412904.9064276,21003,Person 8,311.2,1729.1,0.0,1739.32,10.53,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412904.9909666,21004,Person 8,312.8,1724.5,0.0,1737.53,10.58,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412905.0783165,21005,Person 8,314.4,1719.8,0.0,1738.15,10.51,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412905.190419,21006,Person 8,315.5,1716.4,0.0,1743.51,10.38,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412905.2862139,21007,Person 8,315.8,1714.4,0.0,1745.92,10.26,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412905.368907,21008,Person 8,315.6,1714.0,0.0,1749.5,10.17,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412905.4527297,21009,Person 8,314.9,1714.8,0.0,1753.44,10.15,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412905.5564084,21010,Person 8,314.2,1716.3,0.0,1757.56,10.16,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412905.6812077,21011,Person 8,314.0,1718.8,0.0,1766.32,10.27,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412905.79719,21012,Person 8,314.2,1722.3,0.0,1776.07,10.38,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412905.9088013,21013,Person 8,314.9,1726.9,0.0,1785.82,10.49,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412906.0044162,21014,Person 8,316.0,1732.6,0.0,1795.58,10.59,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412906.0868478,21015,Person 8,317.8,1739.0,0.0,1804.37,10.7,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412906.1971102,21016,Person 8,320.3,1745.6,0.0,1812.98,10.78,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412906.2951086,21017,Person 8,323.6,1752.7,0.0,1821.77,10.88,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412906.374818,21018,Person 8,327.5,1760.1,0.0,1829.4,10.97,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412906.4618025,21019,Person 8,331.8,1767.8,0.0,1837.04,11.05,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412906.5468328,21020,Person 8,336.4,1775.8,0.0,1844.68,11.13,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412906.6626608,21021,Person 8,340.9,1783.7,0.0,1852.32,11.21,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412906.7539217,21022,Person 8,345.2,1791.3,0.0,1858.79,11.26,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412906.8323374,21023,Person 8,349.4,1798.6,0.0,1865.46,11.35,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412906.9118278,21024,Person 8,353.4,1805.6,0.0,1871.93,11.4,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412906.9929824,21025,Person 8,357.3,1812.4,0.0,1878.61,11.48,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412907.0982823,21026,Person 8,361.1,1819.0,0.0,1885.08,11.54,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412907.201576,21027,Person 8,364.4,1824.8,0.0,1885.08,11.54,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412907.2947235,21028,Person 8,367.3,1829.6,0.0,1882.14,11.55,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412907.3819635,21029,Person 8,369.9,1832.7,0.0,1872.55,11.65,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412907.4630008,21030,Person 8,372.1,1833.8,0.0,1859.82,11.73,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412907.5695245,21031,Person 8,373.9,1832.9,0.0,1847.09,11.81,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412907.6727717,21032,Person 8,375.5,1830.9,0.0,1842.4,11.87,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412907.7602212,21033,Person 8,376.8,1828.2,0.0,1841.63,11.91,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412907.852977,21034,Person 8,377.7,1824.8,0.0,1840.45,11.88,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412907.939649,21035,Person 8,378.0,1820.7,0.0,1839.06,11.83,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412908.0402596,21036,Person 8,377.7,1815.9,0.0,1837.46,11.74,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412908.126315,21037,Person 8,377.2,1811.4,0.0,1840.0,11.66,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412908.2105577,21038,Person 8,376.2,1807.5,0.0,1841.93,11.49,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412908.3371854,21039,Person 8,374.3,1804.6,0.0,1840.35,11.25,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412908.429219,21040,Person 8,371.8,1803.1,0.0,1840.18,11.06,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412908.547927,21041,Person 8,368.7,1803.0,0.0,1840.02,10.87,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412908.64624,21042,Person 8,365.3,1803.1,0.0,1836.69,10.83,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412908.7311316,21043,Person 8,361.7,1803.0,0.0,1833.56,10.81,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412908.8952804,21044,Person 8,358.1,1802.6,0.0,1829.44,10.81,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412909.0600274,21045,Person 8,354.6,1801.9,0.0,1825.33,10.8,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412909.2028244,21046,Person 8,351.0,1801.5,-80.0,1826.55,10.66,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412909.2913804,21047,Person 8,347.1,1801.0,-80.0,1827.59,10.5,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412909.3823323,21048,Person 8,343.2,1800.5,-80.0,1829.64,10.33,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412909.5184467,21049,Person 8,339.6,1800.3,0.0,1831.7,10.16,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412909.722631,21050,Person 8,335.8,1800.5,0.0,1835.24,9.88,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412909.8341198,21051,Person 8,331.6,1801.1,0.0,1838.48,9.55,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412909.9307272,21052,Person 8,326.7,1802.5,0.0,1841.94,9.25,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412910.0103216,21053,Person 8,321.0,1804.7,0.0,1845.45,8.95,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412910.090613,21054,Person 8,314.5,1807.7,0.0,1848.03,8.65,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412910.182848,21055,Person 8,307.2,1811.6,0.0,1851.64,8.35,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412910.2674859,21056,Person 8,299.5,1815.7,0.0,1854.46,8.09,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412910.3683107,21057,Person 8,291.5,1820.0,0.0,1857.31,7.83,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412910.4816868,21058,Person 8,283.3,1824.4,0.0,1860.34,7.6,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412910.5986955,21059,Person 8,274.9,1828.9,0.0,1863.39,7.37,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412910.6985228,21060,Person 8,266.5,1833.2,0.0,1865.36,7.11,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412910.8204825,21061,Person 8,258.5,1837.4,0.0,1868.6,6.92,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412910.9216642,21062,Person 8,250.7,1841.4,0.0,1870.75,6.69,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412911.0007505,21063,Person 8,243.2,1845.3,0.0,1874.03,6.5,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412911.08004,21064,Person 8,236.0,1849.1,0.0,1876.34,6.3,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412911.15759,21065,Person 8,229.1,1852.7,0.0,1878.68,6.11,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412911.2548513,21066,Person 8,222.9,1855.8,0.0,1877.58,6.08,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412911.350155,21067,Person 8,218.4,1858.1,0.0,1874.58,6.37,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412911.4344423,21068,Person 8,215.9,1859.5,0.0,1871.1,6.78,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412911.5244944,21069,Person 8,214.6,1860.1,0.0,1867.72,6.95,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412911.6198094,21070,Person 8,214.6,1860.2,0.0,1866.35,7.11,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412911.7800434,21071,Person 8,215.3,1859.9,0.0,1866.47,7.14,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412911.878746,21072,Person 8,216.9,1859.2,0.0,1865.73,7.21,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412911.9694662,21073,Person 8,219.5,1857.8,0.0,1863.26,7.34,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412912.051142,21074,Person 8,223.2,1855.8,0.0,1860.93,7.5,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412912.1412694,21075,Person 8,227.7,1853.5,0.0,1861.2,7.56,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412912.239312,21076,Person 8,232.3,1851.5,0.0,1863.18,7.56,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412912.32923,21077,Person 8,235.9,1850.2,0.0,1866.02,7.51,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412912.4068842,21078,Person 8,238.4,1849.3,0.0,1865.29,7.58,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412912.4838932,21079,Person 8,241.0,1848.4,0.0,1862.13,7.78,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412912.5634775,21080,Person 8,244.0,1847.1,0.0,1857.43,8.08,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412912.6541064,21081,Person 8,247.7,1845.1,0.0,1851.64,8.35,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412912.752643,21082,Person 8,252.0,1842.6,0.0,1846.89,8.63,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412912.8429847,21083,Person 8,256.0,1840.2,0.0,1845.06,8.67,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412912.9201322,21084,Person 8,259.5,1838.3,-80.0,1847.04,8.66,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412912.999627,21085,Person 8,262.6,1836.6,80.0,1848.72,8.59,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412913.0834124,21086,Person 8,265.2,1834.8,80.0,1848.97,8.43,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412913.1853645,21087,Person 8,267.2,1832.9,80.0,1849.93,8.2,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412913.2616978,21088,Person 8,269.0,1831.1,0.0,1849.93,8.2,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412913.3547828,21089,Person 8,270.0,1829.7,0.0,1849.65,8.14,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412913.4834342,21090,Person 8,270.0,1828.7,0.0,1847.53,8.12,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412913.5889866,21091,Person 8,269.3,1828.6,0.0,1849.65,8.14,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412913.6801157,21092,Person 8,268.0,1829.3,0.0,1851.91,8.2,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412913.757259,21093,Person 8,266.7,1830.5,0.0,1855.03,8.21,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412913.8327687,21094,Person 8,265.5,1831.7,0.0,1857.15,8.23,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412913.9129057,21095,Person 8,264.6,1832.9,0.0,1859.27,8.26,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412914.0014062,21096,Person 8,263.8,1834.2,0.0,1860.68,8.13,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412914.1115143,21097,Person 8,263.3,1835.3,0.0,1860.12,8.0,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412914.2122834,21098,Person 8,262.9,1836.2,0.0,1858.28,8.04,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412914.3056746,21099,Person 8,263.2,1836.7,0.0,1855.03,8.21,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412914.396448,21100,Person 8,264.3,1836.9,0.0,1851.09,8.45,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412914.5151954,21101,Person 8,265.5,1836.8,80.0,1850.4,8.52,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412914.5942082,21102,Person 8,266.5,1836.6,0.0,1851.39,8.51,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412914.6709347,21103,Person 8,267.4,1836.2,0.0,1852.38,8.51,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412914.7508914,21104,Person 8,268.1,1835.8,0.0,1854.21,8.47,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412914.8284712,21105,Person 8,268.6,1835.4,0.0,1856.04,8.43,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412914.9226441,21106,Person 8,269.3,1835.0,0.0,1857.73,8.36,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412915.0021322,21107,Person 8,270.3,1834.7,0.0,1858.57,8.32,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412915.0793767,21108,Person 8,271.1,1834.8,0.0,1860.4,8.28,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412915.1959267,21109,Person 8,271.2,1835.2,0.0,1859.13,8.23,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412915.2738402,21110,Person 8,270.6,1835.9,0.0,1857.15,8.23,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412915.3556485,21111,Person 8,269.9,1836.7,0.0,1857.29,8.27,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412915.4326305,21112,Person 8,269.7,1837.2,0.0,1856.04,8.43,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412915.5212934,21113,Person 8,270.2,1837.5,0.0,1856.09,8.65,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412915.6111763,21114,Person 8,271.5,1837.4,0.0,1855.18,8.87,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412915.716749,21115,Person 8,273.6,1836.9,0.0,1854.3,9.09,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412915.8041623,21116,Person 8,275.9,1836.2,0.0,1854.3,9.09,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412915.8950582,21117,Person 8,278.4,1835.5,0.0,1855.44,9.12,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412915.9737382,21118,Person 8,281.1,1834.8,0.0,1857.57,9.14,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412916.0501788,21119,Person 8,284.1,1834.3,0.0,1858.72,9.16,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412916.1534166,21120,Person 8,286.8,1834.0,0.0,1858.24,9.07,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412916.237679,21121,Person 8,289.1,1833.6,0.0,1856.79,8.99,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412916.3303316,21122,Person 8,290.5,1833.2,0.0,1854.19,8.87,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412916.4080658,21123,Person 8,290.7,1833.1,0.0,1855.4,8.71,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412916.4868677,21124,Person 8,290.1,1833.5,0.0,1858.22,8.67,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412916.5647109,21125,Person 8,289.1,1834.2,0.0,1859.66,8.75,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412916.6516256,21126,Person 8,288.2,1835.1,-80.0,1861.79,8.77,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412916.7465348,21127,Person 8,287.4,1835.6,-80.0,1859.13,8.85,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412916.829194,21128,Person 8,286.4,1836.1,-80.0,1860.95,8.81,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412916.905622,21129,Person 8,284.6,1836.8,0.0,1862.86,8.58,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412916.9948363,21130,Person 8,282.9,1837.7,0.0,1864.54,8.51,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412917.0886903,21131,Person 8,281.5,1838.3,0.0,1860.58,8.53,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412917.189063,21132,Person 8,280.9,1838.9,0.0,1859.21,8.66,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412917.2662666,21133,Person 8,281.3,1839.2,0.0,1858.98,8.82,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412917.344327,21134,Person 8,281.9,1839.4,80.0,1861.11,8.84,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412917.4253666,21135,Person 8,282.3,1839.1,0.0,1857.31,8.89,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412917.530946,21136,Person 8,283.1,1837.0,0.0,1842.29,9.12,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412917.6321774,21137,Person 8,284.2,1833.4,0.0,1825.32,9.36,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412917.7222993,21138,Person 8,285.7,1828.2,-80.0,1812.01,9.53,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412917.800781,21139,Person 8,288.7,1822.0,0.0,1806.45,9.82,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412917.8923068,21140,Person 8,292.0,1815.6,80.0,1806.62,9.85,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412917.9833894,21141,Person 8,294.8,1809.8,0.0,1807.74,9.68,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412918.0817337,21142,Person 8,296.0,1805.5,-80.0,1818.6,9.24,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412918.1575375,21143,Person 8,295.1,1803.3,-80.0,1835.87,8.65,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412918.255149,21144,Person 8,292.6,1802.7,-80.0,1851.49,8.1,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412918.3765547,21145,Person 8,289.2,1805.0,0.0,1875.15,7.75,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412918.4911108,21146,Person 8,283.8,1810.8,0.0,1892.03,7.23,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412918.5951903,21147,Person 8,277.2,1819.2,-240.0,1899.1,6.99,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412918.6892877,21148,Person 8,270.8,1829.0,0.0,1899.72,7.14,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412918.7779887,21149,Person 8,264.1,1839.0,80.0,1895.38,7.3,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412918.8672872,21150,Person 8,258.0,1848.1,80.0,1887.36,7.55,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412918.9716082,21151,Person 8,253.2,1855.7,-80.0,1875.55,7.84,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412919.0601816,21152,Person 8,250.4,1861.0,-80.0,1866.76,8.13,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412919.1357503,21153,Person 8,250.4,1863.6,0.0,1861.57,8.53,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412919.2314801,21154,Person 8,254.1,1862.7,0.0,1848.18,9.28,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412919.3368669,21155,Person 8,258.8,1859.0,0.0,1845.55,9.36,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412919.443541,21156,Person 8,265.3,1852.9,-80.0,1841.1,9.47,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412919.543784,21157,Person 8,272.8,1845.5,-80.0,1836.67,9.59,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412919.6255314,21158,Person 8,279.8,1837.9,80.0,1834.7,9.6,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412919.7033222,21159,Person 8,286.2,1831.0,0.0,1836.5,9.56,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412919.7844145,21160,Person 8,291.9,1824.8,80.0,1834.53,9.57,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412919.8757694,21161,Person 8,297.0,1818.9,80.0,1825.01,9.68,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412920.0081692,21162,Person 8,301.6,1813.1,0.0,1816.65,9.83,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412920.1474261,21163,Person 8,305.5,1807.2,0.0,1809.63,10.02,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412920.2234364,21164,Person 8,307.4,1802.5,0.0,1805.05,10.11,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412920.324608,21165,Person 8,309.0,1797.6,0.0,1799.96,10.11,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412920.420847,21166,Person 8,310.0,1792.9,0.0,1796.48,10.03,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412920.5172474,21167,Person 8,310.5,1788.4,0.0,1793.18,9.99,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412920.6145442,21168,Person 8,310.8,1783.5,0.0,1786.92,9.96,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412920.6889572,21169,Person 8,311.1,1777.7,0.0,1779.85,9.97,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412920.7852437,21170,Person 8,311.6,1771.9,0.0,1778.23,10.04,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412920.9052062,21171,Person 8,312.3,1767.2,0.0,1779.92,10.16,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412920.9955158,21172,Person 8,313.2,1763.4,0.0,1780.8,10.32,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412921.0843563,21173,Person 8,314.1,1760.6,0.0,1783.67,10.47,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412921.1913147,21174,Person 8,315.2,1758.5,0.0,1786.37,10.58,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412921.3068385,21175,Person 8,316.8,1756.8,0.0,1786.13,10.71,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412921.3904047,21176,Person 8,318.9,1755.3,0.0,1785.52,10.78,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412921.4709485,21177,Person 8,321.5,1754.0,0.0,1785.1,10.88,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412921.553429,21178,Person 8,324.6,1753.2,0.0,1784.69,10.98,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412921.6348696,21179,Person 8,328.0,1753.0,0.0,1784.09,11.05,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412921.7157454,21180,Person 8,331.4,1752.9,0.0,1783.49,11.12,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412921.8415082,21181,Person 8,334.1,1752.9,0.0,1784.88,11.01,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412921.9348705,21182,Person 8,335.6,1753.2,0.0,1786.5,10.78,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412922.0299382,21183,Person 8,335.9,1753.7,0.0,1789.14,10.53,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412922.1237783,21184,Person 8,335.1,1754.6,80.0,1793.77,10.28,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412922.223318,21185,Person 8,333.1,1756.4,80.0,1800.24,9.98,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412922.324954,21186,Person 8,330.1,1759.0,80.0,1805.77,9.69,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412922.4067798,21187,Person 8,325.8,1762.6,0.0,1813.0,9.33,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412922.4926982,21188,Person 8,320.5,1767.1,0.0,1819.77,9.07,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412922.5711539,21189,Person 8,315.2,1772.2,0.0,1825.03,9.11,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412922.6564796,21190,Person 8,310.2,1777.7,0.0,1828.79,9.25,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412922.7630792,21191,Person 8,305.7,1783.3,0.0,1832.07,9.3,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412922.8562398,21192,Person 8,302.2,1789.0,0.0,1836.5,9.37,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412922.933027,21193,Person 8,299.7,1794.7,0.0,1840.94,9.44,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412923.0082386,21194,Person 8,298.3,1799.8,0.0,1841.6,9.56,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412923.0876818,21195,Person 8,298.3,1803.8,0.0,1839.65,9.76,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412923.2039375,21196,Person 8,299.8,1806.6,0.0,1835.93,10.01,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412923.285433,21197,Person 8,302.9,1808.0,0.0,1832.06,10.22,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412923.360334,21198,Person 8,307.0,1808.3,0.0,1829.64,10.33,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412923.4417562,21199,Person 8,311.1,1807.9,0.0,1828.03,10.4,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412923.5219688,21200,Person 8,314.7,1807.2,0.0,1828.03,10.4,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412923.599083,21201,Person 8,318.4,1806.4,0.0,1830.54,10.48,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412923.6798172,21202,Person 8,321.8,1805.3,80.0,1831.53,10.48,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412923.765023,21203,Person 8,324.3,1803.9,80.0,1831.43,10.29,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412923.8403392,21204,Person 8,325.9,1802.3,0.0,1828.57,10.14,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412923.9138665,21205,Person 8,326.1,1800.8,0.0,1825.21,9.91,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412924.0040624,21206,Person 8,325.6,1799.6,0.0,1823.24,9.92,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412924.0897217,21207,Person 8,325.1,1798.8,0.0,1823.3,10.11,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412924.1719906,21208,Person 8,325.0,1798.2,0.0,1823.56,10.33,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412924.2682571,21209,Person 8,325.3,1797.2,0.0,1818.74,10.55,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412924.36547,21210,Person 8,326.0,1795.9,0.0,1816.53,10.69,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412924.4320965,21211,Person 8,326.1,1794.4,0.0,1815.98,10.6,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412924.4997797,21212,Person 8,326.1,1792.9,0.0,1816.78,10.56,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412924.5692325,21213,Person 8,326.8,1791.5,0.0,1818.93,10.58,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412924.630139,21214,Person 8,328.5,1790.4,0.0,1820.84,10.73,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412924.707682,21215,Person 8,331.3,1789.7,160.0,1823.36,10.81,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412924.8166256,21216,Person 8,334.5,1789.4,160.0,1826.08,10.92,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412924.9101856,21217,Person 8,337.4,1788.9,0.0,1823.71,11.03,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412924.981879,21218,Person 8,340.1,1787.6,0.0,1815.84,11.24,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412925.0643928,21219,Person 8,342.6,1786.3,0.0,1810.74,11.4,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412925.146959,21220,Person 8,344.8,1785.3,-160.0,1810.94,11.43,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412925.2266252,21221,Person 8,347.0,1784.7,-160.0,1814.27,11.32,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412925.3076103,21222,Person 8,348.7,1784.4,-80.0,1817.03,11.11,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412925.3793244,21223,Person 8,349.6,1784.3,80.0,1819.62,10.87,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412925.4964635,21224,Person 8,349.2,1784.6,80.0,1823.04,10.59,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412925.5754557,21225,Person 8,348.0,1785.0,80.0,1825.08,10.42,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412925.6634228,21226,Person 8,346.2,1785.8,80.0,1830.62,10.32,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412925.7454348,21227,Person 8,344.3,1787.4,0.0,1835.9,10.36,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412925.8228507,21228,Person 8,342.4,1790.0,0.0,1837.79,10.5,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412925.8912017,21229,Person 8,340.6,1793.2,0.0,1838.71,10.66,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412925.9736593,21230,Person 8,339.2,1796.2,0.0,1837.68,10.82,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412926.0598037,21231,Person 8,338.5,1798.7,0.0,1837.45,10.95,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412926.1485126,21232,Person 8,338.5,1800.7,0.0,1836.66,10.99,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412926.2098632,21233,Person 8,339.4,1801.8,0.0,1832.13,11.08,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412926.284905,21234,Person 8,341.3,1801.5,0.0,1823.69,11.19,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412926.3642566,21235,Person 8,343.9,1799.9,0.0,1814.27,11.32,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412926.436037,21236,Person 8,346.9,1796.7,0.0,1804.86,11.44,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412926.516314,21237,Person 8,349.9,1792.3,0.0,1798.4,11.55,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412926.6055403,21238,Person 8,352.4,1787.7,-80.0,1797.42,11.55,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412926.6835043,21239,Person 8,354.6,1783.2,0.0,1798.8,11.61,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412926.7684755,21240,Person 8,356.7,1779.3,-80.0,1803.53,11.71,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412926.8633454,21241,Person 8,358.8,1776.0,0.0,1809.24,11.8,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412926.9478166,21242,Person 8,360.9,1773.5,0.0,1816.29,11.79,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412927.013174,21243,Person 8,362.0,1772.4,0.0,1823.5,11.48,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412927.0762296,21244,Person 8,361.8,1773.3,0.0,1832.13,11.08,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412927.15872,21245,Person 8,360.7,1775.8,0.0,1836.69,10.83,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412927.2692003,21246,Person 8,359.5,1779.1,0.0,1834.92,10.87,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412927.356352,21247,Person 8,358.5,1782.7,0.0,1831.75,11.02,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412927.4197733,21248,Person 8,357.8,1786.0,0.0,1828.4,11.13,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412927.4794967,21249,Person 8,357.4,1788.6,0.0,1823.49,11.32,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412927.544085,21250,Person 8,356.7,1790.3,0.0,1818.78,11.38,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412927.6155465,21251,Person 8,356.1,1791.0,0.0,1814.88,11.57,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412927.706131,21252,Person 8,355.9,1790.6,0.0,1811.97,11.75,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412927.7740846,21253,Person 8,356.8,1789.1,0.0,1810.63,11.86,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412927.8537352,21254,Person 8,359.1,1786.2,0.0,1808.31,11.97,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412927.9553533,21255,Person 8,362.3,1782.1,0.0,1802.86,12.07,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412928.0474524,21256,Person 8,365.5,1777.7,0.0,1798.18,12.13,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412928.1318755,21257,Person 8,368.6,1773.2,0.0,1793.93,12.26,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412928.1995103,21258,Person 8,371.9,1768.8,0.0,1792.06,12.44,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412928.2899494,21259,Person 8,375.0,1765.1,0.0,1793.69,12.53,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412928.3840368,21260,Person 8,377.7,1762.2,0.0,1795.97,12.41,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412928.4466789,21261,Person 8,379.8,1759.8,0.0,1795.76,12.38,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412928.5087488,21262,Person 8,381.2,1757.9,0.0,1796.31,12.31,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412928.5809948,21263,Person 8,381.8,1756.6,80.0,1799.16,12.13,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412928.6436357,21264,Person 8,381.7,1755.8,80.0,1800.28,11.99,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412928.7218778,21265,Person 8,381.0,1755.8,80.0,1801.41,11.85,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412928.793185,21266,Person 8,379.9,1756.3,0.0,1800.79,11.76,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412928.8651094,21267,Person 8,378.9,1756.6,0.0,1794.76,11.93,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412928.967451,21268,Person 8,377.9,1756.6,0.0,1789.94,12.13,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412929.0504384,21269,Person 8,376.9,1755.9,0.0,1784.71,12.26,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412929.1147957,21270,Person 8,376.7,1754.3,0.0,1779.92,12.46,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412929.200145,21271,Person 8,377.0,1752.1,0.0,1774.93,12.63,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412929.298537,21272,Person 8,377.9,1749.2,0.0,1769.95,12.8,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412929.3753593,21273,Person 8,379.7,1745.4,0.0,1765.97,12.96,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412929.4562445,21274,Person 8,382.2,1740.8,0.0,1760.8,13.1,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412929.5362356,21275,Person 8,385.5,1735.5,0.0,1756.85,13.26,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412929.6262543,21276,Person 8,389.4,1729.7,0.0,1752.67,13.39,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412929.7028613,21277,Person 8,393.3,1724.1,0.0,1748.74,13.56,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412929.7707338,21278,Person 8,396.6,1719.2,0.0,1749.48,13.52,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412929.830546,21279,Person 8,399.3,1715.1,0.0,1750.73,13.41,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412929.912871,21280,Person 8,400.9,1712.4,80.0,1757.13,13.16,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412929.9981835,21281,Person 8,401.7,1711.0,0.0,1763.05,12.98,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412930.0853279,21282,Person 8,401.9,1710.6,0.0,1766.5,12.89,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412930.1465929,21283,Person 8,401.6,1711.1,0.0,1770.18,12.83,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412930.2213655,21284,Person 8,400.5,1712.5,0.0,1772.0,12.65,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412930.286134,21285,Person 8,398.7,1714.8,0.0,1775.25,12.53,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412930.3782203,21286,Person 8,396.4,1717.7,0.0,1775.79,12.46,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412930.4383314,21287,Person 8,393.4,1721.2,0.0,1776.13,12.35,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412930.5136147,21288,Person 8,390.2,1725.0,0.0,1779.4,12.23,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412930.5923533,21289,Person 8,387.1,1728.8,0.0,1780.93,12.16,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412930.6704757,21290,Person 8,384.5,1732.0,0.0,1782.67,12.11,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412930.7498763,21291,Person 8,382.2,1734.7,0.0,1784.42,12.07,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412930.8116102,21292,Person 8,380.0,1737.2,0.0,1786.17,12.02,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412930.8759341,21293,Person 8,377.8,1739.5,0.0,1787.92,11.98,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412930.9364583,21294,Person 8,376.0,1741.7,0.0,1789.67,11.93,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412931.0143225,21295,Person 8,374.4,1743.6,0.0,1790.44,11.89,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412931.078445,21296,Person 8,372.9,1745.6,0.0,1792.19,11.85,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412931.1522052,21297,Person 8,371.5,1747.7,0.0,1793.74,11.77,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412931.2415218,21298,Person 8,370.4,1749.3,0.0,1792.76,11.78,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412931.3260183,21299,Person 8,369.6,1750.6,0.0,1791.98,11.82,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412931.419911,21300,Person 8,369.0,1751.6,0.0,1791.21,11.86,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412931.539275,21301,Person 8,368.6,1752.3,0.0,1790.44,11.89,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412931.6129713,21302,Person 8,368.3,1752.7,0.0,1789.46,11.9,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412931.6781504,21303,Person 8,368.5,1752.7,0.0,1788.33,12.04,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412931.774741,21304,Person 8,369.0,1752.4,0.0,1787.77,12.11,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412931.884543,21305,Person 8,369.7,1752.1,80.0,1788.96,12.13,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412932.0413563,21306,Person 8,370.3,1751.6,0.0,1788.54,12.07,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412932.1125097,21307,Person 8,370.4,1751.1,-80.0,1789.05,11.84,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412932.2040622,21308,Person 8,369.6,1751.4,-80.0,1794.08,11.51,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412932.2801535,21309,Person 8,368.1,1752.9,0.0,1803.68,11.25,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412932.360799,21310,Person 8,365.2,1756.8,0.0,1823.78,10.71,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412932.4803386,21311,Person 8,362.8,1760.0,0.0,1817.05,10.95,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412932.5912821,21312,Person 8,360.9,1762.7,0.0,1812.12,11.14,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412932.6834645,21313,Person 8,359.2,1764.9,0.0,1806.43,11.37,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412932.7772422,21314,Person 8,358.0,1766.2,0.0,1798.02,11.65,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412932.8559575,21315,Person 8,357.4,1766.4,0.0,1789.67,11.93,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412932.9619083,21316,Person 8,357.7,1765.7,0.0,1782.33,12.21,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412933.0484817,21317,Person 8,359.3,1763.9,0.0,1774.82,12.46,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412933.128813,21318,Person 8,362.4,1760.5,0.0,1767.34,12.72,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412933.2226126,21319,Person 8,366.2,1755.9,-80.0,1766.59,12.75,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412933.307987,21320,Person 8,370.7,1749.4,80.0,1769.18,12.54,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412933.3947444,21321,Person 8,374.0,1744.2,0.0,1772.77,12.31,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412933.475544,21322,Person 8,376.2,1740.2,-80.0,1777.37,12.08,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412933.553611,21323,Person 8,377.4,1737.2,-80.0,1779.47,11.94,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412933.6604402,21324,Person 8,378.0,1735.0,0.0,1777.72,11.98,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412933.7483075,21325,Person 8,377.9,1733.6,-80.0,1775.76,11.99,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412933.8347485,21326,Person 8,377.1,1733.2,0.0,1776.74,11.99,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412933.9162147,21327,Person 8,375.3,1733.7,0.0,1775.91,11.86,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412934.0008247,21328,Person 8,372.4,1735.4,0.0,1777.83,11.68,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412934.1177716,21329,Person 8,369.2,1737.3,0.0,1778.41,11.61,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412934.2170923,21330,Person 8,366.4,1738.8,0.0,1778.0,11.55,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412934.3275845,21331,Person 8,364.0,1739.8,0.0,1777.61,11.49,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412934.4109023,21332,Person 8,362.1,1740.1,0.0,1776.43,11.46,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412934.487174,21333,Person 8,360.5,1740.0,0.0,1775.25,11.44,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412934.5626302,21334,Person 8,358.6,1740.3,0.0,1776.81,11.36,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412934.6581879,21335,Person 8,356.5,1741.1,0.0,1779.36,11.28,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412934.7613702,21336,Person 8,353.9,1742.4,0.0,1784.28,11.08,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412934.8579583,21337,Person 8,351.5,1744.2,0.0,1788.8,10.99,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412934.9352093,21338,Person 8,349.7,1745.8,0.0,1789.98,11.01,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412935.0117192,21339,Person 8,348.2,1747.3,0.0,1790.17,11.05,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412935.1365032,21340,Person 8,346.5,1749.1,0.0,1792.35,10.9,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412935.2644074,21341,Person 8,344.4,1751.2,0.0,1794.17,10.7,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412935.3580875,21342,Person 8,341.6,1753.8,0.0,1796.64,10.42,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412935.4441142,21343,Person 8,338.4,1756.7,0.0,1797.71,10.25,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412935.5254478,21344,Person 8,335.0,1759.5,0.0,1797.99,10.12,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412935.6247394,21345,Person 8,332.0,1762.1,0.0,1799.32,10.18,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412935.7357872,21346,Person 8,329.4,1764.1,80.0,1799.15,10.15,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412935.8319144,21347,Person 8,326.5,1765.6,0.0,1798.27,9.99,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412935.9096045,21348,Person 8,323.3,1767.0,0.0,1797.93,9.93,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412936.00537,21349,Person 8,320.0,1768.3,0.0,1796.94,9.93,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412936.2047842,21350,Person 8,316.5,1769.7,0.0,1799.86,9.72,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412936.3093684,21351,Person 8,313.0,1771.2,0.0,1802.8,9.51,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412936.4158616,21352,Person 8,310.2,1772.5,80.0,1804.61,9.47,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412936.4932005,21353,Person 8,307.8,1773.5,0.0,1803.46,9.45,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412936.5794322,21354,Person 8,305.8,1774.4,0.0,1803.46,9.45,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412936.664323,21355,Person 8,303.6,1775.3,0.0,1804.44,9.44,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412936.76175,21356,Person 8,301.6,1776.3,80.0,1805.59,9.47,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412936.8563452,21357,Person 8,299.7,1777.7,0.0,1808.89,9.32,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412936.957963,21358,Person 8,297.5,1779.3,0.0,1810.06,9.16,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412937.0298731,21359,Person 8,295.0,1781.2,0.0,1811.56,9.05,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412937.148734,21360,Person 8,292.7,1782.9,0.0,1812.91,8.92,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412937.2444434,21361,Person 8,290.7,1784.4,0.0,1814.42,8.81,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412937.3592758,21362,Person 8,289.0,1785.9,0.0,1816.71,8.87,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412937.4361687,21363,Person 8,287.8,1787.5,0.0,1817.33,8.99,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412937.5208626,21364,Person 8,286.9,1789.0,0.0,1816.81,9.09,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412937.6101797,21365,Person 8,286.4,1790.2,0.0,1815.47,9.22,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412937.7343826,21366,Person 8,285.9,1791.2,0.0,1814.65,9.26,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412937.8174975,21367,Person 8,285.6,1791.9,0.0,1815.31,9.19,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412937.8804524,21368,Person 8,285.4,1792.7,80.0,1817.64,9.05,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412937.9430282,21369,Person 8,285.2,1793.4,-80.0,1818.16,8.95,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412938.0243957,21370,Person 8,285.2,1794.0,0.0,1818.84,8.89,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412938.1241412,21371,Person 8,285.2,1794.5,0.0,1819.36,8.79,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412938.1982794,21372,Person 8,284.8,1794.9,0.0,1820.05,8.72,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412938.2636287,21373,Person 8,283.9,1795.4,80.0,1820.89,8.69,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412938.330838,21374,Person 8,282.7,1796.1,0.0,1821.87,8.68,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412938.4165418,21375,Person 8,281.1,1797.1,0.0,1822.86,8.68,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412938.5707707,21376,Person 8,279.5,1798.2,-80.0,1823.01,8.71,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412938.635333,21377,Person 8,277.9,1799.3,-80.0,1823.7,8.64,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412938.6947696,21378,Person 8,276.7,1800.2,0.0,1824.69,8.64,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412938.7885358,21379,Person 8,276.0,1800.9,0.0,1824.0,8.7,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412938.8840978,21380,Person 8,275.7,1801.6,0.0,1825.29,8.76,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412939.0039968,21381,Person 8,275.8,1802.3,0.0,1826.44,8.79,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412939.0662155,21382,Person 8,276.5,1802.7,0.0,1825.07,8.92,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412939.1270204,21383,Person 8,278.0,1802.9,0.0,1825.19,9.14,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412939.189298,21384,Person 8,279.7,1802.8,0.0,1823.53,9.21,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412939.2713437,21385,Person 8,281.3,1802.7,0.0,1824.36,9.18,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412939.3493352,21386,Person 8,282.5,1802.7,0.0,1824.87,9.08,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412939.4256165,21387,Person 8,283.9,1802.6,0.0,1824.87,9.08,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412939.505215,21388,Person 8,285.2,1802.4,0.0,1824.71,9.05,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412939.6059246,21389,Person 8,286.4,1802.3,0.0,1824.87,9.08,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412939.6841938,21390,Person 8,287.6,1802.0,0.0,1824.2,9.15,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412939.7672863,21391,Person 8,288.5,1801.8,0.0,1825.86,9.08,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412939.8577983,21392,Person 8,288.7,1802.0,0.0,1827.36,8.97,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412939.916273,21393,Person 8,287.7,1802.5,0.0,1828.56,8.81,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412940.0003598,21394,Person 8,286.2,1803.2,0.0,1828.11,8.72,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412940.0901504,21395,Person 8,284.9,1803.6,0.0,1826.28,8.76,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412940.1700888,21396,Person 8,284.5,1803.4,0.0,1822.27,8.97,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412940.2507536,21397,Person 8,284.8,1802.6,0.0,1817.45,9.21,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412940.3357842,21398,Person 8,286.0,1801.2,0.0,1812.83,9.49,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412940.433354,21399,Person 8,287.6,1799.1,80.0,1806.76,9.69,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412940.5094903,21400,Person 8,289.3,1796.4,80.0,1800.37,9.82,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412940.5878427,21401,Person 8,291.4,1792.7,160.0,1792.83,9.92,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412940.6829562,21402,Person 8,293.9,1787.8,240.0,1783.15,10.01,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412940.7456234,21403,Person 8,297.1,1781.9,240.0,1775.63,10.12,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412940.805586,21404,Person 8,300.4,1775.3,240.0,1768.38,10.1,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412940.8675835,21405,Person 8,303.2,1768.3,160.0,1761.78,10.0,True,Active,hafsa,None,Normal,3: Sitting down (controlled)
+1790412940.9721055,21406,Person 8,304.5,1761.0,80.0,1752.35,9.76,True,Active,hafsa,None,Normal,1: Walking
+1790412941.0982168,21407,Person 8,304.3,1753.8,80.0,1746.08,9.53,True,Active,hafsa,None,Normal,1: Walking
+1790412941.1726453,21408,Person 8,301.8,1747.0,80.0,1741.69,9.05,True,Active,hafsa,None,Normal,1: Walking
+1790412941.2501307,21409,Person 8,297.5,1741.0,160.0,1740.68,8.62,True,Active,hafsa,None,Normal,1: Walking
+1790412941.3292756,21410,Person 8,291.2,1735.6,390.0,1737.22,8.07,True,Active,hafsa,None,Normal,1: Walking
+1790412941.4198651,21411,Person 8,278.0,1728.1,480.0,1700.24,5.98,True,Active,hafsa,None,Normal,1: Walking
+1790412941.505088,21412,Person 8,253.5,1715.5,480.0,1631.3,2.28,True,Active,hafsa,None,Normal,1: Walking
+1790412941.572115,21413,Person 8,222.9,1696.7,390.0,1560.01,0.22,True,Active,hafsa,None,Normal,1: Walking
+1790412941.648393,21414,Person 8,187.0,1672.7,160.0,1501.8,-1.87,True,Active,hafsa,None,Normal,1: Walking
+1790412941.7352262,21415,Person 8,146.3,1644.8,80.0,1459.5,-3.97,True,Active,hafsa,None,Normal,1: Walking
+1790412941.8078406,21416,Person 8,102.8,1614.0,0.0,1425.69,-5.55,True,Active,hafsa,None,Normal,1: Walking
+1790412941.8800197,21417,Person 8,55.1,1581.5,-160.0,1409.59,-7.66,True,Active,hafsa,None,Normal,1: Walking
+1790412941.9532318,21418,Person 8,4.0,1548.1,-240.0,1406.12,-9.7,True,Active,hafsa,None,Normal,1: Walking
+1790412942.0280135,21419,Person 8,-52.9,1513.8,-160.0,1412.0,-12.6,True,Active,hafsa,None,Normal,1: Walking
+1790412942.1064212,21420,Person 8,-113.4,1478.4,-80.0,1412.9,-14.8,True,Active,hafsa,None,Normal,1: Walking
+1790412942.185291,21421,Person 8,-171.2,1443.4,-80.0,1399.67,-16.65,True,Active,hafsa,None,Normal,1: Walking
+1790412942.2481964,21422,Person 8,-220.6,1412.1,-80.0,1385.11,-18.04,True,Active,hafsa,None,Normal,1: Walking
+1790412942.3200483,21423,Person 8,-268.7,1385.6,80.0,1379.37,-20.14,True,Active,hafsa,None,Normal,1: Walking
+1790412942.3839698,21424,Person 8,-316.2,1362.3,160.0,1372.01,-22.45,True,Active,hafsa,None,Normal,1: Walking
+1790412942.4612494,21425,Person 8,-365.1,1340.2,390.0,1368.69,-25.54,True,Active,hafsa,None,Normal,1: Walking
+1790412942.5332494,21426,Person 8,-416.7,1317.7,390.0,1361.38,-28.71,True,Active,hafsa,None,Normal,1: Walking
+1790412942.6202571,21427,Person 8,-469.3,1292.3,390.0,1347.68,-31.99,True,Active,hafsa,None,Normal,1: Walking
+1790412942.69112,21428,Person 8,-521.5,1263.3,390.0,1333.15,-34.7,True,Active,hafsa,None,Normal,1: Walking
+1790412942.785666,21429,Person 8,-568.1,1232.5,80.0,1320.6,-35.88,True,Active,hafsa,None,Normal,1: Walking
+1790412942.8514357,21430,Person 8,-610.5,1199.0,480.0,1295.83,-37.29,True,Active,hafsa,None,Normal,1: Walking
+1790412942.9165792,21431,Person 8,-649.0,1165.7,320.0,1278.23,-37.95,True,Active,hafsa,None,Normal,1: Walking
+1790412942.985887,21432,Person 8,-684.2,1132.7,390.0,1258.62,-38.35,True,Active,hafsa,None,Normal,1: Walking
+1790412943.073431,21433,Person 8,-714.5,1100.7,480.0,1247.36,-38.59,True,Active,hafsa,None,Normal,1: Walking
+1790412943.1339045,21434,Person 8,-739.6,1069.3,560.0,1229.12,-39.09,True,Active,hafsa,None,Normal,1: Walking
+1790412943.1975799,21435,Person 8,-757.2,1038.7,320.0,1204.08,-39.51,True,Active,hafsa,None,Normal,1: Walking
+1790412943.2668726,21436,Person 8,-767.6,1009.9,560.0,1181.27,-39.92,True,Active,hafsa,None,Normal,1: Walking
+1790412943.3396895,21437,Person 8,-769.6,980.4,560.0,1121.54,-40.88,True,Active,hafsa,None,Normal,1: Walking
+1790412943.4017649,21438,Person 8,-763.9,950.2,480.0,1059.83,-41.48,True,Active,hafsa,None,Normal,1: Walking
+1790412943.4708397,21439,Person 8,-752.4,917.4,390.0,992.39,-41.61,True,Active,hafsa,None,Normal,1: Walking
+1790412943.5371408,21440,Person 8,-735.1,884.5,390.0,931.32,-41.08,True,Active,hafsa,None,Normal,1: Walking
+1790412943.5981596,21441,Person 8,-712.5,851.8,390.0,881.68,-39.43,True,Active,hafsa,None,Normal,1: Walking
+1790412943.663564,21442,Person 8,-685.2,819.5,240.0,836.04,-37.42,True,Active,hafsa,None,Normal,1: Walking
+1790412943.725346,21443,Person 8,-652.2,787.6,240.0,794.38,-34.33,True,Active,hafsa,None,Normal,1: Walking
+1790412943.7959833,21444,Person 8,-613.3,757.3,160.0,756.83,-30.67,True,Active,hafsa,None,Normal,1: Walking
+1790412943.855267,21445,Person 8,-568.8,728.9,160.0,720.46,-26.46,True,Active,hafsa,None,Normal,1: Walking
+1790412943.9137905,21446,Person 8,-518.5,701.9,160.0,685.22,-21.85,True,Active,hafsa,None,Normal,1: Walking
+1790412943.983655,21447,Person 8,-464.1,679.5,160.0,652.29,-16.93,True,Active,hafsa,None,Normal,1: Walking
+1790412944.0504394,21448,Person 8,-406.2,660.9,160.0,620.32,-11.44,True,Active,hafsa,None,Normal,1: Walking
+1790412944.1217034,21449,Person 8,-346.1,645.8,80.0,593.84,-5.6,True,Active,hafsa,None,Normal,1: Walking
+1790412944.1822855,21450,Person 8,-284.4,632.8,-160.0,572.02,0.5,True,Active,hafsa,None,Normal,1: Walking
+1790412944.2636554,21451,Person 8,-221.2,620.1,-390.0,558.66,7.4,True,Active,hafsa,None,Normal,1: Walking
+1790412944.3690758,21452,Person 8,-156.3,607.3,-560.0,554.24,14.74,True,Active,hafsa,None,Normal,1: Walking
+1790412944.4292667,21453,Person 8,-91.0,594.2,-640.0,563.6,21.33,True,Active,hafsa,None,Normal,1: Walking
+1790412944.5050783,21454,Person 8,-25.9,581.4,-640.0,586.31,26.87,True,Active,hafsa,None,Normal,1: Walking
+1790412944.581072,21455,Person 8,37.5,570.4,-560.0,619.83,30.33,True,Active,hafsa,None,Normal,1: Walking
+1790412944.6465757,21456,Person 8,99.0,562.1,-560.0,659.86,33.06,True,Active,hafsa,None,Normal,1: Walking
+1790412944.7106547,21457,Person 8,158.7,557.4,-640.0,706.1,35.2,True,Active,hafsa,None,Normal,1: Walking
+1790412944.7868598,21458,Person 8,216.3,557.2,-560.0,756.6,36.78,True,Active,hafsa,None,Normal,1: Walking
+1790412944.8484728,21459,Person 8,271.7,562.0,-560.0,808.91,37.82,True,Active,hafsa,None,Normal,1: Walking
+1790412944.9441996,21460,Person 8,325.2,571.5,-720.0,858.19,38.99,True,Active,hafsa,None,Normal,1: Walking
+1790412945.0396292,21461,Person 8,375.4,586.5,-640.0,908.35,39.19,True,Active,hafsa,None,Normal,1: Walking
+1790412945.1290507,21462,Person 8,421.8,607.3,-720.0,958.94,39.12,True,Active,hafsa,None,Normal,1: Walking
+1790412945.191935,21463,Person 8,464.8,633.4,-640.0,1010.46,38.93,True,Active,hafsa,None,Normal,1: Walking
+1790412945.279291,21464,Person 8,504.9,664.0,-560.0,1063.39,38.78,True,Active,hafsa,None,Normal,1: Walking
+1790412945.3579397,21465,Person 8,541.7,697.1,-390.0,1101.69,38.18,True,Active,hafsa,None,Normal,1: Walking
+1790412945.433763,21466,Person 8,574.7,732.8,-320.0,1142.02,37.17,True,Active,hafsa,None,Normal,1: Walking
+1790412945.5097473,21467,Person 8,605.7,770.9,-390.0,1196.6,36.81,True,Active,hafsa,None,Normal,1: Walking
+1790412945.589297,21468,Person 8,638.3,810.1,-390.0,1266.04,37.97,True,Active,hafsa,None,Normal,1: Walking
+1790412945.7598538,21469,Person 8,670.9,850.0,-480.0,1324.06,38.38,True,Active,hafsa,None,Normal,1: Walking
+1790412945.950155,21470,Person 8,705.6,890.8,-480.0,1393.7,39.53,True,Active,hafsa,None,Normal,1: Walking
+1790412946.0289729,21471,Person 8,741.6,932.1,-560.0,1456.04,39.9,True,Active,hafsa,None,Normal,1: Walking
+1790412946.089554,21472,Person 8,775.8,974.5,-320.0,1503.67,39.03,True,Active,hafsa,None,Normal,1: Walking
+1790412946.176145,21473,Person 8,804.8,1017.4,-320.0,1527.04,37.28,True,Active,hafsa,None,Normal,1: Walking
+1790412946.2370253,21474,Person 8,828.2,1061.1,-320.0,1553.3,35.41,True,Active,hafsa,None,Normal,1: Walking
+1790412946.330927,21475,Person 8,846.6,1104.2,-480.0,1558.98,33.7,True,Active,hafsa,None,Normal,1: Walking
+1790412946.4420304,21476,Person 8,860.9,1147.6,-480.0,1581.21,31.79,True,Active,hafsa,None,Normal,1: Walking
+1790412946.511421,21477,Person 8,869.2,1191.1,-480.0,1606.38,29.87,True,Active,hafsa,None,Normal,1: Walking
+1790412946.5753984,21478,Person 8,868.8,1234.9,-480.0,1631.78,28.36,True,Active,hafsa,None,Normal,1: Walking
+1790412946.6441736,21479,Person 8,863.5,1280.1,-320.0,1676.74,27.3,True,Active,hafsa,None,Normal,1: Walking
+1790412946.7227519,21480,Person 8,854.6,1327.4,-390.0,1741.58,27.27,True,Active,hafsa,None,Normal,1: Walking
+1790412946.8046458,21481,Person 8,842.9,1377.5,-160.0,1812.57,26.79,True,Active,hafsa,None,Normal,1: Walking
+1790412946.8862364,21482,Person 8,829.3,1427.2,-240.0,1852.01,25.97,True,Active,hafsa,None,Normal,1: Walking
+1790412946.9573314,21483,Person 8,815.7,1478.6,-80.0,1900.52,24.53,True,Active,hafsa,None,Normal,1: Walking
+1790412947.0522661,21484,Person 8,802.4,1529.2,-80.0,1930.87,23.41,True,Active,hafsa,None,Normal,1: Walking
+1790412947.13092,21485,Person 8,789.3,1580.8,0.0,1955.95,22.04,True,Active,hafsa,None,Normal,1: Walking
+1790412947.2226236,21486,Person 8,775.9,1631.7,80.0,1980.46,20.67,True,Active,hafsa,None,Normal,1: Walking
+1790412947.3041584,21487,Person 8,761.4,1679.2,160.0,1979.51,19.32,True,Active,hafsa,None,Normal,1: Walking
+1790412947.5108998,21488,Person 8,744.9,1721.0,80.0,1951.77,18.21,True,Active,hafsa,None,Normal,1: Walking
+1790412947.7289772,21489,Person 8,723.3,1756.7,0.0,1928.01,16.67,True,Active,hafsa,None,Normal,1: Walking
+1790412947.998992,21490,Person 8,693.1,1786.7,-80.0,1913.41,15.02,True,Active,hafsa,None,Normal,1: Walking
+1790412948.074818,21491,Person 8,654.3,1811.9,-80.0,1918.58,12.92,True,Active,hafsa,None,Normal,1: Walking
+1790412948.1533623,21492,Person 8,609.0,1837.5,-160.0,1954.07,10.56,True,Active,hafsa,None,Normal,1: Walking
+1790412948.223257,21493,Person 8,559.6,1860.3,-240.0,1979.11,8.57,True,Active,hafsa,None,Normal,1: Walking
+1790412948.2837393,21494,Person 8,505.4,1881.9,-240.0,2000.69,6.46,True,Active,hafsa,None,Normal,1: Walking
+1790412948.3632758,21495,Person 8,449.1,1899.8,-320.0,1999.33,4.91,True,Active,hafsa,None,Normal,1: Walking
+1790412948.4612265,21496,Person 8,389.5,1915.4,-240.0,2011.64,2.93,True,Active,hafsa,None,Normal,1: Walking
+1790412948.818191,21497,Person 8,328.2,1932.1,-80.0,2035.43,1.18,True,Active,hafsa,None,Normal,1: Walking
+1790412949.4550784,21498,Person 8,-2.0,2046.0,-160.0,2046.0,-0.06,True,Active,hafsa,None,Normal,1: Walking
+1790412949.5158272,21499,Person 8,-34.0,2051.5,0.0,2058.06,-1.84,True,Active,hafsa,None,Normal,1: Walking
+1790412949.5880454,21500,Person 8,-66.0,2056.0,80.0,2069.09,-3.6,True,Active,hafsa,None,Normal,1: Walking
+1790412949.7121248,21501,Person 8,-99.0,2059.0,160.0,2077.46,-5.47,True,Active,hafsa,None,Normal,1: Walking
+1790412949.7730098,21502,Person 8,-137.2,2061.0,320.0,2089.22,-7.98,True,Active,hafsa,None,Normal,1: Walking
+1790412950.0255826,21503,Person 8,-177.0,2059.0,320.0,2083.21,-10.4,True,Active,hafsa,None,Normal,1: Walking
+1790412950.1104782,21504,Person 8,-213.43,2052.57,320.0,2059.81,-12.11,True,Active,hafsa,None,Normal,1: Walking
+1790412950.8424697,21505,Person 8,-477.0,1973.0,320.0,2029.84,-13.59,True,Active,hafsa,None,Normal,1: Walking
