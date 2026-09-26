@@ -32,6 +32,7 @@ class Target:
     # Fall Detection AI metadata
     fall_prob: float = 0.0
     fall_alert: bool = False
+    fall_alert_stage: str = "normal"  # "normal", "pre_alert", or "confirmed"
 
     # Tracking statistics & hysteresis metadata
     first_seen_time: float = field(default_factory=time.time)

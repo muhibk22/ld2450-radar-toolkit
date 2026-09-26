@@ -1,5 +1,6 @@
 """
 Target Tracker with Target Focus Lock, Physics Acceleration Gate, Outlier Rejection, and Rolling Averaging.
+Includes ghost suppression, target persistence, and post-fall confirmation logic.
 """
 
 from collections import deque
@@ -9,7 +10,11 @@ from typing import Dict, List, Tuple, Optional
 from ..models.target import Target
 from .kalman import KalmanFilter2D
 from ..ml.fall_detector import FallDetector
+from ..ml.post_fall_validator import PostFallValidator
 import os
+
+# Minimum frames before a target is considered "confirmed" (not a ghost)
+MIN_CONFIRM_FRAMES = 3
 
 class TrackedPerson:
     """
@@ -23,6 +28,12 @@ class TrackedPerson:
         self.frames_visible = 1
         self.missed_frames = 0
         self.last_velocity_mms = initial_target.speed
+        
+        # Target persistence: not confirmed until seen for MIN_CONFIRM_FRAMES
+        self.confirmed = False
+        
+        # Temporary search radius expansion (for lock handoff during falls)
+        self._expanded_radius_frames = 0
         
         # Rolling N-packet position window
         self.pos_window: deque[Tuple[float, float]] = deque(maxlen=window_size)
@@ -69,6 +80,14 @@ class TrackedPerson:
         self.frames_visible += 1
         self.missed_frames = 0
         self.last_velocity_mms = calc_speed
+        
+        # Mark as confirmed once persistence threshold is met
+        if not self.confirmed and self.frames_visible >= MIN_CONFIRM_FRAMES:
+            self.confirmed = True
+        
+        # Decay expanded radius counter
+        if self._expanded_radius_frames > 0:
+            self._expanded_radius_frames -= 1
 
         # Fix "Stationary Lag": Flush historical positions if target reappears after being still/lost
         if dt > 0.5:
@@ -155,6 +174,9 @@ class TargetTracker:
             self._last_locked_target = None
             self._fall_consecutive_count = 0
             self._fall_latch_frames = 0
+        
+        # Post-fall confirmation state machine (Phase 3)
+        self.post_fall_validator = PostFallValidator()
 
     def set_target_lock(self, target_id: Optional[str]):
         """Sets target focus lock. If set, tracker processes ONLY this target."""
@@ -211,7 +233,11 @@ class TargetTracker:
             # DYNAMIC ASSOCIATION RADIUS & RE-ID
             if is_locked and person.missed_frames > 50:
                 # RE-ID MODE: Expand radius to 6000mm to snap back to the person if they re-enter
-                assoc_limit = 6000.0 
+                assoc_limit = 6000.0
+            elif is_locked and person._expanded_radius_frames > 0:
+                # GRACEFUL LOCK HANDOFF: Temporarily expanded radius during rapid motion (e.g., falls)
+                # This prevents the locked target from being lost during a genuine fall
+                assoc_limit = min(4500.0, max(2000.0, person.last_velocity_mms * 2.5))
             else:
                 # Activity-Aware Radius: 600mm min (stationary) up to 3000mm (moving fast)
                 assoc_limit = min(3000.0, max(600.0, person.last_velocity_mms * 1.5))
@@ -228,6 +254,12 @@ class TargetTracker:
             if best_raw_idx != -1:
                 matched_raw_indices.add(best_raw_idx)
                 matched_persons.add(person_label)
+                
+                # If this is a large displacement for the locked target, activate expanded radius
+                # so the next frame also has a wider search (graceful handoff during falls)
+                if is_locked and best_dist > 800.0:
+                    person._expanded_radius_frames = 10  # Keep expanded for ~1 second
+                
                 accepted = person.validate_and_update(
                     valid_raw[best_raw_idx],
                     mode=self.mode,
@@ -245,12 +277,15 @@ class TargetTracker:
             if person_label not in matched_persons:
                 is_locked = (self.locked_target_id == person_label)
                 
-                # Unconfirmed transient points (visible for only 1 frame) expire quickly
+                # GHOST REJECTION: Unconfirmed targets (< MIN_CONFIRM_FRAMES visible) expire after 2 missed frames
+                # This prevents transient 1-2 frame ghost points from polluting tracking
                 # FOCUS LOCK ENHANCEMENT: Never expire the actively locked target
                 if is_locked:
                     max_hold = float('inf')
+                elif not person.confirmed:
+                    max_hold = 2  # Transient ghost: expire quickly
                 else:
-                    max_hold = self.max_missed_frames if person.frames_visible >= 2 else 2
+                    max_hold = self.max_missed_frames
 
                 if person.missed_frames < max_hold:
                     result_targets.append(person.predict_missing(self.mode, is_locked))
@@ -260,7 +295,7 @@ class TargetTracker:
         # 3. Create new TrackedPerson for unmatched raw targets (with Ghost Rejection)
         for idx, raw in enumerate(valid_raw):
             if idx not in matched_raw_indices:
-                # PROXIMITY GHOST REJECTION
+                # PROXIMITY GHOST REJECTION (enhanced)
                 is_ghost = False
                 if self.locked_target_id and self.locked_target_id in self.tracked_persons:
                     locked_person = self.tracked_persons[self.locked_target_id]
@@ -269,6 +304,11 @@ class TargetTracker:
                         dist_to_locked = math.hypot(raw.x - locked_person.current_target.x, raw.y - locked_person.current_target.y)
                         if dist_to_locked < 1000.0:
                             is_ghost = True # Target spawned too close to locked person, likely a multipath ghost
+                
+                # Additional ghost check: reject points that appear at extreme sensor boundaries
+                # (LD2450 commonly generates phantom returns at FOV edges)
+                if abs(raw.x) > 5500 or raw.y > 5500 or raw.y < 100:
+                    is_ghost = True
                 
                 if not is_ghost:
                     # RE-ID: If Locked target is currently "Lost", assign this new target to the Locked ID!
@@ -288,13 +328,22 @@ class TargetTracker:
         if self.locked_target_id:
             filtered = [t for t in result_targets if str(t.id) == self.locked_target_id]
             
-            # Fall Detection Pipeline
+            # Fall Detection Pipeline (only on confirmed targets to avoid ghost-triggered false alarms)
             if self.fall_detector and filtered:
                 locked_target = filtered[0]
+                locked_person = self.tracked_persons.get(self.locked_target_id)
+                
+                # Only feed confirmed targets to the fall detector
+                # Unconfirmed targets (< MIN_CONFIRM_FRAMES visible) are likely ghosts
+                if locked_person and not locked_person.confirmed:
+                    locked_target.fall_prob = 0.0
+                    locked_target.fall_alert = False
+                    return filtered
                 
                 # Reset buffer if we locked onto a new target
                 if self._last_locked_target != self.locked_target_id:
                     self.fall_detector.reset_buffer()
+                    self.post_fall_validator.reset()
                     self._last_locked_target = self.locked_target_id
                     self._fall_consecutive_count = 0
                     self._fall_latch_frames = 0
@@ -310,21 +359,33 @@ class TargetTracker:
                 locked_target.fall_prob = prob
                 
                 # Hysteresis confirmation: require probability >= 0.70
-                # Confirmed after 2 positive detections, then latched for 20 frames (~2 seconds)
+                # Confirmed after 2 positive detections, then forward to post-fall validator
                 FALL_THRESHOLD = 0.70
                 if prob >= FALL_THRESHOLD:
                     self._fall_consecutive_count += 1
                 else:
                     self._fall_consecutive_count = max(0, self._fall_consecutive_count - 1)
-                    
-                if self._fall_consecutive_count >= 2:
-                    self._fall_latch_frames = 20  # Latch for ~2 seconds
-                    
-                if self._fall_latch_frames > 0:
+                
+                lstm_triggered = self._fall_consecutive_count >= 2
+                
+                # Post-fall confirmation state machine (Phase 3)
+                # Feeds LSTM trigger + current speed into the validator
+                fall_state = self.post_fall_validator.update(
+                    lstm_triggered=lstm_triggered,
+                    current_speed_mms=locked_target.speed,
+                    fall_prob=prob
+                )
+                
+                # Map validator state to target alert flags
+                if fall_state == "CONFIRMED":
                     locked_target.fall_alert = True
-                    self._fall_latch_frames -= 1
+                    locked_target.fall_alert_stage = "confirmed"
+                elif fall_state == "PRE_ALERT":
+                    locked_target.fall_alert = True
+                    locked_target.fall_alert_stage = "pre_alert"
                 else:
                     locked_target.fall_alert = False
+                    locked_target.fall_alert_stage = "normal"
                 
             return filtered
 

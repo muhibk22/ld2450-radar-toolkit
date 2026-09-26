@@ -1,0 +1,963 @@
+timestamp,sequence_id,target_id,x_mm,y_mm,speed_mms,distance_mm,angle_deg,valid,status,volunteer_id,fall_subtype,pace_variant,action_label
+1790444510.184889,56205,Target 0,-1544.0,2164.0,720.0,2658.35,-35.51,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.207891,56206,Target 0,-1483.0,2138.0,790.0,2601.99,-34.75,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.228396,56207,Target 0,-1412.0,2118.0,880.0,2545.52,-33.69,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.248659,56208,Target 0,-1354.0,2080.0,960.0,2481.88,-33.06,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.2706602,56209,Target 0,-1301.0,2035.0,790.0,2415.33,-32.59,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.2922,56210,Target 0,-1251.0,1983.0,720.0,2344.63,-32.25,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.3223422,56211,Target 0,-1190.0,1941.0,640.0,2276.75,-31.51,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.3426802,56212,Target 0,-1132.0,1902.0,560.0,2213.37,-30.76,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.470816,56213,Target 0,-1070.0,1864.0,560.0,2149.28,-29.86,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.4898164,56214,Target 0,-1010.0,1836.0,640.0,2095.47,-28.82,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.7327192,56215,Target 0,-958.0,1802.0,720.0,2040.83,-28.0,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.7535982,56216,Target 0,-885.0,1771.0,560.0,1979.81,-26.55,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.7766836,56217,Target 0,-797.0,1748.0,390.0,1921.12,-24.51,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.8621545,56218,Target 0,-696.0,1731.0,320.0,1865.68,-21.9,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.909986,56219,Target 0,-613.0,1713.0,480.0,1819.38,-19.69,True,Active,zain,Sideways,Normal,1: Walking
+1790444510.9913132,56220,Target 0,-542.0,1687.0,480.0,1771.93,-17.81,True,Active,zain,Sideways,Normal,1: Walking
+1790444511.0727015,56221,Target 0,-478.0,1656.0,390.0,1723.61,-16.1,True,Active,zain,Sideways,Normal,1: Walking
+1790444511.197992,56222,Target 0,-433.0,1616.0,790.0,1673.0,-15.0,True,Active,zain,Sideways,Normal,1: Walking
+1790444511.241578,56223,Target 0,-392.0,1568.0,960.0,1616.26,-14.04,True,Active,zain,Sideways,Normal,1: Walking
+1790444511.3404524,56224,Target 0,-356.0,1506.0,1040.0,1547.51,-13.3,True,Active,zain,Sideways,Normal,1: Walking
+1790444511.4200904,56225,Target 0,-324.0,1440.0,960.0,1476.0,-12.68,True,Active,zain,Sideways,Normal,1: Walking
+1790444511.534526,56226,Target 0,-280.0,1376.0,560.0,1404.2,-11.5,True,Active,zain,Sideways,Normal,1: Walking
+1790444511.5981834,56227,Target 0,-224.0,1319.0,240.0,1337.89,-9.64,True,Active,zain,Sideways,Normal,1: Walking
+1790444511.686551,56228,Target 0,-153.0,1279.0,-240.0,1288.12,-6.82,True,Active,zain,Sideways,Normal,1: Walking
+1790444511.7753942,56229,Target 0,-75.0,1247.0,-390.0,1249.25,-3.44,True,Active,zain,Sideways,Normal,1: Walking
+1790444511.8966484,56230,Target 0,-1.0,1226.0,-390.0,1226.0,-0.05,True,Active,zain,Sideways,Normal,1: Walking
+1790444512.0246675,56231,Target 0,71.0,1220.0,-480.0,1222.06,3.33,True,Active,zain,Sideways,Normal,1: Walking
+1790444512.0594535,56232,Target 0,136.0,1217.0,-480.0,1224.58,6.38,True,Active,zain,Sideways,Normal,1: Walking
+1790444512.165396,56233,Target 0,201.0,1222.0,-560.0,1238.42,9.34,True,Active,zain,Sideways,Normal,1: Walking
+1790444512.2969985,56234,Target 0,266.0,1229.0,-480.0,1257.46,12.21,True,Active,zain,Sideways,Normal,1: Walking
+1790444512.3358216,56235,Target 0,325.0,1251.0,-390.0,1292.53,14.56,True,Active,zain,Sideways,Normal,1: Walking
+1790444512.401662,56236,Target 0,383.0,1265.0,-390.0,1321.71,16.84,True,Active,zain,Sideways,Normal,1: Walking
+1790444512.5071697,56237,Target 0,434.0,1286.0,-480.0,1357.26,18.65,True,Active,zain,Sideways,Normal,1: Walking
+1790444512.6491165,56238,Target 0,491.0,1301.0,-640.0,1390.57,20.68,True,Active,zain,Sideways,Normal,1: Walking
+1790444512.6770349,56239,Target 0,552.0,1306.0,-640.0,1417.86,22.91,True,Active,zain,Sideways,Normal,1: Walking
+1790444512.7539206,56240,Target 0,618.0,1318.0,-720.0,1455.7,25.12,True,Active,zain,Sideways,Normal,1: Walking
+1790444512.8441327,56241,Target 0,682.0,1339.0,-640.0,1502.68,26.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444512.9598656,56242,Target 0,738.0,1370.0,-390.0,1556.13,28.31,True,Active,zain,Sideways,Normal,1: Walking
+1790444513.0222807,56243,Target 0,790.0,1404.0,-480.0,1611.0,29.37,True,Active,zain,Sideways,Normal,1: Walking
+1790444513.1172135,56244,Target 0,830.0,1445.0,-560.0,1666.41,29.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444513.199165,56245,Target 0,865.0,1486.0,-640.0,1719.42,30.2,True,Active,zain,Sideways,Normal,1: Walking
+1790444513.3063064,56246,Target 0,896.0,1527.0,-720.0,1770.46,30.4,True,Active,zain,Sideways,Normal,1: Walking
+1790444513.3816857,56247,Target 0,908.0,1564.0,-790.0,1808.47,30.14,True,Active,zain,Sideways,Normal,1: Walking
+1790444513.4933412,56248,Target 0,934.0,1607.0,-560.0,1858.71,30.17,True,Active,zain,Sideways,Normal,1: Walking
+1790444513.559988,56249,Target 0,979.0,1647.0,-560.0,1916.0,30.73,True,Active,zain,Sideways,Normal,1: Walking
+1790444513.6598773,56250,Target 0,1011.0,1693.0,-390.0,1971.9,30.84,True,Active,zain,Sideways,Normal,1: Walking
+1790444513.7365193,56251,Target 0,1029.0,1748.0,-390.0,2028.38,30.48,True,Active,zain,Sideways,Normal,1: Walking
+1790444513.8311892,56252,Target 0,1040.0,1799.0,-560.0,2077.98,30.03,True,Active,zain,Sideways,Normal,1: Walking
+1790444513.9252264,56253,Target 0,1068.0,1850.0,-560.0,2136.15,30.0,True,Active,zain,Sideways,Normal,1: Walking
+1790444514.0407958,56254,Target 0,1099.0,1895.0,-390.0,2190.62,30.11,True,Active,zain,Sideways,Normal,1: Walking
+1790444514.1826,56255,Target 0,1124.0,1923.0,-240.0,2227.4,30.31,True,Active,zain,Sideways,Normal,1: Walking
+1790444514.2037456,56256,Target 0,1166.0,1951.0,-160.0,2272.87,30.86,True,Active,zain,Sideways,Normal,1: Walking
+1790444514.2946002,56257,Target 0,1191.0,1972.0,-240.0,2303.75,31.13,True,Active,zain,Sideways,Normal,1: Walking
+1790444514.3955367,56258,Target 0,1218.0,1988.0,-80.0,2331.45,31.49,True,Active,zain,Sideways,Normal,1: Walking
+1790444514.4452271,56259,Target 0,1232.0,2005.0,0.0,2353.26,31.57,True,Active,zain,Sideways,Normal,1: Walking
+1790444514.5477295,56260,Target 0,1237.0,2020.0,160.0,2368.66,31.48,True,Active,zain,Sideways,Normal,1: Walking
+1790444514.6366959,56261,Target 0,1240.0,2018.0,320.0,2368.53,31.57,True,Active,zain,Sideways,Normal,1: Walking
+1790444514.7765021,56262,Target 0,1248.0,2019.0,80.0,2373.58,31.72,True,Active,zain,Sideways,Normal,1: Walking
+1790444514.8100002,56263,Target 0,1242.0,2018.0,390.0,2369.58,31.61,True,Active,zain,Sideways,Normal,1: Walking
+1790444514.9624124,56264,Target 0,1234.0,2012.0,240.0,2360.28,31.52,True,Active,zain,Sideways,Normal,1: Walking
+1790444514.9837646,56265,Target 0,1229.0,2011.0,240.0,2356.81,31.43,True,Active,zain,Sideways,Normal,1: Walking
+1790444515.0844831,56266,Target 0,1223.0,2010.0,320.0,2352.83,31.32,True,Active,zain,Sideways,Normal,1: Walking
+1790444515.1592503,56267,Target 0,1215.0,2012.0,390.0,2350.4,31.13,True,Active,zain,Sideways,Normal,1: Walking
+1790444515.2468145,56268,Target 0,1206.0,2013.0,320.0,2346.62,30.93,True,Active,zain,Sideways,Normal,1: Walking
+1790444515.3353448,56269,Target 0,1196.0,2014.0,240.0,2342.35,30.7,True,Active,zain,Sideways,Normal,1: Walking
+1790444515.4489198,56270,Target 0,1185.0,2014.0,320.0,2336.75,30.47,True,Active,zain,Sideways,Normal,1: Walking
+1790444515.514976,56271,Target 0,1174.0,2012.0,320.0,2329.47,30.26,True,Active,zain,Sideways,Normal,1: Walking
+1790444515.6028943,56272,Target 0,1159.0,2010.0,480.0,2320.21,29.97,True,Active,zain,Sideways,Normal,1: Walking
+1790444515.691027,56273,Target 0,1144.0,2008.0,390.0,2311.02,29.67,True,Active,zain,Sideways,Normal,1: Walking
+1790444515.7922435,56274,Target 0,1125.0,2009.0,390.0,2302.54,29.25,True,Active,zain,Sideways,Normal,1: Walking
+1790444515.8772895,56275,Target 0,1073.0,2008.0,480.0,2276.71,28.12,True,Active,zain,Sideways,Normal,1: Walking
+1790444516.0263116,56276,Target 0,1022.0,2004.0,560.0,2249.56,27.02,True,Active,zain,Sideways,Normal,1: Walking
+1790444516.0493488,56277,Target 0,974.0,1993.0,560.0,2218.27,26.05,True,Active,zain,Sideways,Normal,1: Walking
+1790444516.1412547,56278,Target 0,929.0,1972.0,560.0,2179.87,25.22,True,Active,zain,Sideways,Normal,1: Walking
+1790444516.2264352,56279,Target 0,890.0,1937.0,560.0,2131.68,24.68,True,Active,zain,Sideways,Normal,1: Walking
+1790444516.4355574,56280,Target 0,815.0,1873.0,480.0,2042.63,23.52,True,Active,zain,Sideways,Normal,1: Walking
+1790444516.4551604,56281,Target 0,764.0,1815.0,390.0,1969.24,22.83,True,Active,zain,Sideways,Normal,1: Walking
+1790444516.508933,56282,Target 0,707.0,1773.0,320.0,1908.76,21.74,True,Active,zain,Sideways,Normal,1: Walking
+1790444516.5865095,56283,Target 0,649.0,1743.0,160.0,1859.91,20.42,True,Active,zain,Sideways,Normal,1: Walking
+1790444516.6716146,56284,Target 0,588.0,1739.0,160.0,1835.72,18.68,True,Active,zain,Sideways,Normal,1: Walking
+1790444516.776165,56285,Target 0,532.0,1735.0,80.0,1814.73,17.05,True,Active,zain,Sideways,Normal,1: Walking
+1790444516.8733726,56286,Target 0,476.0,1718.0,-80.0,1782.72,15.49,True,Active,zain,Sideways,Normal,1: Walking
+1790444516.972453,56287,Target 0,420.0,1707.0,-160.0,1757.91,13.82,True,Active,zain,Sideways,Normal,1: Walking
+1790444517.0383322,56288,Target 0,365.0,1703.0,-160.0,1741.68,12.1,True,Active,zain,Sideways,Normal,1: Walking
+1790444517.1321118,56289,Target 0,316.0,1702.0,-80.0,1731.09,10.52,True,Active,zain,Sideways,Normal,1: Walking
+1790444517.251125,56290,Target 0,267.0,1702.0,-80.0,1722.82,8.92,True,Active,zain,Sideways,Normal,1: Walking
+1790444517.3309314,56291,Target 0,220.0,1705.0,0.0,1719.13,7.35,True,Active,zain,Sideways,Normal,1: Walking
+1790444517.3921611,56292,Target 0,161.0,1713.0,0.0,1720.55,5.37,True,Active,zain,Sideways,Normal,1: Walking
+1790444517.4736314,56293,Target 0,108.0,1704.0,-80.0,1707.42,3.63,True,Active,zain,Sideways,Normal,1: Walking
+1790444517.560739,56294,Target 0,45.0,1721.0,-160.0,1721.59,1.5,True,Active,zain,Sideways,Normal,1: Walking
+1790444517.6483119,56295,Target 0,-23.0,1775.0,-390.0,1775.15,-0.74,True,Active,zain,Sideways,Normal,1: Walking
+1790444517.7380333,56296,Target 0,-99.0,1833.0,-480.0,1835.67,-3.09,True,Active,zain,Sideways,Normal,1: Walking
+1790444517.8336875,56297,Target 0,-162.0,1866.0,-560.0,1873.02,-4.96,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444517.9165218,56298,Target 0,-195.0,1897.0,-790.0,1907.0,-5.87,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444518.1126275,56299,Target 0,-223.0,1912.0,-790.0,1924.96,-6.65,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444518.1325147,56300,Target 0,-246.0,1944.0,-1360.0,1959.5,-7.21,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444518.1998487,56301,Target 0,-266.0,1978.0,-1360.0,1995.81,-7.66,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444518.2748723,56302,Target 0,-282.0,2011.0,-1360.0,2030.68,-7.98,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444518.5100105,56303,Target 0,-309.0,2070.0,2320.0,2092.94,-8.49,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444518.5305994,56304,Target 0,-325.0,2162.0,-1920.0,2186.29,-8.55,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444518.5546913,56305,Target 0,-340.0,2261.0,-1920.0,2286.42,-8.55,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444518.6288946,56306,Target 0,-355.0,2379.0,80.0,2405.34,-8.49,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444518.7994847,56307,Target 0,-398.0,2634.0,0.0,2663.9,-8.59,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444518.88592,56308,Target 0,-424.0,2869.0,-80.0,2900.16,-8.41,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444518.9051886,56309,Target 0,-449.0,3107.0,-80.0,3139.28,-8.22,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444518.990879,56310,Target 0,-489.0,3303.0,0.0,3339.0,-8.42,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444519.3911593,56311,Target 0,-558.0,3469.0,-80.0,3513.59,-9.14,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444519.4117103,56312,Target 0,-634.0,3616.0,-80.0,3671.16,-9.94,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444519.4306157,56313,Target 0,-710.0,3744.0,-80.0,3810.73,-10.74,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444519.450142,56314,Target 0,-763.0,3850.0,0.0,3924.88,-11.21,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444519.472968,56315,Target 0,-626.0,3892.0,0.0,3942.02,-9.14,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444519.5417547,56316,Target 0,-464.0,3907.0,0.0,3934.46,-6.77,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444519.7364206,56317,Target 0,-303.0,3906.0,0.0,3917.73,-4.44,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444519.7563229,56318,Target 0,-198.0,3890.0,0.0,3895.04,-2.91,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444519.8440287,56319,Target 0,-112.0,3866.0,0.0,3867.62,-1.66,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444519.892159,56320,Target 0,-40.0,3839.0,0.0,3839.21,-0.6,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444519.9802663,56321,Target 0,18.0,3810.0,0.0,3810.04,0.27,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444520.0580564,56322,Target 0,36.0,3800.0,0.0,3800.17,0.54,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444520.1569505,56323,Target 0,14.0,3788.0,0.0,3788.03,0.21,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444520.2369413,56324,Target 0,-2.0,3786.0,80.0,3786.0,-0.03,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444520.3257458,56325,Target 0,-51.0,3786.0,0.0,3786.34,-0.77,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444520.408856,56326,Target 0,-117.0,3795.0,0.0,3796.8,-1.77,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444520.5358906,56327,Target 0,-318.0,3820.0,0.0,3833.21,-4.76,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444520.585002,56328,Target 0,-510.0,3850.0,0.0,3883.63,-7.55,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444520.6881237,56329,Target 0,-686.0,3880.0,0.0,3940.18,-10.03,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444520.7641382,56330,Target 0,-843.0,3909.0,0.0,3998.87,-12.17,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444520.884007,56331,Target 0,-966.0,3935.0,0.0,4051.84,-13.79,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444520.9424922,56332,Target 0,-1071.0,3959.0,0.0,4101.31,-15.14,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444521.0320628,56333,Target 0,-1160.0,3981.0,0.0,4146.56,-16.25,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444521.1314209,56334,Target 0,-1235.0,4000.0,0.0,4186.31,-17.16,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444521.2254117,56335,Target 0,-1297.0,4017.0,0.0,4221.2,-17.89,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444521.3121476,56336,Target 0,-1271.0,4025.0,0.0,4220.91,-17.52,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444521.4190772,56337,Target 0,-1262.0,4025.0,0.0,4218.21,-17.41,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444521.4747732,56338,Target 0,-1253.0,4026.0,0.0,4216.48,-17.29,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444521.616161,56339,Target 0,-1245.0,4027.0,0.0,4215.06,-17.18,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444521.7400563,56340,Target 0,-1237.0,4028.0,0.0,4213.66,-17.07,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444521.7593818,56341,Target 0,-1229.0,4029.0,0.0,4212.28,-16.96,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444521.8423023,56342,Target 0,-1222.0,4030.0,0.0,4211.2,-16.87,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444521.9531057,56343,Target 0,-1214.0,4030.0,0.0,4208.88,-16.76,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444522.0087237,56344,Target 0,-1208.0,4031.0,0.0,4208.11,-16.68,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444522.1061683,56345,Target 0,-1201.0,4032.0,0.0,4207.07,-16.59,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444522.1872776,56346,Target 0,-1194.0,4033.0,0.0,4206.03,-16.49,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444522.2839928,56347,Target 0,-1188.0,4033.0,0.0,4204.34,-16.41,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444522.3704088,56348,Target 0,-1182.0,4034.0,0.0,4203.6,-16.33,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444522.4569345,56349,Target 0,-1176.0,4034.0,0.0,4201.92,-16.25,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444522.543328,56350,Target 0,-1171.0,4035.0,0.0,4201.48,-16.18,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444522.637962,56351,Target 0,-1165.0,4036.0,0.0,4200.78,-16.1,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444522.7215323,56352,Target 0,-1164.0,4035.0,0.0,4199.54,-16.09,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444522.8184462,56353,Target 0,-1173.0,4030.0,0.0,4197.24,-16.23,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444522.9093928,56354,Target 0,-1198.0,4019.0,0.0,4193.75,-16.6,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444522.9999306,56355,Target 0,-1278.0,3981.0,0.0,4181.11,-17.8,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444523.0828538,56356,Target 0,-1351.0,3947.0,0.0,4171.81,-18.9,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444523.165963,56357,Target 0,-1417.0,3916.0,0.0,4164.49,-19.89,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444523.2551126,56358,Target 0,-1438.0,3906.0,0.0,4162.29,-20.21,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444523.4312398,56359,Target 0,-1459.0,3896.0,0.0,4160.23,-20.53,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444523.4523394,56360,Target 0,-1486.0,3885.0,0.0,4159.5,-20.93,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444523.5837722,56361,Target 0,-1569.0,3856.0,0.0,4162.99,-22.14,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444523.6896002,56362,Target 0,-1596.0,3846.0,0.0,4164.0,-22.54,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444523.7374878,56363,Target 0,-1629.0,3832.0,0.0,4163.88,-23.03,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444523.8424425,56364,Target 0,-1727.0,3789.0,0.0,4164.02,-24.5,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444523.896097,56365,Target 0,-1815.0,3751.0,0.0,4167.04,-25.82,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444523.9958875,56366,Target 0,-1844.0,3738.0,0.0,4168.09,-26.26,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444524.0875022,56367,Target 0,-1872.0,3726.0,0.0,4169.83,-26.68,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444524.1445448,56368,Target 0,-1898.0,3714.0,0.0,4170.88,-27.07,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444524.2557032,56369,Target 0,-1924.0,3703.0,0.0,4173.01,-27.46,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444524.3699102,56370,Target 0,-1949.0,3692.0,0.0,4174.86,-27.83,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444524.4511862,56371,Target 0,-1972.0,3682.0,0.0,4176.83,-28.17,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444524.5459166,56372,Target 0,-1996.0,3672.0,0.0,4179.43,-28.53,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444524.6121657,56373,Target 0,-2018.0,3662.0,0.0,4181.22,-28.86,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444524.6781824,56374,Target 0,-2039.0,3652.0,0.0,4182.66,-29.18,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444524.7676365,56375,Target 0,-2065.0,3637.0,0.0,4182.34,-29.59,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444524.8565018,56376,Target 0,-2091.0,3621.0,0.0,4181.38,-30.0,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444524.9611585,56377,Target 0,-2116.0,3605.0,0.0,4180.13,-30.41,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444525.0352457,56378,Target 0,-2136.0,3590.0,0.0,4177.39,-30.75,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444525.1650426,56379,Target 0,-2154.0,3575.0,0.0,4173.77,-31.07,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444525.2423878,56380,Target 0,-2172.0,3560.0,0.0,4170.27,-31.39,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444525.3142157,56381,Target 0,-2183.0,3548.0,0.0,4165.79,-31.6,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444525.4002786,56382,Target 0,-2192.0,3537.0,0.0,4161.16,-31.79,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444525.4801939,56383,Target 0,-2200.0,3527.0,0.0,4156.89,-31.95,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444525.5985012,56384,Target 0,-2208.0,3516.0,0.0,4151.81,-32.13,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444525.6628382,56385,Target 0,-2213.0,3508.0,0.0,4147.7,-32.25,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444525.7771475,56386,Target 0,-2216.0,3502.0,0.0,4144.23,-32.32,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444525.852574,56387,Target 0,-2220.0,3502.0,0.0,4146.37,-32.37,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444525.9501088,56388,Target 0,-2227.0,3498.0,0.0,4146.75,-32.48,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444526.0382957,56389,Target 0,-2234.0,3494.0,0.0,4147.14,-32.59,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444526.1023924,56390,Target 0,-2240.0,3491.0,0.0,4147.85,-32.69,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444526.1997373,56391,Target 0,-2247.0,3487.0,0.0,4148.27,-32.8,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444526.3477507,56392,Target 0,-2253.0,3484.0,0.0,4149.01,-32.89,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444526.3940635,56393,Target 0,-2259.0,3481.0,0.0,4149.75,-32.98,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444526.4826381,56394,Target 0,-2265.0,3478.0,0.0,4150.51,-33.07,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444526.5613766,56395,Target 0,-2271.0,3475.0,0.0,4151.27,-33.17,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444526.6562645,56396,Target 0,-2276.0,3472.0,0.0,4151.5,-33.25,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444526.736062,56397,Target 0,-2282.0,3469.0,0.0,4152.29,-33.34,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444526.8615913,56398,Target 0,-2284.0,3468.0,0.0,4152.55,-33.37,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444526.904079,56399,Target 0,-2274.0,3464.0,790.0,4143.71,-33.28,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444527.0319183,56400,Target 0,-2261.0,3460.0,790.0,4133.25,-33.16,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444527.092428,56401,Target 0,-2211.0,3445.0,320.0,4093.48,-32.69,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444527.188095,56402,Target 0,-2058.0,3400.0,320.0,3974.34,-31.19,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444527.2770188,56403,Target 0,-1771.0,3322.0,-160.0,3764.59,-28.06,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444527.367125,56404,Target 0,-1552.0,3293.0,0.0,3640.41,-25.23,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444527.4370723,56405,Target 0,-1449.0,3397.0,0.0,3693.13,-23.1,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444527.5356946,56406,Target 0,-1383.0,3510.0,0.0,3772.64,-21.51,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444527.6340203,56407,Target 0,-1341.0,3622.0,0.0,3862.27,-20.32,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444527.7579954,56408,Target 0,-1316.0,3727.0,0.0,3952.52,-19.45,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444527.7979503,56409,Target 0,-1300.0,3804.0,80.0,4020.0,-18.87,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444527.8876557,56410,Target 0,-1274.0,3832.0,0.0,4038.23,-18.39,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444527.9748895,56411,Target 0,-1254.0,3847.0,0.0,4046.22,-18.05,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444528.1618052,56412,Target 0,-1245.0,3850.0,0.0,4046.3,-17.92,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444528.1809213,56413,Target 0,-1254.0,3858.0,80.0,4056.68,-18.01,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444528.320855,56414,Target 0,-1268.0,3866.0,80.0,4068.63,-18.16,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444528.3404922,56415,Target 0,-1264.0,3872.0,160.0,4073.09,-18.08,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444528.460086,56416,Target 0,-1254.0,3875.0,160.0,4072.85,-17.93,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444528.5893595,56417,Target 0,-1245.0,3879.0,160.0,4073.9,-17.79,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444528.6280158,56418,Target 0,-1238.0,3882.0,160.0,4074.62,-17.69,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444528.689799,56419,Target 0,-1231.0,3885.0,160.0,4075.36,-17.58,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444528.8360066,56420,Target 0,-1228.0,3885.0,160.0,4074.46,-17.54,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444528.9081495,56421,Target 0,-1226.0,3886.0,160.0,4074.81,-17.51,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444528.956357,56422,Target 0,-1226.0,3883.0,80.0,4071.95,-17.52,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444529.0708203,56423,Target 0,-1228.0,3877.0,80.0,4066.83,-17.58,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444529.1813278,56424,Target 0,-1224.0,3873.0,80.0,4061.81,-17.54,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444529.2653341,56425,Target 0,-1218.0,3870.0,80.0,4057.14,-17.47,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444529.30866,56426,Target 0,-1206.0,3868.0,0.0,4051.65,-17.32,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444529.6750927,56427,Target 0,-1191.0,3868.0,0.0,4047.21,-17.11,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444529.6953883,56428,Target 0,-1178.0,3868.0,0.0,4043.4,-16.94,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444529.7135935,56429,Target 0,-1164.0,3868.0,0.0,4039.35,-16.75,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444529.735029,56430,Target 0,-1151.0,3867.0,0.0,4034.66,-16.58,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444529.8661232,56431,Target 0,-1139.0,3867.0,0.0,4031.25,-16.41,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444529.8861818,56432,Target 0,-1126.0,3867.0,0.0,4027.6,-16.23,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444529.9841223,56433,Target 0,-1115.0,3867.0,0.0,4024.54,-16.08,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444530.0393095,56434,Target 0,-1104.0,3866.0,0.0,4020.54,-15.94,True,Active,zain,Sideways,Normal,1: Walking
+1790444530.4538794,56435,Target 0,-1093.0,3866.0,0.0,4017.54,-15.79,True,Active,zain,Sideways,Normal,1: Walking
+1790444530.4742558,56436,Target 0,-1082.0,3866.0,0.0,4014.56,-15.64,True,Active,zain,Sideways,Normal,1: Walking
+1790444530.4979856,56437,Target 0,-1072.0,3866.0,0.0,4011.87,-15.5,True,Active,zain,Sideways,Normal,1: Walking
+1790444530.5174773,56438,Target 0,-1062.0,3866.0,0.0,4009.21,-15.36,True,Active,zain,Sideways,Normal,1: Walking
+1790444530.5396745,56439,Target 0,-1053.0,3866.0,0.0,4006.84,-15.24,True,Active,zain,Sideways,Normal,1: Walking
+1790444530.6478796,56440,Target 0,-1044.0,3865.0,0.0,4003.52,-15.12,True,Active,zain,Sideways,Normal,1: Walking
+1790444530.6682265,56441,Target 0,-1035.0,3865.0,0.0,4001.18,-14.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444530.7299259,56442,Target 0,-1035.0,3865.0,0.0,4001.18,-14.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444530.839993,56443,Target 0,-1035.0,3865.0,0.0,4001.18,-14.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444530.9407156,56444,Target 0,-1035.0,3865.0,0.0,4001.18,-14.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444531.0017989,56445,Target 0,-1035.0,3865.0,0.0,4001.18,-14.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444531.0975354,56446,Target 0,-1016.0,3872.0,0.0,4003.08,-14.7,True,Active,zain,Sideways,Normal,1: Walking
+1790444531.1898842,56447,Target 0,-986.0,3877.0,0.0,4000.42,-14.27,True,Active,zain,Sideways,Normal,1: Walking
+1790444531.29082,56448,Target 0,-947.0,3882.0,-80.0,3995.84,-13.71,True,Active,zain,Sideways,Normal,1: Walking
+1790444531.402066,56449,Target 0,-827.0,3894.0,-80.0,3980.85,-11.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444531.4481008,56450,Target 0,-719.0,3905.0,-80.0,3970.64,-10.43,True,Active,zain,Sideways,Normal,1: Walking
+1790444531.5626743,56451,Target 0,-621.0,3915.0,-80.0,3963.95,-9.01,True,Active,zain,Sideways,Normal,1: Walking
+1790444531.6688223,56452,Target 0,-589.0,3918.0,-80.0,3962.03,-8.55,True,Active,zain,Sideways,Normal,1: Walking
+1790444531.7478602,56453,Target 0,-559.0,3921.0,-80.0,3960.65,-8.11,True,Active,zain,Sideways,Normal,1: Walking
+1790444531.804159,56454,Target 0,-534.0,3924.0,0.0,3960.17,-7.75,True,Active,zain,Sideways,Normal,1: Walking
+1790444531.9104323,56455,Target 0,-530.0,3925.0,0.0,3960.62,-7.69,True,Active,zain,Sideways,Normal,1: Walking
+1790444531.979874,56456,Target 0,-531.0,3924.0,0.0,3959.76,-7.71,True,Active,zain,Sideways,Normal,1: Walking
+1790444532.0887694,56457,Target 0,-532.0,3924.0,0.0,3959.9,-7.72,True,Active,zain,Sideways,Normal,1: Walking
+1790444532.1585531,56458,Target 0,-533.0,3923.0,0.0,3959.04,-7.74,True,Active,zain,Sideways,Normal,1: Walking
+1790444532.2472143,56459,Target 0,-535.0,3923.0,0.0,3959.31,-7.77,True,Active,zain,Sideways,Normal,1: Walking
+1790444532.3465145,56460,Target 0,-538.0,3916.0,0.0,3952.78,-7.82,True,Active,zain,Sideways,Normal,1: Walking
+1790444532.4491136,56461,Target 0,-538.0,3910.0,0.0,3946.84,-7.83,True,Active,zain,Sideways,Normal,1: Walking
+1790444532.5103068,56462,Target 0,-537.0,3901.0,0.0,3937.79,-7.84,True,Active,zain,Sideways,Normal,1: Walking
+1790444532.6060991,56463,Target 0,-536.0,3894.0,0.0,3930.72,-7.84,True,Active,zain,Sideways,Normal,1: Walking
+1790444532.6974776,56464,Target 0,-535.0,3886.0,0.0,3922.65,-7.84,True,Active,zain,Sideways,Normal,1: Walking
+1790444532.801309,56465,Target 0,-535.0,3879.0,0.0,3915.72,-7.85,True,Active,zain,Sideways,Normal,1: Walking
+1790444532.9181638,56466,Target 0,-534.0,3872.0,0.0,3908.65,-7.85,True,Active,zain,Sideways,Normal,1: Walking
+1790444532.9922752,56467,Target 0,-533.0,3865.0,0.0,3901.58,-7.85,True,Active,zain,Sideways,Normal,1: Walking
+1790444533.0468843,56468,Target 0,-532.0,3859.0,0.0,3895.5,-7.85,True,Active,zain,Sideways,Normal,1: Walking
+1790444533.1520193,56469,Target 0,-532.0,3852.0,0.0,3888.56,-7.86,True,Active,zain,Sideways,Normal,1: Walking
+1790444533.2725322,56470,Target 0,-531.0,3846.0,0.0,3882.48,-7.86,True,Active,zain,Sideways,Normal,1: Walking
+1790444533.313625,56471,Target 0,-530.0,3840.0,0.0,3876.4,-7.86,True,Active,zain,Sideways,Normal,1: Walking
+1790444533.4194703,56472,Target 0,-530.0,3835.0,0.0,3871.45,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444533.5565464,56473,Target 0,-529.0,3829.0,0.0,3865.37,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444533.5943067,56474,Target 0,-528.0,3824.0,0.0,3860.28,-7.86,True,Active,zain,Sideways,Normal,1: Walking
+1790444533.6668427,56475,Target 0,-528.0,3819.0,0.0,3855.33,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444533.7665684,56476,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444533.89863,56477,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444533.9333453,56478,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444534.0222733,56479,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444534.1116385,56480,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444534.214098,56481,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444534.288548,56482,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444534.424472,56483,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444534.4731236,56484,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444534.5741894,56485,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444534.64652,56486,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444534.7386866,56487,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444534.8235264,56488,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444534.932074,56489,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444535.001598,56490,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444535.0919106,56491,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444535.2119658,56492,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444535.2874005,56493,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444535.363483,56494,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444535.4759338,56495,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444535.5647306,56496,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444535.6338575,56497,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444535.7135444,56498,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444535.9080753,56499,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444535.928587,56500,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444536.2553902,56501,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444536.2757297,56502,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444536.2958586,56503,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444536.3162267,56504,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444536.357286,56505,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444536.4350424,56506,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444536.5319207,56507,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444536.6117764,56508,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444536.6961288,56509,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444536.7856011,56510,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444536.8725312,56511,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444536.9599245,56512,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444537.0930023,56513,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444537.252066,56514,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444537.2722964,56515,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444537.322746,56516,Target 0,-527.0,3814.0,0.0,3850.24,-7.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444537.4046357,56517,Target 0,-565.0,3809.0,160.0,3850.68,-8.44,True,Active,zain,Sideways,Normal,1: Walking
+1790444537.5033526,56518,Target 0,-602.0,3804.0,160.0,3851.34,-8.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444537.589411,56519,Target 0,-639.0,3799.0,160.0,3852.37,-9.55,True,Active,zain,Sideways,Normal,1: Walking
+1790444537.7134268,56520,Target 0,-674.0,3794.0,160.0,3853.4,-10.07,True,Active,zain,Sideways,Normal,1: Walking
+1790444537.7925045,56521,Target 0,-708.0,3789.0,160.0,3854.58,-10.58,True,Active,zain,Sideways,Normal,1: Walking
+1790444538.0811386,56522,Target 0,-740.0,3785.0,160.0,3856.66,-11.06,True,Active,zain,Sideways,Normal,1: Walking
+1790444538.1014068,56523,Target 0,-772.0,3781.0,160.0,3859.01,-11.54,True,Active,zain,Sideways,Normal,1: Walking
+1790444538.1205246,56524,Target 0,-802.0,3776.0,160.0,3860.23,-11.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444538.3245878,56525,Target 0,-832.0,3772.0,160.0,3862.67,-12.44,True,Active,zain,Sideways,Normal,1: Walking
+1790444538.3445888,56526,Target 0,-860.0,3769.0,160.0,3865.87,-12.85,True,Active,zain,Sideways,Normal,1: Walking
+1790444538.3630948,56527,Target 0,-887.0,3765.0,160.0,3868.07,-13.26,True,Active,zain,Sideways,Normal,1: Walking
+1790444538.4300494,56528,Target 0,-914.0,3761.0,160.0,3870.47,-13.66,True,Active,zain,Sideways,Normal,1: Walking
+1790444538.5052202,56529,Target 0,-939.0,3758.0,160.0,3873.54,-14.03,True,Active,zain,Sideways,Normal,1: Walking
+1790444538.6252844,56530,Target 0,-964.0,3754.0,160.0,3875.8,-14.4,True,Active,zain,Sideways,Normal,1: Walking
+1790444538.6560397,56531,Target 0,-987.0,3751.0,160.0,3878.68,-14.74,True,Active,zain,Sideways,Normal,1: Walking
+1790444538.830802,56532,Target 0,-1010.0,3748.0,160.0,3881.7,-15.08,True,Active,zain,Sideways,Normal,1: Walking
+1790444538.8546877,56533,Target 0,-992.0,1785.0,640.0,2042.13,-29.06,True,Active,zain,Sideways,Normal,1: Walking
+1790444538.9477496,56534,Target 0,-939.0,1748.0,640.0,1984.24,-28.24,True,Active,zain,Sideways,Normal,1: Walking
+1790444539.017339,56535,Target 0,-882.0,1712.0,720.0,1925.84,-27.26,True,Active,zain,Sideways,Normal,1: Walking
+1790444539.0950093,56536,Target 0,-820.0,1678.0,720.0,1867.64,-26.04,True,Active,zain,Sideways,Normal,1: Walking
+1790444539.196846,56537,Target 0,-746.0,1646.0,560.0,1807.16,-24.38,True,Active,zain,Sideways,Normal,1: Walking
+1790444539.3219523,56538,Target 0,-663.0,1611.0,480.0,1742.09,-22.37,True,Active,zain,Sideways,Normal,1: Walking
+1790444539.6016204,56539,Target 0,-594.0,1600.0,560.0,1706.7,-20.37,True,Active,zain,Sideways,Normal,1: Walking
+1790444539.6226196,56540,Target 0,-538.0,1573.0,560.0,1662.46,-18.88,True,Active,zain,Sideways,Normal,1: Walking
+1790444539.6416216,56541,Target 0,-507.0,1537.0,640.0,1618.46,-18.26,True,Active,zain,Sideways,Normal,1: Walking
+1790444539.734226,56542,Target 0,-469.0,1493.0,720.0,1564.93,-17.44,True,Active,zain,Sideways,Normal,1: Walking
+1790444539.7543523,56543,Target 0,-420.0,1442.0,790.0,1501.92,-16.24,True,Active,zain,Sideways,Normal,1: Walking
+1790444539.9171584,56544,Target 0,-358.0,1394.0,640.0,1439.24,-14.4,True,Active,zain,Sideways,Normal,1: Walking
+1790444539.9372835,56545,Target 0,-294.0,1341.0,560.0,1372.85,-12.37,True,Active,zain,Sideways,Normal,1: Walking
+1790444540.0240083,56546,Target 0,-243.0,1286.0,560.0,1308.76,-10.7,True,Active,zain,Sideways,Normal,1: Walking
+1790444540.1635008,56547,Target 0,-190.0,1235.0,320.0,1249.53,-8.75,True,Active,zain,Sideways,Normal,1: Walking
+1790444540.183446,56548,Target 0,-133.0,1195.0,80.0,1202.38,-6.35,True,Active,zain,Sideways,Normal,1: Walking
+1790444540.2530322,56549,Target 0,-65.0,1166.0,-160.0,1167.81,-3.19,True,Active,zain,Sideways,Normal,1: Walking
+1790444540.4163003,56550,Target 0,0.0,1146.0,-240.0,1146.0,0.0,True,Active,zain,Sideways,Normal,1: Walking
+1790444540.4679785,56551,Target 0,82.0,1140.0,-390.0,1142.95,4.11,True,Active,zain,Sideways,Normal,1: Walking
+1790444540.5218198,56552,Target 0,148.0,1125.0,-320.0,1134.69,7.49,True,Active,zain,Sideways,Normal,1: Walking
+1790444540.6158113,56553,Target 0,205.0,1113.0,-320.0,1131.72,10.44,True,Active,zain,Sideways,Normal,1: Walking
+1790444540.7172601,56554,Target 0,271.0,1111.0,-320.0,1143.57,13.71,True,Active,zain,Sideways,Normal,1: Walking
+1790444540.8321526,56555,Target 0,340.0,1116.0,-320.0,1166.64,16.94,True,Active,zain,Sideways,Normal,1: Walking
+1790444540.875285,56556,Target 0,416.0,1122.0,-390.0,1196.64,20.34,True,Active,zain,Sideways,Normal,1: Walking
+1790444540.9755387,56557,Target 0,474.0,1123.0,-320.0,1218.94,22.88,True,Active,zain,Sideways,Normal,1: Walking
+1790444541.0725212,56558,Target 0,529.0,1128.0,-390.0,1245.88,25.13,True,Active,zain,Sideways,Normal,1: Walking
+1790444541.1530998,56559,Target 0,587.0,1119.0,-640.0,1263.62,27.68,True,Active,zain,Sideways,Normal,1: Walking
+1790444541.257651,56560,Target 0,648.0,1109.0,-720.0,1284.44,30.3,True,Active,zain,Sideways,Normal,1: Walking
+1790444541.3355486,56561,Target 0,712.0,1097.0,-790.0,1307.8,32.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444541.546834,56562,Target 0,760.0,1100.0,-480.0,1337.01,34.64,True,Active,zain,Sideways,Normal,1: Walking
+1790444541.567479,56563,Target 0,792.0,1131.0,-160.0,1380.73,35.0,True,Active,zain,Sideways,Normal,1: Walking
+1790444541.5912855,56564,Target 0,832.0,1169.0,-640.0,1434.85,35.44,True,Active,zain,Sideways,Normal,1: Walking
+1790444541.6805198,56565,Target 0,867.0,1212.0,-560.0,1490.18,35.58,True,Active,zain,Sideways,Normal,1: Walking
+1790444541.7777407,56566,Target 0,901.0,1264.0,-790.0,1552.26,35.48,True,Active,zain,Sideways,Normal,1: Walking
+1790444541.87047,56567,Target 0,926.0,1318.0,-880.0,1610.78,35.09,True,Active,zain,Sideways,Normal,1: Walking
+1790444541.9458473,56568,Target 0,959.0,1364.0,-640.0,1667.39,35.11,True,Active,zain,Sideways,Normal,1: Walking
+1790444542.0329976,56569,Target 0,969.0,1413.0,-480.0,1713.34,34.44,True,Active,zain,Sideways,Normal,1: Walking
+1790444542.1393428,56570,Target 0,997.0,1451.0,-560.0,1760.51,34.49,True,Active,zain,Sideways,Normal,1: Walking
+1790444542.2180116,56571,Target 0,1042.0,1480.0,-640.0,1810.02,35.15,True,Active,zain,Sideways,Normal,1: Walking
+1790444542.3130121,56572,Target 0,1084.0,1509.0,-480.0,1857.99,35.69,True,Active,zain,Sideways,Normal,1: Walking
+1790444542.4453619,56573,Target 0,1106.0,1542.0,-240.0,1897.63,35.65,True,Active,zain,Sideways,Normal,1: Walking
+1790444542.5268824,56574,Target 0,1114.0,1578.0,-320.0,1931.6,35.22,True,Active,zain,Sideways,Normal,1: Walking
+1790444542.6061738,56575,Target 0,1138.0,1608.0,-390.0,1969.95,35.29,True,Active,zain,Sideways,Normal,1: Walking
+1790444542.686229,56576,Target 0,1177.0,1645.0,-240.0,2022.71,35.58,True,Active,zain,Sideways,Normal,1: Walking
+1790444542.7435474,56577,Target 0,1228.0,1685.0,-240.0,2085.0,36.08,True,Active,zain,Sideways,Normal,1: Walking
+1790444542.8381026,56578,Target 0,1265.0,1709.0,-160.0,2126.24,36.51,True,Active,zain,Sideways,Normal,1: Walking
+1790444542.9571183,56579,Target 0,1273.0,1716.0,-320.0,2136.63,36.57,True,Active,zain,Sideways,Normal,1: Walking
+1790444543.0105634,56580,Target 0,1277.0,1726.0,-80.0,2147.05,36.5,True,Active,zain,Sideways,Normal,1: Walking
+1790444543.1172476,56581,Target 0,1276.0,1730.0,-80.0,2149.67,36.41,True,Active,zain,Sideways,Normal,1: Walking
+1790444543.207454,56582,Target 0,1276.0,1740.0,80.0,2157.72,36.25,True,Active,zain,Sideways,Normal,1: Walking
+1790444543.3149555,56583,Target 0,1276.0,1760.0,160.0,2173.89,35.94,True,Active,zain,Sideways,Normal,1: Walking
+1790444543.3663847,56584,Target 0,1277.0,1780.0,240.0,2190.69,35.66,True,Active,zain,Sideways,Normal,1: Walking
+1790444543.4576602,56585,Target 0,1272.0,1796.0,160.0,2200.82,35.31,True,Active,zain,Sideways,Normal,1: Walking
+1790444543.555362,56586,Target 0,1261.0,1818.0,80.0,2212.52,34.75,True,Active,zain,Sideways,Normal,1: Walking
+1790444543.6370203,56587,Target 0,1249.0,1831.0,160.0,2216.43,34.3,True,Active,zain,Sideways,Normal,1: Walking
+1790444543.7213376,56588,Target 0,1233.0,1840.0,80.0,2214.92,33.83,True,Active,zain,Sideways,Normal,1: Walking
+1790444543.8108883,56589,Target 0,1203.0,1848.0,80.0,2205.07,33.06,True,Active,zain,Sideways,Normal,1: Walking
+1790444543.899673,56590,Target 0,1167.0,1855.0,-160.0,2191.56,32.17,True,Active,zain,Sideways,Normal,1: Walking
+1790444543.9891825,56591,Target 0,1137.0,1867.0,80.0,2185.97,31.34,True,Active,zain,Sideways,Normal,1: Walking
+1790444544.089994,56592,Target 0,1115.0,1874.0,-80.0,2180.62,30.75,True,Active,zain,Sideways,Normal,1: Walking
+1790444544.168536,56593,Target 0,1086.0,1886.0,240.0,2176.33,29.93,True,Active,zain,Sideways,Normal,1: Walking
+1790444544.2804809,56594,Target 0,1055.0,1900.0,390.0,2173.25,29.04,True,Active,zain,Sideways,Normal,1: Walking
+1790444544.3798568,56595,Target 0,1006.0,1917.0,320.0,2164.93,27.69,True,Active,zain,Sideways,Normal,1: Walking
+1790444544.4402945,56596,Target 0,981.0,1921.0,560.0,2156.99,27.05,True,Active,zain,Sideways,Normal,1: Walking
+1790444544.5228202,56597,Target 0,949.0,1925.0,640.0,2146.21,26.24,True,Active,zain,Sideways,Normal,1: Walking
+1790444544.6165836,56598,Target 0,887.0,1922.0,640.0,2116.8,24.77,True,Active,zain,Sideways,Normal,1: Walking
+1790444544.7030125,56599,Target 0,831.0,1910.0,560.0,2082.95,23.51,True,Active,zain,Sideways,Normal,1: Walking
+1790444544.8094382,56600,Target 0,776.0,1895.0,390.0,2047.73,22.27,True,Active,zain,Sideways,Normal,1: Walking
+1790444544.9167442,56601,Target 0,715.0,1864.0,640.0,1996.43,20.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444544.991819,56602,Target 0,660.0,1829.0,240.0,1944.44,19.84,True,Active,zain,Sideways,Normal,1: Walking
+1790444545.084032,56603,Target 0,598.0,1806.0,160.0,1902.43,18.32,True,Active,zain,Sideways,Normal,1: Walking
+1790444545.1453638,56604,Target 0,548.0,1791.0,80.0,1872.96,17.01,True,Active,zain,Sideways,Normal,1: Walking
+1790444545.2971952,56605,Target 0,504.0,1774.0,0.0,1844.2,15.86,True,Active,zain,Sideways,Normal,1: Walking
+1790444545.4087484,56606,Target 0,472.0,1763.0,80.0,1825.09,14.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444545.4538002,56607,Target 0,432.0,1759.0,-80.0,1811.27,13.8,True,Active,zain,Sideways,Normal,1: Walking
+1790444545.5047946,56608,Target 0,399.0,1737.0,0.0,1782.24,12.94,True,Active,zain,Sideways,Normal,1: Walking
+1790444545.6082144,56609,Target 0,361.0,1735.0,-80.0,1772.16,11.75,True,Active,zain,Sideways,Normal,1: Walking
+1790444545.7085059,56610,Target 0,328.0,1735.0,0.0,1765.73,10.71,True,Active,zain,Sideways,Normal,1: Walking
+1790444545.9846287,56611,Target 0,296.0,1722.0,80.0,1747.25,9.75,True,Active,zain,Sideways,Normal,1: Walking
+1790444546.0037458,56612,Target 0,257.0,1717.0,80.0,1736.13,8.51,True,Active,zain,Sideways,Normal,1: Walking
+1790444546.0218346,56613,Target 0,200.0,1723.0,160.0,1734.57,6.62,True,Active,zain,Sideways,Normal,1: Walking
+1790444546.1076996,56614,Target 0,140.0,1739.0,160.0,1744.63,4.6,True,Active,zain,Sideways,Normal,1: Walking
+1790444546.1962075,56615,Target 0,84.0,1755.0,-80.0,1757.01,2.74,True,Active,zain,Sideways,Normal,1: Walking
+1790444546.223718,56616,Target 0,42.0,1756.0,-80.0,1756.5,1.37,True,Active,zain,Sideways,Normal,1: Walking
+1790444546.398762,56617,Target 0,17.0,1751.0,-160.0,1751.08,0.56,True,Active,zain,Sideways,Normal,1: Walking
+1790444546.4185889,56618,Target 0,2.0,1755.0,-320.0,1755.0,0.07,True,Active,zain,Sideways,Normal,1: Walking
+1790444546.5688848,56619,Target 0,-11.0,1763.0,-320.0,1763.03,-0.36,True,Active,zain,Sideways,Normal,1: Walking
+1790444546.6329565,56620,Target 0,-25.0,1762.0,160.0,1762.18,-0.81,True,Active,zain,Sideways,Normal,1: Walking
+1790444546.693261,56621,Target 0,-43.0,1759.0,160.0,1759.53,-1.4,True,Active,zain,Sideways,Normal,1: Walking
+1790444546.7676418,56622,Target 0,-66.0,1769.0,-480.0,1770.23,-2.14,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444546.8901052,56623,Target 0,-95.0,1797.0,-1440.0,1799.51,-3.03,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444546.9356246,56624,Target 0,-160.0,1867.0,-1760.0,1873.84,-4.9,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444547.0297031,56625,Target 0,-220.0,1958.0,-2000.0,1970.32,-6.41,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444547.4819605,56626,Target 0,-277.0,2059.0,-2000.0,2077.55,-7.66,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444547.6893923,56627,Target 0,-305.0,2171.0,-1830.0,2192.32,-8.0,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444547.709509,56628,Target 0,-324.0,2286.0,-1830.0,2308.85,-8.07,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444547.7290425,56629,Target 0,-314.0,2421.0,-2000.0,2441.28,-7.39,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444547.9731164,56630,Target 0,-294.0,2575.0,0.0,2591.73,-6.51,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444547.9926643,56631,Target 0,-296.0,2808.0,-80.0,2823.56,-6.02,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444548.0128934,56632,Target 0,-343.0,3036.0,0.0,3055.31,-6.45,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444548.0326266,56633,Target 0,-385.0,3247.0,-80.0,3269.75,-6.76,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444548.051753,56634,Target 0,-409.0,3447.0,0.0,3471.18,-6.77,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444548.0708055,56635,Target 0,-402.0,3606.0,-80.0,3628.34,-6.36,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444548.093679,56636,Target 0,-365.0,3733.0,0.0,3750.8,-5.58,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444548.1142657,56637,Target 0,-341.0,3835.0,0.0,3850.13,-5.08,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444548.276632,56638,Target 0,-355.0,3924.0,0.0,3940.03,-5.17,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444548.297098,56639,Target 0,-375.0,3963.0,0.0,3980.7,-5.41,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444548.3574553,56640,Target 0,-385.0,3972.0,80.0,3990.62,-5.54,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444548.4386258,56641,Target 0,-395.0,3996.0,-80.0,4015.48,-5.65,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444548.5298462,56642,Target 0,-430.0,4017.0,0.0,4039.95,-6.11,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444548.6272454,56643,Target 0,-471.0,4036.0,0.0,4063.39,-6.66,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444548.7048004,56644,Target 0,-501.0,4037.0,-80.0,4067.97,-7.07,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444548.7987115,56645,Target 0,-537.0,4038.0,0.0,4073.55,-7.58,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444548.9036827,56646,Target 0,-570.0,4033.0,0.0,4073.08,-8.04,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444548.9818807,56647,Target 0,-554.0,4005.0,0.0,4043.14,-7.88,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444549.0714176,56648,Target 0,-543.0,3963.0,-80.0,4000.03,-7.8,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444549.3439806,56649,Target 0,-538.0,3930.0,0.0,3966.65,-7.8,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444549.3642988,56650,Target 0,-529.0,3883.0,-80.0,3918.87,-7.76,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444549.3837683,56651,Target 0,-525.0,3840.0,-80.0,3875.72,-7.79,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444549.4185653,56652,Target 0,-492.0,3779.0,-160.0,3810.89,-7.42,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444549.5399046,56653,Target 0,-477.0,3771.0,80.0,3801.05,-7.21,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444549.6422014,56654,Target 0,-448.0,3788.0,80.0,3814.4,-6.74,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444549.7540684,56655,Target 0,-434.0,3815.0,80.0,3839.61,-6.49,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.0153062,56656,Target 0,-401.0,3846.0,0.0,3866.85,-5.95,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.0353227,56657,Target 0,-374.0,3883.0,0.0,3900.97,-5.5,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.0553236,56658,Target 0,-451.0,3934.0,0.0,3959.77,-6.54,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.0957627,56659,Target 0,-521.0,3963.0,0.0,3997.1,-7.49,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.139076,56660,Target 0,-551.0,3991.0,0.0,4028.86,-7.86,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.2575433,56661,Target 0,-575.0,3993.0,80.0,4034.19,-8.19,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.309879,56662,Target 0,-597.0,3987.0,0.0,4031.45,-8.52,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.4607027,56663,Target 0,-604.0,3963.0,80.0,4008.76,-8.67,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.6361544,56664,Target 0,-567.0,3918.0,80.0,3958.81,-8.23,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.6561549,56665,Target 0,-519.0,3864.0,80.0,3898.7,-7.65,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.6798427,56666,Target 0,-476.0,3815.0,80.0,3844.58,-7.11,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.7513814,56667,Target 0,-437.0,3785.0,0.0,3810.14,-6.59,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.8564413,56668,Target 0,-431.0,3781.0,0.0,3805.49,-6.5,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444550.9978194,56669,Target 0,-443.0,3792.0,-80.0,3817.79,-6.66,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444551.025473,56670,Target 0,-474.0,3831.0,-80.0,3860.21,-7.05,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444551.2056613,56671,Target 0,-501.0,3865.0,-320.0,3897.34,-7.39,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444551.2256613,56672,Target 0,-478.0,3803.0,80.0,3832.92,-7.16,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444551.3025377,56673,Target 0,-472.0,3759.0,-80.0,3788.52,-7.16,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444551.412319,56674,Target 0,-455.0,3656.0,-80.0,3684.2,-7.09,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444551.4877994,56675,Target 0,-436.0,3553.0,-80.0,3579.65,-7.0,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444551.5691106,56676,Target 0,-418.0,3455.0,-80.0,3480.19,-6.9,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444551.668778,56677,Target 0,-401.0,3365.0,-80.0,3388.81,-6.8,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444551.7414293,56678,Target 0,-385.0,3286.0,-80.0,3308.48,-6.68,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444551.8466117,56679,Target 0,-368.0,3261.0,0.0,3281.7,-6.44,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444551.9386997,56680,Target 0,-345.0,3272.0,240.0,3290.14,-6.02,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444552.1360276,56681,Target 0,-326.0,3307.0,0.0,3323.03,-5.63,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444552.1569054,56682,Target 0,-344.0,3386.0,80.0,3403.43,-5.8,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444552.403343,56683,Target 0,-432.0,3537.0,0.0,3563.28,-6.96,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444552.4228292,56684,Target 0,-522.0,3673.0,560.0,3709.91,-8.09,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444552.441677,56685,Target 0,-588.0,3824.0,160.0,3868.94,-8.74,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444552.4644244,56686,Target 0,-661.0,3947.0,0.0,4001.97,-9.51,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444552.5577803,56687,Target 0,-706.0,4051.0,0.0,4112.06,-9.89,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444552.6822474,56688,Target 0,-710.0,4106.0,0.0,4166.93,-9.81,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444552.7701755,56689,Target 0,-676.0,4111.0,0.0,4166.21,-9.34,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444552.828925,56690,Target 0,-630.0,4098.0,320.0,4146.14,-8.74,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444552.8870552,56691,Target 0,-605.0,4064.0,390.0,4108.79,-8.47,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444552.9996865,56692,Target 0,-593.0,4033.0,320.0,4076.36,-8.36,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444553.0671918,56693,Target 0,-579.0,3997.0,320.0,4038.72,-8.24,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444553.1612272,56694,Target 0,-545.0,3893.0,240.0,3930.96,-7.97,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444553.2439616,56695,Target 0,-527.0,3798.0,160.0,3834.39,-7.9,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444553.3496459,56696,Target 0,-524.0,3708.0,-160.0,3744.84,-8.04,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444553.4219444,56697,Target 0,-531.0,3622.0,-160.0,3660.72,-8.34,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444553.5102386,56698,Target 0,-537.0,3544.0,-160.0,3584.45,-8.62,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444553.6013854,56699,Target 0,-569.0,3469.0,-80.0,3515.36,-9.31,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444553.726827,56700,Target 0,-607.0,3401.0,-80.0,3454.74,-10.12,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444553.7774653,56701,Target 0,-628.0,3338.0,320.0,3396.56,-10.65,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444553.8688629,56702,Target 0,-624.0,3270.0,240.0,3329.01,-10.8,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444553.9660597,56703,Target 0,-621.0,3198.0,390.0,3257.74,-10.99,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444554.3558989,56704,Target 0,-611.0,3136.0,480.0,3194.97,-11.03,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444554.3756437,56705,Target 0,-597.0,3050.0,240.0,3107.88,-11.07,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444554.395623,56706,Target 0,-601.0,3017.0,390.0,3076.28,-11.27,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444554.4144714,56707,Target 0,-608.0,2992.0,390.0,3053.15,-11.49,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444554.436466,56708,Target 0,-614.0,2969.0,390.0,3031.82,-11.68,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444554.5020823,56709,Target 0,-608.0,2934.0,80.0,2996.33,-11.71,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444554.5988255,56710,Target 0,-601.0,2887.0,320.0,2948.89,-11.76,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444554.6971283,56711,Target 0,-592.0,2837.0,320.0,2898.11,-11.79,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444554.789981,56712,Target 0,-583.0,2791.0,320.0,2851.24,-11.8,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444554.844547,56713,Target 0,-576.0,2760.0,80.0,2819.46,-11.79,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444554.936921,56714,Target 0,-588.0,2801.0,160.0,2862.05,-11.86,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444555.0412426,56715,Target 0,-607.0,2894.0,80.0,2956.97,-11.85,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444555.129928,56716,Target 0,-654.0,3081.0,80.0,3149.65,-11.98,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444555.2102768,56717,Target 0,-700.0,3253.0,80.0,3327.46,-12.14,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444555.3634884,56718,Target 0,-745.0,3407.0,80.0,3487.5,-12.33,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444555.3845193,56719,Target 0,-785.0,3542.0,80.0,3627.95,-12.5,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444555.4769268,56720,Target 0,-817.0,3638.0,240.0,3728.61,-12.66,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444555.561572,56721,Target 0,-835.0,3505.0,80.0,3603.09,-13.4,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444555.6704187,56722,Target 0,-848.0,3368.0,80.0,3473.12,-14.13,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444555.789662,56723,Target 0,-851.0,3257.0,80.0,3366.34,-14.64,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444555.8352783,56724,Target 0,-821.0,3325.0,0.0,3424.86,-13.87,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444555.928984,56725,Target 0,-810.0,3343.0,0.0,3439.73,-13.62,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444556.0017138,56726,Target 0,-770.0,3406.0,0.0,3491.95,-12.74,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444556.0912697,56727,Target 0,-717.0,3472.0,0.0,3545.26,-11.67,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444556.19228,56728,Target 0,-664.0,3534.0,0.0,3595.84,-10.64,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444556.2885957,56729,Target 0,-631.0,3584.0,0.0,3639.12,-9.99,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444556.3729143,56730,Target 0,-622.0,3599.0,0.0,3652.35,-9.81,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444556.4471643,56731,Target 0,-613.0,3614.0,0.0,3665.62,-9.63,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444556.5448396,56732,Target 0,-605.0,3628.0,0.0,3678.1,-9.47,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444556.6702309,56733,Target 0,-597.0,3642.0,0.0,3690.61,-9.31,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444556.7823253,56734,Target 0,-590.0,3655.0,0.0,3702.31,-9.17,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444556.8246171,56735,Target 0,-583.0,3668.0,0.0,3714.04,-9.03,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444556.9041526,56736,Target 0,-278.0,2457.0,-640.0,2472.68,-6.46,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444557.039544,56737,Target 0,-273.0,2463.0,-720.0,2478.08,-6.32,True,Active,zain,Sideways,Normal,1: Walking
+1790444557.0772922,56738,Target 0,-268.0,2469.0,-640.0,2483.5,-6.19,True,Active,zain,Sideways,Normal,1: Walking
+1790444557.1914399,56739,Target 0,-263.0,2479.0,-480.0,2492.91,-6.06,True,Active,zain,Sideways,Normal,1: Walking
+1790444557.2648656,56740,Target 0,-255.0,2491.0,-390.0,2504.02,-5.84,True,Active,zain,Sideways,Normal,1: Walking
+1790444557.426051,56741,Target 0,-235.0,2521.0,-390.0,2531.93,-5.33,True,Active,zain,Sideways,Normal,1: Walking
+1790444557.5206022,56742,Target 0,-228.0,2553.0,-320.0,2563.16,-5.1,True,Active,zain,Sideways,Normal,1: Walking
+1790444557.5409753,56743,Target 0,-225.0,2592.0,-480.0,2601.75,-4.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444557.6588166,56744,Target 0,-219.0,2633.0,-560.0,2642.09,-4.75,True,Active,zain,Sideways,Normal,1: Walking
+1790444557.705327,56745,Target 0,-207.0,2673.0,-720.0,2681.0,-4.43,True,Active,zain,Sideways,Normal,1: Walking
+1790444557.8056471,56746,Target 0,-196.0,2716.0,-720.0,2723.06,-4.13,True,Active,zain,Sideways,Normal,1: Walking
+1790444557.8709567,56747,Target 0,-197.0,2804.0,-480.0,2810.91,-4.02,True,Active,zain,Sideways,Normal,1: Walking
+1790444558.0502255,56748,Target 0,-204.0,2889.0,-480.0,2896.19,-4.04,True,Active,zain,Sideways,Normal,1: Walking
+1790444558.0889153,56749,Target 0,-233.0,2926.0,480.0,2935.26,-4.55,True,Active,zain,Sideways,Normal,1: Walking
+1790444558.2387276,56750,Target 0,-256.0,2961.0,0.0,2972.05,-4.94,True,Active,zain,Sideways,Normal,1: Walking
+1790444558.2577271,56751,Target 0,-282.0,2987.0,0.0,3000.28,-5.39,True,Active,zain,Sideways,Normal,1: Walking
+1790444558.3537107,56752,Target 0,-307.0,3007.0,0.0,3022.63,-5.83,True,Active,zain,Sideways,Normal,1: Walking
+1790444558.4076252,56753,Target 0,-297.0,3021.0,-80.0,3035.56,-5.61,True,Active,zain,Sideways,Normal,1: Walking
+1790444558.5018368,56754,Target 0,-282.0,3035.0,-80.0,3048.07,-5.31,True,Active,zain,Sideways,Normal,1: Walking
+1790444558.5835361,56755,Target 0,-266.0,3050.0,240.0,3061.58,-4.98,True,Active,zain,Sideways,Normal,1: Walking
+1790444558.6813598,56756,Target 0,-256.0,3062.0,-160.0,3072.68,-4.78,True,Active,zain,Sideways,Normal,1: Walking
+1790444558.8534803,56757,Target 0,-246.0,3072.0,560.0,3081.83,-4.58,True,Active,zain,Sideways,Normal,1: Walking
+1790444558.873801,56758,Target 0,-231.0,3082.0,640.0,3090.64,-4.29,True,Active,zain,Sideways,Normal,1: Walking
+1790444559.138901,56759,Target 0,-225.0,3089.0,480.0,3097.18,-4.17,True,Active,zain,Sideways,Normal,1: Walking
+1790444559.1599007,56760,Target 0,-218.0,3092.0,560.0,3099.68,-4.03,True,Active,zain,Sideways,Normal,1: Walking
+1790444559.2054381,56761,Target 0,-212.0,3089.0,880.0,3096.27,-3.93,True,Active,zain,Sideways,Normal,1: Walking
+1790444559.2254567,56762,Target 0,-209.0,3083.0,560.0,3090.08,-3.88,True,Active,zain,Sideways,Normal,1: Walking
+1790444559.3084655,56763,Target 0,-212.0,3077.0,390.0,3084.29,-3.94,True,Active,zain,Sideways,Normal,1: Walking
+1790444559.4146495,56764,Target 0,-217.0,3069.0,390.0,3076.66,-4.04,True,Active,zain,Sideways,Normal,1: Walking
+1790444559.5228047,56765,Target 0,-227.0,3062.0,240.0,3070.4,-4.24,True,Active,zain,Sideways,Normal,1: Walking
+1790444559.5650306,56766,Target 0,-239.0,3056.0,240.0,3065.33,-4.47,True,Active,zain,Sideways,Normal,1: Walking
+1790444559.6624675,56767,Target 0,-251.0,3045.0,390.0,3055.33,-4.71,True,Active,zain,Sideways,Normal,1: Walking
+1790444559.7805135,56768,Target 0,-265.0,3033.0,320.0,3044.55,-4.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444559.8571076,56769,Target 0,-276.0,3019.0,390.0,3031.59,-5.22,True,Active,zain,Sideways,Normal,1: Walking
+1790444559.9320586,56770,Target 0,-285.0,3004.0,320.0,3017.49,-5.42,True,Active,zain,Sideways,Normal,1: Walking
+1790444560.0159905,56771,Target 0,-294.0,2986.0,390.0,3000.44,-5.62,True,Active,zain,Sideways,Normal,1: Walking
+1790444560.102496,56772,Target 0,-317.0,2936.0,390.0,2953.06,-6.16,True,Active,zain,Sideways,Normal,1: Walking
+1790444560.2140028,56773,Target 0,-346.0,2889.0,320.0,2909.65,-6.83,True,Active,zain,Sideways,Normal,1: Walking
+1790444560.2785323,56774,Target 0,-383.0,2841.0,240.0,2866.7,-7.68,True,Active,zain,Sideways,Normal,1: Walking
+1790444560.3631227,56775,Target 0,-417.0,2797.0,80.0,2827.91,-8.48,True,Active,zain,Sideways,Normal,1: Walking
+1790444560.4606776,56776,Target 0,-453.0,2743.0,320.0,2780.15,-9.38,True,Active,zain,Sideways,Normal,1: Walking
+1790444560.6053197,56777,Target 0,-536.0,2654.0,-160.0,2707.58,-11.42,True,Active,zain,Sideways,Normal,1: Walking
+1790444560.6485326,56778,Target 0,-637.0,2562.0,-560.0,2640.0,-13.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444560.9235165,56779,Target 0,-724.0,2496.0,-480.0,2598.88,-16.18,True,Active,zain,Sideways,Normal,1: Walking
+1790444560.9439073,56780,Target 0,-805.0,2457.0,-560.0,2585.51,-18.14,True,Active,zain,Sideways,Normal,1: Walking
+1790444560.964575,56781,Target 0,-883.0,2443.0,-390.0,2597.68,-19.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444561.0095644,56782,Target 0,-971.0,2421.0,-390.0,2608.46,-21.85,True,Active,zain,Sideways,Normal,1: Walking
+1790444561.0822742,56783,Target 0,-1047.0,2416.0,-240.0,2633.11,-23.43,True,Active,zain,Sideways,Normal,1: Walking
+1790444561.1668296,56784,Target 0,-1149.0,2404.0,-320.0,2664.47,-25.55,True,Active,zain,Sideways,Normal,1: Walking
+1790444561.2735157,56785,Target 0,-1233.0,2408.0,-160.0,2705.32,-27.11,True,Active,zain,Sideways,Normal,1: Walking
+1790444561.3907442,56786,Target 0,-1317.0,2398.0,-320.0,2735.85,-28.78,True,Active,zain,Sideways,Normal,1: Walking
+1790444561.4684992,56787,Target 0,-1380.0,2405.0,-160.0,2772.8,-29.85,True,Active,zain,Sideways,Normal,1: Walking
+1790444561.525824,56788,Target 0,-1411.0,2431.0,-320.0,2810.82,-30.13,True,Active,zain,Sideways,Normal,1: Walking
+1790444561.6381776,56789,Target 0,-1447.0,2453.0,-390.0,2847.98,-30.54,True,Active,zain,Sideways,Normal,1: Walking
+1790444561.702092,56790,Target 0,-1494.0,2464.0,-390.0,2881.55,-31.23,True,Active,zain,Sideways,Normal,1: Walking
+1790444561.8053122,56791,Target 0,-1551.0,2464.0,-240.0,2911.51,-32.19,True,Active,zain,Sideways,Normal,1: Walking
+1790444561.9037619,56792,Target 0,-1624.0,2442.0,-320.0,2932.7,-33.63,True,Active,zain,Sideways,Normal,1: Walking
+1790444561.9791312,56793,Target 0,-1718.0,2369.0,-390.0,2926.38,-35.95,True,Active,zain,Sideways,Normal,1: Walking
+1790444562.0532749,56794,Target 0,-1811.0,2302.0,-640.0,2928.98,-38.19,True,Active,zain,Sideways,Normal,1: Walking
+1790444562.159617,56795,Target 0,-1877.0,2316.0,-480.0,2981.1,-39.02,True,Active,zain,Sideways,Normal,1: Walking
+1790444562.2517028,56796,Target 0,-1952.0,2324.0,-560.0,3035.01,-40.03,True,Active,zain,Sideways,Normal,1: Walking
+1790444562.3304343,56797,Target 0,-2003.0,2327.0,-480.0,3070.33,-40.72,True,Active,zain,Sideways,Normal,1: Walking
+1790444562.4090245,56798,Target 0,-2064.0,2322.0,-390.0,3106.73,-41.63,True,Active,zain,Sideways,Normal,1: Walking
+1790444562.5065608,56799,Target 0,-2126.0,2317.0,-240.0,3144.58,-42.54,True,Active,zain,Sideways,Normal,1: Walking
+1790444562.5878797,56800,Target 0,-2172.0,2316.0,-240.0,3175.13,-43.16,True,Active,zain,Sideways,Normal,1: Walking
+1790444562.6851697,56801,Target 0,-2227.0,2300.0,-80.0,3201.49,-44.08,True,Active,zain,Sideways,Normal,1: Walking
+1790444562.7799966,56802,Target 0,-2281.0,2278.0,80.0,3223.7,-45.04,True,Active,zain,Sideways,Normal,1: Walking
+1790444562.9535913,56803,Target 0,-2338.0,2276.0,-320.0,3262.89,-45.77,True,Active,zain,Sideways,Normal,1: Walking
+1790444562.9724407,56804,Target 0,-2388.0,2269.0,0.0,3294.07,-46.46,True,Active,zain,Sideways,Normal,1: Walking
+1790444563.036051,56805,Target 0,-2421.0,2281.0,0.0,3326.29,-46.71,True,Active,zain,Sideways,Normal,1: Walking
+1790444563.1238956,56806,Target 0,-2437.0,2310.0,0.0,3357.84,-46.53,True,Active,zain,Sideways,Normal,1: Walking
+1790444563.2119393,56807,Target 0,-2426.0,2312.0,160.0,3351.24,-46.38,True,Active,zain,Sideways,Normal,1: Walking
+1790444563.300065,56808,Target 0,-2431.0,2306.0,80.0,3350.73,-46.51,True,Active,zain,Sideways,Normal,1: Walking
+1790444563.3958666,56809,Target 0,-2431.0,2302.0,320.0,3347.98,-46.56,True,Active,zain,Sideways,Normal,1: Walking
+1790444563.4851236,56810,Target 0,-2419.0,2306.0,320.0,3342.03,-46.37,True,Active,zain,Sideways,Normal,1: Walking
+1790444563.5724888,56811,Target 0,-2417.0,2305.0,480.0,3339.9,-46.36,True,Active,zain,Sideways,Normal,1: Walking
+1790444563.662696,56812,Target 0,-2415.0,2302.0,480.0,3336.38,-46.37,True,Active,zain,Sideways,Normal,1: Walking
+1790444563.7541604,56813,Target 0,-2412.0,2293.0,390.0,3328.0,-46.45,True,Active,zain,Sideways,Normal,1: Walking
+1790444563.920759,56814,Target 0,-2411.0,2282.0,560.0,3319.71,-46.57,True,Active,zain,Sideways,Normal,1: Walking
+1790444564.1530368,56815,Target 0,-2410.0,2271.0,390.0,3311.43,-46.7,True,Active,zain,Sideways,Normal,1: Walking
+1790444564.172037,56816,Target 0,-2404.0,2264.0,390.0,3302.26,-46.72,True,Active,zain,Sideways,Normal,1: Walking
+1790444564.1915445,56817,Target 0,-2398.0,2255.0,390.0,3291.72,-46.76,True,Active,zain,Sideways,Normal,1: Walking
+1790444564.254545,56818,Target 0,-2388.0,2249.0,390.0,3280.33,-46.72,True,Active,zain,Sideways,Normal,1: Walking
+1790444564.3129158,56819,Target 0,-2380.0,2242.0,390.0,3269.7,-46.71,True,Active,zain,Sideways,Normal,1: Walking
+1790444564.3711264,56820,Target 0,-2373.0,2232.0,320.0,3257.75,-46.75,True,Active,zain,Sideways,Normal,1: Walking
+1790444564.4611485,56821,Target 0,-2363.0,2225.0,390.0,3245.67,-46.72,True,Active,zain,Sideways,Normal,1: Walking
+1790444564.576225,56822,Target 0,-2349.0,2222.0,480.0,3233.43,-46.59,True,Active,zain,Sideways,Normal,1: Walking
+1790444564.6346908,56823,Target 0,-2335.0,2218.0,560.0,3220.52,-46.47,True,Active,zain,Sideways,Normal,1: Walking
+1790444564.7268195,56824,Target 0,-2318.0,2215.0,480.0,3206.14,-46.3,True,Active,zain,Sideways,Normal,1: Walking
+1790444564.8121262,56825,Target 0,-2262.0,2206.0,480.0,3159.6,-45.72,True,Active,zain,Sideways,Normal,1: Walking
+1790444564.9051955,56826,Target 0,-2204.0,2187.0,720.0,3104.93,-45.22,True,Active,zain,Sideways,Normal,1: Walking
+1790444564.995458,56827,Target 0,-2141.0,2170.0,880.0,3048.41,-44.61,True,Active,zain,Sideways,Normal,1: Walking
+1790444565.0853443,56828,Target 0,-2024.0,2131.0,790.0,2939.0,-43.52,True,Active,zain,Sideways,Normal,1: Walking
+1790444565.1767817,56829,Target 0,-1909.0,2099.0,720.0,2837.27,-42.29,True,Active,zain,Sideways,Normal,1: Walking
+1790444565.288731,56830,Target 0,-1804.0,2066.0,720.0,2742.77,-41.13,True,Active,zain,Sideways,Normal,1: Walking
+1790444565.3474135,56831,Target 0,-1710.0,2036.0,720.0,2658.83,-40.03,True,Active,zain,Sideways,Normal,1: Walking
+1790444565.4417965,56832,Target 0,-1613.0,2014.0,720.0,2580.3,-38.69,True,Active,zain,Sideways,Normal,1: Walking
+1790444565.5379777,56833,Target 0,-1524.0,1991.0,720.0,2507.32,-37.43,True,Active,zain,Sideways,Normal,1: Walking
+1790444565.6484847,56834,Target 0,-1457.0,1949.0,720.0,2433.4,-36.78,True,Active,zain,Sideways,Normal,1: Walking
+1790444565.7021801,56835,Target 0,-1377.0,1913.0,960.0,2357.05,-35.75,True,Active,zain,Sideways,Normal,1: Walking
+1790444565.7911053,56836,Target 0,-1284.0,1878.0,790.0,2274.98,-34.36,True,Active,zain,Sideways,Normal,1: Walking
+1790444565.8798609,56837,Target 0,-1193.0,1847.0,720.0,2198.79,-32.86,True,Active,zain,Sideways,Normal,1: Walking
+1790444565.9993093,56838,Target 0,-1115.0,1818.0,790.0,2132.69,-31.52,True,Active,zain,Sideways,Normal,1: Walking
+1790444566.083162,56839,Target 0,-1030.0,1788.0,720.0,2063.45,-29.94,True,Active,zain,Sideways,Normal,1: Walking
+1790444566.1960437,56840,Target 0,-950.0,1757.0,790.0,1997.39,-28.4,True,Active,zain,Sideways,Normal,1: Walking
+1790444566.5124273,56841,Target 0,-873.0,1724.0,880.0,1932.43,-26.86,True,Active,zain,Sideways,Normal,1: Walking
+1790444566.531427,56842,Target 0,-810.0,1674.0,1040.0,1859.67,-25.82,True,Active,zain,Sideways,Normal,1: Walking
+1790444566.550427,56843,Target 0,-740.0,1622.0,790.0,1782.83,-24.52,True,Active,zain,Sideways,Normal,1: Walking
+1790444566.569427,56844,Target 0,-666.0,1572.0,640.0,1707.26,-22.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444566.639914,56845,Target 0,-606.0,1508.0,1040.0,1625.21,-21.89,True,Active,zain,Sideways,Normal,1: Walking
+1790444566.770519,56846,Target 0,-548.0,1439.0,790.0,1539.81,-20.85,True,Active,zain,Sideways,Normal,1: Walking
+1790444566.7913327,56847,Target 0,-476.0,1386.0,480.0,1465.46,-18.95,True,Active,zain,Sideways,Normal,1: Walking
+1790444566.869787,56848,Target 0,-406.0,1335.0,390.0,1395.37,-16.92,True,Active,zain,Sideways,Normal,1: Walking
+1790444567.0931537,56849,Target 0,-344.0,1286.0,240.0,1331.21,-14.98,True,Active,zain,Sideways,Normal,1: Walking
+1790444567.112659,56850,Target 0,-285.0,1243.0,240.0,1275.25,-12.91,True,Active,zain,Sideways,Normal,1: Walking
+1790444567.250445,56851,Target 0,-206.0,1210.0,320.0,1227.41,-9.66,True,Active,zain,Sideways,Normal,1: Walking
+1790444567.2721796,56852,Target 0,-134.0,1173.0,320.0,1180.63,-6.52,True,Active,zain,Sideways,Normal,1: Walking
+1790444567.3035502,56853,Target 0,-76.0,1126.0,320.0,1128.56,-3.86,True,Active,zain,Sideways,Normal,1: Walking
+1790444567.4586825,56854,Target 0,-14.0,1090.0,240.0,1090.09,-0.74,True,Active,zain,Sideways,Normal,1: Walking
+1790444567.4837844,56855,Target 0,43.0,1054.0,240.0,1054.88,2.34,True,Active,zain,Sideways,Normal,1: Walking
+1790444567.60369,56856,Target 0,101.0,1019.0,160.0,1023.99,5.66,True,Active,zain,Sideways,Normal,1: Walking
+1790444567.660482,56857,Target 0,155.0,978.0,160.0,990.21,9.01,True,Active,zain,Sideways,Normal,1: Walking
+1790444567.7630436,56858,Target 0,208.0,931.0,-160.0,953.95,12.59,True,Active,zain,Sideways,Normal,1: Walking
+1790444567.838366,56859,Target 0,260.0,883.0,-320.0,920.48,16.41,True,Active,zain,Sideways,Normal,1: Walking
+1790444567.9277127,56860,Target 0,327.0,852.0,-390.0,912.6,21.0,True,Active,zain,Sideways,Normal,1: Walking
+1790444568.01746,56861,Target 0,397.0,835.0,-640.0,924.57,25.43,True,Active,zain,Sideways,Normal,1: Walking
+1790444568.1205304,56862,Target 0,469.0,847.0,-480.0,968.18,28.97,True,Active,zain,Sideways,Normal,1: Walking
+1790444568.197094,56863,Target 0,529.0,866.0,-640.0,1014.79,31.42,True,Active,zain,Sideways,Normal,1: Walking
+1790444568.284234,56864,Target 0,593.0,878.0,-640.0,1059.5,34.04,True,Active,zain,Sideways,Normal,1: Walking
+1790444568.375685,56865,Target 0,655.0,890.0,-640.0,1105.05,36.35,True,Active,zain,Sideways,Normal,1: Walking
+1790444568.495599,56866,Target 0,713.0,908.0,-640.0,1154.48,38.14,True,Active,zain,Sideways,Normal,1: Walking
+1790444568.5904968,56867,Target 0,763.0,926.0,-560.0,1199.85,39.49,True,Active,zain,Sideways,Normal,1: Walking
+1790444568.6405892,56868,Target 0,814.0,941.0,-640.0,1244.22,40.86,True,Active,zain,Sideways,Normal,1: Walking
+1790444568.72794,56869,Target 0,872.0,942.0,-640.0,1283.65,42.79,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.034066,56870,Target 0,921.0,960.0,-560.0,1330.35,43.81,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.0550914,56871,Target 0,970.0,992.0,-560.0,1387.43,44.36,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.0740914,56872,Target 0,1013.0,1028.0,-640.0,1443.24,44.58,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.0966487,56873,Target 0,1051.0,1069.0,-390.0,1499.12,44.51,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.211635,56874,Target 0,1084.0,1100.0,-240.0,1544.36,44.58,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.263221,56875,Target 0,1114.0,1134.0,-160.0,1589.64,44.49,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.3586874,56876,Target 0,1152.0,1163.0,-390.0,1636.97,44.73,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.44043,56877,Target 0,1191.0,1178.0,-390.0,1675.16,45.31,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.538021,56878,Target 0,1218.0,1183.0,-320.0,1697.94,45.84,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.617612,56879,Target 0,1251.0,1198.0,-240.0,1732.11,46.24,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.706091,56880,Target 0,1275.0,1226.0,-240.0,1768.81,46.12,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.8092163,56881,Target 0,1306.0,1248.0,-240.0,1806.42,46.3,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.903702,56882,Target 0,1336.0,1267.0,-160.0,1841.25,46.52,True,Active,zain,Sideways,Normal,1: Walking
+1790444569.973228,56883,Target 0,1349.0,1302.0,-240.0,1874.83,46.02,True,Active,zain,Sideways,Normal,1: Walking
+1790444570.0641532,56884,Target 0,1342.0,1348.0,-240.0,1902.12,44.87,True,Active,zain,Sideways,Normal,1: Walking
+1790444570.155386,56885,Target 0,1327.0,1390.0,-240.0,1921.73,43.67,True,Active,zain,Sideways,Normal,1: Walking
+1790444570.298784,56886,Target 0,1312.0,1441.0,-320.0,1948.8,42.32,True,Active,zain,Sideways,Normal,1: Walking
+1790444570.378814,56887,Target 0,1321.0,1483.0,-320.0,1986.03,41.69,True,Active,zain,Sideways,Normal,1: Walking
+1790444570.4359536,56888,Target 0,1325.0,1527.0,-390.0,2021.72,40.95,True,Active,zain,Sideways,Normal,1: Walking
+1790444570.5149581,56889,Target 0,1308.0,1563.0,-240.0,2038.1,39.92,True,Active,zain,Sideways,Normal,1: Walking
+1790444570.6024218,56890,Target 0,1290.0,1603.0,-160.0,2057.6,38.83,True,Active,zain,Sideways,Normal,1: Walking
+1790444570.6868181,56891,Target 0,1272.0,1635.0,-160.0,2071.52,37.88,True,Active,zain,Sideways,Normal,1: Walking
+1790444570.8012118,56892,Target 0,1252.0,1687.0,0.0,2100.83,36.58,True,Active,zain,Sideways,Normal,1: Walking
+1790444570.866824,56893,Target 0,1240.0,1742.0,160.0,2138.26,35.44,True,Active,zain,Sideways,Normal,1: Walking
+1790444570.9548275,56894,Target 0,1225.0,1770.0,240.0,2152.56,34.69,True,Active,zain,Sideways,Normal,1: Walking
+1790444571.041336,56895,Target 0,1203.0,1783.0,390.0,2150.88,34.01,True,Active,zain,Sideways,Normal,1: Walking
+1790444571.1316488,56896,Target 0,1174.0,1781.0,390.0,2133.13,33.39,True,Active,zain,Sideways,Normal,1: Walking
+1790444571.241607,56897,Target 0,1138.0,1777.0,390.0,2110.16,32.64,True,Active,zain,Sideways,Normal,1: Walking
+1790444571.349717,56898,Target 0,1095.0,1770.0,390.0,2081.33,31.74,True,Active,zain,Sideways,Normal,1: Walking
+1790444571.3984566,56899,Target 0,1048.0,1759.0,390.0,2047.53,30.79,True,Active,zain,Sideways,Normal,1: Walking
+1790444571.50977,56900,Target 0,998.0,1748.0,320.0,2012.84,29.72,True,Active,zain,Sideways,Normal,1: Walking
+1790444571.5753753,56901,Target 0,945.0,1750.0,240.0,1988.85,28.37,True,Active,zain,Sideways,Normal,1: Walking
+1790444571.6786532,56902,Target 0,891.0,1751.0,160.0,1964.66,26.97,True,Active,zain,Sideways,Normal,1: Walking
+1790444571.7575157,56903,Target 0,840.0,1761.0,80.0,1951.08,25.5,True,Active,zain,Sideways,Normal,1: Walking
+1790444571.8449264,56904,Target 0,787.0,1762.0,240.0,1929.77,24.07,True,Active,zain,Sideways,Normal,1: Walking
+1790444571.9406028,56905,Target 0,732.0,1760.0,160.0,1906.15,22.58,True,Active,zain,Sideways,Normal,1: Walking
+1790444572.0307071,56906,Target 0,679.0,1762.0,160.0,1888.3,21.07,True,Active,zain,Sideways,Normal,1: Walking
+1790444572.1446145,56907,Target 0,629.0,1762.0,160.0,1870.9,19.65,True,Active,zain,Sideways,Normal,1: Walking
+1790444572.2118657,56908,Target 0,579.0,1755.0,240.0,1848.04,18.26,True,Active,zain,Sideways,Normal,1: Walking
+1790444572.287669,56909,Target 0,532.0,1740.0,390.0,1819.51,17.0,True,Active,zain,Sideways,Normal,1: Walking
+1790444572.3764672,56910,Target 0,483.0,1725.0,480.0,1791.34,15.64,True,Active,zain,Sideways,Normal,1: Walking
+1790444572.4868329,56911,Target 0,433.0,1709.0,390.0,1763.0,14.22,True,Active,zain,Sideways,Normal,1: Walking
+1790444572.5541677,56912,Target 0,379.0,1703.0,320.0,1744.66,12.55,True,Active,zain,Sideways,Normal,1: Walking
+1790444572.644223,56913,Target 0,323.0,1687.0,320.0,1717.64,10.84,True,Active,zain,Sideways,Normal,1: Walking
+1790444572.7331324,56914,Target 0,267.0,1663.0,160.0,1684.3,9.12,True,Active,zain,Sideways,Normal,1: Walking
+1790444572.8418727,56915,Target 0,214.0,1639.0,0.0,1652.91,7.44,True,Active,zain,Sideways,Normal,1: Walking
+1790444572.910119,56916,Target 0,162.0,1625.0,0.0,1633.06,5.69,True,Active,zain,Sideways,Normal,1: Walking
+1790444572.9992406,56917,Target 0,111.0,1632.0,-80.0,1635.77,3.89,True,Active,zain,Sideways,Normal,1: Walking
+1790444573.108573,56918,Target 0,69.0,1650.0,-160.0,1651.44,2.39,True,Active,zain,Sideways,Normal,1: Walking
+1790444573.200394,56919,Target 0,33.0,1665.0,-320.0,1665.33,1.14,True,Active,zain,Sideways,Normal,1: Walking
+1790444573.266059,56920,Target 0,-4.0,1683.0,-320.0,1683.0,-0.14,True,Active,zain,Sideways,Normal,1: Walking
+1790444573.3701656,56921,Target 0,-40.0,1695.0,-240.0,1695.47,-1.35,True,Active,zain,Sideways,Normal,1: Walking
+1790444573.4723063,56922,Target 0,-64.0,1705.0,-390.0,1706.2,-2.15,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444573.5551307,56923,Target 0,-105.0,1722.0,-480.0,1725.2,-3.49,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444573.7145538,56924,Target 0,-144.0,1718.0,320.0,1724.02,-4.79,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444573.7358413,56925,Target 0,-184.0,1710.0,320.0,1719.87,-6.14,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444573.983824,56926,Target 0,-218.0,1729.0,-640.0,1742.69,-7.19,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444574.0039525,56927,Target 0,-227.0,1792.0,-880.0,1806.32,-7.22,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444574.0276988,56928,Target 0,-242.0,1873.0,-960.0,1888.57,-7.36,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444574.065994,56929,Target 0,-268.0,1965.0,-720.0,1983.19,-7.77,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444574.1716146,56930,Target 0,-296.0,2065.0,-1040.0,2086.11,-8.16,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444574.2685006,56931,Target 0,-310.0,2167.0,-1360.0,2189.06,-8.14,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444574.3339026,56932,Target 0,-345.0,2275.0,-1920.0,2301.01,-8.62,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444574.4271703,56933,Target 0,-374.0,2395.0,-2150.0,2424.03,-8.88,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444574.511902,56934,Target 0,-405.0,2532.0,-80.0,2564.19,-9.09,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444574.6237514,56935,Target 0,-414.0,2735.0,-80.0,2766.16,-8.61,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444574.691338,56936,Target 0,-455.0,2937.0,0.0,2972.04,-8.81,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444574.787061,56937,Target 0,-511.0,3131.0,80.0,3172.43,-9.27,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444574.867197,56938,Target 0,-570.0,3317.0,80.0,3365.62,-9.75,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444574.9682372,56939,Target 0,-628.0,3489.0,80.0,3545.07,-10.2,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444575.0467834,56940,Target 0,-701.0,3641.0,-80.0,3707.87,-10.9,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444575.1488552,56941,Target 0,-774.0,3778.0,-80.0,3856.47,-11.58,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444575.2511091,56942,Target 0,-814.0,3890.0,-80.0,3974.25,-11.82,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444575.3417583,56943,Target 0,-847.0,3989.0,-80.0,4077.93,-11.99,True,Active,zain,Sideways,Normal,6: Fall onset
+1790444575.4022713,56944,Target 0,-861.0,4041.0,-390.0,4131.71,-12.03,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444575.6805718,56945,Target 0,-804.0,3952.0,-160.0,4032.95,-11.5,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444575.701057,56946,Target 0,-786.0,3931.0,80.0,4008.81,-11.31,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444575.7501965,56947,Target 0,-762.0,3911.0,-80.0,3984.54,-11.03,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444575.7695744,56948,Target 0,-696.0,3855.0,0.0,3917.33,-10.23,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444575.846533,56949,Target 0,-646.0,3786.0,0.0,3840.72,-9.68,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444575.9923623,56950,Target 0,-631.0,3583.0,-80.0,3638.14,-9.99,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444576.074591,56951,Target 0,-631.0,3390.0,-80.0,3448.23,-10.54,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444576.1148398,56952,Target 0,-641.0,3213.0,-80.0,3276.32,-11.28,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444576.2095325,56953,Target 0,-656.0,3055.0,-80.0,3124.64,-12.12,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444576.3117652,56954,Target 0,-678.0,2965.0,0.0,3041.53,-12.88,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444576.4024951,56955,Target 0,-703.0,2898.0,0.0,2982.05,-13.64,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444576.479999,56956,Target 0,-727.0,2848.0,0.0,2939.33,-14.32,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444576.622624,56957,Target 0,-741.0,2826.0,0.0,2921.53,-14.69,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444576.6467488,56958,Target 0,-728.0,2831.0,80.0,2923.11,-14.42,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444576.772348,56959,Target 0,-708.0,2849.0,80.0,2935.65,-13.96,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444576.8290105,56960,Target 0,-685.0,2865.0,-80.0,2945.75,-13.45,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444576.9162598,56961,Target 0,-661.0,2880.0,-480.0,2954.88,-12.93,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444577.01459,56962,Target 0,-586.0,2927.0,-480.0,2985.08,-11.32,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444577.1022596,56963,Target 0,-518.0,2968.0,-480.0,3012.86,-9.9,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444577.1826339,56964,Target 0,-494.0,2987.0,0.0,3027.57,-9.39,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444577.2709134,56965,Target 0,-443.0,3058.0,-80.0,3089.92,-8.24,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444577.390731,56966,Target 0,-400.0,3133.0,-80.0,3158.43,-7.28,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444577.44961,56967,Target 0,-360.0,3200.0,-80.0,3220.19,-6.42,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444577.5377977,56968,Target 0,-325.0,3261.0,-80.0,3277.16,-5.69,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444577.630463,56969,Target 0,-293.0,3315.0,-80.0,3327.92,-5.05,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444577.7153125,56970,Target 0,-281.0,3370.0,80.0,3381.69,-4.77,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444577.8047414,56971,Target 0,-312.0,3434.0,0.0,3448.14,-5.19,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444577.9318738,56972,Target 0,-366.0,3549.0,0.0,3567.82,-5.89,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444578.0005522,56973,Target 0,-455.0,3652.0,0.0,3680.23,-7.1,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444578.0935369,56974,Target 0,-525.0,3742.0,0.0,3778.65,-7.99,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444578.1877773,56975,Target 0,-588.0,3809.0,720.0,3854.12,-8.78,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444578.2785487,56976,Target 0,-622.0,3867.0,0.0,3916.7,-9.14,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444578.3374274,56977,Target 0,-606.0,3917.0,0.0,3963.6,-8.79,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444578.4353564,56978,Target 0,-542.0,3949.0,80.0,3986.02,-7.82,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444578.5384681,56979,Target 0,-506.0,3955.0,720.0,3987.24,-7.29,True,Active,zain,Sideways,Normal,7: Post-fall stillness
+1790444578.664063,56980,Target 0,-472.0,3974.0,0.0,4001.93,-6.77,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444578.7100363,56981,Target 0,-435.0,3984.0,390.0,4007.68,-6.23,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444578.8265805,56982,Target 0,-417.0,3991.0,0.0,4012.73,-5.96,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444579.0583472,56983,Target 0,-419.0,3996.0,0.0,4017.91,-5.99,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444579.0789979,56984,Target 0,-423.0,3978.0,390.0,4000.43,-6.07,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444579.0988197,56985,Target 0,-437.0,3974.0,0.0,3997.96,-6.28,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444579.1439738,56986,Target 0,-457.0,3972.0,0.0,3998.2,-6.56,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444579.255806,56987,Target 0,-484.0,3968.0,0.0,3997.41,-6.95,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444579.3552077,56988,Target 0,-558.0,3957.0,480.0,3996.15,-8.03,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444579.4173882,56989,Target 0,-595.0,3939.0,0.0,3983.68,-8.59,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444579.4985256,56990,Target 0,-626.0,3918.0,0.0,3967.69,-9.08,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444579.5897584,56991,Target 0,-654.0,3899.0,0.0,3953.47,-9.52,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444579.7030408,56992,Target 0,-656.0,3891.0,0.0,3945.91,-9.57,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444579.7626061,56993,Target 0,-654.0,3890.0,0.0,3944.59,-9.54,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444579.8516307,56994,Target 0,-640.0,3895.0,0.0,3947.23,-9.33,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444579.9434175,56995,Target 0,-624.0,3903.0,0.0,3952.57,-9.08,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444580.0564778,56996,Target 0,-611.0,3910.0,80.0,3957.45,-8.88,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444580.1185653,56997,Target 0,-601.0,3910.0,80.0,3955.92,-8.74,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444580.2067723,56998,Target 0,-593.0,3908.0,80.0,3952.73,-8.63,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444580.3544402,56999,Target 0,-586.0,3905.0,80.0,3948.72,-8.53,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444580.403562,57000,Target 0,-578.0,3903.0,80.0,3945.57,-8.42,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444580.482173,57001,Target 0,-571.0,3901.0,80.0,3942.57,-8.33,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444580.590813,57002,Target 0,-564.0,3899.0,80.0,3939.58,-8.23,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444580.6939077,57003,Target 0,-558.0,3897.0,80.0,3936.75,-8.15,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444580.782851,57004,Target 0,-551.0,3895.0,80.0,3933.78,-8.05,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444580.8902352,57005,Target 0,-545.0,3893.0,80.0,3930.96,-7.97,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444580.9375906,57006,Target 0,-539.0,3891.0,80.0,3928.16,-7.89,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444581.054603,57007,Target 0,-533.0,3890.0,80.0,3926.35,-7.8,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444581.1536722,57008,Target 0,-528.0,3888.0,80.0,3923.69,-7.73,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444581.2028205,57009,Target 0,-528.0,3888.0,80.0,3923.69,-7.73,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444581.2891672,57010,Target 0,-530.0,3889.0,80.0,3924.95,-7.76,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444581.3638144,57011,Target 0,-533.0,3890.0,80.0,3926.35,-7.8,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444581.4687033,57012,Target 0,-535.0,3890.0,80.0,3926.62,-7.83,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444581.543436,57013,Target 0,-537.0,3891.0,80.0,3927.88,-7.86,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444581.6367183,57014,Target 0,-550.0,3891.0,-80.0,3929.68,-8.05,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444581.7251077,57015,Target 0,-576.0,3888.0,-80.0,3930.44,-8.43,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444581.8197055,57016,Target 0,-662.0,3875.0,-80.0,3931.14,-9.69,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444581.8974948,57017,Target 0,-739.0,3864.0,-80.0,3934.03,-10.83,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444581.9858363,57018,Target 0,-808.0,3853.0,-80.0,3936.81,-11.84,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444582.076087,57019,Target 0,-836.0,3852.0,-80.0,3941.67,-12.25,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444582.1732066,57020,Target 0,-917.0,3852.0,-80.0,3959.65,-13.39,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444582.2553213,57021,Target 0,-943.0,3851.0,-80.0,3964.78,-13.76,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444582.413162,57022,Target 0,-967.0,3851.0,-80.0,3970.55,-14.1,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444582.433035,57023,Target 0,-990.0,3850.0,-80.0,3975.25,-14.42,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444582.5754855,57024,Target 0,-1011.0,3849.0,-80.0,3979.56,-14.72,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444582.6491919,57025,Target 0,-1032.0,3848.0,-80.0,3983.98,-15.01,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444582.7259834,57026,Target 0,-1053.0,3841.0,0.0,3982.72,-15.33,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444582.8141212,57027,Target 0,-1073.0,3833.0,0.0,3980.35,-15.64,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444583.0114355,57028,Target 0,-1091.0,3825.0,0.0,3977.55,-15.92,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444583.0313158,57029,Target 0,-1110.0,3817.0,0.0,3975.12,-16.21,True,Active,zain,Sideways,Normal,8: Recovery / standing back up
+1790444583.0670123,57030,Target 0,-1127.0,3810.0,0.0,3973.19,-16.48,True,Active,zain,Sideways,Normal,1: Walking
+1790444583.1823263,57031,Target 0,-1145.0,3803.0,0.0,3971.63,-16.76,True,Active,zain,Sideways,Normal,1: Walking
+1790444583.2766802,57032,Target 0,-1161.0,3796.0,0.0,3969.58,-17.01,True,Active,zain,Sideways,Normal,1: Walking
+1790444583.3774047,57033,Target 0,-1177.0,3789.0,0.0,3967.6,-17.26,True,Active,zain,Sideways,Normal,1: Walking
+1790444583.4280522,57034,Target 0,-1192.0,3782.0,0.0,3965.4,-17.49,True,Active,zain,Sideways,Normal,1: Walking
+1790444583.5374987,57035,Target 0,-1207.0,3776.0,0.0,3964.22,-17.73,True,Active,zain,Sideways,Normal,1: Walking
+1790444583.7507794,57036,Target 0,-1221.0,3770.0,0.0,3962.79,-17.95,True,Active,zain,Sideways,Normal,1: Walking
+1790444583.7713246,57037,Target 0,-1235.0,3764.0,0.0,3961.43,-18.17,True,Active,zain,Sideways,Normal,1: Walking
+1790444583.7903244,57038,Target 0,-1248.0,3758.0,0.0,3959.81,-18.37,True,Active,zain,Sideways,Normal,1: Walking
+1790444583.8553953,57039,Target 0,-1261.0,3753.0,0.0,3959.18,-18.57,True,Active,zain,Sideways,Normal,1: Walking
+1790444583.9537637,57040,Target 0,-1274.0,3748.0,0.0,3958.61,-18.77,True,Active,zain,Sideways,Normal,1: Walking
+1790444584.0332413,57041,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444584.1236978,57042,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444584.2205179,57043,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444584.3009143,57044,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444584.3935697,57045,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444584.483922,57046,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444584.5684023,57047,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444584.6629097,57048,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444584.752521,57049,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444584.8344982,57050,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444584.9415603,57051,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444585.022964,57052,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444585.1369855,57053,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444585.246194,57054,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444585.3378437,57055,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444585.3731554,57056,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444585.5080636,57057,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444585.5512443,57058,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444585.7231946,57059,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444585.7429192,57060,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444585.8391373,57061,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444585.9023428,57062,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444585.9916096,57063,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444586.080488,57064,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444586.1927297,57065,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444586.2586377,57066,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444586.3499246,57067,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444586.5120442,57068,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444586.549351,57069,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444586.6676977,57070,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444586.707474,57071,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444586.8307605,57072,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444587.1535802,57073,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444587.1734934,57074,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444587.1926193,57075,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444587.2127311,57076,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444587.5693505,57077,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444587.5894706,57078,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444587.6085806,57079,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444587.6282089,57080,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444587.6493435,57081,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444587.685924,57082,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444587.7968237,57083,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444587.8910596,57084,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444587.9950557,57085,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444588.0436437,57086,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444588.1530704,57087,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444588.2153747,57088,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444588.3239262,57089,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444588.4004972,57090,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444588.4930162,57091,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444588.598369,57092,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444588.670923,57093,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444588.7501564,57094,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444588.8388274,57095,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444588.928993,57096,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,2: Standing / idle
+1790444589.0240726,57097,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444589.1068883,57098,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444589.2040057,57099,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444589.2847302,57100,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444589.381329,57101,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444589.4618506,57102,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444589.5644035,57103,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444589.686317,57104,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444589.7575393,57105,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444589.8608475,57106,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444589.9393272,57107,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444589.9956927,57108,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444590.1370049,57109,Target 0,-1286.0,3743.0,0.0,3957.76,-18.96,True,Active,zain,Sideways,Normal,1: Walking
+1790444590.2059362,57110,Target 0,-1262.0,3764.0,-320.0,3969.93,-18.54,True,Active,zain,Sideways,Normal,1: Walking
+1790444590.2637486,57111,Target 0,-1217.0,3789.0,-320.0,3979.65,-17.81,True,Active,zain,Sideways,Normal,1: Walking
+1790444590.3691003,57112,Target 0,-1172.0,3815.0,-320.0,3990.97,-17.08,True,Active,zain,Sideways,Normal,1: Walking
+1790444590.4427185,57113,Target 0,-1128.0,3840.0,-320.0,4002.25,-16.37,True,Active,zain,Sideways,Normal,1: Walking
+1790444590.530177,57114,Target 0,-1085.0,3863.0,-320.0,4012.48,-15.69,True,Active,zain,Sideways,Normal,1: Walking
+1790444590.6785078,57115,Target 0,-1044.0,3886.0,-320.0,4023.8,-15.04,True,Active,zain,Sideways,Normal,1: Walking
+1790444590.7075365,57116,Target 0,-1005.0,3908.0,-320.0,4035.16,-14.42,True,Active,zain,Sideways,Normal,1: Walking
+1790444590.9166949,57117,Target 0,-967.0,3930.0,-320.0,4047.22,-13.82,True,Active,zain,Sideways,Normal,1: Walking
+1790444590.936317,57118,Target 0,-930.0,3950.0,-320.0,4058.0,-13.25,True,Active,zain,Sideways,Normal,1: Walking
+1790444590.9770625,57119,Target 0,-894.0,3970.0,-320.0,4069.41,-12.69,True,Active,zain,Sideways,Normal,1: Walking
+1790444591.0677032,57120,Target 0,-860.0,3989.0,-320.0,4080.65,-12.17,True,Active,zain,Sideways,Normal,1: Walking
+1790444591.1607552,57121,Target 0,-827.0,4008.0,-320.0,4092.43,-11.66,True,Active,zain,Sideways,Normal,1: Walking
+1790444591.2408643,57122,Target 0,-795.0,4025.0,-320.0,4102.76,-11.17,True,Active,zain,Sideways,Normal,1: Walking
+1790444591.3308294,57123,Target 0,-764.0,4043.0,-320.0,4114.55,-10.7,True,Active,zain,Sideways,Normal,1: Walking
+1790444591.419394,57124,Target 0,-735.0,4059.0,-320.0,4125.01,-10.26,True,Active,zain,Sideways,Normal,1: Walking
+1790444591.5083463,57125,Target 0,-706.0,4075.0,-320.0,4135.71,-9.83,True,Active,zain,Sideways,Normal,1: Walking
+1790444591.6122892,57126,Target 0,-678.0,4091.0,-320.0,4146.8,-9.41,True,Active,zain,Sideways,Normal,1: Walking
+1790444591.6864195,57127,Target 0,1328.0,1412.0,-640.0,1938.38,43.24,True,Active,zain,Sideways,Normal,1: Walking
+1790444591.776758,57128,Target 0,1330.0,1418.0,80.0,1944.13,43.17,True,Active,zain,Sideways,Normal,1: Walking
+1790444591.864466,57129,Target 0,1332.0,1427.0,240.0,1952.06,43.03,True,Active,zain,Sideways,Normal,1: Walking
+1790444592.04657,57130,Target 0,1329.0,1450.0,480.0,1966.91,42.51,True,Active,zain,Sideways,Normal,1: Walking
+1790444592.0665689,57131,Target 0,1318.0,1472.0,320.0,1975.83,41.84,True,Active,zain,Sideways,Normal,1: Walking
+1790444592.1395283,57132,Target 0,1305.0,1488.0,240.0,1979.18,41.25,True,Active,zain,Sideways,Normal,1: Walking
+1790444592.25984,57133,Target 0,1288.0,1494.0,320.0,1972.56,40.77,True,Active,zain,Sideways,Normal,1: Walking
+1790444592.3947275,57134,Target 0,1258.0,1501.0,480.0,1958.46,39.97,True,Active,zain,Sideways,Normal,1: Walking
+1790444592.41467,57135,Target 0,1220.0,1505.0,240.0,1937.38,39.03,True,Active,zain,Sideways,Normal,1: Walking
+1790444592.6515229,57136,Target 0,1137.0,1517.0,80.0,1895.8,36.85,True,Active,zain,Sideways,Normal,1: Walking
+1790444592.671037,57137,Target 0,1064.0,1528.0,-80.0,1861.96,34.85,True,Active,zain,Sideways,Normal,1: Walking
+1790444592.70511,57138,Target 0,1018.0,1544.0,80.0,1849.39,33.4,True,Active,zain,Sideways,Normal,1: Walking
+1790444592.7645793,57139,Target 0,983.0,1559.0,80.0,1843.03,32.23,True,Active,zain,Sideways,Normal,1: Walking
+1790444592.8589354,57140,Target 0,947.0,1577.0,160.0,1839.49,30.99,True,Active,zain,Sideways,Normal,1: Walking
+1790444593.0615704,57141,Target 0,912.0,1597.0,160.0,1839.06,29.73,True,Active,zain,Sideways,Normal,1: Walking
+1790444593.081984,57142,Target 0,866.0,1615.0,160.0,1832.53,28.2,True,Active,zain,Sideways,Normal,1: Walking
+1790444593.125529,57143,Target 0,823.0,1625.0,320.0,1821.53,26.86,True,Active,zain,Sideways,Normal,1: Walking
+1790444593.1997678,57144,Target 0,780.0,1642.0,320.0,1817.85,25.41,True,Active,zain,Sideways,Normal,1: Walking
+1790444593.287468,57145,Target 0,733.0,1659.0,390.0,1813.72,23.84,True,Active,zain,Sideways,Normal,1: Walking
+1790444593.3961854,57146,Target 0,682.0,1661.0,390.0,1795.56,22.32,True,Active,zain,Sideways,Normal,1: Walking
+1790444593.4661367,57147,Target 0,632.0,1678.0,320.0,1793.07,20.64,True,Active,zain,Sideways,Normal,1: Walking
+1790444593.555051,57148,Target 0,579.0,1673.0,320.0,1770.36,19.09,True,Active,zain,Sideways,Normal,1: Walking
+1790444593.6446834,57149,Target 0,527.0,1648.0,240.0,1730.21,17.73,True,Active,zain,Sideways,Normal,1: Walking
+1790444593.7498775,57150,Target 0,475.0,1617.0,160.0,1685.32,16.37,True,Active,zain,Sideways,Normal,1: Walking
+1790444593.8272614,57151,Target 0,428.0,1591.0,80.0,1647.56,15.06,True,Active,zain,Sideways,Normal,1: Walking
+1790444593.9108138,57152,Target 0,383.0,1569.0,-80.0,1615.07,13.72,True,Active,zain,Sideways,Normal,1: Walking
+1790444594.0774677,57153,Target 0,343.0,1553.0,-160.0,1590.43,12.45,True,Active,zain,Sideways,Normal,1: Walking
+1790444594.103527,57154,Target 0,307.0,1550.0,-240.0,1580.11,11.2,True,Active,zain,Sideways,Normal,1: Walking
+1790444594.1783795,57155,Target 0,276.0,1547.0,-240.0,1571.43,10.12,True,Active,zain,Sideways,Normal,1: Walking
+1790444594.2684996,57156,Target 0,253.0,1544.0,-240.0,1564.59,9.31,True,Active,zain,Sideways,Normal,1: Walking
+1790444594.3703263,57157,Target 0,226.0,1550.0,-240.0,1566.39,8.3,True,Active,zain,Sideways,Normal,1: Walking
+1790444594.4596834,57158,Target 0,200.0,1558.0,-160.0,1570.78,7.32,True,Active,zain,Sideways,Normal,1: Walking
+1790444594.5428078,57159,Target 0,172.0,1573.0,-80.0,1582.38,6.24,True,Active,zain,Sideways,Normal,1: Walking
+1790444594.6425924,57160,Target 0,138.0,1594.0,-80.0,1599.96,4.95,True,Active,zain,Sideways,Normal,1: Walking
+1790444594.7120912,57161,Target 0,109.0,1604.0,80.0,1607.7,3.89,True,Active,zain,Sideways,Normal,1: Walking
+1790444594.8191497,57162,Target 0,83.0,1617.0,80.0,1619.13,2.94,True,Active,zain,Sideways,Normal,1: Walking
+1790444594.9363637,57163,Target 0,55.0,1618.0,80.0,1618.93,1.95,True,Active,zain,Sideways,Normal,1: Walking
+1790444594.98273,57164,Target 0,24.0,1616.0,80.0,1616.18,0.85,True,Active,zain,Sideways,Normal,1: Walking
+1790444595.1004539,57165,Target 0,-10.0,1611.0,80.0,1611.03,-0.36,True,Active,zain,Sideways,Normal,1: Walking
+1790444595.1678517,57166,Target 0,-42.0,1596.0,80.0,1596.55,-1.51,True,Active,zain,Sideways,Normal,1: Walking

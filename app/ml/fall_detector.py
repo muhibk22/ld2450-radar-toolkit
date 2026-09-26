@@ -14,6 +14,16 @@ FALL_PROB_THRESHOLD = 0.5
 # Unit conversions for LD2450 to Model space
 MM_TO_M = 1 / 1000.0
 
+# Velocity EMA smoothing factor (0 = no smoothing, 1 = no memory)
+VELOCITY_EMA_ALPHA = 0.3
+
+# Physics pre-screening thresholds
+MIN_SPEED_FOR_FALL = 0.35       # m/s - minimum max speed in window to consider fall
+MIN_DISPLACEMENT_FOR_FALL = 0.25 # m - minimum net displacement in window
+MIN_VEL_Y_FOR_FALL = 0.4        # m/s - minimum Y-velocity magnitude to consider fall event
+APPROACH_RETREAT_RATIO = 3.0     # If |vel_y| / |vel_x| > this ratio, apply penalty
+
+
 class LSTMAttention(nn.Module):
     def __init__(self, n_features, hidden_dim=HIDDEN_DIM):
         super().__init__()
@@ -38,6 +48,11 @@ class FallDetector:
     """
     Wraps the PyTorch LSTMAttention model to provide real-time fall detection
     for a continuously tracked target.
+    
+    Includes:
+    - Velocity EMA smoothing to suppress single-frame jitter
+    - Physics pre-screening to skip inference when no significant motion detected
+    - Approach/retreat penalty to reduce false positives from Y-axis-dominant movement
     """
     def __init__(self, model_dir: str):
         # model_dir now points to app/ml/weights
@@ -59,6 +74,10 @@ class FallDetector:
         self.prev_y = None
         self.prev_t = None
         
+        # EMA-smoothed velocity state
+        self._ema_vel_x = 0.0
+        self._ema_vel_y = 0.0
+        
         self.current_prob = 0.0
 
     def reset_buffer(self):
@@ -68,12 +87,14 @@ class FallDetector:
         self.prev_x = None
         self.prev_y = None
         self.prev_t = None
+        self._ema_vel_x = 0.0
+        self._ema_vel_y = 0.0
         self.current_prob = 0.0
 
     def update(self, x_mm: float, y_mm: float, speed_mms: float) -> float:
         """
         Takes raw millimeter measurements from LD2450, converts to meters,
-        computes velocity vectors, and runs inference every N frames.
+        computes EMA-smoothed velocity vectors, and runs inference every N frames.
         Returns the latest fall probability (0.0 to 1.0).
         """
         x = x_mm * MM_TO_M
@@ -87,8 +108,14 @@ class FallDetector:
             # Bound velocity to realistic human kinematics (max 3.5 m/s) to prevent tracking jump glitches from triggering falls
             raw_vx = (x - self.prev_x) / dt
             raw_vy = (y - self.prev_y) / dt
-            vel_x = float(np.clip(raw_vx, -3.5, 3.5))
-            vel_y = float(np.clip(raw_vy, -3.5, 3.5))
+            clamped_vx = float(np.clip(raw_vx, -3.5, 3.5))
+            clamped_vy = float(np.clip(raw_vy, -3.5, 3.5))
+            
+            # EMA smoothing: suppresses single-frame jitter while preserving fall dynamics
+            vel_x = VELOCITY_EMA_ALPHA * clamped_vx + (1 - VELOCITY_EMA_ALPHA) * self._ema_vel_x
+            vel_y = VELOCITY_EMA_ALPHA * clamped_vy + (1 - VELOCITY_EMA_ALPHA) * self._ema_vel_y
+            self._ema_vel_x = vel_x
+            self._ema_vel_y = vel_y
         else:
             vel_x, vel_y = 0.0, 0.0
             
@@ -100,11 +127,24 @@ class FallDetector:
         if len(self.buffer) == WINDOW_LEN and self.frame_count % PREDICT_EVERY == 0:
             arr = np.array(self.buffer, dtype=np.float32)
             
-            # Kinematic check: if max absolute speed and net displacement are minimal, target is stationary
+            # ========== PHYSICS PRE-SCREENING GATE ==========
+            # Skip expensive LSTM inference when motion patterns clearly cannot be a fall.
+            # This eliminates the majority of false positives from stationary/slow movement.
+            
             max_speed = float(np.max(np.abs(arr[:, 4])))
             displacement = float(np.hypot(arr[-1, 0] - arr[0, 0], arr[-1, 1] - arr[0, 1]))
-            if max_speed < 0.35 and displacement < 0.35:
+            max_abs_vel_y = float(np.max(np.abs(arr[:, 3])))
+            max_abs_vel_x = float(np.max(np.abs(arr[:, 2])))
+            
+            # Gate 1: Stationary / minimal motion → definitely not a fall
+            if max_speed < MIN_SPEED_FOR_FALL and displacement < MIN_DISPLACEMENT_FOR_FALL:
                 self.current_prob = 0.01
+                return self.current_prob
+            
+            # Gate 2: No significant Y-velocity AND low overall speed → not a fall
+            # Falls require a rapid vertical (depth) change which manifests as Y-velocity
+            if max_abs_vel_y < MIN_VEL_Y_FOR_FALL and max_speed < 0.5:
+                self.current_prob = 0.02
                 return self.current_prob
 
             # Convert absolute x, y into position-invariant relative displacement from window start
@@ -116,6 +156,18 @@ class FallDetector:
             
             with torch.no_grad():
                 logit = self.model(tensor_in)
-                self.current_prob = torch.sigmoid(logit).item()
+                raw_prob = torch.sigmoid(logit).item()
+            
+            # Gate 3: Approach/retreat penalty
+            # If movement is predominantly along Y-axis (toward/away from sensor) with minimal
+            # X-axis change, this is likely a person walking toward/away rather than falling.
+            # The LD2450 conflates approach velocity with downward movement in its 2D projection.
+            if max_abs_vel_x > 0.05:  # Avoid division by zero
+                y_to_x_ratio = max_abs_vel_y / max_abs_vel_x
+                if y_to_x_ratio > APPROACH_RETREAT_RATIO:
+                    # Apply penalty: scale probability down by 40%
+                    raw_prob *= 0.6
+            
+            self.current_prob = raw_prob
                 
         return self.current_prob

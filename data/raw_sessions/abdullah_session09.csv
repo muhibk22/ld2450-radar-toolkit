@@ -1,0 +1,501 @@
+timestamp,sequence_id,target_id,x_mm,y_mm,speed_mms,distance_mm,angle_deg,valid,status,volunteer_id,fall_subtype,pace_variant,action_label
+1790431908.1659005,10649,Person 16,-2440.1,1562.5,390.0,2882.36,-56.88,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431908.192163,10650,Person 16,-2436.1,1564.8,390.0,2875.09,-56.74,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431908.2177732,10651,Person 16,-2431.1,1566.7,240.0,2867.02,-56.65,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431908.2545846,10652,Person 16,-2424.8,1568.6,240.0,2859.22,-56.53,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431908.3495238,10653,Person 16,-2417.3,1570.6,80.0,2851.44,-56.33,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431908.435585,10654,Person 16,-2408.4,1573.0,-80.0,2842.57,-56.16,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431908.5188692,10655,Person 16,-2398.7,1575.0,-80.0,2833.43,-56.11,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431908.608786,10656,Person 16,-2388.5,1576.6,-80.0,2824.01,-56.03,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431908.7047188,10657,Person 16,-2378.5,1577.2,-80.0,2815.41,-56.03,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431908.832255,10658,Person 16,-2369.1,1576.9,80.0,2809.03,-56.04,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431908.9151616,10659,Person 16,-2359.9,1577.2,-80.0,2807.45,-55.8,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431908.964531,10660,Person 16,-2350.8,1578.2,0.0,2805.09,-55.55,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431909.0667381,10661,Person 16,-2341.5,1580.6,-80.0,2803.43,-55.2,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431909.195999,10662,Person 16,-2332.2,1584.1,-80.0,2802.11,-54.88,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431909.262504,10663,Person 16,-2323.0,1588.5,-160.0,2800.64,-54.53,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431909.35072,10664,Person 16,-2313.0,1595.5,-160.0,2800.81,-53.83,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431909.4587312,10665,Person 16,-2303.7,1603.2,-160.0,2801.56,-53.74,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431909.5087633,10666,Person 16,-2295.1,1611.6,-390.0,2802.1,-53.62,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431909.6321452,10667,Person 16,-2287.2,1620.5,-240.0,2802.1,-53.62,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431909.6864185,10668,Person 16,-2280.0,1629.8,-320.0,2803.71,-53.65,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431909.7670112,10669,Person 16,-2274.2,1637.7,-320.0,2805.59,-53.8,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431909.8552966,10670,Person 16,-2270.1,1644.4,-320.0,2810.28,-53.95,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431909.967668,10671,Person 16,-2268.1,1649.3,-320.0,2815.44,-54.15,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431910.0369315,10672,Person 16,-2268.0,1652.5,-320.0,2819.83,-54.34,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431910.1229134,10673,Person 16,-2269.9,1653.9,-320.0,2824.24,-54.53,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431910.2328758,10674,Person 16,-2275.1,1651.6,-80.0,2829.64,-54.83,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431910.3226602,10675,Person 16,-2281.9,1647.8,-80.0,2834.8,-55.17,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431910.3879955,10676,Person 16,-2290.4,1642.5,-80.0,2840.63,-55.5,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431910.4778252,10677,Person 16,-2300.1,1636.2,-80.0,2844.89,-55.8,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431910.569126,10678,Person 16,-2311.3,1629.4,80.0,2856.18,-56.08,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431910.7339218,10679,Person 16,-2323.7,1622.8,80.0,2869.46,-56.33,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431910.7556772,10680,Person 16,-2336.5,1616.6,80.0,2880.01,-56.44,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431910.8345537,10681,Person 16,-2349.1,1610.5,80.0,2884.48,-56.6,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431910.9379823,10682,Person 16,-2361.2,1604.9,80.0,2887.82,-56.64,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431911.049236,10683,Person 16,-2372.5,1600.0,80.0,2889.75,-56.62,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431911.2137954,10684,Person 16,-2382.3,1596.7,80.0,2891.94,-56.48,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431911.236184,10685,Person 16,-2390.6,1595.4,160.0,2896.09,-56.32,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431911.287797,10686,Person 16,-2397.6,1595.8,240.0,2900.81,-56.22,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431911.3902075,10687,Person 16,-2403.4,1597.4,240.0,2901.92,-56.18,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431911.6024742,10688,Person 16,-2407.4,1599.6,240.0,2901.65,-56.16,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431911.622918,10689,Person 16,-2409.9,1601.7,160.0,2901.92,-56.26,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431911.6448998,10690,Person 16,-2411.4,1603.6,0.0,2903.02,-56.29,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431911.7451613,10691,Person 16,-2412.5,1605.8,80.0,2905.8,-56.35,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431911.913397,10692,Person 16,-2413.6,1608.1,480.0,2909.68,-56.38,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431911.9332826,10693,Person 16,-2414.1,1611.3,-80.0,2911.63,-56.15,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431912.012047,10694,Person 16,-2414.3,1614.9,-80.0,2913.63,-55.91,True,Active,abdullah,Forward,Normal,2: Standing / idle
+1790431912.1475046,10695,Person 16,-2413.9,1619.1,-80.0,2916.29,-55.59,True,Active,abdullah,Forward,Normal,1: Walking
+1790431912.170064,10696,Person 16,-2413.2,1622.9,160.0,2916.34,-55.52,True,Active,abdullah,Forward,Normal,1: Walking
+1790431912.2628758,10697,Person 16,-2412.3,1626.4,160.0,2914.12,-55.51,True,Active,abdullah,Forward,Normal,1: Walking
+1790431912.3523817,10698,Person 16,-2411.1,1630.3,-80.0,2913.66,-55.39,True,Active,abdullah,Forward,Normal,1: Walking
+1790431912.4468384,10699,Person 16,-2408.8,1635.6,-240.0,2912.79,-55.14,True,Active,abdullah,Forward,Normal,1: Walking
+1790431912.5237644,10700,Person 16,-2405.6,1642.0,-80.0,2912.78,-54.9,True,Active,abdullah,Forward,Normal,1: Walking
+1790431912.617146,10701,Person 16,-2398.7,1652.9,-240.0,2911.61,-53.81,True,Active,abdullah,Forward,Normal,1: Walking
+1790431912.702262,10702,Person 16,-2388.4,1667.9,-160.0,2912.65,-52.8,True,Active,abdullah,Forward,Normal,1: Walking
+1790431912.808799,10703,Person 16,-2375.6,1690.4,-80.0,2942.02,-51.11,True,Active,abdullah,Forward,Normal,1: Walking
+1790431912.8955696,10704,Person 16,-2361.6,1718.6,160.0,2972.16,-49.89,True,Active,abdullah,Forward,Normal,1: Walking
+1790431912.9688418,10705,Person 16,-2346.1,1752.2,160.0,3000.54,-48.61,True,Active,abdullah,Forward,Normal,1: Walking
+1790431913.0576394,10706,Person 16,-2330.0,1789.5,80.0,3021.2,-47.94,True,Active,abdullah,Forward,Normal,1: Walking
+1790431913.158682,10707,Person 16,-2311.6,1827.2,160.0,3004.71,-47.58,True,Active,abdullah,Forward,Normal,1: Walking
+1790431913.2379103,10708,Person 16,-2291.2,1864.7,320.0,2989.07,-47.22,True,Active,abdullah,Forward,Normal,1: Walking
+1790431913.3258467,10709,Person 16,-2268.9,1902.1,320.0,2975.47,-46.74,True,Active,abdullah,Forward,Normal,1: Walking
+1790431913.4151902,10710,Person 16,-2243.4,1939.7,320.0,2955.5,-46.06,True,Active,abdullah,Forward,Normal,1: Walking
+1790431913.5238552,10711,Person 16,-2216.0,1974.8,240.0,2931.67,-45.08,True,Active,abdullah,Forward,Normal,1: Walking
+1790431913.6083302,10712,Person 16,-2183.1,2008.7,240.0,2893.8,-43.47,True,Active,abdullah,Forward,Normal,1: Walking
+1790431913.6884427,10713,Person 16,-2145.6,2036.2,160.0,2858.34,-42.06,True,Active,abdullah,Forward,Normal,1: Walking
+1790431913.7803657,10714,Person 16,-2104.5,2058.0,160.0,2831.38,-41.12,True,Active,abdullah,Forward,Normal,1: Walking
+1790431913.895965,10715,Person 16,-2060.1,2073.8,0.0,2802.39,-40.15,True,Active,abdullah,Forward,Normal,1: Walking
+1790431913.948552,10716,Person 16,-2012.1,2087.3,0.0,2787.37,-39.23,True,Active,abdullah,Forward,Normal,1: Walking
+1790431914.0545118,10717,Person 16,-1961.5,2104.2,160.0,2784.49,-37.94,True,Active,abdullah,Forward,Normal,1: Walking
+1790431914.1473105,10718,Person 16,-1906.1,2124.1,160.0,2767.32,-36.34,True,Active,abdullah,Forward,Normal,1: Walking
+1790431914.2642503,10719,Person 16,-1848.4,2145.7,240.0,2759.19,-35.19,True,Active,abdullah,Forward,Normal,1: Walking
+1790431914.3051949,10720,Person 16,-1790.1,2167.9,390.0,2748.37,-34.2,True,Active,abdullah,Forward,Normal,1: Walking
+1790431914.4572108,10721,Person 16,-1731.9,2189.7,480.0,2732.58,-33.14,True,Active,abdullah,Forward,Normal,1: Walking
+1790431914.4833076,10722,Person 16,-1675.8,2209.6,560.0,2707.45,-31.88,True,Active,abdullah,Forward,Normal,1: Walking
+1790431914.575093,10723,Person 16,-1622.5,2226.8,640.0,2678.13,-31.07,True,Active,abdullah,Forward,Normal,1: Walking
+1790431914.6630235,10724,Person 16,-1572.0,2240.5,560.0,2644.68,-30.87,True,Active,abdullah,Forward,Normal,1: Walking
+1790431914.758085,10725,Person 16,-1524.0,2252.2,790.0,2619.93,-30.43,True,Active,abdullah,Forward,Normal,1: Walking
+1790431914.8465676,10726,Person 16,-1475.8,2261.1,480.0,2587.37,-29.68,True,Active,abdullah,Forward,Normal,1: Walking
+1790431915.0512705,10727,Person 16,-1428.8,2264.4,320.0,2551.67,-29.13,True,Active,abdullah,Forward,Normal,1: Walking
+1790431915.0728123,10728,Person 16,-1428.8,2264.4,320.0,2551.67,-29.13,True,Predicted,abdullah,Forward,Normal,1: Walking
+1790431915.1030416,10729,Person 16,-1378.3,2261.1,480.0,2471.97,-27.33,True,Active,abdullah,Forward,Normal,1: Walking
+1790431915.1932182,10730,Person 16,-1326.3,2254.1,320.0,2432.93,-26.09,True,Active,abdullah,Forward,Normal,1: Walking
+1790431915.340893,10731,Person 16,-1271.0,2244.3,480.0,2390.54,-24.52,True,Active,abdullah,Forward,Normal,1: Walking
+1790431915.3832238,10732,Person 16,-1213.9,2231.5,560.0,2348.94,-23.14,True,Active,abdullah,Forward,Normal,1: Walking
+1790431915.4640267,10733,Person 16,-1157.4,2216.0,560.0,2311.92,-21.97,True,Active,abdullah,Forward,Normal,1: Walking
+1790431915.5500448,10734,Person 16,-1102.5,2199.7,390.0,2288.02,-21.35,True,Active,abdullah,Forward,Normal,1: Walking
+1790431915.6542625,10735,Person 16,-1047.8,2182.3,720.0,2247.07,-21.13,True,Active,abdullah,Forward,Normal,1: Walking
+1790431915.7268991,10736,Person 16,-995.1,2157.2,640.0,2161.5,-21.72,True,Active,abdullah,Forward,Normal,1: Walking
+1790431915.8169637,10737,Person 16,-947.0,2123.4,560.0,2070.77,-22.73,True,Active,abdullah,Forward,Normal,1: Walking
+1790431915.9074693,10738,Person 16,-904.2,2083.6,390.0,2003.79,-23.97,True,Active,abdullah,Forward,Normal,1: Walking
+1790431916.0169516,10739,Person 16,-873.4,2040.3,480.0,1947.33,-25.13,True,Active,abdullah,Forward,Normal,1: Walking
+1790431916.0887828,10740,Person 16,-849.6,1994.2,390.0,1914.26,-25.76,True,Active,abdullah,Forward,Normal,1: Walking
+1790431916.195893,10741,Person 16,-833.6,1943.2,640.0,1861.3,-26.55,True,Active,abdullah,Forward,Normal,1: Walking
+1790431916.2759736,10742,Person 16,-822.6,1886.8,720.0,1791.14,-26.99,True,Active,abdullah,Forward,Normal,1: Walking
+1790431916.3852081,10743,Person 16,-815.1,1827.7,720.0,1742.39,-26.96,True,Active,abdullah,Forward,Normal,1: Walking
+1790431916.4647863,10744,Person 16,-806.0,1767.9,390.0,1703.13,-25.83,True,Active,abdullah,Forward,Normal,1: Walking
+1790431916.622934,10745,Person 16,-793.3,1709.3,480.0,1657.28,-24.34,True,Active,abdullah,Forward,Normal,1: Walking
+1790431916.644523,10746,Person 16,-793.3,1709.3,480.0,1657.28,-24.34,True,Predicted,abdullah,Forward,Normal,1: Walking
+1790431916.7367005,10747,Person 16,-770.7,1655.8,640.0,1580.89,-21.29,True,Active,abdullah,Forward,Normal,1: Walking
+1790431916.8574603,10748,Person 16,-745.7,1609.1,560.0,1544.26,-20.86,True,Active,abdullah,Forward,Normal,1: Walking
+1790431916.886453,10749,Person 16,-715.2,1567.5,240.0,1503.76,-19.78,True,Active,abdullah,Forward,Normal,1: Walking
+1790431916.981259,10750,Person 16,-680.0,1529.7,720.0,1464.19,-18.93,True,Active,abdullah,Forward,Normal,1: Walking
+1790431917.0749505,10751,Person 16,-639.8,1492.2,560.0,1415.87,-17.68,True,Active,abdullah,Forward,Normal,1: Walking
+1790431917.178154,10752,Person 16,-596.3,1455.7,880.0,1359.27,-16.98,True,Active,abdullah,Forward,Normal,1: Walking
+1790431917.245524,10753,Person 16,-550.3,1421.4,640.0,1301.77,-15.73,True,Active,abdullah,Forward,Normal,1: Walking
+1790431917.3435133,10754,Person 16,-503.3,1385.9,790.0,1240.0,-14.96,True,Active,abdullah,Forward,Normal,1: Walking
+1790431917.42457,10755,Person 16,-458.5,1346.8,640.0,1179.24,-14.44,True,Active,abdullah,Forward,Normal,1: Walking
+1790431917.5382452,10756,Person 16,-416.6,1304.6,480.0,1119.57,-13.64,True,Active,abdullah,Forward,Normal,1: Walking
+1790431917.6117494,10757,Person 16,-381.1,1262.2,240.0,1071.62,-11.79,True,Active,abdullah,Forward,Normal,1: Walking
+1790431917.691521,10758,Person 16,-341.5,1220.1,0.0,1033.54,-8.57,True,Active,abdullah,Forward,Normal,1: Walking
+1790431917.781032,10759,Person 16,-298.1,1179.1,-80.0,1007.79,-4.27,True,Active,abdullah,Forward,Normal,1: Walking
+1790431917.8807783,10760,Person 16,-251.9,1138.4,80.0,978.09,-0.76,True,Active,abdullah,Forward,Normal,1: Walking
+1790431917.9526012,10761,Person 16,-203.5,1099.9,-80.0,965.51,3.21,True,Active,abdullah,Forward,Normal,1: Walking
+1790431918.0478225,10762,Person 16,-152.0,1064.6,-80.0,954.32,7.1,True,Active,abdullah,Forward,Normal,1: Walking
+1790431918.137569,10763,Person 16,-99.6,1031.4,-80.0,936.74,10.52,True,Active,abdullah,Forward,Normal,1: Walking
+1790431918.2659009,10764,Person 16,-45.9,1001.2,-80.0,921.9,13.61,True,Active,abdullah,Forward,Normal,1: Walking
+1790431918.380218,10765,Person 16,8.7,972.9,-160.0,895.2,16.35,True,Active,abdullah,Forward,Normal,1: Walking
+1790431918.423178,10766,Person 16,65.0,947.3,-160.0,884.1,19.77,True,Active,abdullah,Forward,Normal,1: Walking
+1790431918.517386,10767,Person 16,122.3,922.7,-320.0,877.57,23.79,True,Active,abdullah,Forward,Normal,1: Walking
+1790431918.6243923,10768,Person 16,179.3,898.4,-390.0,883.12,28.1,True,Active,abdullah,Forward,Normal,1: Walking
+1790431918.7288945,10769,Person 16,234.7,873.3,-640.0,893.28,32.43,True,Active,abdullah,Forward,Normal,1: Walking
+1790431918.7573276,10770,Person 16,290.8,849.2,-480.0,918.41,36.63,True,Active,abdullah,Forward,Normal,1: Walking
+1790431918.8637033,10771,Person 16,346.2,825.5,-560.0,947.73,39.91,True,Active,abdullah,Forward,Normal,1: Walking
+1790431919.0008674,10772,Person 16,400.5,804.1,-480.0,987.02,42.04,True,Active,abdullah,Forward,Normal,1: Walking
+1790431919.0340157,10773,Person 16,454.6,787.0,-640.0,1034.14,43.51,True,Active,abdullah,Forward,Normal,1: Walking
+1790431919.1833913,10774,Person 16,509.5,774.4,-720.0,1086.12,44.85,True,Active,abdullah,Forward,Normal,1: Walking
+1790431919.2051482,10775,Person 16,509.5,774.4,-720.0,1086.12,44.85,True,Predicted,abdullah,Forward,Normal,1: Walking
+1790431919.3140101,10776,Person 16,571.1,771.2,-480.0,1198.9,46.39,True,Active,abdullah,Forward,Normal,1: Walking
+1790431919.3891177,10777,Person 16,632.1,772.5,-320.0,1241.09,47.09,True,Active,abdullah,Forward,Normal,1: Walking
+1790431919.4718838,10778,Person 16,691.3,778.9,-320.0,1283.2,47.5,True,Active,abdullah,Forward,Normal,1: Walking
+1790431919.5539107,10779,Person 16,747.6,790.2,-240.0,1324.43,47.66,True,Active,abdullah,Forward,Normal,1: Walking
+1790431919.6612928,10780,Person 16,801.6,805.7,-480.0,1365.52,48.27,True,Active,abdullah,Forward,Normal,1: Walking
+1790431919.7403216,10781,Person 16,851.1,824.9,-240.0,1396.74,48.31,True,Active,abdullah,Forward,Normal,1: Walking
+1790431919.8218853,10782,Person 16,896.5,846.8,-320.0,1422.24,48.31,True,Active,abdullah,Forward,Normal,1: Walking
+1790431919.9114268,10783,Person 16,938.5,869.8,-80.0,1447.73,48.3,True,Active,abdullah,Forward,Normal,1: Walking
+1790431920.0194986,10784,Person 16,978.4,893.5,-160.0,1486.1,48.38,True,Active,abdullah,Forward,Normal,1: Walking
+1790431920.0871205,10785,Person 16,1016.3,917.1,-160.0,1524.16,48.7,True,Active,abdullah,Forward,Normal,1: Walking
+1790431920.1811626,10786,Person 16,1047.0,935.6,-240.0,1550.73,49.26,True,Active,abdullah,Forward,Normal,1: Walking
+1790431920.2679496,10787,Person 16,1076.2,954.7,80.0,1586.09,49.22,True,Active,abdullah,Forward,Normal,1: Walking
+1790431920.3789613,10788,Person 16,1102.7,975.6,320.0,1619.97,48.38,True,Active,abdullah,Forward,Normal,1: Walking
+1790431920.4426038,10789,Person 16,1124.9,997.4,390.0,1635.39,47.25,True,Active,abdullah,Forward,Normal,1: Walking
+1790431920.5469468,10790,Person 16,1141.8,1018.1,320.0,1629.97,46.79,True,Active,abdullah,Forward,Normal,1: Walking
+1790431920.6824493,10791,Person 16,1155.3,1036.7,390.0,1622.01,46.57,True,Active,abdullah,Forward,Normal,1: Walking
+1790431920.7476015,10792,Person 16,1165.3,1054.1,320.0,1613.89,46.05,True,Active,abdullah,Forward,Normal,1: Walking
+1790431920.8461075,10793,Person 16,1171.4,1070.8,240.0,1606.57,45.3,True,Active,abdullah,Forward,Normal,1: Walking
+1790431920.889129,10794,Person 16,1172.5,1085.9,160.0,1598.1,44.59,True,Active,abdullah,Forward,Normal,1: Walking
+1790431920.9840472,10795,Person 16,1167.8,1099.8,160.0,1586.39,43.8,True,Active,abdullah,Forward,Normal,1: Walking
+1790431921.0950544,10796,Person 16,1157.4,1114.0,160.0,1574.41,42.86,True,Active,abdullah,Forward,Normal,1: Walking
+1790431921.6245723,10797,Person 16,1034.0,1166.0,80.0,1558.43,41.57,True,Active,abdullah,Forward,Normal,1: Walking
+1790431921.645556,10798,Person 16,1023.0,1168.0,80.0,1546.95,40.86,True,Active,abdullah,Forward,Normal,1: Walking
+1790431921.6660156,10799,Person 16,1009.67,1170.67,160.0,1532.73,39.89,True,Active,abdullah,Forward,Normal,1: Walking
+1790431921.6845248,10800,Person 16,995.0,1174.5,80.0,1520.2,38.72,True,Active,abdullah,Forward,Normal,1: Walking
+1790431921.7060854,10801,Person 16,974.0,1179.8,80.0,1494.82,36.54,True,Active,abdullah,Forward,Normal,1: Walking
+1790431921.7296467,10802,Person 16,950.5,1185.5,80.0,1472.31,34.46,True,Active,abdullah,Forward,Normal,1: Walking
+1790431921.7551816,10803,Person 16,927.0,1192.43,160.0,1463.06,32.5,True,Active,abdullah,Forward,Normal,1: Walking
+1790431921.7811818,10804,Person 16,904.5,1199.5,240.0,1455.34,30.88,True,Active,abdullah,Forward,Normal,1: Walking
+1790431921.9098275,10805,Person 16,882.67,1206.33,240.0,1446.16,29.31,True,Active,abdullah,Forward,Normal,1: Walking
+1790431921.9570177,10806,Person 16,860.7,1212.5,320.0,1430.87,27.6,True,Active,abdullah,Forward,Normal,1: Walking
+1790431922.0461447,10807,Person 16,820.0,1225.0,240.0,1435.2,25.9,True,Active,abdullah,Forward,Normal,1: Walking
+1790431922.1415477,10808,Person 16,777.0,1239.3,240.0,1436.21,23.91,True,Active,abdullah,Forward,Normal,1: Walking
+1790431922.2229617,10809,Person 16,731.7,1254.3,160.0,1428.0,21.79,True,Active,abdullah,Forward,Normal,1: Walking
+1790431922.3301535,10810,Person 16,683.4,1267.6,80.0,1399.57,19.54,True,Active,abdullah,Forward,Normal,1: Walking
+1790431922.4108608,10811,Person 16,634.8,1279.2,-80.0,1377.57,17.05,True,Active,abdullah,Forward,Normal,1: Walking
+1790431922.4908962,10812,Person 16,585.4,1287.4,-80.0,1339.6,14.66,True,Active,abdullah,Forward,Normal,1: Walking
+1790431922.5805385,10813,Person 16,534.5,1290.1,-160.0,1291.07,12.39,True,Active,abdullah,Forward,Normal,1: Walking
+1790431922.682496,10814,Person 16,481.9,1289.9,-160.0,1266.43,10.05,True,Active,abdullah,Forward,Normal,1: Walking
+1790431922.7573404,10815,Person 16,428.3,1287.4,-160.0,1247.91,7.92,True,Active,abdullah,Forward,Normal,1: Walking
+1790431922.8518538,10816,Person 16,376.2,1284.2,-160.0,1244.13,6.55,True,Active,abdullah,Forward,Normal,1: Walking
+1790431922.964325,10817,Person 16,327.6,1280.7,80.0,1263.89,6.41,True,Active,abdullah,Forward,Normal,1: Walking
+1790431923.0357091,10818,Person 16,283.9,1276.9,-240.0,1283.22,6.49,True,Active,abdullah,Forward,Normal,1: Walking
+1790431923.129079,10819,Person 16,246.4,1273.1,80.0,1297.29,6.86,True,Active,abdullah,Forward,Normal,1: Walking
+1790431923.2321756,10820,Person 16,215.8,1270.6,160.0,1304.1,7.14,True,Active,abdullah,Forward,Normal,1: Walking
+1790431923.3456664,10821,Person 16,192.2,1267.8,240.0,1299.9,7.43,True,Active,abdullah,Forward,Normal,1: Walking
+1790431923.3964753,10822,Person 16,175.4,1267.2,240.0,1301.28,7.55,True,Active,abdullah,Forward,Normal,1: Walking
+1790431923.486579,10823,Person 16,165.1,1270.0,320.0,1300.69,7.69,True,Active,abdullah,Forward,Normal,1: Walking
+1790431923.589679,10824,Person 16,160.6,1273.9,320.0,1297.99,7.79,True,Active,abdullah,Forward,Normal,1: Walking
+1790431923.6782615,10825,Person 16,161.1,1278.5,320.0,1294.16,7.86,True,Active,abdullah,Forward,Normal,1: Walking
+1790431923.7654324,10826,Person 16,164.8,1282.5,240.0,1288.49,7.99,True,Active,abdullah,Forward,Normal,1: Walking
+1790431923.923396,10827,Person 16,168.9,1284.0,160.0,1283.96,8.15,True,Active,abdullah,Forward,Normal,1: Walking
+1790431923.9453325,10828,Person 16,172.8,1283.1,80.0,1279.3,8.27,True,Active,abdullah,Forward,Normal,1: Walking
+1790431924.0424836,10829,Person 16,176.1,1280.6,80.0,1276.92,8.47,True,Active,abdullah,Forward,Normal,1: Walking
+1790431924.0937781,10830,Person 16,178.7,1277.1,-160.0,1272.96,8.49,True,Active,abdullah,Forward,Normal,1: Walking
+1790431924.1905227,10831,Person 16,180.9,1273.9,-160.0,1271.28,8.6,True,Active,abdullah,Forward,Normal,1: Walking
+1790431924.2712774,10832,Person 16,183.0,1270.4,-240.0,1269.6,8.7,True,Active,abdullah,Forward,Normal,1: Walking
+1790431924.4074652,10833,Person 16,184.8,1266.7,-390.0,1266.64,8.72,True,Active,abdullah,Forward,Normal,1: Walking
+1790431924.4527576,10834,Person 16,186.5,1263.2,-390.0,1265.8,8.77,True,Active,abdullah,Forward,Normal,1: Walking
+1790431924.546026,10835,Person 16,188.4,1260.1,-390.0,1266.26,8.9,True,Active,abdullah,Forward,Normal,1: Walking
+1790431924.6263468,10836,Person 16,190.4,1257.8,-390.0,1268.7,9.02,True,Active,abdullah,Forward,Normal,1: Walking
+1790431924.7337303,10837,Person 16,192.5,1256.3,-390.0,1272.3,9.18,True,Active,abdullah,Forward,Normal,1: Walking
+1790431924.8200269,10838,Person 16,194.7,1255.8,-240.0,1277.72,9.28,True,Active,abdullah,Forward,Normal,1: Walking
+1790431924.8939009,10839,Person 16,196.9,1256.1,-240.0,1283.3,9.42,True,Active,abdullah,Forward,Normal,1: Walking
+1790431924.982007,10840,Person 16,199.4,1257.4,-240.0,1289.71,9.51,True,Active,abdullah,Forward,Normal,1: Walking
+1790431925.0922582,10841,Person 16,202.1,1259.5,-240.0,1296.29,9.64,True,Active,abdullah,Forward,Normal,1: Walking
+1790431925.1614778,10842,Person 16,204.7,1262.3,-320.0,1301.39,9.64,True,Active,abdullah,Forward,Normal,1: Walking
+1790431925.2560132,10843,Person 16,207.2,1266.2,-390.0,1309.11,9.54,True,Active,abdullah,Forward,Normal,1: Walking
+1790431925.3641226,10844,Person 16,209.4,1271.1,-640.0,1317.66,9.39,True,Active,abdullah,Forward,Normal,1: Walking
+1790431925.448688,10845,Person 16,211.2,1277.1,-640.0,1328.35,9.27,True,Active,abdullah,Forward,Normal,1: Walking
+1790431925.542224,10846,Person 16,212.1,1286.6,-880.0,1363.95,8.77,True,Active,abdullah,Forward,Normal,1: Walking
+1790431925.723182,10847,Person 16,210.6,1300.0,-1280.0,1402.66,7.7,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431925.750304,10848,Person 16,205.8,1317.8,-1440.0,1447.65,6.27,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431925.813536,10849,Person 16,193.9,1346.3,-1520.0,1553.67,3.36,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431925.888451,10850,Person 16,176.8,1384.2,-480.0,1651.53,1.46,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431925.993758,10851,Person 16,158.8,1427.3,-720.0,1709.4,1.24,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431926.0530758,10852,Person 16,141.5,1474.9,-960.0,1759.58,1.47,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431926.192861,10853,Person 16,124.8,1526.8,-1280.0,1810.69,1.58,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431926.2696269,10854,Person 16,107.9,1584.2,-1590.0,1874.56,1.41,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431926.3164551,10855,Person 16,90.8,1647.1,-1590.0,1940.48,1.27,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431926.4173398,10856,Person 16,72.7,1715.2,-1830.0,2029.18,0.76,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431926.5118454,10857,Person 16,57.1,1790.2,-1440.0,2140.24,0.86,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431926.5906532,10858,Person 16,45.3,1871.9,-1440.0,2256.35,1.02,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431926.679535,10859,Person 16,39.5,1954.4,-480.0,2376.23,0.8,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431926.7697024,10860,Person 16,37.8,2040.1,0.0,2508.12,0.57,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431926.8679569,10861,Person 16,33.1,2136.1,80.0,2669.02,-0.21,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431926.9399562,10862,Person 16,24.7,2245.7,80.0,2855.27,-0.78,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431927.029137,10863,Person 16,16.4,2373.5,0.0,3088.18,-0.61,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431927.1173317,10864,Person 16,9.3,2516.6,0.0,3305.09,-0.43,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431927.213537,10865,Person 16,3.4,2670.2,320.0,3476.04,-0.26,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431927.2955606,10866,Person 16,0.0,2830.0,320.0,3627.01,-0.11,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431927.3917527,10867,Person 16,-5.5,2991.3,0.0,3753.07,-0.35,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431927.4808314,10868,Person 16,-24.6,3150.6,0.0,3851.96,-2.25,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431927.5703585,10869,Person 16,-58.3,3307.6,0.0,3957.69,-4.41,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431927.6878128,10870,Person 16,-105.1,3460.1,80.0,4057.26,-6.27,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431927.7493522,10871,Person 16,-147.0,3600.5,-80.0,4095.53,-6.01,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431927.8638105,10872,Person 16,-179.9,3725.0,0.0,4116.48,-5.13,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431927.9677725,10873,Person 16,-208.2,3828.5,0.0,4135.09,-4.38,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431928.0591416,10874,Person 16,-231.2,3911.9,0.0,4146.85,-3.53,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431928.0962481,10875,Person 16,-248.8,3979.3,0.0,4154.44,-2.65,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431928.1902502,10876,Person 16,-260.4,4031.4,160.0,4149.82,-1.7,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431928.2800093,10877,Person 16,-264.8,4070.1,0.0,4140.54,-0.93,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431928.3999877,10878,Person 16,-251.1,4098.0,0.0,4128.02,-0.19,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431928.4566667,10879,Person 16,-232.8,4116.1,0.0,4128.77,-1.68,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431928.557496,10880,Person 16,-206.6,4125.5,0.0,4130.97,-2.51,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431928.6904783,10881,Person 16,-186.0,4131.0,0.0,4134.02,-3.09,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431928.7314677,10882,Person 16,-172.0,4133.4,320.0,4130.3,-3.16,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431928.815009,10883,Person 16,-162.2,4131.2,240.0,4106.79,-3.04,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431928.9003701,10884,Person 16,-156.6,4124.9,80.0,4080.85,-2.8,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431928.9858365,10885,Person 16,-152.5,4109.7,80.0,4000.85,-2.16,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431929.085313,10886,Person 16,-145.8,4079.2,80.0,3843.41,-0.83,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431929.1651711,10887,Person 16,-133.3,4033.9,240.0,3687.46,0.9,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431929.256465,10888,Person 16,-116.0,3978.0,160.0,3572.54,2.55,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431929.341195,10889,Person 16,-84.0,3914.4,160.0,3496.67,3.26,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431929.4372466,10890,Person 16,-42.6,3846.3,80.0,3453.87,3.87,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431929.527657,10891,Person 16,3.0,3773.4,160.0,3406.98,3.92,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431929.6121256,10892,Person 16,49.6,3699.1,160.0,3389.37,4.03,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431929.7064798,10893,Person 16,95.3,3626.8,0.0,3386.44,4.05,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431929.794372,10894,Person 16,140.1,3555.7,-240.0,3374.2,4.23,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431929.8751733,10895,Person 16,178.7,3490.1,390.0,3350.25,4.02,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431929.9968064,10896,Person 16,205.0,3439.4,0.0,3342.42,3.55,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431930.0613754,10897,Person 16,219.4,3403.5,390.0,3334.12,3.47,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431930.1802697,10898,Person 16,224.1,3375.6,390.0,3296.44,3.58,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431930.2354696,10899,Person 16,226.5,3351.3,160.0,3255.65,3.93,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431930.3268406,10900,Person 16,226.9,3326.9,390.0,3210.76,4.23,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431930.4383235,10901,Person 16,228.9,3299.8,480.0,3138.21,4.62,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431930.532903,10902,Person 16,230.0,3269.0,480.0,3083.07,4.63,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431930.6139188,10903,Person 16,230.4,3237.5,480.0,3072.62,4.54,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431930.7185705,10904,Person 16,228.9,3207.8,0.0,3076.91,4.36,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431930.7742233,10905,Person 16,228.8,3180.3,320.0,3075.91,4.36,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431930.8871393,10906,Person 16,231.1,3153.0,320.0,3071.62,4.29,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431930.956358,10907,Person 16,233.7,3125.4,390.0,3060.5,4.27,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431931.0348628,10908,Person 16,236.1,3099.9,320.0,3043.7,4.33,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431931.121003,10909,Person 16,237.6,3072.7,320.0,2985.5,4.57,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431931.2295434,10910,Person 16,239.0,3044.5,240.0,2930.77,4.91,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431931.302957,10911,Person 16,241.1,3019.0,-240.0,2886.04,5.45,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431931.3956919,10912,Person 16,246.5,2994.6,-240.0,2845.18,6.11,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431931.478198,10913,Person 16,256.3,2966.3,-80.0,2800.84,6.99,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431931.5836668,10914,Person 16,270.5,2933.5,160.0,2765.68,7.81,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431931.6722755,10915,Person 16,288.9,2897.4,0.0,2738.09,8.78,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431931.745777,10916,Person 16,311.4,2859.8,320.0,2725.25,9.61,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431931.8354182,10917,Person 16,337.2,2821.0,720.0,2707.97,10.34,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431931.9410026,10918,Person 16,364.2,2779.1,640.0,2663.35,10.82,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431932.031642,10919,Person 16,391.4,2739.1,390.0,2626.0,11.2,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431932.1012,10920,Person 16,416.6,2700.7,480.0,2585.4,11.22,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431932.1911373,10921,Person 16,439.1,2662.5,160.0,2540.49,11.33,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431932.2947125,10922,Person 16,459.6,2623.5,160.0,2491.34,11.77,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431932.369219,10923,Person 16,479.8,2579.6,160.0,2403.15,13.06,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431932.5071576,10924,Person 16,499.0,2532.5,320.0,2339.01,14.05,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431932.546321,10925,Person 16,518.0,2482.0,320.0,2283.43,15.44,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431932.6489708,10926,Person 16,538.1,2427.3,390.0,2238.29,17.04,True,Active,abdullah,Forward,Normal,1: Walking
+1790431932.7678437,10927,Person 16,559.0,2370.1,240.0,2204.42,18.38,True,Active,abdullah,Forward,Normal,1: Walking
+1790431932.819386,10928,Person 16,581.7,2312.7,320.0,2167.55,19.6,True,Active,abdullah,Forward,Normal,1: Walking
+1790431932.925132,10929,Person 16,605.5,2254.6,320.0,2130.62,20.55,True,Active,abdullah,Forward,Normal,1: Walking
+1790431933.026821,10930,Person 16,632.0,2196.1,390.0,2096.72,21.49,True,Active,abdullah,Forward,Normal,1: Walking
+1790431933.0802383,10931,Person 16,659.7,2138.7,480.0,2068.11,22.04,True,Active,abdullah,Forward,Normal,1: Walking
+1790431933.1947393,10932,Person 16,686.9,2081.6,480.0,2024.31,22.66,True,Active,abdullah,Forward,Normal,1: Walking
+1790431933.258741,10933,Person 16,710.3,2029.9,640.0,1982.6,23.07,True,Active,abdullah,Forward,Normal,1: Walking
+1790431933.36612,10934,Person 16,729.7,1980.3,560.0,1929.81,23.26,True,Active,abdullah,Forward,Normal,1: Walking
+1790431933.4359288,10935,Person 16,742.9,1932.4,480.0,1874.27,23.25,True,Active,abdullah,Forward,Normal,1: Walking
+1790431933.5310502,10936,Person 16,749.8,1885.5,480.0,1821.5,23.45,True,Active,abdullah,Forward,Normal,1: Walking
+1790431933.6235557,10937,Person 16,751.2,1838.8,480.0,1772.94,23.57,True,Active,abdullah,Forward,Normal,1: Walking
+1790431933.711348,10938,Person 16,748.6,1793.5,480.0,1736.76,23.81,True,Active,abdullah,Forward,Normal,1: Walking
+1790431933.7998912,10939,Person 16,742.4,1749.4,480.0,1698.68,23.82,True,Active,abdullah,Forward,Normal,1: Walking
+1790431933.8874617,10940,Person 16,732.6,1705.5,560.0,1653.8,23.9,True,Active,abdullah,Forward,Normal,1: Walking
+1790431933.9697523,10941,Person 16,720.4,1659.9,560.0,1600.7,24.12,True,Active,abdullah,Forward,Normal,1: Walking
+1790431934.0772576,10942,Person 16,706.7,1613.4,560.0,1543.33,24.62,True,Active,abdullah,Forward,Normal,1: Walking
+1790431934.149052,10943,Person 16,692.5,1566.2,480.0,1493.7,25.16,True,Active,abdullah,Forward,Normal,1: Walking
+1790431934.2357328,10944,Person 16,678.5,1519.9,240.0,1450.17,25.4,True,Active,abdullah,Forward,Normal,1: Walking
+1790431934.324997,10945,Person 16,665.5,1473.7,720.0,1399.89,25.83,True,Active,abdullah,Forward,Normal,1: Walking
+1790431934.4207113,10946,Person 16,652.6,1427.4,560.0,1347.03,26.26,True,Active,abdullah,Forward,Normal,1: Walking
+1790431934.5394723,10947,Person 16,638.5,1382.5,-80.0,1305.99,25.78,True,Active,abdullah,Forward,Normal,1: Walking
+1790431934.5935237,10948,Person 16,622.0,1339.5,-240.0,1276.94,24.82,True,Active,abdullah,Forward,Normal,1: Walking
+1790431934.7429695,10949,Person 16,603.9,1299.5,-240.0,1259.66,23.63,True,Active,abdullah,Forward,Normal,1: Walking
+1790431934.8262541,10950,Person 16,583.7,1264.1,-240.0,1248.99,22.01,True,Active,abdullah,Forward,Normal,1: Walking
+1790431934.9279761,10951,Person 16,561.9,1234.0,-80.0,1239.23,20.6,True,Active,abdullah,Forward,Normal,1: Walking
+1790431935.0919871,10952,Person 16,537.4,1211.2,-240.0,1240.58,18.71,True,Active,abdullah,Forward,Normal,1: Walking
+1790431935.113987,10953,Person 16,509.6,1194.8,-160.0,1240.48,16.73,True,Active,abdullah,Forward,Normal,1: Walking
+1790431935.191103,10954,Person 16,479.0,1183.2,-160.0,1235.11,14.82,True,Active,abdullah,Forward,Normal,1: Walking
+1790431935.268352,10955,Person 16,444.7,1176.0,-320.0,1217.63,12.67,True,Active,abdullah,Forward,Normal,1: Walking
+1790431935.3046584,10956,Person 16,406.3,1174.1,-320.0,1207.75,10.11,True,Active,abdullah,Forward,Normal,1: Walking
+1790431935.401342,10957,Person 16,365.3,1175.5,-480.0,1200.44,7.56,True,Active,abdullah,Forward,Normal,1: Walking
+1790431935.491113,10958,Person 16,322.4,1180.7,-390.0,1215.72,5.05,True,Active,abdullah,Forward,Normal,1: Walking
+1790431935.603882,10959,Person 16,277.7,1190.0,-390.0,1248.35,2.66,True,Active,abdullah,Forward,Normal,1: Walking
+1790431935.7220485,10960,Person 16,231.5,1202.4,-560.0,1282.01,0.27,True,Active,abdullah,Forward,Normal,1: Walking
+1790431935.7576995,10961,Person 16,183.8,1217.9,-640.0,1315.64,-1.79,True,Active,abdullah,Forward,Normal,1: Walking
+1790431935.8956435,10962,Person 16,135.4,1235.1,-640.0,1349.74,-3.65,True,Active,abdullah,Forward,Normal,1: Walking
+1790431935.9310617,10963,Person 16,86.4,1253.5,-720.0,1378.43,-5.54,True,Active,abdullah,Forward,Normal,1: Walking
+1790431936.0383506,10964,Person 16,37.5,1274.3,-720.0,1412.63,-7.03,True,Active,abdullah,Forward,Normal,1: Walking
+1790431936.105066,10965,Person 16,-10.2,1299.9,-720.0,1459.19,-8.27,True,Active,abdullah,Forward,Normal,1: Walking
+1790431936.195172,10966,Person 16,-56.0,1330.0,-640.0,1510.17,-9.38,True,Active,abdullah,Forward,Normal,1: Walking
+1790431936.2842717,10967,Person 16,-100.8,1364.1,-560.0,1558.22,-10.73,True,Active,abdullah,Forward,Normal,1: Walking
+1790431936.3736665,10968,Person 16,-144.3,1400.6,-560.0,1609.77,-11.76,True,Active,abdullah,Forward,Normal,1: Walking
+1790431936.4615786,10969,Person 16,-187.3,1438.0,-640.0,1663.14,-12.92,True,Active,abdullah,Forward,Normal,1: Walking
+1790431936.560501,10970,Person 16,-229.1,1477.1,-560.0,1722.98,-13.83,True,Active,abdullah,Forward,Normal,1: Walking
+1790431936.6661952,10971,Person 16,-271.7,1518.4,-720.0,1789.99,-15.12,True,Active,abdullah,Forward,Normal,1: Walking
+1790431936.753432,10972,Person 16,-315.2,1561.2,-640.0,1849.88,-16.36,True,Active,abdullah,Forward,Normal,1: Walking
+1790431936.8561444,10973,Person 16,-359.3,1605.2,-640.0,1900.74,-17.58,True,Active,abdullah,Forward,Normal,1: Walking
+1790431936.9067223,10974,Person 16,-404.7,1650.2,-560.0,1955.26,-18.7,True,Active,abdullah,Forward,Normal,1: Walking
+1790431937.0173934,10975,Person 16,-450.8,1694.1,-390.0,1998.98,-19.61,True,Active,abdullah,Forward,Normal,1: Walking
+1790431937.0852864,10976,Person 16,-498.3,1736.2,-560.0,2042.49,-20.67,True,Active,abdullah,Forward,Normal,1: Walking
+1790431937.184144,10977,Person 16,-547.4,1778.0,-480.0,2099.66,-21.84,True,Active,abdullah,Forward,Normal,1: Walking
+1790431937.3196237,10978,Person 16,-598.6,1817.8,-480.0,2145.29,-23.05,True,Active,abdullah,Forward,Normal,1: Walking
+1790431937.4112458,10979,Person 16,-652.2,1856.4,-640.0,2202.84,-24.34,True,Active,abdullah,Forward,Normal,1: Walking
+1790431937.5077877,10980,Person 16,-706.6,1893.9,-480.0,2260.14,-25.02,True,Active,abdullah,Forward,Normal,1: Walking
+1790431937.5594735,10981,Person 16,-759.6,1929.9,-480.0,2313.82,-25.52,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.154847,10982,Person 16,-1035.0,2121.0,-390.0,2360.06,-26.01,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.3774238,10983,Person 16,-1052.0,2131.5,-320.0,2393.94,-26.52,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.398069,10984,Person 16,-1052.0,2131.5,-320.0,2393.94,-26.52,True,Predicted,abdullah,Forward,Normal,1: Walking
+1790431938.4170682,10985,Person 16,-1083.33,2139.0,-390.0,2439.88,-28.01,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.4380715,10986,Person 16,-1111.0,2143.25,-320.0,2464.54,-28.98,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.4609766,10987,Person 16,-1135.0,2147.0,-240.0,2487.89,-29.66,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.4868424,10988,Person 16,-1156.83,2150.33,-240.0,2509.71,-30.29,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.512774,10989,Person 16,-1178.29,2155.0,-240.0,2544.35,-30.91,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.5339856,10990,Person 16,-1199.12,2160.25,-160.0,2576.01,-31.47,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.560342,10991,Person 16,-1218.22,2164.56,-240.0,2591.38,-31.94,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.5820198,10992,Person 16,-1236.2,2168.4,-390.0,2609.14,-32.4,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.6072474,10993,Person 16,-1274.6,2179.1,-390.0,2641.5,-32.49,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.6880076,10994,Person 16,-1311.0,2190.7,-320.0,2674.33,-32.4,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.926097,10995,Person 16,-1342.6,2203.4,-160.0,2709.32,-32.66,True,Active,abdullah,Forward,Normal,1: Walking
+1790431938.9489102,10996,Person 16,-1342.6,2203.4,-160.0,2709.32,-32.66,True,Predicted,abdullah,Forward,Normal,1: Walking
+1790431938.9801285,10997,Person 16,-1376.4,2219.3,-720.0,2776.01,-33.5,True,Active,abdullah,Forward,Normal,1: Walking
+1790431939.049539,10998,Person 16,-1411.0,2234.5,-80.0,2800.27,-34.27,True,Active,abdullah,Forward,Normal,1: Walking
+1790431939.1782959,10999,Person 16,-1445.3,2250.7,-560.0,2830.75,-34.64,True,Active,abdullah,Forward,Normal,1: Walking
+1790431939.220767,11000,Person 16,-1479.1,2266.9,-160.0,2864.45,-35.05,True,Active,abdullah,Forward,Normal,1: Walking
+1790431939.3092206,11001,Person 16,-1510.7,2281.8,160.0,2874.48,-35.3,True,Active,abdullah,Forward,Normal,1: Walking
+1790431939.4282954,11002,Person 16,-1539.3,2297.6,80.0,2881.16,-35.11,True,Active,abdullah,Forward,Normal,1: Walking
+1790431939.5263524,11003,Person 16,-1564.8,2314.2,80.0,2888.7,-34.91,True,Active,abdullah,Forward,Normal,1: Walking
+1790431939.577646,11004,Person 16,-1587.2,2329.4,160.0,2892.03,-34.62,True,Active,abdullah,Forward,Normal,1: Walking
+1790431939.6766427,11005,Person 16,-1607.2,2342.1,160.0,2890.49,-34.4,True,Active,abdullah,Forward,Normal,1: Walking
+1790431939.79424,11006,Person 16,-1623.6,2352.2,240.0,2884.06,-34.32,True,Active,abdullah,Forward,Normal,1: Walking
+1790431939.8763561,11007,Person 16,-1632.7,2358.8,320.0,2881.54,-34.28,True,Active,abdullah,Forward,Normal,1: Walking
+1790431940.013198,11008,Person 16,-1637.0,2365.2,390.0,2877.37,-34.26,True,Active,abdullah,Forward,Normal,1: Walking
+1790431940.1260562,11009,Person 16,-1637.5,2370.0,390.0,2873.17,-34.18,True,Active,abdullah,Forward,Normal,1: Walking
+1790431940.1455371,11010,Person 16,-1633.7,2373.1,560.0,2868.42,-34.07,True,Active,abdullah,Forward,Normal,1: Walking
+1790431940.2560694,11011,Person 16,-1627.0,2376.0,720.0,2860.33,-33.87,True,Active,abdullah,Forward,Normal,1: Walking
+1790431940.368656,11012,Person 16,-1619.2,2377.3,640.0,2847.83,-33.67,True,Active,abdullah,Forward,Normal,1: Walking
+1790431940.4175134,11013,Person 16,-1607.9,2374.4,640.0,2801.29,-33.35,True,Active,abdullah,Forward,Normal,1: Walking
+1790431940.4706626,11014,Person 16,-1593.8,2367.4,560.0,2755.38,-33.03,True,Active,abdullah,Forward,Normal,1: Walking
+1790431940.5677993,11015,Person 16,-1577.6,2357.0,640.0,2714.19,-32.82,True,Active,abdullah,Forward,Normal,1: Walking
+1790431940.6514478,11016,Person 16,-1559.3,2343.6,640.0,2671.28,-32.7,True,Active,abdullah,Forward,Normal,1: Walking
+1790431940.733421,11017,Person 16,-1538.1,2327.5,560.0,2630.46,-32.44,True,Active,abdullah,Forward,Normal,1: Walking
+1790431940.8609354,11018,Person 16,-1510.5,2306.9,560.0,2554.2,-31.75,True,Active,abdullah,Forward,Normal,1: Walking
+1790431940.9292643,11019,Person 16,-1475.8,2284.0,790.0,2493.83,-30.53,True,Active,abdullah,Forward,Normal,1: Walking
+1790431941.0056198,11020,Person 16,-1433.8,2258.2,480.0,2427.94,-29.27,True,Active,abdullah,Forward,Normal,1: Walking
+1790431941.111527,11021,Person 16,-1384.5,2229.8,480.0,2363.15,-27.77,True,Active,abdullah,Forward,Normal,1: Walking
+1790431941.179031,11022,Person 16,-1327.0,2200.1,560.0,2303.33,-25.84,True,Active,abdullah,Forward,Normal,1: Walking
+1790431941.3410969,11023,Person 16,-1265.0,2171.0,560.0,2246.06,-24.18,True,Active,abdullah,Forward,Normal,1: Walking
+1790431941.3658626,11024,Person 16,-1265.0,2171.0,560.0,2246.06,-24.18,True,Predicted,abdullah,Forward,Normal,1: Walking
+1790431941.4454305,11025,Person 16,-1193.0,2137.9,720.0,2127.9,-21.56,True,Active,abdullah,Forward,Normal,1: Walking
+1790431941.5343645,11026,Person 16,-1120.3,2103.4,880.0,2074.04,-21.02,True,Active,abdullah,Forward,Normal,1: Walking
+1790431941.6478794,11027,Person 16,-1047.6,2067.6,880.0,2021.08,-20.75,True,Active,abdullah,Forward,Normal,1: Walking
+1790431941.7193851,11028,Person 16,-974.9,2028.8,720.0,1955.53,-20.47,True,Active,abdullah,Forward,Normal,1: Walking
+1790431941.8826876,11029,Person 16,-905.5,1988.4,790.0,1883.7,-20.19,True,Active,abdullah,Forward,Normal,1: Walking
+1790431942.1214938,11030,Person 16,-838.9,1944.3,640.0,1809.71,-19.4,True,Active,abdullah,Forward,Normal,1: Walking
+1790431942.142098,11031,Person 16,-838.9,1944.3,640.0,1809.71,-19.4,True,Predicted,abdullah,Forward,Normal,1: Walking
+1790431942.16953,11032,Person 16,-770.0,1893.6,480.0,1686.22,-17.18,True,Active,abdullah,Forward,Normal,1: Walking
+1790431942.2627296,11033,Person 16,-704.6,1841.4,390.0,1631.43,-15.9,True,Active,abdullah,Forward,Normal,1: Walking
+1790431942.2933483,11034,Person 16,-643.9,1786.9,480.0,1578.73,-14.56,True,Active,abdullah,Forward,Normal,1: Walking
+1790431942.423503,11035,Person 16,-586.8,1730.5,390.0,1525.46,-13.23,True,Active,abdullah,Forward,Normal,1: Walking
+1790431942.5101354,11036,Person 16,-538.9,1677.3,320.0,1478.38,-11.83,True,Active,abdullah,Forward,Normal,1: Walking
+1790431942.5391529,11037,Person 16,-488.3,1625.2,80.0,1434.88,-9.55,True,Active,abdullah,Forward,Normal,1: Walking
+1790431942.6426587,11038,Person 16,-435.9,1574.0,390.0,1391.31,-7.93,True,Active,abdullah,Forward,Normal,1: Walking
+1790431942.721008,11039,Person 16,-382.6,1524.8,390.0,1348.48,-6.43,True,Active,abdullah,Forward,Normal,1: Walking
+1790431942.8290489,11040,Person 16,-328.3,1478.3,240.0,1307.39,-4.69,True,Active,abdullah,Forward,Normal,1: Walking
+1790431942.8928063,11041,Person 16,-274.1,1434.2,240.0,1267.37,-2.67,True,Active,abdullah,Forward,Normal,1: Walking
+1790431942.9634666,11042,Person 16,-224.3,1396.8,80.0,1237.0,0.0,True,Active,abdullah,Forward,Normal,1: Walking
+1790431943.0921817,11043,Person 16,-173.2,1359.8,-160.0,1200.71,3.06,True,Active,abdullah,Forward,Normal,1: Walking
+1790431943.2060356,11044,Person 16,-119.7,1324.0,-480.0,1178.11,6.73,True,Active,abdullah,Forward,Normal,1: Walking
+1790431943.2295823,11045,Person 16,-119.7,1324.0,-480.0,1178.11,6.73,True,Predicted,abdullah,Forward,Normal,1: Walking
+1790431943.4032795,11046,Person 16,-59.3,1291.1,80.0,1183.79,12.44,True,Active,abdullah,Forward,Normal,1: Walking
+1790431943.4512773,11047,Person 16,-0.1,1263.2,-160.0,1203.22,13.9,True,Active,abdullah,Forward,Normal,1: Walking
+1790431943.5381951,11048,Person 16,55.9,1240.7,-320.0,1232.8,15.14,True,Active,abdullah,Forward,Normal,1: Walking
+1790431943.6027014,11049,Person 16,111.0,1223.6,-390.0,1259.26,16.56,True,Active,abdullah,Forward,Normal,1: Walking
+1790431943.6878018,11050,Person 16,164.9,1212.4,-320.0,1287.84,17.53,True,Active,abdullah,Forward,Normal,1: Walking
+1790431943.7730038,11051,Person 16,215.7,1207.2,-240.0,1313.7,17.77,True,Active,abdullah,Forward,Normal,1: Walking
+1790431943.9313715,11052,Person 16,262.0,1207.6,-240.0,1332.71,17.65,True,Active,abdullah,Forward,Normal,1: Walking
+1790431943.9612331,11053,Person 16,302.3,1212.0,-240.0,1342.9,17.46,True,Active,abdullah,Forward,Normal,1: Walking
+1790431944.136422,11054,Person 16,334.8,1221.1,-240.0,1347.38,16.78,True,Active,abdullah,Forward,Normal,1: Walking
+1790431944.1577566,11055,Person 16,359.1,1234.5,-320.0,1358.52,16.29,True,Active,abdullah,Forward,Normal,1: Walking
+1790431944.2897336,11056,Person 16,371.2,1250.8,-390.0,1371.55,15.91,True,Active,abdullah,Forward,Normal,1: Walking
+1790431944.3111277,11057,Person 16,379.8,1267.8,-480.0,1389.56,15.66,True,Active,abdullah,Forward,Normal,1: Walking
+1790431944.5044785,11058,Person 16,385.1,1284.9,-480.0,1411.72,15.4,True,Active,abdullah,Forward,Normal,1: Walking
+1790431944.5248868,11059,Person 16,386.8,1302.8,-480.0,1436.1,15.18,True,Active,abdullah,Forward,Normal,1: Walking
+1790431944.6097121,11060,Person 16,386.2,1324.5,-240.0,1494.64,14.81,True,Active,abdullah,Forward,Normal,1: Walking
+1790431944.658396,11061,Person 16,384.7,1349.6,-390.0,1550.81,14.41,True,Active,abdullah,Forward,Normal,1: Walking
+1790431944.8226893,11062,Person 16,382.5,1377.3,-390.0,1593.47,13.87,True,Active,abdullah,Forward,Normal,1: Walking
+1790431944.9316883,11063,Person 16,378.5,1408.4,-390.0,1632.86,12.84,True,Active,abdullah,Forward,Normal,1: Walking
+1790431945.0958898,11064,Person 16,374.2,1442.2,-480.0,1664.36,12.0,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431945.1163034,11065,Person 16,374.2,1442.2,-480.0,1664.36,12.0,True,Predicted,abdullah,Forward,Normal,6: Fall onset
+1790431945.191826,11066,Person 16,367.8,1484.2,-560.0,1752.9,10.42,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431945.219826,11067,Person 16,360.0,1530.6,-790.0,1807.73,9.49,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431945.3255382,11068,Person 16,350.7,1581.5,-790.0,1868.4,8.68,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431945.3604147,11069,Person 16,339.9,1636.8,-790.0,1932.53,7.94,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431945.5306811,11070,Person 16,325.6,1695.7,-1360.0,1988.7,6.73,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431945.5551808,11071,Person 16,325.6,1695.7,-1360.0,1988.7,6.73,True,Predicted,abdullah,Forward,Normal,6: Fall onset
+1790431945.6655076,11072,Person 16,306.1,1764.5,-1830.0,2141.18,5.01,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431945.7225957,11073,Person 16,285.7,1837.0,-1280.0,2234.42,4.67,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431945.8178227,11074,Person 16,265.6,1914.6,-1280.0,2330.04,4.46,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431945.8981376,11075,Person 16,245.6,1998.2,-640.0,2433.47,3.84,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431945.9995136,11076,Person 16,225.0,2091.7,0.0,2566.82,3.13,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431946.0748544,11077,Person 16,200.2,2195.4,0.0,2761.86,1.43,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431946.179347,11078,Person 16,169.7,2312.3,0.0,2952.01,-0.14,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431946.2561555,11079,Person 16,135.4,2440.2,-80.0,3126.6,-1.12,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431946.3603435,11080,Person 16,94.9,2574.6,-160.0,3260.92,-2.43,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431946.4336293,11081,Person 16,50.1,2714.9,-160.0,3384.84,-3.64,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431946.6741917,11082,Person 16,2.6,2849.9,-160.0,3494.89,-4.73,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431946.6955183,11083,Person 16,2.6,2849.9,-160.0,3494.89,-4.73,True,Predicted,abdullah,Forward,Normal,6: Fall onset
+1790431946.8578885,11084,Person 16,2.6,2849.9,-160.0,3494.89,-4.73,True,Predicted,abdullah,Forward,Normal,6: Fall onset
+1790431946.8785694,11085,Person 16,2.6,2849.9,-160.0,3494.89,-4.73,True,Predicted,abdullah,Forward,Normal,6: Fall onset
+1790431946.9027495,11086,Person 16,2.6,2849.9,-160.0,3494.89,-4.73,True,Predicted,abdullah,Forward,Normal,6: Fall onset
+1790431946.9676442,11087,Person 16,2.6,2849.9,-160.0,3494.89,-4.73,True,Predicted,abdullah,Forward,Normal,6: Fall onset
+1790431947.084554,11088,Person 16,-46.0,2982.6,-160.0,3566.98,-4.89,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431947.149634,11089,Person 16,-80.7,3091.1,-160.0,3412.04,-2.79,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431947.305661,11090,Person 16,-97.8,3174.1,-160.0,3258.01,-0.14,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431947.395467,11091,Person 16,-99.2,3231.2,-160.0,3136.53,2.3,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431947.41685,11092,Person 16,-99.2,3231.2,-160.0,3136.53,2.3,True,Predicted,abdullah,Forward,Normal,6: Fall onset
+1790431947.5002875,11093,Person 16,-72.3,3250.3,-160.0,2971.29,6.53,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431947.6120963,11094,Person 16,-31.0,3243.4,160.0,2911.45,8.02,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431947.6884227,11095,Person 16,22.5,3215.7,-240.0,2888.16,9.45,True,Active,abdullah,Forward,Normal,6: Fall onset
+1790431947.7804513,11096,Person 16,90.7,3171.7,-240.0,2870.03,10.93,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431947.8584466,11097,Person 16,173.1,3113.5,-160.0,2861.55,12.29,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431947.9564774,11098,Person 16,267.2,3043.7,560.0,2860.53,13.2,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431948.0331852,11099,Person 16,360.5,2967.3,640.0,2860.02,12.7,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431948.1203666,11100,Person 16,439.0,2906.1,320.0,2863.7,12.48,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431948.2186337,11101,Person 16,500.9,2860.6,320.0,2868.82,12.3,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431948.2981377,11102,Person 16,548.0,2828.0,390.0,2870.76,12.0,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431948.389294,11103,Person 16,572.6,2813.9,480.0,2871.02,11.74,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431948.5141616,11104,Person 16,589.2,2807.0,480.0,2871.55,11.49,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431948.5650444,11105,Person 16,597.9,2803.5,560.0,2869.38,11.27,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431948.6559875,11106,Person 16,598.8,2802.9,240.0,2865.86,11.13,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431948.748016,11107,Person 16,592.9,2803.7,320.0,2857.43,11.1,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431948.8328774,11108,Person 16,582.6,2804.5,320.0,2846.64,11.14,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431948.9578867,11109,Person 16,574.6,2803.2,-320.0,2830.75,11.18,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431949.0294452,11110,Person 16,567.8,2799.9,240.0,2817.4,11.28,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431949.121279,11111,Person 16,562.0,2794.6,240.0,2805.05,11.37,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431949.2123954,11112,Person 16,557.8,2787.4,240.0,2791.72,11.47,True,Active,abdullah,Forward,Normal,7: Post-fall stillness
+1790431949.3169014,11113,Person 16,554.5,2778.4,390.0,2776.23,11.45,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431949.3646727,11114,Person 16,552.2,2767.8,480.0,2763.09,11.46,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431949.5486264,11115,Person 16,550.8,2755.6,390.0,2747.01,11.49,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431949.621235,11116,Person 16,549.9,2742.0,320.0,2730.73,11.49,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431949.6434011,11117,Person 16,549.1,2727.5,480.0,2713.68,11.52,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431949.7205358,11118,Person 16,548.2,2712.3,640.0,2695.84,11.58,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431949.8339486,11119,Person 16,547.1,2696.9,720.0,2677.61,11.59,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431949.9383693,11120,Person 16,545.2,2681.0,720.0,2657.79,11.55,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431950.0649726,11121,Person 16,540.3,2660.6,640.0,2595.41,11.2,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431950.0875978,11122,Person 16,540.3,2660.6,640.0,2595.41,11.2,True,Predicted,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431950.1671677,11123,Person 16,531.2,2631.9,480.0,2492.57,10.73,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431950.3724163,11124,Person 16,522.6,2600.2,390.0,2448.56,10.95,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431950.3920395,11125,Person 16,522.6,2600.2,390.0,2448.56,10.95,True,Predicted,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431950.43104,11126,Person 16,515.8,2558.9,560.0,2344.86,11.84,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431950.5210838,11127,Person 16,509.6,2513.4,640.0,2288.97,12.23,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431950.614402,11128,Person 16,506.3,2460.2,640.0,2204.05,13.41,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431950.7192156,11129,Person 16,506.0,2400.4,480.0,2130.32,14.66,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431950.786836,11130,Person 16,507.7,2334.9,320.0,2062.9,15.69,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431950.878302,11131,Person 16,509.0,2264.6,80.0,1997.5,16.01,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431950.9788184,11132,Person 16,510.1,2189.7,390.0,1932.84,16.32,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431951.0763254,11133,Person 16,512.7,2114.4,240.0,1869.69,16.47,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431951.1474364,11134,Person 16,517.5,2043.1,160.0,1809.93,16.43,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431951.2373958,11135,Person 16,519.7,1972.2,160.0,1763.57,16.03,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431951.3223097,11136,Person 16,517.0,1908.1,80.0,1715.18,15.35,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431951.4474785,11137,Person 16,509.3,1847.5,0.0,1681.26,14.04,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431951.5009844,11138,Person 16,494.4,1794.5,80.0,1654.1,12.64,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431951.6165211,11139,Person 16,472.4,1748.4,80.0,1631.49,11.28,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431951.7975323,11140,Person 16,444.1,1708.9,80.0,1614.59,9.81,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431951.818578,11141,Person 16,444.1,1708.9,80.0,1614.59,9.81,True,Predicted,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431951.8821878,11142,Person 16,406.7,1675.6,-80.0,1596.84,6.36,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431951.981695,11143,Person 16,364.6,1649.9,-80.0,1602.65,4.37,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431952.0342007,11144,Person 16,317.1,1632.6,-240.0,1620.93,1.94,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431952.1472664,11145,Person 16,264.6,1621.5,-320.0,1625.05,-0.46,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431952.211852,11146,Person 16,207.6,1614.8,-480.0,1630.11,-2.92,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431952.3367074,11147,Person 16,148.2,1613.5,-390.0,1646.96,-4.88,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up
+1790431952.3936453,11148,Person 16,87.0,1616.2,-720.0,1670.5,-7.01,True,Active,abdullah,Forward,Normal,8: Recovery / standing back up

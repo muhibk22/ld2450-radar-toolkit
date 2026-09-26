@@ -445,20 +445,31 @@ class MainWindow(QMainWindow):
             # Check for Fall Alerts on Locked Target
             fall_alert = False
             fall_prob = 0.0
+            fall_stage = "normal"
             if self.tracker.locked_target_id:
                 for t in tracked_targets:
                     if str(t.id) == self.tracker.locked_target_id:
                         fall_alert = getattr(t, 'fall_alert', False)
                         fall_prob = getattr(t, 'fall_prob', 0.0)
+                        fall_stage = getattr(t, 'fall_alert_stage', 'normal')
                         break
             
-            if fall_alert:
-                self.lbl_fall_alert.setText(f"⚠ FALL DETECTED! (Prob: {fall_prob:.2f})")
+            if fall_stage == "confirmed":
+                self.lbl_fall_alert.setText(f"🚨 FALL CONFIRMED! (Prob: {fall_prob:.2f})")
+                self.lbl_fall_alert.show()
+            elif fall_stage == "pre_alert":
+                self.lbl_fall_alert.setText(f"⚠ POSSIBLE FALL (Prob: {fall_prob:.2f})")
                 self.lbl_fall_alert.show()
             else:
                 self.lbl_fall_alert.hide()
                 
-            self.fall_monitor_window.update_fall_status(fall_alert, fall_prob)
+            self.fall_monitor_window.update_fall_status(fall_alert, fall_prob, fall_stage)
+            
+            # Feed alert history to the monitor
+            if hasattr(self.tracker, 'post_fall_validator'):
+                self.fall_monitor_window.update_alert_history(
+                    self.tracker.post_fall_validator.alert_history
+                )
 
     def _on_stats_tick(self):
         p_stats = self.parser.get_statistics()

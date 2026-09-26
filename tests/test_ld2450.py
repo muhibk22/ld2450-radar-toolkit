@@ -47,9 +47,10 @@ class TestTargetFocusLockAndPhysicsValidations(unittest.TestCase):
         t_spike = Target(id="raw0", raw_id=0, x=2500.0, y=1500.0, speed=0.0, valid=True, distance_resolution=100.0)
         res = tracker.process([t_spike])
 
-        # MUST REJECT acceleration spike!
-        self.assertEqual(len(res), 1)
-        self.assertLess(res[0].x, 1500.0)
+        # MUST REJECT acceleration spike! Person A's position should not jump to the spike.
+        person_a_results = [t for t in res if t.id == "Person A"]
+        self.assertEqual(len(person_a_results), 1)
+        self.assertLess(person_a_results[0].x, 1500.0)
 
     def test_axis_orientation_decoding(self):
         decoder = PacketDecoder()
