@@ -1,0 +1,662 @@
+timestamp,sequence_id,target_id,x_mm,y_mm,speed_mms,distance_mm,angle_deg,valid,status,volunteer_id,fall_subtype,pace_variant,action_label
+1790583974.3807833,8693,Person C,876.5,1450.5,-240.0,1729.31,29.98,True,Active,hafsa,None,Normal,1: Walking
+1790583974.4978502,8694,Person C,863.7,1459.5,-240.0,1693.77,27.38,True,Active,hafsa,None,Normal,1: Walking
+1790583974.5762408,8695,Person C,846.5,1467.9,-240.0,1660.56,25.16,True,Active,hafsa,None,Normal,1: Walking
+1790583974.6460638,8696,Person C,827.2,1475.8,-240.0,1630.44,23.34,True,Active,hafsa,None,Normal,1: Walking
+1790583974.723719,8697,Person C,804.4,1483.2,-240.0,1609.61,21.66,True,Active,hafsa,None,Normal,1: Walking
+1790583974.8064585,8698,Person C,778.4,1490.9,-240.0,1604.14,19.94,True,Active,hafsa,None,Normal,1: Walking
+1790583974.8742154,8699,Person C,744.2,1496.7,-240.0,1587.19,18.86,True,Active,hafsa,None,Normal,1: Walking
+1790583974.955743,8700,Person C,698.3,1501.0,-80.0,1592.56,18.07,True,Active,hafsa,None,Normal,1: Walking
+1790583975.049263,8701,Person C,652.6,1504.9,-160.0,1603.88,17.34,True,Active,hafsa,None,Normal,1: Walking
+1790583975.1405811,8702,Person C,607.9,1510.9,0.0,1622.0,16.4,True,Active,hafsa,None,Normal,1: Walking
+1790583975.2013624,8703,Person C,562.6,1521.8,0.0,1658.73,14.35,True,Active,hafsa,None,Normal,1: Walking
+1790583975.277233,8704,Person C,521.9,1535.6,80.0,1683.61,12.77,True,Active,hafsa,None,Normal,1: Walking
+1790583975.3594253,8705,Person C,484.7,1551.4,80.0,1694.25,11.37,True,Active,hafsa,None,Normal,1: Walking
+1790583975.4197488,8706,Person C,449.3,1568.5,80.0,1693.37,9.93,True,Active,hafsa,None,Normal,1: Walking
+1790583975.4798844,8707,Person C,414.4,1586.2,80.0,1690.84,8.33,True,Active,hafsa,None,Normal,1: Walking
+1790583975.541454,8708,Person C,380.0,1602.2,80.0,1680.31,6.94,True,Active,hafsa,None,Normal,1: Walking
+1790583975.6022682,8709,Person C,344.2,1618.4,80.0,1671.2,5.32,True,Active,hafsa,None,Normal,1: Walking
+1790583975.674883,8710,Person C,304.0,1634.3,80.0,1675.53,3.15,True,Active,hafsa,None,Normal,1: Walking
+1790583975.7351425,8711,Person C,261.4,1648.4,0.0,1672.81,1.78,True,Active,hafsa,None,Normal,1: Walking
+1790583975.7960477,8712,Person C,217.6,1659.4,-80.0,1666.12,0.69,True,Active,hafsa,None,Normal,1: Walking
+1790583975.8572688,8713,Person C,174.3,1664.9,-80.0,1662.15,-0.76,True,Active,hafsa,None,Normal,1: Walking
+1790583975.9341018,8714,Person C,129.9,1666.6,-80.0,1660.56,-2.49,True,Active,hafsa,None,Normal,1: Walking
+1790583976.0156841,8715,Person C,83.5,1666.7,80.0,1667.08,-4.47,True,Active,hafsa,None,Normal,1: Walking
+1790583976.1230052,8716,Person C,34.8,1665.8,-80.0,1670.42,-6.7,True,Active,hafsa,None,Normal,1: Walking
+1790583976.2055395,8717,Person C,-14.8,1663.9,-80.0,1672.94,-8.63,True,Active,hafsa,None,Normal,1: Walking
+1790583976.2661722,8718,Person C,-64.5,1661.6,-80.0,1671.07,-10.13,True,Active,hafsa,None,Normal,1: Walking
+1790583976.3534503,8719,Person C,-115.2,1659.2,80.0,1677.35,-12.11,True,Active,hafsa,None,Normal,1: Walking
+1790583976.4335163,8720,Person C,-164.4,1655.5,80.0,1684.19,-13.74,True,Active,hafsa,None,Normal,1: Walking
+1790583976.531615,8721,Person C,-211.4,1652.1,160.0,1690.49,-14.32,True,Active,hafsa,None,Normal,1: Walking
+1790583976.6158583,8722,Person C,-257.6,1650.7,80.0,1710.11,-14.98,True,Active,hafsa,None,Normal,1: Walking
+1790583976.688548,8723,Person C,-302.8,1649.4,320.0,1715.77,-16.04,True,Active,hafsa,None,Normal,1: Walking
+1790583976.765215,8724,Person C,-346.6,1645.7,240.0,1700.29,-17.45,True,Active,hafsa,None,Normal,1: Walking
+1790583976.855605,8725,Person C,-387.0,1638.6,240.0,1678.22,-18.55,True,Active,hafsa,None,Normal,1: Walking
+1790583976.9447837,8726,Person C,-423.6,1628.9,240.0,1659.69,-19.76,True,Active,hafsa,None,Normal,1: Walking
+1790583977.02769,8727,Person C,-459.1,1615.3,160.0,1634.49,-21.76,True,Active,hafsa,None,Normal,1: Walking
+1790583977.1041496,8728,Person C,-495.4,1596.9,160.0,1601.93,-24.21,True,Active,hafsa,None,Normal,1: Walking
+1790583977.1817203,8729,Person C,-531.6,1573.1,80.0,1573.34,-26.99,True,Active,hafsa,None,Normal,1: Walking
+1790583977.268256,8730,Person C,-569.0,1544.4,160.0,1555.27,-29.85,True,Active,hafsa,None,Normal,1: Walking
+1790583977.375375,8731,Person C,-608.4,1512.2,-80.0,1546.35,-31.68,True,Active,hafsa,None,Normal,1: Walking
+1790583977.4403105,8732,Person C,-645.1,1477.1,-80.0,1532.02,-31.87,True,Active,hafsa,None,Normal,1: Walking
+1790583977.5138443,8733,Person C,-677.1,1441.5,-80.0,1517.33,-31.55,True,Active,hafsa,None,Normal,1: Walking
+1790583977.6015515,8734,Person C,-706.3,1408.6,-240.0,1521.53,-31.81,True,Active,hafsa,None,Normal,1: Walking
+1790583977.6904995,8735,Person C,-734.9,1377.8,-80.0,1522.66,-32.58,True,Active,hafsa,None,Normal,1: Walking
+1790583977.778191,8736,Person C,-764.6,1347.3,-80.0,1521.91,-34.32,True,Active,hafsa,None,Normal,1: Walking
+1790583977.8576953,8737,Person C,-796.6,1317.5,-80.0,1531.63,-37.2,True,Active,hafsa,None,Normal,1: Walking
+1790583977.9513767,8738,Person C,-826.8,1293.3,-160.0,1551.01,-38.19,True,Active,hafsa,None,Normal,1: Walking
+1790583978.0604577,8739,Person C,-855.6,1273.6,-80.0,1567.17,-39.74,True,Active,hafsa,None,Normal,1: Walking
+1790583978.1479008,8740,Person C,-881.3,1258.8,-80.0,1582.83,-40.64,True,Active,hafsa,None,Normal,1: Walking
+1790583978.2423468,8741,Person C,-906.7,1246.9,80.0,1602.86,-41.69,True,Active,hafsa,None,Normal,1: Walking
+1790583978.32011,8742,Person C,-933.9,1237.4,0.0,1619.57,-41.87,True,Active,hafsa,None,Normal,1: Walking
+1790583978.3973517,8743,Person C,-964.0,1228.5,80.0,1627.46,-42.29,True,Active,hafsa,None,Normal,1: Walking
+1790583978.5010595,8744,Person C,-994.3,1219.7,160.0,1634.95,-42.52,True,Active,hafsa,None,Normal,1: Walking
+1790583978.5744956,8745,Person C,-1023.2,1211.3,240.0,1633.24,-42.77,True,Active,hafsa,None,Normal,1: Walking
+1790583978.6810591,8746,Person C,-1048.4,1204.7,240.0,1628.06,-42.98,True,Active,hafsa,None,Normal,1: Walking
+1790583978.761811,8747,Person C,-1066.8,1200.9,320.0,1621.49,-43.2,True,Active,hafsa,None,Normal,1: Walking
+1790583978.836063,8748,Person C,-1082.1,1195.1,390.0,1607.63,-43.77,True,Active,hafsa,None,Normal,1: Walking
+1790583978.9853637,8749,Person C,-1092.4,1186.8,320.0,1574.77,-44.56,True,Active,hafsa,None,Normal,1: Walking
+1790583979.059439,8750,Person C,-1099.9,1174.7,320.0,1545.84,-45.68,True,Active,hafsa,None,Normal,1: Walking
+1790583979.1437402,8751,Person C,-1104.4,1156.0,240.0,1501.47,-47.73,True,Active,hafsa,None,Normal,1: Walking
+1790583979.2127264,8752,Person C,-1108.0,1131.2,160.0,1471.55,-49.38,True,Active,hafsa,None,Normal,1: Walking
+1790583979.2938087,8753,Person C,-1110.2,1103.9,80.0,1454.11,-50.19,True,Active,hafsa,None,Normal,1: Walking
+1790583979.3938906,8754,Person C,-1111.3,1074.4,80.0,1439.98,-50.81,True,Active,hafsa,None,Normal,1: Walking
+1790583979.4775186,8755,Person C,-1112.2,1044.3,0.0,1433.99,-51.23,True,Active,hafsa,None,Normal,1: Walking
+1790583979.552661,8756,Person C,-1113.3,1013.8,80.0,1428.86,-51.68,True,Active,hafsa,None,Normal,1: Walking
+1790583979.646829,8757,Person C,-1114.9,982.8,80.0,1424.17,-52.24,True,Active,hafsa,None,Normal,1: Walking
+1790583979.730064,8758,Person C,-1116.4,953.4,0.0,1421.91,-52.43,True,Active,hafsa,None,Normal,1: Walking
+1790583979.8291435,8759,Person C,-1118.6,927.6,-80.0,1420.08,-52.52,True,Active,hafsa,None,Normal,1: Walking
+1790583979.9198494,8760,Person C,-1120.9,905.7,-80.0,1419.85,-52.67,True,Active,hafsa,None,Normal,1: Walking
+1790583980.007759,8761,Person C,-1122.6,890.3,0.0,1416.02,-52.81,True,Active,hafsa,None,Normal,1: Walking
+1790583980.0972059,8762,Person C,-1123.5,879.8,-160.0,1412.62,-52.85,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583980.1728,8763,Person C,-1124.0,872.1,-160.0,1410.04,-52.72,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583980.3121037,8764,Person C,-1124.3,866.9,-80.0,1410.08,-52.52,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583980.3835237,8765,Person C,-1124.3,863.2,-80.0,1411.11,-52.4,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583980.4431024,8766,Person C,-1124.3,860.3,-80.0,1411.06,-52.6,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583980.5507407,8767,Person C,-1124.0,858.6,-80.0,1411.44,-52.72,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583980.6425922,8768,Person C,-1124.0,857.1,-80.0,1412.81,-52.91,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583980.7286465,8769,Person C,-1124.3,855.6,-80.0,1413.4,-53.08,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583980.8195875,8770,Person C,-1124.6,854.2,-80.0,1413.8,-53.19,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583980.9059246,8771,Person C,-1125.3,853.1,-80.0,1415.01,-53.33,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583980.98187,8772,Person C,-1126.4,852.0,-80.0,1414.83,-53.48,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583981.067759,8773,Person C,-1128.2,850.6,-80.0,1416.05,-53.62,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583981.1689994,8774,Person C,-1130.9,848.2,0.0,1417.35,-53.95,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583981.2449803,8775,Person C,-1134.3,844.8,0.0,1418.11,-54.33,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583981.3535275,8776,Person C,-1138.1,841.1,0.0,1419.75,-54.72,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583981.4594514,8777,Person C,-1142.3,836.9,0.0,1420.63,-55.09,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583981.5229666,8778,Person C,-1146.1,832.4,0.0,1417.21,-55.29,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583981.6097882,8779,Person C,-1149.8,827.8,0.0,1416.58,-55.47,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583981.7068396,8780,Person C,-1153.5,823.1,0.0,1416.53,-55.61,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583981.7960422,8781,Person C,-1156.8,818.6,0.0,1415.71,-55.59,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583981.891369,8782,Person C,-1159.6,814.6,0.0,1414.37,-55.46,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583981.9646811,8783,Person C,-1162.1,810.7,0.0,1413.8,-55.49,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583982.0846655,8784,Person C,-1163.9,807.6,0.0,1414.11,-55.4,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583982.1434438,8785,Person C,-1164.9,805.7,0.0,1415.31,-55.19,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583982.2170763,8786,Person C,-1164.8,805.3,0.0,1416.62,-54.83,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583982.308793,8787,Person C,-1163.8,806.3,0.0,1418.22,-54.53,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583982.399506,8788,Person C,-1162.4,808.6,0.0,1419.05,-54.2,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583982.5170152,8789,Person C,-1160.5,812.0,0.0,1420.73,-53.9,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583982.628505,8790,Person C,-1158.1,816.4,0.0,1422.45,-53.61,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583982.687251,8791,Person C,-1155.5,821.4,0.0,1423.61,-53.34,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583982.7632365,8792,Person C,-1153.3,826.4,0.0,1425.61,-53.3,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583982.8544788,8793,Person C,-1151.5,831.4,0.0,1428.22,-53.43,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583982.976687,8794,Person C,-1150.1,835.9,0.0,1428.85,-53.6,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583983.0719702,8795,Person C,-1149.2,839.5,0.0,1428.9,-53.8,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583983.1557841,8796,Person C,-1148.8,841.6,0.0,1425.58,-54.05,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583983.2160835,8797,Person C,-1149.0,842.3,0.0,1423.92,-54.35,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583983.2892423,8798,Person C,-1149.9,841.9,0.0,1424.04,-54.55,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583983.4143286,8799,Person C,-1151.6,840.2,0.0,1424.65,-54.86,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583983.461794,8800,Person C,-1154.0,837.3,0.0,1425.06,-55.12,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583983.5533626,8801,Person C,-1157.2,833.2,0.0,1425.75,-55.43,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583983.64106,8802,Person C,-1160.6,828.3,0.0,1424.83,-55.7,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583983.7520318,8803,Person C,-1163.9,822.8,0.0,1423.38,-56.0,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583983.846576,8804,Person C,-1167.2,816.9,0.0,1421.97,-56.3,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583983.9257581,8805,Person C,-1170.5,810.8,0.0,1421.16,-56.57,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583984.0189848,8806,Person C,-1174.0,804.8,0.0,1420.37,-56.84,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583984.0913348,8807,Person C,-1177.5,798.9,0.0,1419.61,-57.1,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583984.1944926,8808,Person C,-1180.9,792.8,0.0,1418.05,-57.35,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583984.2843215,8809,Person C,-1184.1,786.8,0.0,1417.89,-57.59,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583984.3650804,8810,Person C,-1187.1,780.7,0.0,1416.37,-57.84,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583984.4569762,8811,Person C,-1189.5,774.8,0.0,1413.4,-57.95,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583984.551321,8812,Person C,-1191.5,769.3,0.0,1411.49,-58.0,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583984.643712,8813,Person C,-1193.1,764.3,0.0,1409.59,-58.05,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583984.7285194,8814,Person C,-1194.3,759.9,0.0,1408.21,-58.06,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583984.8214393,8815,Person C,-1194.8,756.4,0.0,1406.41,-57.87,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583984.9176085,8816,Person C,-1194.9,753.6,0.0,1406.09,-57.81,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583984.9919426,8817,Person C,-1194.7,751.7,0.0,1407.69,-57.71,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583985.0799768,8818,Person C,-1194.7,750.1,0.0,1409.48,-57.9,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583985.173166,8819,Person C,-1194.8,749.1,0.0,1413.4,-57.95,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583985.2944298,8820,Person C,-1194.9,749.2,0.0,1417.75,-57.82,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583985.3569434,8821,Person C,-1195.2,750.4,0.0,1422.34,-57.61,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583985.433539,8822,Person C,-1195.8,752.5,0.0,1427.78,-57.41,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583985.5516734,8823,Person C,-1196.6,755.5,0.0,1432.41,-57.2,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583985.6483288,8824,Person C,-1197.7,759.2,0.0,1437.34,-57.04,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583985.7253993,8825,Person C,-1199.4,762.7,0.0,1439.57,-57.05,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583985.8112671,8826,Person C,-1201.5,766.1,0.0,1442.09,-57.11,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583985.9012575,8827,Person C,-1203.7,769.2,0.0,1442.93,-57.14,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583985.9766483,8828,Person C,-1205.2,772.6,0.0,1440.41,-57.07,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583986.0671294,8829,Person C,-1205.9,775.9,0.0,1437.05,-56.98,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583986.1511555,8830,Person C,-1206.1,778.8,0.0,1435.08,-56.89,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583986.2346385,8831,Person C,-1205.8,781.0,0.0,1431.73,-56.8,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583986.3171003,8832,Person C,-1205.0,782.5,0.0,1429.22,-56.73,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583986.4068484,8833,Person C,-1203.7,783.3,0.0,1425.88,-56.64,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583986.5249581,8834,Person C,-1201.9,783.5,0.0,1423.38,-56.58,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583986.6391895,8835,Person C,-1199.6,783.6,0.0,1420.87,-56.51,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583986.698723,8836,Person C,-1196.7,783.7,0.0,1418.37,-56.44,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583986.7760565,8837,Person C,-1193.4,783.8,0.0,1415.87,-56.38,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583986.8536198,8838,Person C,-1190.5,783.9,0.0,1416.71,-56.4,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583986.9547322,8839,Person C,-1188.2,784.2,0.0,1419.48,-56.38,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583987.048774,8840,Person C,-1186.4,784.7,0.0,1422.81,-56.32,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583987.1355124,8841,Person C,-1185.3,785.4,0.0,1426.41,-56.32,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583987.2350113,8842,Person C,-1184.7,786.4,0.0,1429.74,-56.27,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583987.3064399,8843,Person C,-1184.7,787.7,0.0,1433.07,-56.21,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583987.3992321,8844,Person C,-1185.2,789.2,0.0,1435.84,-56.19,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583987.4768376,8845,Person C,-1186.2,791.0,0.0,1439.18,-56.13,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583987.5791202,8846,Person C,-1187.7,793.0,0.0,1441.95,-56.11,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583987.6740901,8847,Person C,-1189.7,795.2,0.0,1444.73,-56.09,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583987.7289374,8848,Person C,-1191.8,797.6,0.0,1447.5,-56.07,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583987.8662112,8849,Person C,-1193.9,800.0,0.0,1450.28,-56.05,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583987.9186053,8850,Person C,-1196.0,802.3,0.0,1453.06,-56.03,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583988.002663,8851,Person C,-1198.1,804.2,0.0,1454.43,-56.16,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583988.0923324,8852,Person C,-1200.4,805.3,0.0,1454.98,-56.41,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583988.2278237,8853,Person C,-1202.9,805.7,0.0,1456.11,-56.63,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583988.303894,8854,Person C,-1205.4,805.6,0.0,1456.13,-56.77,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583988.4039154,8855,Person C,-1207.3,804.7,0.0,1450.05,-56.85,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583988.474606,8856,Person C,-1208.4,803.4,0.0,1443.93,-56.78,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583988.5562234,8857,Person C,-1208.9,802.1,0.0,1441.69,-56.63,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583988.6297147,8858,Person C,-1208.9,801.0,0.0,1441.39,-56.43,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583988.7668796,8859,Person C,-1208.5,800.2,0.0,1442.5,-56.22,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583988.869898,8860,Person C,-1207.9,799.8,0.0,1445.84,-56.02,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583988.939659,8861,Person C,-1206.9,800.2,0.0,1448.38,-55.81,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583989.001801,8862,Person C,-1205.7,801.1,0.0,1450.03,-55.85,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583989.0741277,8863,Person C,-1204.4,801.9,0.0,1449.72,-56.08,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583989.2151542,8864,Person C,-1203.1,802.2,0.0,1446.94,-56.39,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583989.3210795,8865,Person C,-1202.5,802.2,0.0,1445.03,-56.72,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583989.3940835,8866,Person C,-1202.8,801.7,0.0,1443.72,-57.01,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583989.4578252,8867,Person C,-1203.1,800.1,0.0,1435.47,-57.23,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583989.5284038,8868,Person C,-1203.1,797.3,0.0,1426.1,-57.37,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583989.6182683,8869,Person C,-1202.7,793.2,0.0,1416.74,-57.51,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583989.715132,8870,Person C,-1201.7,787.7,0.0,1407.38,-57.65,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583989.8114874,8871,Person C,-1200.2,780.8,0.0,1398.04,-57.8,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583989.9021957,8872,Person C,-1198.0,773.2,0.0,1390.08,-57.93,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583989.9756913,8873,Person C,-1195.6,765.5,0.0,1387.76,-58.17,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583990.0673802,8874,Person C,-1193.4,758.3,0.0,1389.58,-58.36,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583990.1582053,8875,Person C,-1191.4,751.8,0.0,1393.32,-58.5,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583990.2643383,8876,Person C,-1189.4,745.8,0.0,1394.83,-58.63,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583990.3351772,8877,Person C,-1188.0,740.6,0.0,1396.02,-58.71,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583990.4077716,8878,Person C,-1187.4,736.1,0.0,1397.21,-58.79,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583990.5259123,8879,Person C,-1187.6,732.5,0.0,1399.44,-58.8,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583990.592988,8880,Person C,-1188.6,729.8,0.0,1401.67,-58.8,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583990.6758602,8881,Person C,-1190.5,728.2,0.0,1405.79,-58.76,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583990.7716413,8882,Person C,-1193.1,727.5,0.0,1408.54,-58.74,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583990.8524168,8883,Person C,-1195.6,727.7,0.0,1410.1,-58.63,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583990.9600174,8884,Person C,-1197.7,728.5,0.0,1411.66,-58.53,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583991.0523267,8885,Person C,-1199.2,729.5,0.0,1411.33,-58.47,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583991.163379,8886,Person C,-1200.6,730.9,0.0,1414.08,-58.45,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583991.2243576,8887,Person C,-1202.3,732.2,0.0,1417.3,-58.62,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583991.3062232,8888,Person C,-1204.4,733.4,0.0,1421.39,-58.82,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583991.4156876,8889,Person C,-1206.9,734.2,0.0,1424.98,-59.04,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583991.502512,8890,Person C,-1209.8,734.7,0.0,1429.11,-59.24,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583991.5739264,8891,Person C,-1213.0,734.6,0.0,1432.74,-59.46,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583991.6568298,8892,Person C,-1216.2,734.1,0.0,1433.45,-59.57,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583991.7421618,8893,Person C,-1219.5,733.1,0.0,1433.3,-59.66,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583991.8480105,8894,Person C,-1222.9,731.7,0.0,1433.66,-59.71,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583991.9365356,8895,Person C,-1226.5,730.0,0.0,1433.51,-59.8,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583992.020255,8896,Person C,-1230.0,727.9,0.0,1433.37,-59.89,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583992.1345158,8897,Person C,-1233.0,725.8,0.0,1432.37,-59.96,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583992.1933503,8898,Person C,-1235.5,723.8,0.0,1432.74,-60.02,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583992.329744,8899,Person C,-1237.5,721.9,0.0,1432.61,-60.11,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583992.409518,8900,Person C,-1239.0,720.0,0.0,1432.48,-60.2,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583992.4927053,8901,Person C,-1239.9,718.3,0.0,1431.98,-60.23,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583992.5565603,8902,Person C,-1240.7,716.6,0.0,1431.86,-60.32,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583992.636717,8903,Person C,-1241.5,715.0,0.0,1432.23,-60.37,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583992.7503126,8904,Person C,-1242.2,713.4,0.0,1431.74,-60.41,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583992.8222415,8905,Person C,-1242.9,711.8,0.0,1431.62,-60.5,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583992.9101093,8906,Person C,-1243.6,710.3,0.0,1432.0,-60.55,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583992.9900737,8907,Person C,-1244.3,708.9,0.0,1431.51,-60.59,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583993.091569,8908,Person C,-1244.9,707.6,0.0,1431.51,-60.59,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583993.1815815,8909,Person C,-1245.4,706.5,0.0,1431.51,-60.59,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583993.2736182,8910,Person C,-1245.8,705.6,0.0,1431.51,-60.59,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583993.3679001,8911,Person C,-1246.2,704.8,0.0,1431.51,-60.59,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583993.4839091,8912,Person C,-1246.3,704.4,0.0,1430.75,-60.48,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583993.5702581,8913,Person C,-1246.3,704.2,0.0,1431.24,-60.44,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583993.6779668,8914,Person C,-1246.4,704.1,0.0,1432.11,-60.46,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583993.7556975,8915,Person C,-1246.5,704.2,0.0,1432.98,-60.48,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583993.8285277,8916,Person C,-1246.7,704.4,0.0,1434.73,-60.52,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583993.8871195,8917,Person C,-1247.1,704.5,0.0,1435.48,-60.63,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583993.9588957,8918,Person C,-1247.7,704.5,0.0,1436.74,-60.71,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583994.0884414,8919,Person C,-1248.4,704.4,0.0,1437.12,-60.76,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583994.1470542,8920,Person C,-1249.3,704.2,0.0,1438.38,-60.83,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583994.2592337,8921,Person C,-1250.4,703.8,0.0,1439.15,-60.94,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583994.3473935,8922,Person C,-1251.4,703.0,0.0,1435.56,-60.95,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583994.4204092,8923,Person C,-1251.9,702.4,0.0,1432.65,-60.75,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583994.5170639,8924,Person C,-1251.7,702.2,0.0,1429.39,-60.49,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583994.6139607,8925,Person C,-1250.8,702.4,0.0,1426.15,-60.24,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583994.7020779,8926,Person C,-1249.1,703.0,0.0,1422.94,-59.98,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583994.7708673,8927,Person C,-1247.2,703.9,0.0,1423.44,-59.94,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583994.865701,8928,Person C,-1245.2,704.7,0.0,1423.31,-60.03,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583994.9571135,8929,Person C,-1243.3,705.5,0.0,1424.54,-60.11,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583995.0556638,8930,Person C,-1241.3,706.3,0.0,1424.91,-60.16,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583995.1372995,8931,Person C,-1239.2,707.2,0.0,1425.28,-60.22,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583995.2163587,8932,Person C,-1237.6,708.2,0.0,1426.52,-60.29,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583995.3037038,8933,Person C,-1236.6,708.8,0.0,1426.9,-60.34,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583995.4227452,8934,Person C,-1236.3,708.9,0.0,1427.27,-60.4,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583995.490636,8935,Person C,-1236.7,708.6,0.0,1428.14,-60.42,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583995.5774727,8936,Person C,-1237.8,707.8,0.0,1428.52,-60.47,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583995.6606724,8937,Person C,-1239.1,706.8,0.0,1429.77,-60.55,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583995.7633061,8938,Person C,-1240.4,705.9,0.0,1430.15,-60.6,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583995.849399,8939,Person C,-1241.6,705.0,0.0,1430.53,-60.66,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583995.9445875,8940,Person C,-1242.8,704.2,0.0,1431.4,-60.68,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583996.0339177,8941,Person C,-1244.0,703.4,0.0,1431.78,-60.73,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583996.1056094,8942,Person C,-1245.0,702.6,0.0,1431.29,-60.77,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583996.1979997,8943,Person C,-1245.9,701.9,0.0,1431.29,-60.77,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583996.3160424,8944,Person C,-1246.7,701.3,0.0,1431.29,-60.77,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583996.4603186,8945,Person C,-1247.2,700.5,0.0,1428.57,-60.8,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583996.5372143,8946,Person C,-1247.3,699.5,0.0,1424.49,-60.84,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583996.6187785,8947,Person C,-1247.0,698.3,0.0,1421.28,-60.91,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583996.6874464,8948,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Active,hafsa,None,Normal,2: Standing / idle
+1790583996.7677455,8949,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583996.8310606,8950,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583996.9235597,8951,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583996.9949455,8952,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583997.0975811,8953,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583997.1870637,8954,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583997.2793782,8955,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583997.3691192,8956,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583997.4505725,8957,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583997.5406415,8958,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583997.6256151,8959,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583997.7117505,8960,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583997.7927577,8961,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583997.8710635,8962,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583997.971924,8963,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Predicted,hafsa,None,Normal,2: Standing / idle
+1790583998.072126,8964,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583998.150651,8965,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583998.2534707,8966,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583998.335046,8967,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583998.460913,8968,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583998.5355475,8969,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583998.604773,8970,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583998.7038877,8971,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583998.7968228,8972,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583998.8626366,8973,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583998.9680316,8974,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583999.07459,8975,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583999.1362982,8976,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583999.2231493,8977,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583999.3190966,8978,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583999.4013557,8979,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583999.496509,8980,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583999.5822058,8981,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583999.6661184,8982,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583999.7549329,8983,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583999.856885,8984,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790583999.9351106,8985,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584000.0222108,8986,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584000.1306791,8987,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584000.2106526,8988,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584000.2987897,8989,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584000.3906279,8990,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584000.475222,8991,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584000.578059,8992,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584000.6439776,8993,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584000.7775779,8994,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584000.857722,8995,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584000.9339538,8996,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584001.012538,8997,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584001.1009471,8998,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584001.1974628,8999,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584001.285961,9000,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584001.3771527,9001,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584001.4535725,9002,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584001.5390637,9003,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584001.637771,9004,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584001.7281997,9005,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584001.8041782,9006,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584001.8869345,9007,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584001.9929097,9008,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584002.0868888,9009,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584002.1555347,9010,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584002.2487981,9011,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584002.3511844,9012,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584002.4363806,9013,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584002.5222049,9014,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584002.6090298,9015,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584002.7160692,9016,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584002.8021967,9017,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584002.8749952,9018,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584002.9830785,9019,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584003.0491104,9020,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584003.1571035,9021,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584003.2522874,9022,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584003.3471246,9023,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584003.421453,9024,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584003.495072,9025,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584003.6147041,9026,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584003.6785815,9027,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584003.7561116,9028,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584003.8564234,9029,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584003.9445372,9030,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584004.022832,9031,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584004.1243596,9032,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584004.2127602,9033,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584004.3070302,9034,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584004.3861122,9035,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584004.476776,9036,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584004.557263,9037,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584004.6825078,9038,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584004.7396796,9039,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584004.8340037,9040,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584004.930093,9041,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584005.0061367,9042,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584005.0897424,9043,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584005.189533,9044,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584005.2768722,9045,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584005.3747966,9046,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584005.4476466,9047,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584005.5365043,9048,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584005.6353784,9049,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584005.7250934,9050,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584005.8126297,9051,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584005.9054313,9052,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584005.9827962,9053,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584006.0832427,9054,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584006.175973,9055,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584006.2946427,9056,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584006.3660927,9057,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584006.4348853,9058,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584006.5325181,9059,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584006.6307304,9060,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584006.7342803,9061,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584006.8069732,9062,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584006.8724937,9063,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584007.0257316,9064,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584007.139356,9065,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584007.2162592,9066,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584007.2752576,9067,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584007.343939,9068,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584007.432543,9069,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584007.5167303,9070,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584007.5915306,9071,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584007.6758158,9072,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584007.7831354,9073,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584007.8742993,9074,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584007.9640126,9075,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584008.0377297,9076,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584008.1337547,9077,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584008.206392,9078,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584008.3255575,9079,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584008.390863,9080,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584008.4844568,9081,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584008.5782003,9082,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584008.684785,9083,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584008.7601924,9084,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584008.8237529,9085,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584008.9301891,9086,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584009.0249352,9087,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584009.1036093,9088,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584009.1992528,9089,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584009.2867436,9090,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584009.3688536,9091,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584009.4511786,9092,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584009.559275,9093,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584009.633991,9094,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584009.749747,9095,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584009.8569906,9096,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584009.9188108,9097,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584009.9885392,9098,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584010.1129477,9099,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584010.1705303,9100,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584010.2717109,9101,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584010.3582468,9102,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584010.4298546,9103,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584010.5597534,9104,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584010.6204774,9105,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584010.719131,9106,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584010.7953672,9107,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584010.8918772,9108,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584010.9802635,9109,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584011.0675986,9110,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584011.1623871,9111,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584011.2404928,9112,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584011.3384712,9113,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584011.42551,9114,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584011.52366,9115,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584011.6189902,9116,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584011.6986156,9117,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584011.7658954,9118,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584011.8708293,9119,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584011.9688985,9120,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584012.0613906,9121,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584012.1516528,9122,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584012.2446322,9123,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584012.331146,9124,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584012.4063642,9125,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584012.5065057,9126,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584012.5810406,9127,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584012.6550565,9128,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584012.759338,9129,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584012.832715,9130,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584012.9417467,9131,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584013.0200846,9132,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584013.1160154,9133,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584013.1932404,9134,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584013.2814054,9135,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584013.3833413,9136,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584013.4572403,9137,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584013.583741,9138,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584013.6416955,9139,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584013.7440276,9140,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584013.812253,9141,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584013.9023685,9142,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584013.9981408,9143,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584014.1131957,9144,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584014.1741025,9145,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584014.2575867,9146,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584014.3481271,9147,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584014.439552,9148,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584014.5311623,9149,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584014.6554904,9150,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584014.7147036,9151,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584014.791797,9152,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584014.8831527,9153,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584015.0159569,9154,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584015.0952888,9155,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584015.1717758,9156,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584015.2434332,9157,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584015.3266947,9158,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584015.468791,9159,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584015.5492325,9160,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584015.6486564,9161,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584015.7213964,9162,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584015.790251,9163,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584015.8632443,9164,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584015.9515092,9165,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584016.0735774,9166,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584016.14978,9167,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584016.2173088,9168,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584016.3195996,9169,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584016.3993235,9170,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584016.5082788,9171,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584016.592531,9172,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584016.6603372,9173,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584016.789591,9174,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584016.8471613,9175,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584016.94277,9176,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584017.0203898,9177,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584017.1304924,9178,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584017.192534,9179,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584017.2940085,9180,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584017.3681455,9181,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584017.4667933,9182,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584017.5628083,9183,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584017.65533,9184,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584017.7323952,9185,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584017.8409529,9186,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584017.9347994,9187,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584018.0018723,9188,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584018.1241002,9189,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584018.2011025,9190,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584018.2724133,9191,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584018.3522136,9192,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584018.4501243,9193,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584018.5712082,9194,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584018.6487494,9195,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584018.7132525,9196,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584018.7853396,9197,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584018.8784344,9198,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584019.018851,9199,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584019.1122253,9200,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584019.191259,9201,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584019.2591467,9202,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584019.3346047,9203,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584019.4485576,9204,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584019.517515,9205,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584019.5966802,9206,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584019.7000875,9207,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584019.7773707,9208,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584019.8664021,9209,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584019.979109,9210,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584020.052143,9211,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584020.1304734,9212,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584020.219587,9213,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584020.3238034,9214,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584020.4163768,9215,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584020.5087514,9216,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584020.5979228,9217,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584020.6676805,9218,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584020.7685664,9219,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584020.8546596,9220,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584020.9528444,9221,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584021.027765,9222,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584021.1382287,9223,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584021.2258549,9224,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584021.3117495,9225,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584021.400409,9226,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584021.477644,9227,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584021.5572765,9228,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584021.691443,9229,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584021.7693877,9230,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584021.8458335,9231,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584021.9157662,9232,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584021.9985883,9233,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584022.098766,9234,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584022.1934245,9235,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584022.2654274,9236,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584022.3552701,9237,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584022.4700491,9238,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584022.554923,9239,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584022.6445668,9240,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584022.7476382,9241,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584022.8159628,9242,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584022.8904011,9243,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584023.0066485,9244,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584023.07594,9245,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584023.1559675,9246,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584023.2465694,9247,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584023.330202,9248,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584023.432666,9249,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584023.5221307,9250,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584023.596726,9251,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584023.6884847,9252,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584023.77994,9253,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584023.8764842,9254,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584023.976725,9255,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584024.0753946,9256,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584024.148332,9257,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584024.223146,9258,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584024.3608444,9259,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584024.4386814,9260,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584024.5117185,9261,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584024.5835361,9262,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584024.680597,9263,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584024.7641833,9264,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584024.8918743,9265,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584024.9592605,9266,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584025.038044,9267,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584025.1355598,9268,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584025.2199945,9269,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584025.309057,9270,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584025.3995173,9271,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584025.4735892,9272,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584025.5621762,9273,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584025.663365,9274,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,2: Standing / idle
+1790584025.7477548,9275,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584025.8560112,9276,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584025.9325743,9277,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584026.0037851,9278,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584026.1091256,9279,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584026.2026856,9280,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584026.2890084,9281,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584026.3688881,9282,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584026.4490235,9283,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584026.5829942,9284,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584026.6619573,9285,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584026.7637203,9286,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584026.8289452,9287,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584026.896034,9288,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584026.9903078,9289,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584027.0931954,9290,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584027.1621912,9291,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584027.2516549,9292,Person C,-1246.3,696.9,0.0,1417.2,-60.96,True,Searching,hafsa,None,Normal,1: Walking
+1790584027.3391964,9293,Person C,-1102.0,824.0,80.0,1376.0,-53.21,True,Active,hafsa,None,Normal,1: Walking
+1790584027.4585166,9294,Person C,-1098.5,825.5,80.0,1372.21,-52.94,True,Active,hafsa,None,Normal,1: Walking
+1790584027.5290604,9295,Person C,-1094.33,827.0,0.0,1366.86,-52.61,True,Active,hafsa,None,Normal,1: Walking
+1790584027.605998,9296,Person C,-1089.5,829.25,-80.0,1361.81,-52.13,True,Active,hafsa,None,Normal,1: Walking
+1790584027.697593,9297,Person C,-1084.2,831.8,-80.0,1356.07,-51.62,True,Active,hafsa,None,Normal,1: Walking
+1790584027.7834601,9298,Person C,-1076.0,836.33,-160.0,1345.03,-50.31,True,Active,hafsa,None,Normal,1: Walking
+1790584027.8850121,9299,Person C,-1067.57,841.43,-240.0,1339.65,-49.39,True,Active,hafsa,None,Normal,1: Walking
+1790584027.9666276,9300,Person C,-1060.38,846.25,-240.0,1339.59,-48.93,True,Active,hafsa,None,Normal,1: Walking
+1790584028.086284,9301,Person C,-1053.89,850.89,-320.0,1338.86,-48.45,True,Active,hafsa,None,Normal,1: Walking
+1790584028.1660347,9302,Person C,-1047.9,855.7,-320.0,1340.24,-47.87,True,Active,hafsa,None,Normal,1: Walking
+1790584028.240562,9303,Person C,-1034.0,866.5,-320.0,1340.15,-45.94,True,Active,hafsa,None,Normal,1: Walking
+1790584028.333757,9304,Person C,-1018.3,880.0,-320.0,1343.61,-44.28,True,Active,hafsa,None,Normal,1: Walking
+1790584028.4213088,9305,Person C,-1000.1,896.2,-160.0,1342.12,-42.34,True,Active,hafsa,None,Normal,1: Walking
+1790584028.5048954,9306,Person C,-979.9,914.9,-240.0,1344.86,-40.48,True,Active,hafsa,None,Normal,1: Walking
+1790584028.5856078,9307,Person C,-958.3,935.9,-240.0,1350.6,-38.84,True,Active,hafsa,None,Normal,1: Walking
+1790584028.6741838,9308,Person C,-936.4,958.4,-160.0,1356.8,-36.97,True,Active,hafsa,None,Normal,1: Walking
+1790584028.7973132,9309,Person C,-909.4,985.4,-240.0,1364.61,-33.19,True,Active,hafsa,None,Normal,1: Walking
+1790584028.8860483,9310,Person C,-877.3,1016.9,-240.0,1379.4,-29.97,True,Active,hafsa,None,Normal,1: Walking
+1790584028.9466267,9311,Person C,-840.1,1052.3,-240.0,1392.65,-26.9,True,Active,hafsa,None,Normal,1: Walking
+1790584029.018654,9312,Person C,-799.6,1090.7,-160.0,1411.74,-24.66,True,Active,hafsa,None,Normal,1: Walking
+1790584029.1268797,9313,Person C,-756.9,1128.8,-160.0,1418.19,-22.21,True,Active,hafsa,None,Normal,1: Walking
+1790584029.2272415,9314,Person C,-711.9,1167.2,-160.0,1431.73,-19.93,True,Active,hafsa,None,Normal,1: Walking
+1790584029.2931044,9315,Person C,-663.8,1204.4,-80.0,1428.08,-17.23,True,Active,hafsa,None,Normal,1: Walking
+1790584029.395741,9316,Person C,-612.8,1242.2,-160.0,1447.26,-14.53,True,Active,hafsa,None,Normal,1: Walking
+1790584029.4819105,9317,Person C,-559.7,1279.0,-160.0,1454.74,-12.55,True,Active,hafsa,None,Normal,1: Walking
+1790584029.5776963,9318,Person C,-504.9,1315.9,-240.0,1477.51,-10.45,True,Active,hafsa,None,Normal,1: Walking
+1790584029.6518784,9319,Person C,-454.8,1351.2,-320.0,1515.1,-9.34,True,Active,hafsa,None,Normal,1: Walking
+1790584029.7905436,9320,Person C,-407.2,1384.2,-320.0,1539.8,-7.95,True,Active,hafsa,None,Normal,1: Walking
+1790584029.8376498,9321,Person C,-362.5,1416.5,-390.0,1575.66,-6.67,True,Active,hafsa,None,Normal,1: Walking
+1790584029.9105964,9322,Person C,-318.8,1448.7,-390.0,1612.18,-5.41,True,Active,hafsa,None,Normal,1: Walking
+1790584029.9993527,9323,Person C,-276.9,1481.9,-320.0,1649.16,-4.07,True,Active,hafsa,None,Normal,1: Walking
+1790584030.1626384,9324,Person C,-236.1,1515.6,-240.0,1684.9,-2.72,True,Active,hafsa,None,Normal,1: Walking
+1790584030.240984,9325,Person C,-198.2,1551.0,-160.0,1718.56,-1.47,True,Active,hafsa,None,Normal,1: Walking
+1790584030.3160133,9326,Person C,-163.2,1585.4,-160.0,1745.05,-0.43,True,Active,hafsa,None,Normal,1: Walking
+1790584030.3989885,9327,Person C,-130.3,1620.6,-80.0,1772.05,0.42,True,Active,hafsa,None,Normal,1: Walking
+1790584030.5083916,9328,Person C,-99.8,1655.0,0.0,1797.38,1.18,True,Active,hafsa,None,Normal,1: Walking
+1790584030.5824738,9329,Person C,-68.7,1687.6,0.0,1822.16,2.04,True,Active,hafsa,None,Normal,1: Walking
+1790584030.654724,9330,Person C,-38.2,1717.8,0.0,1829.31,2.88,True,Active,hafsa,None,Normal,1: Walking
+1790584030.748743,9331,Person C,-7.1,1743.1,160.0,1822.5,4.03,True,Active,hafsa,None,Normal,1: Walking
+1790584030.8414593,9332,Person C,25.0,1762.3,160.0,1804.93,5.37,True,Active,hafsa,None,Normal,1: Walking
+1790584030.905223,9333,Person C,57.6,1775.8,240.0,1792.23,6.7,True,Active,hafsa,None,Normal,1: Walking
+1790584031.0058937,9334,Person C,90.6,1784.2,160.0,1784.6,8.05,True,Active,hafsa,None,Normal,1: Walking
+1790584031.13431,9335,Person C,124.3,1788.6,160.0,1786.2,9.44,True,Active,hafsa,None,Normal,1: Walking
+1790584031.2108083,9336,Person C,157.6,1788.6,160.0,1774.1,10.39,True,Active,hafsa,None,Normal,1: Walking
+1790584031.3027022,9337,Person C,189.5,1784.9,80.0,1766.48,10.83,True,Active,hafsa,None,Normal,1: Walking
+1790584031.3824246,9338,Person C,219.9,1778.4,0.0,1765.25,11.14,True,Active,hafsa,None,Normal,1: Walking
+1790584031.4571562,9339,Person C,248.5,1768.5,0.0,1757.41,11.52,True,Active,hafsa,None,Normal,1: Walking
+1790584031.5528362,9340,Person C,276.2,1757.7,80.0,1758.16,12.12,True,Active,hafsa,None,Normal,1: Walking
+1790584031.6598167,9341,Person C,303.5,1748.5,160.0,1771.97,13.08,True,Active,hafsa,None,Normal,1: Walking
+1790584031.7219043,9342,Person C,332.2,1742.3,-80.0,1793.92,14.73,True,Active,hafsa,None,Normal,1: Walking
+1790584031.791834,9343,Person C,361.6,1736.8,-80.0,1796.84,16.26,True,Active,hafsa,None,Normal,1: Walking
+1790584031.919693,9344,Person C,389.9,1732.0,-80.0,1799.74,17.23,True,Active,hafsa,None,Normal,1: Walking
+1790584031.9902337,9345,Person C,418.5,1726.6,0.0,1803.47,18.73,True,Active,hafsa,None,Normal,1: Walking
+1790584032.0841413,9346,Person C,448.6,1721.9,0.0,1807.99,20.09,True,Active,hafsa,None,Normal,1: Walking
+1790584032.1818333,9347,Person C,482.9,1716.7,160.0,1813.32,21.85,True,Active,hafsa,None,Normal,1: Walking
+1790584032.2551043,9348,Person C,523.8,1711.6,240.0,1840.72,24.04,True,Active,hafsa,None,Normal,1: Walking
+1790584032.3201168,9349,Person C,570.0,1706.3,240.0,1856.48,25.97,True,Active,hafsa,None,Normal,1: Walking
+1790584032.4524844,9350,Person C,616.2,1700.3,240.0,1855.49,26.61,True,Active,hafsa,None,Normal,1: Walking
+1790584032.5220304,9351,Person C,662.3,1691.3,480.0,1849.2,27.78,True,Active,hafsa,None,Normal,1: Walking
+1790584032.5937517,9352,Person C,704.4,1679.9,390.0,1843.03,28.41,True,Active,hafsa,None,Normal,1: Walking
+1790584032.684383,9353,Person C,743.3,1668.1,390.0,1837.96,29.03,True,Active,hafsa,None,Normal,1: Walking
