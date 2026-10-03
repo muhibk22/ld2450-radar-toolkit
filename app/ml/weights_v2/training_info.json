@@ -1,0 +1,28 @@
+{
+  "recipe": "new",
+  "holdout_people": [],
+  "seed": 42,
+  "epochs": 25,
+  "training_sessions": 356,
+  "excluded_sessions": 264,
+  "train_windows": 9474,
+  "train_fall_windows": 1413,
+  "val_windows": 1463,
+  "val_fall_windows": 223,
+  "best_epoch": 17,
+  "best_val_f1": 0.8554,
+  "feature_mean": [
+    -0.002300000051036477,
+    0.0421999990940094,
+    -0.003700000001117587,
+    0.046799998730421066,
+    0.04170000180602074
+  ],
+  "feature_std": [
+    0.2646999955177307,
+    0.396699994802475,
+    0.29030001163482666,
+    0.4153999984264374,
+    0.5465999841690063
+  ]
+}
