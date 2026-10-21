@@ -1,15 +1,16 @@
-import time
 from pathlib import Path
-from PySide6.QtCore import Qt, Signal, Slot
+from PySide6.QtCore import Qt, Signal
 from PySide6.QtGui import QKeySequence, QShortcut, QFont
+from ..recording.session_paths import next_session_path
+from .responsive import AdaptiveGrid, scroll_page
 from PySide6.QtWidgets import (
-    QWidget, QVBoxLayout, QHBoxLayout, QLabel, QLineEdit,
+    QWidget, QVBoxLayout, QLabel, QLineEdit,
     QComboBox, QPushButton, QGridLayout, QGroupBox, QMessageBox, QFileDialog
 )
 
 class DataCollectionWindow(QWidget):
     """
-    Standalone Data Collection Studio with Layer 1 hotkeys and Layer 2 metadata.
+    Session recording with activity hotkeys and participant metadata.
     """
     
     # Signals to communicate with MainWindow/Recorder
@@ -34,18 +35,21 @@ class DataCollectionWindow(QWidget):
         self.is_recording = False
         self.current_label = "2: Standing / idle" # Default Baseline
         
-        self.setWindowTitle("Data Collection Studio")
-        self.setMinimumSize(600, 500)
-        self.setWindowFlag(Qt.WindowType.WindowStaysOnTopHint)
+        self.setWindowTitle("Record sessions")
+        self.resize(720, 780)
+        self.setMinimumSize(560, 540)
         
         self._setup_ui()
         self._setup_shortcuts()
         
     def _setup_ui(self):
-        layout = QVBoxLayout(self)
+        outer = QVBoxLayout(self)
+        content = QWidget()
+        layout = QVBoxLayout(content)
+        outer.addWidget(scroll_page(content), 1)
         
         # --- Layer 2: Metadata ---
-        meta_group = QGroupBox("Layer 2: Session Metadata")
+        meta_group = QGroupBox("Session details")
         meta_layout = QGridLayout()
         
         meta_layout.addWidget(QLabel("Volunteer ID:"), 0, 0)
@@ -66,36 +70,34 @@ class DataCollectionWindow(QWidget):
         layout.addWidget(meta_group)
         
         # --- Current State Display ---
-        state_group = QGroupBox("Current Action Tag (Layer 1)")
+        state_group = QGroupBox("Current activity")
         state_layout = QVBoxLayout()
         self.lbl_current_action = QLabel(self.current_label)
         self.lbl_current_action.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        self.lbl_current_action.setFont(QFont("Arial", 24, QFont.Weight.Bold))
+        self.lbl_current_action.setFont(QFont("Segoe UI", 20, QFont.Weight.Bold))
+        self.lbl_current_action.setWordWrap(True)
+        self.lbl_current_action.setMinimumWidth(0)
         self.lbl_current_action.setStyleSheet("color: #3B82F6;")
         state_layout.addWidget(self.lbl_current_action)
         state_group.setLayout(state_layout)
         layout.addWidget(state_group)
         
         # --- Layer 1: Hotkeys ---
-        hotkey_group = QGroupBox("Live Hotkeys (Press 1-8)")
-        grid = QGridLayout()
+        hotkey_group = QGroupBox("Activity labels · keyboard 1–8")
+        hotkey_layout = QVBoxLayout(hotkey_group)
+        hotkey_buttons = []
         self.buttons = {}
-        row, col = 0, 0
         for key, desc in self.HOTKEYS.items():
             btn = QPushButton(f"[{key}] {desc}")
             btn.setCheckable(True)
             btn.setMinimumHeight(40)
             btn.clicked.connect(lambda checked, k=key: self._on_hotkey_pressed(k))
             self.buttons[key] = btn
-            grid.addWidget(btn, row, col)
-            col += 1
-            if col > 1:
-                col = 0
-                row += 1
+            hotkey_buttons.append(btn)
                 
         # Set default active
         self.buttons["2"].setChecked(True)
-        hotkey_group.setLayout(grid)
+        hotkey_layout.addWidget(AdaptiveGrid(hotkey_buttons, minimum_column_width=265))
         layout.addWidget(hotkey_group)
         
         # --- Start/Stop Controls ---
@@ -104,7 +106,7 @@ class DataCollectionWindow(QWidget):
         self.btn_record.setFont(QFont("Arial", 14, QFont.Weight.Bold))
         self.btn_record.setStyleSheet("background-color: #EF4444; color: white;")
         self.btn_record.clicked.connect(self._toggle_recording)
-        layout.addWidget(self.btn_record)
+        outer.addWidget(self.btn_record)
 
     def _setup_shortcuts(self):
         for key in self.HOTKEYS.keys():
@@ -138,12 +140,10 @@ class DataCollectionWindow(QWidget):
             if not volunteer:
                 volunteer = "volunteer01"
                 
-            # Scan existing files for this volunteer to auto-increment session ID
+            # Include archived IDs so curation never causes session-name reuse.
             base_dir = Path.cwd() / "data" / "raw_sessions"
             base_dir.mkdir(parents=True, exist_ok=True)
-            existing = list(base_dir.glob(f"{volunteer}_session*.csv"))
-            session_num = len(existing) + 1
-            default_filename = str(base_dir / f"{volunteer}_session{session_num:02d}.csv")
+            default_filename = str(next_session_path(base_dir, volunteer))
                 
             filename, _ = QFileDialog.getSaveFileName(
                 self, "Save Dataset Session", default_filename, "CSV Files (*.csv)"

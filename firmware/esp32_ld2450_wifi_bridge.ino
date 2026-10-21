@@ -29,8 +29,24 @@ WiFiServer server(TCP_PORT);
 WiFiClient client;
 WiFiUDP udp;
 
+// --- RGB Status LED Control ---
+void setStatusLed(uint8_t r, uint8_t g, uint8_t b) {
+  #ifdef RGB_BUILTIN
+  rgbLedWrite(RGB_BUILTIN, r, g, b);
+  #endif
+  neopixelWrite(48, r, g, b);
+  neopixelWrite(38, r, g, b);
+  #ifdef LED_BUILTIN
+  digitalWrite(LED_BUILTIN, (r > 0 || g > 0 || b > 0) ? HIGH : LOW);
+  #endif
+}
+
 void setup() {
   Serial.begin(115200);
+  #ifdef LED_BUILTIN
+  pinMode(LED_BUILTIN, OUTPUT);
+  #endif
+  setStatusLed(0, 0, 0);
   delay(500);
   Serial.println("\n--- Starting LD2450 ESP32 Ultra-Low-Latency Wi-Fi Bridge ---");
 
@@ -43,14 +59,20 @@ void setup() {
     WiFi.softAP(AP_SSID, AP_PASS);
     IPAddress apIP = WiFi.softAPIP();
     Serial.printf("Created Wi-Fi AP '%s' (IP: %s)\n", AP_SSID, apIP.toString().c_str());
+    setStatusLed(160, 60, 0); // Amber in AP mode
   } else {
     WiFi.mode(WIFI_STA);
     WiFi.begin(STA_SSID, STA_PASS);
     Serial.printf("Connecting to Wi-Fi '%s'...", STA_SSID);
+    bool ledToggle = false;
     while (WiFi.status() != WL_CONNECTED) {
       delay(500);
       Serial.print(".");
+      ledToggle = !ledToggle;
+      setStatusLed(0, 0, ledToggle ? 160 : 0); // Blink Blue while connecting
     }
+    // Turn OFF LED once connected to Wi-Fi
+    setStatusLed(0, 0, 0);
     Serial.println("\nConnected to Wi-Fi!");
     Serial.print("ESP32 IP Address: ");
     Serial.println(WiFi.localIP());

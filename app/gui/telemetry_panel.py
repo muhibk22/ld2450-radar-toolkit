@@ -30,7 +30,8 @@ class TelemetryPanelWidget(QWidget):
 
         self.target_table = QTableWidget(3, len(self.TARGET_HEADERS))
         self.target_table.setHorizontalHeaderLabels(self.TARGET_HEADERS)
-        self.target_table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.Stretch)
+        self.target_table.horizontalHeader().setSectionResizeMode(QHeaderView.ResizeMode.ResizeToContents)
+        self.target_table.horizontalHeader().setStretchLastSection(True)
         self.target_table.setEditTriggers(QTableWidget.EditTrigger.NoEditTriggers)
         self.target_table.setStyleSheet("""
             QTableWidget {

@@ -4,6 +4,90 @@ A comprehensive desktop application, firmware, and machine learning toolkit for 
 
 This project features a PyQt/PySide6 graphical interface for real-time visualization, a robust physics-based target tracking engine (with Kalman filtering), and a PyTorch LSTM neural network for fall detection.
 
+## Radar workspace
+
+The main window separates **Live radar**, **Calibration**, and **Protocol inspector**
+into task views (Ctrl+1/2/3). Use **Connection controls** to connect a sensor and
+adjust tracking. This panel hides automatically in smaller windows and can be
+reopened with its button or Ctrl+\\. Serial baud detection and network discovery
+run in the background; select **Connect** after a device is found.
+
+**Record sessions** (Ctrl+Shift+R), **Analyze dataset** (Ctrl+Shift+D), and
+**Fall monitor** are available directly above the workspace. Controls wrap when
+space is limited, recording forms scroll, and dataset charts stack vertically.
+The dataset window's **Recordings** button shows or hides the session browser.
+
+## Dataset Visualization Studio
+
+Open **Data → Analyze dataset** in the radar tool, or press
+**Ctrl+Shift+D**. This offline module uses the existing PySide6, pyqtgraph and
+NumPy dependencies and works without connecting a radar or loading an ML model.
+It can also run independently from the `tracker app` directory:
+
+```powershell
+python -m app.dataset_visualization
+python -m app.dataset_visualization "D:\Projects\FYP\dataset"
+```
+
+The default directory is `data/raw_sessions`. Choose another collection folder,
+or the FYP workspace to combine its session collections. Nested recordings use
+the standard `<participant>_session<number>.csv` names; CSVs directly inside the selected folder
+may have arbitrary names. Index and training-selection CSVs are metadata and are
+not recordings. Dependency and generated-output directories are skipped.
+
+- **Collection overview:** activity balance, participant coverage, position
+  density, and radar-speed percentile comparisons across activities.
+- **Human playback:** select a recording and target, play at 0.25–4×, scrub
+  through its actual timestamps, or jump to the first fall label. The time slider
+  stays visible above the scrollable plots. A bright movement trail shows the
+  preceding 3 seconds; choose 5, 10, 30 seconds or all movement since the start.
+  Scrubbing pauses playback and updates the person, trail and signal cursors together.
+  The X, Y and speed graphs have their own scrollable panel, independent of the
+  human path. Scroll over a graph to browse the panel, drag to pan time, or use
+  Ctrl+wheel to zoom time. Recording gaps remain disconnected. X, Y and
+  radar-speed plots share the playback cursor. The stick figure is a fixed
+  schematic marker at the measured X/Y location; these recordings do not
+  contain skeletal joints, posture, or body height.
+- **Session comparison:** overlay two recordings and targets with distinct
+  colors and line styles. Align each track to its start or its first manual
+  fall-onset label. A track without a fall label is explicitly unavailable for
+  fall alignment, rather than being aligned to an invented event.
+- **Coverage & quality:** participant/activity coverage, sampling rates,
+  per-session recording gaps, coordinate-speed flags, range inconsistencies,
+  duplicate/malformed rows, and detailed load errors.
+
+Filters select complete sessions by normalized participant, activity present,
+fall subtype, pace, and current training eligibility. A session-name search
+also affects all charts and exports. Known participant aliases are merged using
+the training script's mapping. Training exclusions are read from the existing
+`data/training_session_selection.csv`; all collected sessions remain visible by
+default. SHA-256 identifies byte-identical copied files. Sources are read only.
+Use **Refresh data** after recording additional sessions; loading runs in a
+cancellable background thread and keeps the previous dataset if cancelled.
+
+The redundant static-lying collection is stored separately under
+`archived_data/static_lying_2026-10-22/`: 264 raw recordings and their cached
+derived slices. Project-wide scans skip `archived_data`; explicitly choose the
+archive's `raw_sessions` folder to inspect it. The active `dataset_index.csv`
+contains one entry per active recording. The archive retains its own index,
+the complete original index, reconciliation details, and a checksummed move
+manifest. Historical training exclusions remain recorded. New session numbers
+advance beyond both active and archived filenames to avoid recycling old IDs.
+
+Gaps over 0.5 seconds break trajectories and signal lines. Playback displays no
+position during a gap. Coordinate-derived speed is computed separately for each
+target using actual positive time intervals up to 0.5 seconds; a value above the
+project's 3.5 m/s threshold is a review flag. It is distinct from the recorded
+radar-speed scalar. Fall-label rows and contiguous label runs are annotation
+counts, not verified physical fall-event counts. Elapsed hours sum complete
+session spans; observed hours exclude recording gaps.
+
+**Export analysis** creates a new timestamped folder with filtered session,
+activity and participant CSV summaries, four overview PNG charts, filter
+settings, a JSON summary, and the complete scan's source inventory and load
+issues. It never overwrites recordings. For model evaluation, keep normalized
+participants or whole sessions separate before creating overlapping windows.
+
 ---
 
 ## 📁 Project Structure

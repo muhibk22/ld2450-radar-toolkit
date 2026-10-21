@@ -2,20 +2,8 @@
 Main Window for LD2450 Desktop Toolkit (Phase 2 with Dual Serial & Wi-Fi Network Streaming).
 """
 
-from PySide6.QtCore import Qt, QTimer, Slot
-from PySide6.QtWidgets import (
-    QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QComboBox, QPushButton,
-    QLabel, QSplitter, QCheckBox, QTabWidget, QFileDialog, QMessageBox, QSpinBox, QLineEdit
-)
-import time
-from typing import List
-
-from .packet_view import PacketViewWidget
-from .telemetry_panel import TelemetryPanelWidget
-from .radar_view import RadarViewWidget
-from .diagnostics_panel import DiagnosticsPanelWidget
-from .target_panel import TargetPanelWidget
-from .tuning_panel import TuningPanelWidget
+from PySide6.QtCore import QTimer, Slot
+from PySide6.QtWidgets import QMainWindow, QMessageBox
 from .fall_monitor import FallMonitorWindow
 from .data_collection import DataCollectionWindow
 
@@ -28,7 +16,7 @@ from ..tracker.tracker import TargetTracker
 from ..recording.recorder import DataRecorder
 from ..utils.logger import setup_logger
 from ..utils.settings import SettingsManager
-from ..config import APP_NAME, DEFAULT_BAUD_RATE
+from ..config import APP_NAME
 
 logger = setup_logger("main_window")
 
@@ -52,6 +40,7 @@ class MainWindow(QMainWindow):
         self.active_worker = None  # SerialWorker or SocketWorker
 
         self.raw_log_file = None
+        self.dataset_studio_window = None
         
         self.fall_monitor_window = FallMonitorWindow(self)
         
@@ -71,203 +60,53 @@ class MainWindow(QMainWindow):
         self._refresh_com_ports()
 
     def _setup_ui(self):
-        central_widget = QWidget(self)
-        self.setCentralWidget(central_widget)
-        main_layout = QVBoxLayout(central_widget)
-        main_layout.setContentsMargins(5, 5, 5, 5)
+        from .workspace_ui import build_workspace
+        build_workspace(self)
 
-        # 1. Connection & Toolbar Layout
-        toolbar = QHBoxLayout()
+    def _open_data_collection(self):
+        self.data_collection_window.show()
+        self.data_collection_window.raise_()
+        self.data_collection_window.activateWindow()
 
-        # Mode Selector (Serial USB vs Wi-Fi TCP Network)
-        toolbar.addWidget(QLabel("Connection:"))
-        self.cb_conn_type = QComboBox()
-        self.cb_conn_type.addItems(["Serial USB", "Wi-Fi (TCP Network)"])
-        self.cb_conn_type.currentIndexChanged.connect(self._on_conn_type_changed)
-        toolbar.addWidget(self.cb_conn_type)
+    def _set_controls_visible(self, visible):
+        self._adjusting_dock = True
+        self.control_dock.setVisible(visible)
+        self.controls_button.setChecked(visible)
+        self._adjusting_dock = False
 
-        # --- Serial Mode Widgets ---
-        self.lbl_com = QLabel("COM:")
-        self.cb_ports = QComboBox()
-        self.cb_ports.setMinimumWidth(100)
-        self.btn_refresh = QPushButton("Refresh")
-        self.btn_refresh.clicked.connect(self._refresh_com_ports)
+    def _toggle_controls_panel(self, *_):
+        wanted = not self.control_dock.isVisible()
+        self._controls_requested = wanted
+        self.workspace_tabs.setCurrentIndex(0)
+        self._set_controls_visible(wanted)
 
-        self.lbl_baud = QLabel("Baud:")
-        self.cb_baud = QComboBox()
-        self.cb_baud.addItems(["115200", "256000", "9600", "19200", "38400", "57600", "460800", "921600"])
-        self.cb_baud.setCurrentText("115200")
-        self.cb_baud.currentTextChanged.connect(self._on_baud_changed)
+    def _controls_visibility_changed(self, visible):
+        if not self._adjusting_dock and self.isVisible() and self.workspace_tabs.currentIndex() == 0:
+            self._controls_requested = visible
+            self.controls_button.setChecked(visible)
 
-        self.btn_autobaud = QPushButton("Auto-Detect")
-        self.btn_autobaud.setStyleSheet("background-color: #8B5CF6; color: white;")
-        self.btn_autobaud.clicked.connect(self._auto_detect_baud)
+    def _workspace_changed(self, index):
+        self._set_controls_visible(index == 0 and self._controls_requested and not self._compact_mode)
 
-        self.serial_widgets = [self.lbl_com, self.cb_ports, self.btn_refresh, self.lbl_baud, self.cb_baud, self.btn_autobaud]
-        for w in self.serial_widgets:
-            toolbar.addWidget(w)
+    def _update_responsive_layout(self):
+        compact = self.width() < 1100
+        if compact != self._compact_mode:
+            self._compact_mode = compact
+            self._set_controls_visible(not compact and self._controls_requested and self.workspace_tabs.currentIndex() == 0)
 
-        # --- Wi-Fi Mode Widgets ---
-        self.lbl_ip = QLabel("IP / Host:")
-        self.txt_ip = QLineEdit("192.168.100.130")
-        self.txt_ip.setMinimumWidth(110)
+    def resizeEvent(self, event):
+        super().resizeEvent(event)
+        if hasattr(self, 'control_dock'):
+            self._update_responsive_layout()
 
-        self.lbl_wifi_port = QLabel("Port:")
-        self.sp_wifi_port = QSpinBox()
-        self.sp_wifi_port.setRange(1, 65535)
-        self.sp_wifi_port.setValue(8888)
-
-        self.btn_discover_ip = QPushButton("Auto-Find IP")
-        self.btn_discover_ip.setStyleSheet("background-color: #8B5CF6; color: white;")
-        self.btn_discover_ip.clicked.connect(self._auto_discover_esp32_ip)
-
-        self.wifi_widgets = [self.lbl_ip, self.txt_ip, self.lbl_wifi_port, self.sp_wifi_port, self.btn_discover_ip]
-        for w in self.wifi_widgets:
-            toolbar.addWidget(w)
-            w.hide()  # Default is Serial mode
-
-        # Connect / Reconnect Controls
-        self.chk_auto_reconnect = QCheckBox("Auto Reconnect")
-        self.chk_auto_reconnect.setChecked(True)
-        toolbar.addWidget(self.chk_auto_reconnect)
-
-        self.btn_connect = QPushButton("Connect")
-        self.btn_connect.setStyleSheet("background-color: #0284C7; color: white; font-weight: bold;")
-        self.btn_connect.clicked.connect(self._toggle_connection)
-        toolbar.addWidget(self.btn_connect)
-
-        toolbar.addSpacing(10)
-
-        # Tracking Toolbar Controls
-        self.chk_kalman = QCheckBox("Kalman Filter")
-        self.chk_kalman.setChecked(self.settings.get_kalman_enabled())
-        self.chk_kalman.toggled.connect(self._on_kalman_toggled)
-        toolbar.addWidget(self.chk_kalman)
-
-        toolbar.addWidget(QLabel("Trails:"))
-        self.sp_trail = QSpinBox()
-        self.sp_trail.setRange(10, 500)
-        self.sp_trail.setValue(self.settings.get_trail_length())
-        self.sp_trail.valueChanged.connect(self._on_trail_length_changed)
-        toolbar.addWidget(self.sp_trail)
-
-        self.chk_unit = QCheckBox("Meters")
-        self.chk_unit.toggled.connect(self._on_unit_toggled)
-        toolbar.addWidget(self.chk_unit)
-
-        # Single Target Focus Lock Controls
-        toolbar.addSpacing(10)
-        toolbar.addWidget(QLabel("Focus Lock:"))
-        self.cb_target_lock = QComboBox()
-        self.cb_target_lock.addItems(["Track All Targets", "Person A", "Person B", "Person C"])
-        self.cb_target_lock.currentTextChanged.connect(self._on_target_lock_selected)
-        toolbar.addWidget(self.cb_target_lock)
-
-        self.btn_unlock_target = QPushButton("Unlock / Track All")
-        self.btn_unlock_target.setStyleSheet("background-color: #F59E0B; color: black; font-weight: bold;")
-        self.btn_unlock_target.clicked.connect(self._unlock_target_focus)
-        toolbar.addWidget(self.btn_unlock_target)
-
-        self.lbl_status = QLabel("Status: Disconnected")
-        self.lbl_status.setStyleSheet("color: #F43F5E; font-weight: bold; padding-left: 10px;")
-        toolbar.addWidget(self.lbl_status)
-
-        self.lbl_fall_alert = QLabel("")
-        self.lbl_fall_alert.setStyleSheet("color: white; background-color: #EF4444; font-weight: bold; padding: 5px; border-radius: 4px; margin-left: 10px;")
-        self.lbl_fall_alert.hide()
-        toolbar.addWidget(self.lbl_fall_alert)
-        
-        self.btn_fall_monitor = QPushButton("Fall Monitor")
-        self.btn_fall_monitor.setStyleSheet("background-color: #8B5CF6; color: white; font-weight: bold;")
-        self.btn_fall_monitor.clicked.connect(self.fall_monitor_window.show)
-        toolbar.addWidget(self.btn_fall_monitor)
-
-        self.btn_data_studio = QPushButton("Data Collection Studio")
-        self.btn_data_studio.setStyleSheet("background-color: #EF4444; color: white; font-weight: bold;")
-        self.btn_data_studio.clicked.connect(self.data_collection_window.show)
-        toolbar.addWidget(self.btn_data_studio)
-
-        toolbar.addStretch()
-        main_layout.addLayout(toolbar)
-
-        # 2. Main Content Splitter (Left: Raw Inspector & Telemetry Tables, Right: 2D Radar Canvas & Diagnostics)
-        main_splitter = QSplitter(Qt.Orientation.Horizontal)
-
-        # Left Tab Widget
-        left_tabs = QTabWidget()
-        self.packet_view = PacketViewWidget()
-        self.telemetry_panel = TelemetryPanelWidget()
-        self.target_panel = TargetPanelWidget()
-        self.tuning_panel = TuningPanelWidget()
-        self.tuning_panel.settings_changed.connect(self.tracker.apply_tuning_settings)
-
-        left_tabs.addTab(self.target_panel, "Persistent Human Telemetry")
-        left_tabs.addTab(self.tuning_panel, "Tracker Tuning & Calibration")
-        left_tabs.addTab(self.packet_view, "Raw Packet Inspector")
-        left_tabs.addTab(self.telemetry_panel, "Decoded Fields & Unknown Bytes")
-        main_splitter.addWidget(left_tabs)
-
-        # Right Vertical Layout (Radar View + Diagnostics Panel)
-        right_container = QWidget()
-        right_layout = QVBoxLayout(right_container)
-        right_layout.setContentsMargins(0, 0, 0, 0)
-
-        self.radar_view = RadarViewWidget()
-        self.radar_view.target_clicked.connect(self._on_target_clicked_on_canvas)
-        right_layout.addWidget(self.radar_view, stretch=2)
-
-        self.diagnostics_panel = DiagnosticsPanelWidget()
-        right_layout.addWidget(self.diagnostics_panel, stretch=1)
-
-        main_splitter.addWidget(right_container)
-        main_splitter.setSizes([700, 650])
-
-        main_layout.addWidget(main_splitter, stretch=1)
-
-        # Styling
-        self.setStyleSheet("""
-            QMainWindow, QWidget {
-                background-color: #0F172A;
-                color: #F8FAFC;
-                font-family: 'Segoe UI', Arial, sans-serif;
-            }
-            QPushButton {
-                background-color: #1E293B;
-                border: 1px solid #334155;
-                border-radius: 4px;
-                padding: 5px 10px;
-                color: #E2E8F0;
-            }
-            QPushButton:hover {
-                background-color: #334155;
-            }
-            QComboBox, QSpinBox, QLineEdit {
-                background-color: #1E293B;
-                border: 1px solid #334155;
-                border-radius: 4px;
-                padding: 4px;
-                color: #E2E8F0;
-            }
-            QCheckBox {
-                color: #E2E8F0;
-            }
-            QTabWidget::pane {
-                border: 1px solid #334155;
-                background-color: #0F172A;
-            }
-            QTabBar::tab {
-                background-color: #1E293B;
-                color: #94A3B8;
-                padding: 8px 16px;
-                font-weight: bold;
-                border-top-left-radius: 4px;
-                border-top-right-radius: 4px;
-            }
-            QTabBar::tab:selected {
-                background-color: #0284C7;
-                color: white;
-            }
-        """)
+    def _open_dataset_visualization(self):
+        # Load the offline module only when requested; hardware startup stays unchanged.
+        if self.dataset_studio_window is None:
+            from .dataset_studio import DatasetStudioWindow
+            self.dataset_studio_window = DatasetStudioWindow(self)
+        self.dataset_studio_window.show()
+        self.dataset_studio_window.raise_()
+        self.dataset_studio_window.activateWindow()
 
     def _on_conn_type_changed(self, index: int):
         """Switches UI between Serial USB and Wi-Fi TCP mode."""
@@ -343,75 +182,52 @@ class MainWindow(QMainWindow):
             QTimer.singleShot(200, self._toggle_connection)
 
     def _auto_discover_esp32_ip(self):
-        import socket
-        logger.info("Broadcasting UDP discovery ping for ESP32 Radar on port 8889...")
-        found_ip = None
-
-        try:
-            udp_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-            udp_sock.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
-            udp_sock.settimeout(1.0)
-            udp_sock.sendto(b"DISCOVER_LD2450", ("<broadcast>", 8889))
-            
-            data, addr = udp_sock.recvfrom(1024)
-            resp = data.decode("utf-8", errors="ignore")
-            if "LD2450_IP:" in resp:
-                found_ip = resp.split("LD2450_IP:")[1].strip()
-            elif addr[0]:
-                found_ip = addr[0]
-            udp_sock.close()
-        except Exception as e:
-            logger.debug(f"UDP discovery scan timeout/error: {e}")
-
-        if not found_ip:
-            try:
-                found_ip = socket.gethostbyname("ld2450.local")
-            except Exception:
-                pass
-
-        if found_ip:
-            self.txt_ip.setText(found_ip)
-            QMessageBox.information(self, "Auto-Discovery Success", f"Found ESP32 Radar on local network at {found_ip}!")
-        else:
-            QMessageBox.warning(self, "Auto-Discovery Notice", "Could not discover ESP32 automatically. Kept last known IP (e.g. 192.168.100.130).")
+        self._start_discovery('wifi')
 
     def _auto_detect_baud(self):
         port = self.cb_ports.currentText()
-        if not port or port == "No COM Ports":
-            QMessageBox.warning(self, "Auto-Detect Error", "Please select a valid COM port first.")
+        if not port or port == 'No COM Ports':
+            self.lbl_discovery.setText('Choose a serial port before detecting its baud rate.')
             return
-
-        candidate_bauds = ["115200", "256000", "9600", "57600", "460800"]
-        logger.info(f"Starting Auto-Baud detection on {port}...")
-
         if self.active_worker and self.active_worker.isRunning():
-            self.active_worker.stop()
-            self.active_worker = None
-
-        from ..serial.serial_reader import SerialReader
-        found_baud = None
-
-        for baud in candidate_bauds:
-            reader = SerialReader(port=port, baud_rate=int(baud), timeout=0.3)
-            try:
-                if reader.connect():
-                    time.sleep(0.15)
-                    chunk = reader.read_available(1024)
-                    reader.disconnect()
-                    if bytes([0xAA, 0xFF]) in chunk or b"Target " in chunk:
-                        found_baud = baud
-                        break
-            except Exception:
-                pass
-
-        if found_baud:
-            self.cb_baud.setCurrentText(found_baud)
-            QMessageBox.information(self, "Auto-Detect Success", f"Found valid LD2450 stream at {found_baud} baud!")
             self._toggle_connection()
+        self._start_discovery('baud', port)
+
+    def _start_discovery(self, mode, port=''):
+        if self.discovery_worker is not None:
+            return
+        from ..net.discovery import HardwareDiscoveryWorker
+        self.discovery_worker = HardwareDiscoveryWorker(mode, port, self)
+        self.discovery_worker.progress.connect(self.lbl_discovery.setText)
+        self.discovery_worker.found.connect(lambda value: self._discovery_found(mode, value))
+        self.discovery_worker.failed.connect(self.lbl_discovery.setText)
+        self.discovery_worker.finished.connect(self._discovery_finished)
+        for control in (self.btn_autobaud, self.btn_discover_ip, self.btn_connect, self.cb_conn_type, self.btn_refresh, self.cb_baud, self.cb_ports):
+            control.setEnabled(False)
+        self.lbl_discovery.setText('Searching for a radar device…')
+        self.discovery_worker.start()
+
+    def _discovery_found(self, mode, value):
+        if self._closing_for_discovery:
+            return
+        if mode == 'wifi':
+            self.txt_ip.setText(value)
+            self.lbl_discovery.setText(f'Found {value}. Press Connect when ready.')
         else:
-            QMessageBox.warning(self, "Auto-Detect Failed", "Could not detect header at tested rates. Selected 115200.")
-            self.cb_baud.setCurrentText("115200")
-            self._toggle_connection()
+            self.cb_baud.blockSignals(True)
+            self.cb_baud.setCurrentText(value)
+            self.cb_baud.blockSignals(False)
+            self.lbl_discovery.setText(f'Detected {value} baud. Press Connect when ready.')
+
+    def _discovery_finished(self):
+        worker = self.discovery_worker
+        self.discovery_worker = None
+        if worker is not None:
+            worker.deleteLater()
+        for control in (self.btn_autobaud, self.btn_discover_ip, self.btn_connect, self.cb_conn_type, self.btn_refresh, self.cb_baud, self.cb_ports):
+            control.setEnabled(True)
+        if self._closing_for_discovery:
+            QTimer.singleShot(0, self.close)
 
     @Slot(bool, str)
     def _update_connection_status(self, connected: bool, info: str):
@@ -531,6 +347,15 @@ class MainWindow(QMainWindow):
             self.statusBar().showMessage("Dataset recording discarded (file deleted).", 4000)
 
     def closeEvent(self, event):
+        if self.discovery_worker and self.discovery_worker.isRunning():
+            self._closing_for_discovery = True
+            self.discovery_worker.requestInterruption()
+            self.statusBar().showMessage('Finishing device discovery before closing…')
+            event.ignore()
+            return
+        if self.dataset_studio_window is not None:
+            self.dataset_studio_window.shutdown()
+            self.dataset_studio_window.close()
         if self.active_worker:
             self.active_worker.stop()
         if self.raw_log_file:

@@ -1,4 +1,4 @@
-# Sessions not listed here are used for training as normal. Raw session files are never modified or moved.
+# Sessions not listed here are used for training as normal. Historical exclude entries are retained for files moved to archived_data/static_lying_2026-10-22; only existing raw_sessions files are training candidates.
 file,volunteer,recorded,minutes,decision,reason
 arslan_session01.csv,arslan,2026-09-05 09:43,0.41,exclude,static lying-down recording (volunteer already lying when session started); kept on disk as backup
 arslan_session02.csv,arslan,2026-09-05 09:44,0.53,exclude,static lying-down recording (volunteer already lying when session started); kept on disk as backup

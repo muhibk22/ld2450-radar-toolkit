@@ -22,6 +22,7 @@ dependencies = [
 
 [project.scripts]
 ld2450-toolkit = "app.main:main"
+ld2450-data-studio = "app.dataset_visualization:main"
 
 [tool.pyright]
 extraPaths = [
