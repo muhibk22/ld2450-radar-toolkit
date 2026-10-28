@@ -1,108 +1,71 @@
-"""
-QThread Serial Worker with Auto-Reconnect for LD2450 Protocol Explorer.
-"""
-
-from PySide6.QtCore import QThread, Signal
+"""Serial ingestion shares the worker-owned pipeline and freshness policy."""
+import threading
 import time
+from PySide6.QtCore import QThread, Signal
 from .serial_reader import SerialReader
+from ..streaming import LivePipeline
 from ..config import DEFAULT_BAUD_RATE
-from ..utils.logger import setup_logger
-
-logger = setup_logger("serial_worker")
 
 class SerialWorker(QThread):
-    """
-    Background QThread serial stream worker with connection status reporting and auto-reconnect.
-    """
-    raw_data_received = Signal(bytes)
-    connection_changed = Signal(bool, str)  # (connected, info_or_error)
-    stats_updated = Signal(dict)
+    raw_data_received=Signal(bytes)
+    connection_changed=Signal(bool,str)
+    stats_updated=Signal(dict)
 
-    def __init__(self, port: str = "", baud_rate: int = DEFAULT_BAUD_RATE, auto_reconnect: bool = True, parent=None):
+    def __init__(self,port='',baud_rate=DEFAULT_BAUD_RATE,auto_reconnect=True,parent=None,pipeline=None,
+                 silence_timeout=3.,frame_timeout=5.):
         super().__init__(parent)
-        self.port = port
-        self.baud_rate = baud_rate
-        self.auto_reconnect = auto_reconnect
-        self.reader = SerialReader(port=port, baud_rate=baud_rate)
-        
-        self._running = False
-        self.reconnect_count = 0
-        self.total_bytes_received = 0
-        self._last_stats_time = time.time()
-        self._interval_bytes = 0
-
-    def set_connection(self, port: str, baud_rate: int, auto_reconnect: bool):
-        self.port = port
-        self.baud_rate = baud_rate
-        self.auto_reconnect = auto_reconnect
-
-    def stop(self):
-        """Stops worker loop."""
-        self._running = False
-        self.wait(1000)
+        self.port,self.baud_rate,self.auto_reconnect=port,baud_rate,auto_reconnect
+        self.pipeline=pipeline or LivePipeline()
+        self.reader=SerialReader(port=port,baud_rate=baud_rate,timeout=.1)
+        self.silence_timeout,self.frame_timeout=silence_timeout,frame_timeout
+        self._stop_event=threading.Event()
+        self.reconnect_count=self.total_bytes_received=0
 
     def run(self):
-        """Thread worker loop."""
-        self._running = True
-        logger.info(f"Starting serial worker for {self.port} at {self.baud_rate} baud")
+        while not self._stop_event.is_set():
+            self.pipeline.reset()
+            try:
+                self.reader.connect()
+                self.connection_changed.emit(False,f'Serial {self.port} open - waiting for radar frames')
+                last_byte=last_frame=stats_at=time.monotonic()
+                healthy=False
+                stats_bytes=self.total_bytes_received
+                while not self._stop_event.is_set() and self.reader.is_connected:
+                    chunk=self.reader.read_available(4096)
+                    now=time.monotonic()
+                    if chunk:
+                        last_byte=now
+                        self.total_bytes_received+=len(chunk)
+                        if self.pipeline.ingest(chunk,received=now):
+                            last_frame=now
+                            if not healthy:
+                                self.connection_changed.emit(True,f'Serial {self.port} - radar streaming')
+                                healthy=True
+                        self.raw_data_received.emit(chunk)
+                    if now-stats_at >= .5:
+                        self.stats_updated.emit(dict(bytes_per_sec=(self.total_bytes_received-stats_bytes)/(now-stats_at),
+                            total_bytes=self.total_bytes_received,reconnect_count=self.reconnect_count,
+                            byte_age_s=now-last_byte,frame_age_s=now-last_frame,
+                            com_port=self.port,baud_rate=self.baud_rate))
+                        stats_at,stats_bytes=now,self.total_bytes_received
+                    if now-last_byte>=self.silence_timeout or now-last_frame>=self.frame_timeout:
+                        raise TimeoutError('Serial radar stream stale; reconnecting')
+                    self._stop_event.wait(.002)
+            except (RuntimeError,OSError) as exc:
+                if not self._stop_event.is_set(): self.connection_changed.emit(False,str(exc))
+            finally:
+                self.reader.disconnect()
+                self.pipeline.reset()
+            if not self.auto_reconnect or self._stop_event.is_set(): break
+            self.reconnect_count+=1
+            self._stop_event.wait(.5)
+        self.connection_changed.emit(False,'Disconnected')
 
-        if not self._connect():
-            if not self.auto_reconnect:
-                self._running = False
-                return
-
-        self._last_stats_time = time.time()
-        self._interval_bytes = 0
-
-        while self._running:
-            if not self.reader.is_connected:
-                if self.auto_reconnect and self._running:
-                    logger.warning(f"Connection lost. Attempting auto-reconnect #{self.reconnect_count + 1}...")
-                    self.reconnect_count += 1
-                    self.connection_changed.emit(False, f"Reconnecting (#{self.reconnect_count})...")
-                    self.msleep(1000)
-                    if self._connect():
-                        logger.info("Auto-reconnect successful.")
-                        continue
-                    else:
-                        continue
-                else:
-                    self.connection_changed.emit(False, "Disconnected")
-                    break
-
-            chunk = self.reader.read_available(2048)
-            if chunk:
-                self.raw_data_received.emit(chunk)
-                self.total_bytes_received += len(chunk)
-                self._interval_bytes += len(chunk)
-
-            # Emit bandwidth stats every second
-            now = time.time()
-            elapsed = now - self._last_stats_time
-            if elapsed >= 1.0:
-                bytes_per_sec = self._interval_bytes / elapsed
-                self.stats_updated.emit({
-                    "bytes_per_sec": round(bytes_per_sec, 1),
-                    "total_bytes": self.total_bytes_received,
-                    "reconnect_count": self.reconnect_count
-                })
-                self._interval_bytes = 0
-                self._last_stats_time = now
-
-            self.msleep(5)
-
+    def request_stop(self):
+        self._stop_event.set()
+        self.requestInterruption()
         self.reader.disconnect()
-        logger.info("Serial worker stopped.")
-        self.connection_changed.emit(False, "Disconnected")
 
-    def _connect(self) -> bool:
-        try:
-            connected = self.reader.connect(self.port, self.baud_rate)
-            if connected:
-                self.connection_changed.emit(True, f"Connected to {self.port}")
-                logger.info(f"Successfully connected to {self.port}")
-            return connected
-        except Exception as e:
-            logger.error(f"Connection failed to {self.port}: {e}")
-            self.connection_changed.emit(False, str(e))
-            return False
+    def stop(self):
+        self.request_stop()
+        return self.wait(2000)

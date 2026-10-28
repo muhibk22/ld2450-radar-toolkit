@@ -47,21 +47,22 @@ class SerialReader:
 
     def disconnect(self):
         """Closes serial connection safely."""
-        if self._ser and self._ser.is_open:
+        port, self._ser = self._ser, None
+        if port and port.is_open:
             try:
-                self._ser.close()
+                port.close()
             except Exception:
                 pass
-        self._ser = None
 
     def read_available(self, size: int = 4096) -> bytes:
         """Reads available bytes from port buffer."""
-        if not self.is_connected or not self._ser:
+        port = self._ser
+        if port is None or not port.is_open:
             return b""
         try:
-            in_waiting = self._ser.in_waiting
+            in_waiting = port.in_waiting
             bytes_to_read = min(max(in_waiting, 1), size)
-            return self._ser.read(bytes_to_read)
+            return port.read(bytes_to_read)
         except (serial.SerialException, OSError):
             self.disconnect()
             return b""

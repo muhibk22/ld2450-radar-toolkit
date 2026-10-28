@@ -1,0 +1,30 @@
+[00:16:04] [WARNING] [socket_worker]: No valid radar frames (status messages do not count); reconnecting
+{
+  "accepted_connections": 2,
+  "reconnect_count": 1,
+  "frames_before_gui_pause": 17,
+  "frames_after_gui_pause": 25,
+  "gui_processed_frames": 83,
+  "receiver_frames": 84,
+  "models": [
+    "xgboost",
+    "minirocket",
+    "tcn",
+    "gru",
+    "lstm"
+  ],
+  "rows": [
+    "xgboost",
+    "minirocket",
+    "tcn",
+    "gru",
+    "lstm"
+  ],
+  "scores": {
+    "xgboost": 0.0032764640636742115,
+    "minirocket": 0.0010346890386357694,
+    "tcn": 0.008558395318686962,
+    "gru": 0.0044368417002260685,
+    "lstm": 0.015178817324340343
+  }
+}

@@ -1,0 +1,10 @@
+[00:52:32] [INFO] [main_window]: Canvas Clicked: Locking focus on target Person A
+[00:52:32] [INFO] [main_window]: Target Focus Lock ACTIVATED on Person A. Ignoring all other targets/noise.
+test_click_mark_remove_and_saved_zone (test_noise_ui.NoiseUITests.test_click_mark_remove_and_saved_zone) ... ok
+test_model_backed_disappearance_confirms_on_empty_canvas (test_noise_ui.NoiseUITests.test_model_backed_disappearance_confirms_on_empty_canvas) ... ok
+test_right_click_offers_noise_action_without_left_click_lock (test_noise_ui.NoiseUITests.test_right_click_offers_noise_action_without_left_click_lock) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 1.783s
+
+OK

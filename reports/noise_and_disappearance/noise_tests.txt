@@ -1,0 +1,11 @@
+test_clear_and_reset_preserve_expected_exclusion_behavior (test_noise_exclusions.NoiseExclusionTests.test_clear_and_reset_preserve_expected_exclusion_behavior) ... ok
+test_exclusion_precedes_merging_and_applies_in_raw_mode (test_noise_exclusions.NoiseExclusionTests.test_exclusion_precedes_merging_and_applies_in_raw_mode) ... ok
+test_marked_source_cannot_capture_a_lost_locked_person (test_noise_exclusions.NoiseExclusionTests.test_marked_source_cannot_capture_a_lost_locked_person) ... ok
+test_noise_settings_round_trip_uses_position_not_person_label (test_noise_exclusions.NoiseExclusionTests.test_noise_settings_round_trip_uses_position_not_person_label) ... ok
+test_only_ignored_noise_remains_after_fall_without_identity_takeover (test_noise_exclusions.NoiseExclusionTests.test_only_ignored_noise_remains_after_fall_without_identity_takeover) ... ok
+test_pipeline_rejects_marking_a_stale_target (test_noise_exclusions.NoiseExclusionTests.test_pipeline_rejects_marking_a_stale_target) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.116s
+
+OK

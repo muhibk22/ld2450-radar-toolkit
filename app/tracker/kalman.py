@@ -11,7 +11,7 @@ class KalmanFilter2D:
     Measurement vector: [x, y]^T
     """
 
-    def __init__(self, dt: float = 0.05, process_noise: float = 2.0, measurement_noise: float = 15.0):
+    def __init__(self, dt: float = 0.05, process_noise: float = 2500.0, measurement_noise: float = 50.0):
         self.dt = dt
         
         # State vector: [x, y, vx, vy]^T
@@ -66,7 +66,7 @@ class KalmanFilter2D:
     def init_state(self, pos_x: float, pos_y: float):
         """Initializes state vector with initial measured position."""
         self.x = np.array([[pos_x], [pos_y], [0.0], [0.0]], dtype=np.float64)
-        self.P = np.eye(4, dtype=np.float64) * 10.0
+        self.P = np.diag([2500.0, 2500.0, 1000000.0, 1000000.0])
 
     def predict(self) -> np.ndarray:
         """Predicts next state using motion model."""

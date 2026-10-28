@@ -1,0 +1,237 @@
+{
+  "xgboost": {
+    "kind": "xgboost",
+    "name": "XGBoost",
+    "feature_schema": "radar-trailing-2s-10hz-v1",
+    "threshold": 0.96080482006073,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "seed": 42,
+    "train_windows": 11587,
+    "validation_windows": 5501,
+    "test_windows": 3990,
+    "threshold_method": "Maximum window F1 on validation participants only",
+    "training_seconds": 17.59,
+    "validation": {
+      "pr_auc": 0.8677136773222618,
+      "precision": 0.9402985074626866,
+      "recall": 0.7241379310344828,
+      "f1": 0.8181818181818182,
+      "confusion_matrix_tn_fp_fn_tp": [
+        5228,
+        12,
+        72,
+        189
+      ]
+    },
+    "test": {
+      "pr_auc": 0.839289758176462,
+      "precision": 0.9634146341463414,
+      "recall": 0.6076923076923076,
+      "f1": 0.7452830188679245,
+      "confusion_matrix_tn_fp_fn_tp": [
+        3724,
+        6,
+        102,
+        158
+      ]
+    },
+    "single_window_latency_ms_median": 1.3997500063851476,
+    "single_window_latency_ms_p95": 1.7726250029227233
+  },
+  "minirocket": {
+    "kind": "minirocket",
+    "name": "MiniROCKET",
+    "feature_schema": "radar-trailing-2s-10hz-v1",
+    "threshold": 0.9789645562421404,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "seed": 42,
+    "train_windows": 11587,
+    "validation_windows": 5501,
+    "test_windows": 3990,
+    "threshold_method": "Maximum window F1 on validation participants only",
+    "training_seconds": 43.31,
+    "validation": {
+      "pr_auc": 0.7274143889206034,
+      "precision": 0.7477477477477478,
+      "recall": 0.6360153256704981,
+      "f1": 0.6873706004140787,
+      "confusion_matrix_tn_fp_fn_tp": [
+        5184,
+        56,
+        95,
+        166
+      ]
+    },
+    "test": {
+      "pr_auc": 0.7405523807344102,
+      "precision": 0.8901734104046243,
+      "recall": 0.5923076923076923,
+      "f1": 0.7113163972286374,
+      "confusion_matrix_tn_fp_fn_tp": [
+        3711,
+        19,
+        106,
+        154
+      ]
+    },
+    "single_window_latency_ms_median": 1.6148000067914836,
+    "single_window_latency_ms_p95": 3.5088299970084345
+  },
+  "tcn": {
+    "kind": "tcn",
+    "name": "TCN",
+    "feature_schema": "radar-trailing-2s-10hz-v1",
+    "threshold": 0.920898973941803,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "seed": 42,
+    "train_windows": 11587,
+    "validation_windows": 5501,
+    "test_windows": 3990,
+    "threshold_method": "Maximum window F1 on validation participants only",
+    "training_seconds": 65.98,
+    "validation": {
+      "pr_auc": 0.8609205312134092,
+      "precision": 0.8554216867469879,
+      "recall": 0.8160919540229885,
+      "f1": 0.8352941176470589,
+      "confusion_matrix_tn_fp_fn_tp": [
+        5204,
+        36,
+        48,
+        213
+      ]
+    },
+    "test": {
+      "pr_auc": 0.787637009232409,
+      "precision": 0.930635838150289,
+      "recall": 0.6192307692307693,
+      "f1": 0.74364896073903,
+      "confusion_matrix_tn_fp_fn_tp": [
+        3718,
+        12,
+        99,
+        161
+      ]
+    },
+    "single_window_latency_ms_median": 1.3002499981666915,
+    "single_window_latency_ms_p95": 1.5847549962927592
+  },
+  "gru": {
+    "kind": "gru",
+    "name": "GRU",
+    "feature_schema": "radar-trailing-2s-10hz-v1",
+    "threshold": 0.9409424066543579,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "seed": 42,
+    "train_windows": 11587,
+    "validation_windows": 5501,
+    "test_windows": 3990,
+    "threshold_method": "Maximum window F1 on validation participants only",
+    "training_seconds": 64.35,
+    "validation": {
+      "pr_auc": 0.872621905095504,
+      "precision": 0.8433734939759037,
+      "recall": 0.8045977011494253,
+      "f1": 0.8235294117647058,
+      "confusion_matrix_tn_fp_fn_tp": [
+        5201,
+        39,
+        51,
+        210
+      ]
+    },
+    "test": {
+      "pr_auc": 0.820231430444088,
+      "precision": 0.9261363636363636,
+      "recall": 0.6269230769230769,
+      "f1": 0.7477064220183486,
+      "confusion_matrix_tn_fp_fn_tp": [
+        3717,
+        13,
+        97,
+        163
+      ]
+    },
+    "single_window_latency_ms_median": 0.9821500061661936,
+    "single_window_latency_ms_p95": 1.587849997304147
+  },
+  "lstm": {
+    "kind": "lstm",
+    "name": "LSTM (retrained)",
+    "feature_schema": "radar-trailing-2s-10hz-v1",
+    "threshold": 0.9348179697990417,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "seed": 42,
+    "train_windows": 11587,
+    "validation_windows": 5501,
+    "test_windows": 3990,
+    "threshold_method": "Maximum window F1 on validation participants only",
+    "training_seconds": 93.87,
+    "validation": {
+      "pr_auc": 0.8808090961140898,
+      "precision": 0.8199233716475096,
+      "recall": 0.8199233716475096,
+      "f1": 0.8199233716475096,
+      "confusion_matrix_tn_fp_fn_tp": [
+        5193,
+        47,
+        47,
+        214
+      ]
+    },
+    "test": {
+      "pr_auc": 0.7767406238233551,
+      "precision": 0.91005291005291,
+      "recall": 0.6615384615384615,
+      "f1": 0.7661469933184856,
+      "confusion_matrix_tn_fp_fn_tp": [
+        3713,
+        17,
+        88,
+        172
+      ]
+    },
+    "single_window_latency_ms_median": 0.7940499926917255,
+    "single_window_latency_ms_p95": 1.5847800030314831
+  }
+}

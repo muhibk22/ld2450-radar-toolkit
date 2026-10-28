@@ -3,7 +3,8 @@
 """
 
 from PySide6.QtCore import Qt, Slot, Signal
-from PySide6.QtWidgets import QWidget, QVBoxLayout
+from PySide6.QtWidgets import QWidget, QVBoxLayout, QMenu
+from PySide6.QtGui import QCursor
 import pyqtgraph as pg
 import numpy as np
 import math
@@ -13,12 +14,24 @@ from ..visualization.renderer import get_target_color
 from ..visualization.trails import MotionTrailManager
 from ..config import COLOR_BACKGROUND, COLOR_GRID, DEFAULT_RADAR_MAX_X, DEFAULT_RADAR_MAX_Y
 
+
+class TargetScatterItem(pg.ScatterPlotItem):
+    def mouseClickEvent(self,event):
+        if event.button()==Qt.MouseButton.RightButton:
+            points=self.pointsAt(event.pos())
+            if len(points):
+                event.accept()
+                self.sigClicked.emit(self,points,event)
+                return
+        super().mouseClickEvent(event)
+
 class RadarViewWidget(QWidget):
     """
     2D Radar Canvas displaying persistent targets, motion trail histories,
     directional velocity vectors, and interactive Click-to-Lock target focus reticles.
     """
     target_clicked = Signal(str)  # Emitted when user clicks a target scatter point
+    target_noise_requested = Signal(str)
 
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -49,7 +62,7 @@ class RadarViewWidget(QWidget):
 
         self._draw_grid_and_origin()
 
-        self.scatter_item = pg.ScatterPlotItem(size=16, pxMode=True)
+        self.scatter_item = TargetScatterItem(size=16, pxMode=True)
         self.scatter_item.sigClicked.connect(self._on_scatter_clicked)
         self.plot_widget.addItem(self.scatter_item)
 
@@ -65,6 +78,9 @@ class RadarViewWidget(QWidget):
         self.trail_curves: Dict[str, pg.PlotCurveItem] = {}
         # target_id -> PlotCurveItem (Velocity Vector)
         self.vector_items: Dict[str, pg.PlotCurveItem] = {}
+        self.noise_items=[]
+        self._noise_signature=None
+        self._noise_zones=[]
 
     def _draw_grid_and_origin(self):
         """Origin marker and polar distance arcs."""
@@ -89,12 +105,40 @@ class RadarViewWidget(QWidget):
         if not self.locked_target_id:
             self.lock_reticle.setData([])
 
-    def _on_scatter_clicked(self, plot, points):
+    def _on_scatter_clicked(self, plot, points, event=None):
         if points:
             pt = points[0]
             data = pt.data()
             if data and "tid" in data:
+                if event is not None and event.button()==Qt.MouseButton.RightButton:
+                    menu=QMenu(self)
+                    action=menu.addAction('Mark this target as noise')
+                    if menu.exec(QCursor.pos())==action:
+                        self.target_noise_requested.emit(data['tid'])
+                    event.accept()
+                    return
                 self.target_clicked.emit(data["tid"])
+
+    def set_noise_zones(self,zones):
+        signature=(self.display_unit_meters,tuple((z['id'],z['x_mm'],z['y_mm'],z['radius_mm']) for z in zones))
+        if signature==self._noise_signature:
+            return
+        self._noise_signature=signature
+        self._noise_zones=list(zones)
+        for item in self.noise_items:
+            self.plot_widget.removeItem(item)
+        self.noise_items=[]
+        for zone in zones:
+            scale=.001 if self.display_unit_meters else 1.0
+            theta=np.linspace(0,2*np.pi,80)
+            curve=pg.PlotCurveItem((zone['x_mm']+zone['radius_mm']*np.cos(theta))*scale,
+                                  (zone['y_mm']+zone['radius_mm']*np.sin(theta))*scale,
+                                  pen=pg.mkPen('#94a3b8',width=2,style=Qt.PenStyle.DashLine))
+            label=pg.TextItem(f"Noise {zone['id']}",color='#94a3b8',anchor=(.5,0))
+            label.setPos(zone['x_mm']*scale,(zone['y_mm']-zone['radius_mm']-300)*scale)
+            for item in (curve,label):
+                self.plot_widget.addItem(item)
+                self.noise_items.append(item)
 
     def set_display_unit_meters(self, meters: bool):
         """Switches display axes between mm and meters."""
@@ -109,6 +153,8 @@ class RadarViewWidget(QWidget):
             self.plot_widget.setLabel("left", "Y Depth Distance Ahead (+Y) [mm]")
             self.plot_widget.setXRange(-self.max_x, self.max_x)
             self.plot_widget.setYRange(-500, self.max_y)
+
+        self.set_noise_zones(self._noise_zones)
 
     def set_trail_length(self, length: int):
         """Updates max trail points stored per target."""
@@ -196,7 +242,10 @@ class RadarViewWidget(QWidget):
             unit_str = "m/s" if self.display_unit_meters else "mm/s"
             disp_speed = t.speed / 1000.0 if self.display_unit_meters else t.speed
             lock_prefix = "🔒 " if (self.locked_target_id and tid == self.locked_target_id) else ""
-            fall_warn = " ⚠ FALL!" if getattr(t, 'fall_alert', False) else ""
+            votes = getattr(t, 'fall_votes', 0)
+            fall_warn = f" ⚠ FALL! ({votes}/5)" if getattr(t, 'fall_alert', False) else ""
+            if not fall_warn and getattr(t,'fall_alert_stage','normal') in ('pre_alert','suspected'):
+                fall_warn = f' ⚠ SUSPECTED FALL ({votes}/5)'
             self.text_labels[tid].setText(f"{lock_prefix}{tid} ({disp_speed:.1f} {unit_str}) [{t.status}]{fall_warn}")
 
         self.scatter_item.setData(spots)

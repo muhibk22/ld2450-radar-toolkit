@@ -1,0 +1,740 @@
+{
+  "mode": "recorded model flags plus recorded tracking observations",
+  "labels_ignored": true,
+  "flags_replayed": 27,
+  "outcomes": {
+    "1": {
+      "runtime_event_id": 1,
+      "validation": {
+        "state": "suspected",
+        "reason": "Suspected fall: tracking lost; no fresh stillness evidence",
+        "warning_kind": "tracking_lost",
+        "started_at": 1793212933.4872851,
+        "confirmed_at": null,
+        "resolved_at": 1793212934.653008,
+        "observation_seconds": 5.0,
+        "elapsed_s": 0.6306178569793701,
+        "observed_seconds": 0.40231871604919434,
+        "still_seconds": 0.0,
+        "reversal": {},
+        "absence_seconds": 0.0,
+        "confirmation_basis": "",
+        "max_radial_speed_mms": 2480.0,
+        "max_planar_speed_mms": 940.55526789267
+      },
+      "votes": 5
+    },
+    "2": {
+      "runtime_event_id": 2,
+      "validation": {
+        "state": "confirmed",
+        "reason": "Fresh observations show sustained low motion after consensus",
+        "warning_kind": "",
+        "started_at": 1793212948.8884034,
+        "confirmed_at": 1793212952.5325966,
+        "resolved_at": 1793212952.5325966,
+        "observation_seconds": 5.0,
+        "elapsed_s": 3.644193172454834,
+        "observed_seconds": 3.644193172454834,
+        "still_seconds": 2.5766375064849854,
+        "reversal": {
+          "elapsed_s": 1.1426944732666016,
+          "coverage": 1.0,
+          "displacement_mm": 304.35669862843497,
+          "approach_displacement_mm": 1194.8708089161773,
+          "heading_cosine": 0.9891867136819137,
+          "straightness": 0.8895921234249488,
+          "continuous": true
+        },
+        "absence_seconds": 0.0,
+        "confirmation_basis": "fresh_low_motion",
+        "max_radial_speed_mms": 320.0,
+        "max_planar_speed_mms": 1113.0284929693257
+      },
+      "votes": 5
+    },
+    "3": {
+      "runtime_event_id": 3,
+      "validation": {
+        "state": "suspected",
+        "reason": "Suspected fall: tracking lost; no fresh stillness evidence",
+        "warning_kind": "tracking_lost",
+        "started_at": 1793212977.1775794,
+        "confirmed_at": null,
+        "resolved_at": 1793212977.8085728,
+        "observation_seconds": 5.0,
+        "elapsed_s": 0.11900448799133301,
+        "observed_seconds": 0.11900448799133301,
+        "still_seconds": 0.0,
+        "reversal": {},
+        "absence_seconds": 0.0,
+        "confirmation_basis": "",
+        "max_radial_speed_mms": 1680.0,
+        "max_planar_speed_mms": 199.54923142904383
+      },
+      "votes": 4
+    },
+    "4": {
+      "runtime_event_id": 4,
+      "validation": {
+        "state": "awaiting_votes",
+        "reason": "Requires four model votes",
+        "confirmed_at": null
+      },
+      "votes": 3
+    },
+    "5": {
+      "runtime_event_id": 5,
+      "validation": {
+        "state": "suspected",
+        "reason": "Suspected fall: tracking lost; no fresh stillness evidence",
+        "warning_kind": "tracking_lost",
+        "started_at": 1793213008.949777,
+        "confirmed_at": null,
+        "resolved_at": 1793213010.2974389,
+        "observation_seconds": 5.0,
+        "elapsed_s": 0.8169314861297607,
+        "observed_seconds": 0.8169314861297607,
+        "still_seconds": 0.0,
+        "reversal": {},
+        "absence_seconds": 0.0,
+        "confirmation_basis": "",
+        "max_radial_speed_mms": 880.0,
+        "max_planar_speed_mms": 64.34033607802667
+      },
+      "votes": 5
+    },
+    "6": {
+      "runtime_event_id": 6,
+      "validation": {
+        "state": "rejected",
+        "reason": "Continuous early reverse running after consensus",
+        "warning_kind": "",
+        "started_at": 1793213020.082919,
+        "confirmed_at": null,
+        "resolved_at": 1793213021.1340888,
+        "observation_seconds": 5.0,
+        "elapsed_s": 1.0511698722839355,
+        "observed_seconds": 1.0511698722839355,
+        "still_seconds": 0.0,
+        "reversal": {
+          "elapsed_s": 1.0511698722839355,
+          "coverage": 1.0,
+          "displacement_mm": 1031.6404412390975,
+          "approach_displacement_mm": 1394.2554464659625,
+          "heading_cosine": -0.9649410142491128,
+          "straightness": 0.9834955208837836,
+          "continuous": true
+        },
+        "absence_seconds": 0.0,
+        "confirmation_basis": "",
+        "max_radial_speed_mms": 2080.0,
+        "max_planar_speed_mms": 1130.034679842229
+      },
+      "votes": 5
+    }
+  },
+  "timeline": [
+    {
+      "timestamp": 1793212910.006365,
+      "signature": [
+        "normal",
+        []
+      ],
+      "stage": "normal",
+      "warning_event_ids": []
+    },
+    {
+      "timestamp": 1793212933.4872851,
+      "signature": [
+        "pre_alert",
+        []
+      ],
+      "stage": "pre_alert",
+      "warning_event_ids": []
+    },
+    {
+      "timestamp": 1793212934.653008,
+      "signature": [
+        "suspected",
+        [
+          1
+        ]
+      ],
+      "stage": "suspected",
+      "warning_event_ids": [
+        1
+      ]
+    },
+    {
+      "timestamp": 1793212948.8884034,
+      "signature": [
+        "pre_alert",
+        [
+          1
+        ]
+      ],
+      "stage": "pre_alert",
+      "warning_event_ids": [
+        1
+      ]
+    },
+    {
+      "timestamp": 1793212952.5325966,
+      "signature": [
+        "confirmed",
+        [
+          1
+        ]
+      ],
+      "stage": "confirmed",
+      "warning_event_ids": [
+        1
+      ]
+    },
+    {
+      "timestamp": 1793212957.603708,
+      "signature": [
+        "suspected",
+        [
+          1
+        ]
+      ],
+      "stage": "suspected",
+      "warning_event_ids": [
+        1
+      ]
+    },
+    {
+      "timestamp": 1793212977.1775794,
+      "signature": [
+        "pre_alert",
+        [
+          1
+        ]
+      ],
+      "stage": "pre_alert",
+      "warning_event_ids": [
+        1
+      ]
+    },
+    {
+      "timestamp": 1793212977.8085728,
+      "signature": [
+        "suspected",
+        [
+          1,
+          3
+        ]
+      ],
+      "stage": "suspected",
+      "warning_event_ids": [
+        1,
+        3
+      ]
+    },
+    {
+      "timestamp": 1793213008.949777,
+      "signature": [
+        "pre_alert",
+        [
+          1,
+          3
+        ]
+      ],
+      "stage": "pre_alert",
+      "warning_event_ids": [
+        1,
+        3
+      ]
+    },
+    {
+      "timestamp": 1793213010.2974389,
+      "signature": [
+        "suspected",
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "stage": "suspected",
+      "warning_event_ids": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "timestamp": 1793213020.082919,
+      "signature": [
+        "pre_alert",
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "stage": "pre_alert",
+      "warning_event_ids": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "timestamp": 1793213021.1340888,
+      "signature": [
+        "suspected",
+        [
+          1,
+          3,
+          5
+        ]
+      ],
+      "stage": "suspected",
+      "warning_event_ids": [
+        1,
+        3,
+        5
+      ]
+    }
+  ],
+  "snapshot": {
+    "rows": {
+      "xgboost": {
+        "name": "XGBoost",
+        "score": null,
+        "threshold": null,
+        "status": "Loading",
+        "last_detection": 1793213020.082919
+      },
+      "minirocket": {
+        "name": "MiniROCKET",
+        "score": null,
+        "threshold": null,
+        "status": "Loading",
+        "last_detection": 1793213020.6289299
+      },
+      "tcn": {
+        "name": "TCN",
+        "score": null,
+        "threshold": null,
+        "status": "Loading",
+        "last_detection": 1793213019.5471344
+      },
+      "gru": {
+        "name": "GRU",
+        "score": null,
+        "threshold": null,
+        "status": "Loading",
+        "last_detection": 1793213019.5471344
+      },
+      "lstm": {
+        "name": "LSTM (retrained)",
+        "score": null,
+        "threshold": null,
+        "status": "Loading",
+        "last_detection": 1793213019.5471344
+      }
+    },
+    "events": [
+      {
+        "id": 1,
+        "target": "Person A",
+        "generation": 1,
+        "timestamp": 1793212933.4872851,
+        "profile": "Within-person sessions (20261023_130253_sessions)",
+        "detections": {
+          "xgboost": {
+            "timestamp": 1793212933.4872851,
+            "score": 0.9954284429550171,
+            "stage": "detected",
+            "processed_at": 1793212933.4872851
+          },
+          "tcn": {
+            "timestamp": 1793212933.4872851,
+            "score": 0.9999970197677612,
+            "stage": "detected",
+            "processed_at": 1793212933.4872851
+          },
+          "gru": {
+            "timestamp": 1793212933.4872851,
+            "score": 0.9993282556533813,
+            "stage": "detected",
+            "processed_at": 1793212933.4872851
+          },
+          "lstm": {
+            "timestamp": 1793212933.4872851,
+            "score": 0.9943864345550537,
+            "stage": "detected",
+            "processed_at": 1793212933.4872851
+          },
+          "minirocket": {
+            "timestamp": 1793212934.0387166,
+            "score": 0.999960880892537,
+            "stage": "detected",
+            "processed_at": 1793212934.0387166
+          }
+        },
+        "acknowledged_at": null,
+        "validation": {
+          "state": "suspected",
+          "reason": "Suspected fall: tracking lost; no fresh stillness evidence",
+          "warning_kind": "tracking_lost",
+          "started_at": 1793212933.4872851,
+          "confirmed_at": null,
+          "resolved_at": 1793212934.653008,
+          "observation_seconds": 5.0,
+          "elapsed_s": 0.6306178569793701,
+          "observed_seconds": 0.40231871604919434,
+          "still_seconds": 0.0,
+          "reversal": {},
+          "absence_seconds": 0.0,
+          "confirmation_basis": "",
+          "max_radial_speed_mms": 2480.0,
+          "max_planar_speed_mms": 940.55526789267
+        }
+      },
+      {
+        "id": 2,
+        "target": "Person A",
+        "generation": 3,
+        "timestamp": 1793212948.34246,
+        "profile": "Within-person sessions (20261023_130253_sessions)",
+        "detections": {
+          "lstm": {
+            "timestamp": 1793212948.34246,
+            "score": 0.9992449283599854,
+            "stage": "detected",
+            "processed_at": 1793212948.34246
+          },
+          "xgboost": {
+            "timestamp": 1793212948.8884034,
+            "score": 0.9980553388595581,
+            "stage": "detected",
+            "processed_at": 1793212948.8884034
+          },
+          "minirocket": {
+            "timestamp": 1793212948.8884034,
+            "score": 0.9999999984363688,
+            "stage": "detected",
+            "processed_at": 1793212948.8884034
+          },
+          "tcn": {
+            "timestamp": 1793212948.8884034,
+            "score": 1.0,
+            "stage": "detected",
+            "processed_at": 1793212948.8884034
+          },
+          "gru": {
+            "timestamp": 1793212948.8884034,
+            "score": 0.9998843669891357,
+            "stage": "detected",
+            "processed_at": 1793212948.8884034
+          }
+        },
+        "acknowledged_at": null,
+        "validation": {
+          "state": "confirmed",
+          "reason": "Fresh observations show sustained low motion after consensus",
+          "warning_kind": "",
+          "started_at": 1793212948.8884034,
+          "confirmed_at": 1793212952.5325966,
+          "resolved_at": 1793212952.5325966,
+          "observation_seconds": 5.0,
+          "elapsed_s": 3.644193172454834,
+          "observed_seconds": 3.644193172454834,
+          "still_seconds": 2.5766375064849854,
+          "reversal": {
+            "elapsed_s": 1.1426944732666016,
+            "coverage": 1.0,
+            "displacement_mm": 304.35669862843497,
+            "approach_displacement_mm": 1194.8708089161773,
+            "heading_cosine": 0.9891867136819137,
+            "straightness": 0.8895921234249488,
+            "continuous": true
+          },
+          "absence_seconds": 0.0,
+          "confirmation_basis": "fresh_low_motion",
+          "max_radial_speed_mms": 320.0,
+          "max_planar_speed_mms": 1113.0284929693257
+        }
+      },
+      {
+        "id": 3,
+        "target": "Person A",
+        "generation": 5,
+        "timestamp": 1793212976.6563077,
+        "profile": "Within-person sessions (20261023_130253_sessions)",
+        "detections": {
+          "tcn": {
+            "timestamp": 1793212976.6563077,
+            "score": 0.9999996423721313,
+            "stage": "detected",
+            "processed_at": 1793212976.6563077
+          },
+          "gru": {
+            "timestamp": 1793212976.6563077,
+            "score": 0.9995495676994324,
+            "stage": "detected",
+            "processed_at": 1793212976.6563077
+          },
+          "lstm": {
+            "timestamp": 1793212976.6563077,
+            "score": 0.9987965822219849,
+            "stage": "detected",
+            "processed_at": 1793212976.6563077
+          },
+          "xgboost": {
+            "timestamp": 1793212977.1775794,
+            "score": 0.9960654377937317,
+            "stage": "detected",
+            "processed_at": 1793212977.1775794
+          }
+        },
+        "acknowledged_at": null,
+        "validation": {
+          "state": "suspected",
+          "reason": "Suspected fall: tracking lost; no fresh stillness evidence",
+          "warning_kind": "tracking_lost",
+          "started_at": 1793212977.1775794,
+          "confirmed_at": null,
+          "resolved_at": 1793212977.8085728,
+          "observation_seconds": 5.0,
+          "elapsed_s": 0.11900448799133301,
+          "observed_seconds": 0.11900448799133301,
+          "still_seconds": 0.0,
+          "reversal": {},
+          "absence_seconds": 0.0,
+          "confirmation_basis": "",
+          "max_radial_speed_mms": 1680.0,
+          "max_planar_speed_mms": 199.54923142904383
+        }
+      },
+      {
+        "id": 4,
+        "target": "Person A",
+        "generation": 9,
+        "timestamp": 1793212998.00447,
+        "profile": "Within-person sessions (20261023_130253_sessions)",
+        "detections": {
+          "tcn": {
+            "timestamp": 1793212998.00447,
+            "score": 0.9951438903808594,
+            "stage": "detected",
+            "processed_at": 1793212998.00447
+          },
+          "gru": {
+            "timestamp": 1793212998.00447,
+            "score": 0.9947499632835388,
+            "stage": "detected",
+            "processed_at": 1793212998.00447
+          },
+          "lstm": {
+            "timestamp": 1793212998.00447,
+            "score": 0.9977686405181885,
+            "stage": "detected",
+            "processed_at": 1793212998.00447
+          }
+        },
+        "acknowledged_at": null,
+        "validation": {
+          "state": "awaiting_votes",
+          "reason": "Requires four model votes",
+          "confirmed_at": null
+        }
+      },
+      {
+        "id": 5,
+        "target": "Person A",
+        "generation": 11,
+        "timestamp": 1793213008.4097397,
+        "profile": "Within-person sessions (20261023_130253_sessions)",
+        "detections": {
+          "tcn": {
+            "timestamp": 1793213008.4097397,
+            "score": 0.9949443936347961,
+            "stage": "detected",
+            "processed_at": 1793213008.4097397
+          },
+          "lstm": {
+            "timestamp": 1793213008.4097397,
+            "score": 0.9926254153251648,
+            "stage": "detected",
+            "processed_at": 1793213008.4097397
+          },
+          "xgboost": {
+            "timestamp": 1793213008.949777,
+            "score": 0.9888365268707275,
+            "stage": "detected",
+            "processed_at": 1793213008.949777
+          },
+          "minirocket": {
+            "timestamp": 1793213008.949777,
+            "score": 0.9933359701049942,
+            "stage": "detected",
+            "processed_at": 1793213008.949777
+          },
+          "gru": {
+            "timestamp": 1793213008.949777,
+            "score": 0.9845028519630432,
+            "stage": "detected",
+            "processed_at": 1793213008.949777
+          }
+        },
+        "acknowledged_at": null,
+        "validation": {
+          "state": "suspected",
+          "reason": "Suspected fall: tracking lost; no fresh stillness evidence",
+          "warning_kind": "tracking_lost",
+          "started_at": 1793213008.949777,
+          "confirmed_at": null,
+          "resolved_at": 1793213010.2974389,
+          "observation_seconds": 5.0,
+          "elapsed_s": 0.8169314861297607,
+          "observed_seconds": 0.8169314861297607,
+          "still_seconds": 0.0,
+          "reversal": {},
+          "absence_seconds": 0.0,
+          "confirmation_basis": "",
+          "max_radial_speed_mms": 880.0,
+          "max_planar_speed_mms": 64.34033607802667
+        }
+      },
+      {
+        "id": 6,
+        "target": "Person A",
+        "generation": 13,
+        "timestamp": 1793213019.5471344,
+        "profile": "Within-person sessions (20261023_130253_sessions)",
+        "detections": {
+          "tcn": {
+            "timestamp": 1793213019.5471344,
+            "score": 0.9881343245506287,
+            "stage": "detected",
+            "processed_at": 1793213019.5471344
+          },
+          "gru": {
+            "timestamp": 1793213019.5471344,
+            "score": 0.9982329607009888,
+            "stage": "detected",
+            "processed_at": 1793213019.5471344
+          },
+          "lstm": {
+            "timestamp": 1793213019.5471344,
+            "score": 0.995744526386261,
+            "stage": "detected",
+            "processed_at": 1793213019.5471344
+          },
+          "xgboost": {
+            "timestamp": 1793213020.082919,
+            "score": 0.9914442896842957,
+            "stage": "detected",
+            "processed_at": 1793213020.082919
+          },
+          "minirocket": {
+            "timestamp": 1793213020.6289299,
+            "score": 0.9999906260734158,
+            "stage": "detected",
+            "processed_at": 1793213020.6289299
+          }
+        },
+        "acknowledged_at": null,
+        "validation": {
+          "state": "rejected",
+          "reason": "Continuous early reverse running after consensus",
+          "warning_kind": "",
+          "started_at": 1793213020.082919,
+          "confirmed_at": null,
+          "resolved_at": 1793213021.1340888,
+          "observation_seconds": 5.0,
+          "elapsed_s": 1.0511698722839355,
+          "observed_seconds": 1.0511698722839355,
+          "still_seconds": 0.0,
+          "reversal": {
+            "elapsed_s": 1.0511698722839355,
+            "coverage": 1.0,
+            "displacement_mm": 1031.6404412390975,
+            "approach_displacement_mm": 1394.2554464659625,
+            "heading_cosine": -0.9649410142491128,
+            "straightness": 0.9834955208837836,
+            "continuous": true
+          },
+          "absence_seconds": 0.0,
+          "confirmation_basis": "",
+          "max_radial_speed_mms": 2080.0,
+          "max_planar_speed_mms": 1130.034679842229
+        }
+      }
+    ],
+    "message": "Collecting 2 seconds of motion",
+    "revision": 1449,
+    "profile": "Within-person sessions (20261023_130253_sessions)",
+    "ensemble": {
+      "fall_alert": false,
+      "suspected": true,
+      "stage": "suspected",
+      "votes": 5,
+      "required_votes": 4,
+      "total_models": 5,
+      "voting_models": [
+        "tcn",
+        "lstm",
+        "xgboost",
+        "minirocket",
+        "gru"
+      ],
+      "avg_score": 0.9908490315797451,
+      "max_score": 0.9949443936347961,
+      "event_id": 5,
+      "event_timestamp": 1793213008.4097397,
+      "elapsed_s": 35.60780596733093,
+      "validation": {
+        "state": "suspected",
+        "reason": "Suspected fall: tracking lost; no fresh stillness evidence",
+        "warning_kind": "tracking_lost",
+        "started_at": 1793213008.949777,
+        "confirmed_at": null,
+        "resolved_at": 1793213010.2974389,
+        "observation_seconds": 5.0,
+        "elapsed_s": 0.8169314861297607,
+        "observed_seconds": 0.8169314861297607,
+        "still_seconds": 0.0,
+        "reversal": {},
+        "absence_seconds": 0.0,
+        "confirmation_basis": "",
+        "max_radial_speed_mms": 880.0,
+        "max_planar_speed_mms": 64.34033607802667
+      },
+      "target": "Person A",
+      "applies_to_current_target": false,
+      "warnings": [
+        {
+          "event_id": 1,
+          "target": "Person A",
+          "timestamp": 1793212933.4872851,
+          "reason": "Suspected fall: tracking lost; no fresh stillness evidence",
+          "warning_kind": "tracking_lost"
+        },
+        {
+          "event_id": 3,
+          "target": "Person A",
+          "timestamp": 1793212976.6563077,
+          "reason": "Suspected fall: tracking lost; no fresh stillness evidence",
+          "warning_kind": "tracking_lost"
+        },
+        {
+          "event_id": 5,
+          "target": "Person A",
+          "timestamp": 1793213008.4097397,
+          "reason": "Suspected fall: tracking lost; no fresh stillness evidence",
+          "warning_kind": "tracking_lost"
+        }
+      ],
+      "warning_count": 3
+    }
+  },
+  "reset_kept_warnings": true,
+  "acknowledgement_cleared_warnings": true
+}

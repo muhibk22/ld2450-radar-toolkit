@@ -1,0 +1,106 @@
+{
+  "session": "abdullah_session20.csv",
+  "loaded_models": [
+    "xgboost",
+    "minirocket",
+    "tcn",
+    "gru",
+    "lstm"
+  ],
+  "events": [
+    {
+      "id": 1,
+      "target": "Person 55",
+      "generation": 1,
+      "timestamp": 1790434103.0847855,
+      "profile": "Within-person sessions (20261023_130253_sessions)",
+      "detections": {
+        "legacy": {
+          "timestamp": 1790434103.0847855,
+          "score": 0.7444658279418945,
+          "stage": "confirmed",
+          "processed_at": 1790434103.0847855,
+          "confirmed_at": 1790434106.1566732
+        }
+      }
+    },
+    {
+      "id": 2,
+      "target": "Person 55",
+      "generation": 1,
+      "timestamp": 1790434115.908926,
+      "profile": "Within-person sessions (20261023_130253_sessions)",
+      "detections": {
+        "xgboost": {
+          "timestamp": 1790434115.908926,
+          "score": 0.9972808361053467,
+          "stage": "detected",
+          "processed_at": 1790434115.908926
+        },
+        "tcn": {
+          "timestamp": 1790434115.908926,
+          "score": 0.9999978542327881,
+          "stage": "detected",
+          "processed_at": 1790434115.908926
+        },
+        "gru": {
+          "timestamp": 1790434115.908926,
+          "score": 0.9995742440223694,
+          "stage": "detected",
+          "processed_at": 1790434115.908926
+        },
+        "lstm": {
+          "timestamp": 1790434115.908926,
+          "score": 0.9997500777244568,
+          "stage": "detected",
+          "processed_at": 1790434115.908926
+        },
+        "minirocket": {
+          "timestamp": 1790434116.5047996,
+          "score": 0.9999999991846884,
+          "stage": "detected",
+          "processed_at": 1790434116.5047996
+        }
+      }
+    },
+    {
+      "id": 3,
+      "target": "Person 55",
+      "generation": 1,
+      "timestamp": 1790434139.5321286,
+      "profile": "Within-person sessions (20261023_130253_sessions)",
+      "detections": {
+        "xgboost": {
+          "timestamp": 1790434139.5321286,
+          "score": 0.9970711469650269,
+          "stage": "detected",
+          "processed_at": 1790434139.5321286
+        },
+        "minirocket": {
+          "timestamp": 1790434139.5321286,
+          "score": 0.9999999901993087,
+          "stage": "detected",
+          "processed_at": 1790434139.5321286
+        },
+        "tcn": {
+          "timestamp": 1790434139.5321286,
+          "score": 0.9996575117111206,
+          "stage": "detected",
+          "processed_at": 1790434139.5321286
+        },
+        "gru": {
+          "timestamp": 1790434139.5321286,
+          "score": 0.9986490607261658,
+          "stage": "detected",
+          "processed_at": 1790434139.5321286
+        },
+        "lstm": {
+          "timestamp": 1790434139.5321286,
+          "score": 0.9996362924575806,
+          "stage": "detected",
+          "processed_at": 1790434139.5321286
+        }
+      }
+    }
+  ]
+}

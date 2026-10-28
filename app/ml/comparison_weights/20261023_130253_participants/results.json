@@ -1,0 +1,242 @@
+{
+  "xgboost": {
+    "kind": "xgboost",
+    "name": "XGBoost",
+    "feature_schema": "radar-active-trailing-2s-10hz-v2",
+    "threshold": 0.889198899269104,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "protocol": "participants",
+    "seed": 42,
+    "train_windows": 11360,
+    "validation_windows": 5428,
+    "test_windows": 3414,
+    "threshold_method": "Maximum window F1 on validation partition only",
+    "training_seconds": 8.42,
+    "validation": {
+      "pr_auc": 0.8633359802420241,
+      "precision": 0.8215767634854771,
+      "recall": 0.8016194331983806,
+      "f1": 0.8114754098360656,
+      "confusion_matrix_tn_fp_fn_tp": [
+        5138,
+        43,
+        49,
+        198
+      ]
+    },
+    "test": {
+      "pr_auc": 0.877843230039546,
+      "precision": 0.9344262295081968,
+      "recall": 0.6758893280632411,
+      "f1": 0.7844036697247706,
+      "confusion_matrix_tn_fp_fn_tp": [
+        3149,
+        12,
+        82,
+        171
+      ]
+    },
+    "single_window_latency_ms_median": 2.2971500002313405,
+    "single_window_latency_ms_p95": 3.4797249951225275
+  },
+  "minirocket": {
+    "kind": "minirocket",
+    "name": "MiniROCKET",
+    "feature_schema": "radar-active-trailing-2s-10hz-v2",
+    "threshold": 0.9788085973092135,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "protocol": "participants",
+    "seed": 42,
+    "train_windows": 11360,
+    "validation_windows": 5428,
+    "test_windows": 3414,
+    "threshold_method": "Maximum window F1 on validation partition only",
+    "training_seconds": 12.76,
+    "validation": {
+      "pr_auc": 0.7331785263518739,
+      "precision": 0.7929292929292929,
+      "recall": 0.6356275303643725,
+      "f1": 0.7056179775280899,
+      "confusion_matrix_tn_fp_fn_tp": [
+        5140,
+        41,
+        90,
+        157
+      ]
+    },
+    "test": {
+      "pr_auc": 0.7929570815061563,
+      "precision": 0.9096774193548387,
+      "recall": 0.5573122529644269,
+      "f1": 0.6911764705882353,
+      "confusion_matrix_tn_fp_fn_tp": [
+        3147,
+        14,
+        112,
+        141
+      ]
+    },
+    "single_window_latency_ms_median": 5.976349995762575,
+    "single_window_latency_ms_p95": 14.788854998187169
+  },
+  "tcn": {
+    "kind": "tcn",
+    "name": "TCN",
+    "feature_schema": "radar-active-trailing-2s-10hz-v2",
+    "threshold": 0.9377181529998779,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "protocol": "participants",
+    "seed": 42,
+    "train_windows": 11360,
+    "validation_windows": 5428,
+    "test_windows": 3414,
+    "threshold_method": "Maximum window F1 on validation partition only",
+    "training_seconds": 71.91,
+    "validation": {
+      "pr_auc": 0.8430966451148316,
+      "precision": 0.8967136150234741,
+      "recall": 0.7732793522267206,
+      "f1": 0.8304347826086956,
+      "confusion_matrix_tn_fp_fn_tp": [
+        5159,
+        22,
+        56,
+        191
+      ]
+    },
+    "test": {
+      "pr_auc": 0.8314159261869174,
+      "precision": 0.9202898550724637,
+      "recall": 0.5019762845849802,
+      "f1": 0.649616368286445,
+      "confusion_matrix_tn_fp_fn_tp": [
+        3150,
+        11,
+        126,
+        127
+      ]
+    },
+    "single_window_latency_ms_median": 0.807399999757763,
+    "single_window_latency_ms_p95": 1.9292849967314398
+  },
+  "gru": {
+    "kind": "gru",
+    "name": "GRU",
+    "feature_schema": "radar-active-trailing-2s-10hz-v2",
+    "threshold": 0.9377710819244385,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "protocol": "participants",
+    "seed": 42,
+    "train_windows": 11360,
+    "validation_windows": 5428,
+    "test_windows": 3414,
+    "threshold_method": "Maximum window F1 on validation partition only",
+    "training_seconds": 71.53,
+    "validation": {
+      "pr_auc": 0.8822266039221793,
+      "precision": 0.8951965065502183,
+      "recall": 0.8299595141700404,
+      "f1": 0.8613445378151261,
+      "confusion_matrix_tn_fp_fn_tp": [
+        5157,
+        24,
+        42,
+        205
+      ]
+    },
+    "test": {
+      "pr_auc": 0.8665429303542964,
+      "precision": 0.9421965317919075,
+      "recall": 0.6442687747035574,
+      "f1": 0.7652582159624414,
+      "confusion_matrix_tn_fp_fn_tp": [
+        3151,
+        10,
+        90,
+        163
+      ]
+    },
+    "single_window_latency_ms_median": 1.7921000035130419,
+    "single_window_latency_ms_p95": 2.1063350010081194
+  },
+  "lstm": {
+    "kind": "lstm",
+    "name": "LSTM (retrained)",
+    "feature_schema": "radar-active-trailing-2s-10hz-v2",
+    "threshold": 0.9356757402420044,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "protocol": "participants",
+    "seed": 42,
+    "train_windows": 11360,
+    "validation_windows": 5428,
+    "test_windows": 3414,
+    "threshold_method": "Maximum window F1 on validation partition only",
+    "training_seconds": 76.58,
+    "validation": {
+      "pr_auc": 0.8594717843198452,
+      "precision": 0.8089430894308943,
+      "recall": 0.805668016194332,
+      "f1": 0.8073022312373225,
+      "confusion_matrix_tn_fp_fn_tp": [
+        5134,
+        47,
+        48,
+        199
+      ]
+    },
+    "test": {
+      "pr_auc": 0.8529419653783932,
+      "precision": 0.9122807017543859,
+      "recall": 0.616600790513834,
+      "f1": 0.7358490566037735,
+      "confusion_matrix_tn_fp_fn_tp": [
+        3146,
+        15,
+        97,
+        156
+      ]
+    },
+    "single_window_latency_ms_median": 0.8487499944749288,
+    "single_window_latency_ms_p95": 1.8054749903967608
+  }
+}

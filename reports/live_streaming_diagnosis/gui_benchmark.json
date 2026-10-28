@@ -1,0 +1,23 @@
+{
+  "live_radar": {
+    "frames": 150,
+    "callback_and_paint_ms_median": 16.71474997419864,
+    "callback_and_paint_ms_p95": 30.771609995281306,
+    "maximum_ms": 50.54460000246763,
+    "last_processed": 150
+  },
+  "raw_packet_inspector": {
+    "frames": 150,
+    "callback_and_paint_ms_median": 6.744500016793609,
+    "callback_and_paint_ms_p95": 26.946825004415572,
+    "maximum_ms": 46.478600008413196,
+    "last_processed": 300
+  },
+  "loaded_comparison_models": [
+    "xgboost",
+    "minirocket",
+    "tcn",
+    "gru",
+    "lstm"
+  ]
+}

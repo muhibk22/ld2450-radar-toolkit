@@ -180,7 +180,7 @@ class PacketParser:
     def get_statistics(self) -> dict:
         return {
             "packets_total": self.total_packets_received,
-            "packets_per_sec": round(self.packets_per_second, 1),
+            "packets_per_sec": round(self.packets_per_second, 1) if time.time()-self._last_stats_time < 1.5 else 0.0,
             "corrupt_packets": self.corrupt_packets,
             "dropped_packets": self.dropped_packets,
             "sync_failures": self.sync_failures,

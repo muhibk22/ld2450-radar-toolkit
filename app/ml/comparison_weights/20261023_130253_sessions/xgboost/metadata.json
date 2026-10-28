@@ -1,0 +1,48 @@
+{
+  "kind": "xgboost",
+  "name": "XGBoost",
+  "feature_schema": "radar-active-trailing-2s-10hz-v2",
+  "threshold": 0.9008145928382874,
+  "versions": {
+    "torch": "2.14.1",
+    "numpy": "2.3.4",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.4.1",
+    "aeon": "1.6.0",
+    "numba": "0.63.1",
+    "joblib": "1.5.3"
+  },
+  "protocol": "sessions",
+  "seed": 42,
+  "train_windows": 11552,
+  "validation_windows": 9446,
+  "test_windows": 8420,
+  "threshold_method": "Maximum window F1 on validation partition only",
+  "training_seconds": 11.5,
+  "validation": {
+    "pr_auc": 0.818499397653116,
+    "precision": 0.8274111675126904,
+    "recall": 0.7616822429906542,
+    "f1": 0.7931873479318735,
+    "confusion_matrix_tn_fp_fn_tp": [
+      9198,
+      34,
+      51,
+      163
+    ]
+  },
+  "test": {
+    "pr_auc": 0.8103636631028588,
+    "precision": 0.7724137931034483,
+    "recall": 0.7272727272727273,
+    "f1": 0.7491638795986622,
+    "confusion_matrix_tn_fp_fn_tp": [
+      8233,
+      33,
+      42,
+      112
+    ]
+  },
+  "single_window_latency_ms_median": 2.832099999068305,
+  "single_window_latency_ms_p95": 3.3901750117365737
+}

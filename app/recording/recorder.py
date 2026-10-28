@@ -63,12 +63,12 @@ class DataRecorder:
             self.is_recording = False
             raise RuntimeError(f"Could not open recording file: {e}") from e
 
-    def record_frame(self, sequence_id: int, targets: List[Target]):
+    def record_frame(self, sequence_id: int, targets: List[Target], timestamp=None):
         """Logs a frame's target set to file."""
         if not self.is_recording:
             return
 
-        now = time.time()
+        now = time.time() if timestamp is None else timestamp
         for t in targets:
             if not t.valid:
                 continue

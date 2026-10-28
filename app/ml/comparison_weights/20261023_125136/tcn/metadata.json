@@ -1,0 +1,47 @@
+{
+  "kind": "tcn",
+  "name": "TCN",
+  "feature_schema": "radar-trailing-2s-10hz-v1",
+  "threshold": 0.920898973941803,
+  "versions": {
+    "torch": "2.14.1",
+    "numpy": "2.3.4",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.4.1",
+    "aeon": "1.6.0",
+    "numba": "0.63.1",
+    "joblib": "1.5.3"
+  },
+  "seed": 42,
+  "train_windows": 11587,
+  "validation_windows": 5501,
+  "test_windows": 3990,
+  "threshold_method": "Maximum window F1 on validation participants only",
+  "training_seconds": 65.98,
+  "validation": {
+    "pr_auc": 0.8609205312134092,
+    "precision": 0.8554216867469879,
+    "recall": 0.8160919540229885,
+    "f1": 0.8352941176470589,
+    "confusion_matrix_tn_fp_fn_tp": [
+      5204,
+      36,
+      48,
+      213
+    ]
+  },
+  "test": {
+    "pr_auc": 0.787637009232409,
+    "precision": 0.930635838150289,
+    "recall": 0.6192307692307693,
+    "f1": 0.74364896073903,
+    "confusion_matrix_tn_fp_fn_tp": [
+      3718,
+      12,
+      99,
+      161
+    ]
+  },
+  "single_window_latency_ms_median": 1.3002499981666915,
+  "single_window_latency_ms_p95": 1.5847549962927592
+}

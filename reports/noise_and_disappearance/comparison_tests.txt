@@ -1,0 +1,28 @@
+test_all_five_votes_stay_pending_until_fresh_stillness (test_model_comparison.ComparisonTests.test_all_five_votes_stay_pending_until_fresh_stillness) ... ok
+test_delayed_model_result_joins_earlier_legacy_event (test_model_comparison.ComparisonTests.test_delayed_model_result_joins_earlier_legacy_event) ... ok
+test_error_in_one_model_does_not_hide_others (test_model_comparison.ComparisonTests.test_error_in_one_model_does_not_hide_others) ... ok
+test_gap_clears_hysteresis_and_stale_scores (test_model_comparison.ComparisonTests.test_gap_clears_hysteresis_and_stale_scores) ... ok
+test_live_pipeline_passes_accepted_position_for_validation (test_model_comparison.ComparisonTests.test_live_pipeline_passes_accepted_position_for_validation) ... ok
+test_missing_artifacts_show_unavailable_without_false_votes (test_model_comparison.ComparisonTests.test_missing_artifacts_show_unavailable_without_false_votes) ... ok
+test_pending_validation_interrupted_by_gap_switch_and_reset (test_model_comparison.ComparisonTests.test_pending_validation_interrupted_by_gap_switch_and_reset) ... ok
+test_positive_run_is_not_counted_repeatedly (test_model_comparison.ComparisonTests.test_positive_run_is_not_counted_repeatedly) ... ok
+test_profile_change_invalidates_old_result_and_preserves_attributed_history (test_model_comparison.ComparisonTests.test_profile_change_invalidates_old_result_and_preserves_attributed_history) ... ok
+test_raw_reversal_rejects_all_votes_even_with_frozen_smoothed_input (test_model_comparison.ComparisonTests.test_raw_reversal_rejects_all_votes_even_with_frozen_smoothed_input) ... ok
+test_recent_confirmation_survives_target_loss_during_alert_hold (test_model_comparison.ComparisonTests.test_recent_confirmation_survives_target_loss_during_alert_hold) ... ok
+test_stale_result_cannot_trigger (test_model_comparison.ComparisonTests.test_stale_result_cannot_trigger) ... ok
+test_streaming_window_matches_direct_interpolation_and_resets_on_gap (test_model_comparison.ComparisonTests.test_streaming_window_matches_direct_interpolation_and_resets_on_gap) ... ok
+test_target_switch_discards_inflight_result (test_model_comparison.ComparisonTests.test_target_switch_discards_inflight_result) ... ok
+test_two_fresh_predictions_and_event_attribution (test_model_comparison.ComparisonTests.test_two_fresh_predictions_and_event_attribution) ... ok
+test_unresolved_warning_survives_normal_history_rotation (test_model_comparison.ComparisonTests.test_unresolved_warning_survives_normal_history_rotation) ... ok
+test_whole_session_split_represents_every_person_without_overlap (test_model_comparison.ComparisonTests.test_whole_session_split_represents_every_person_without_overlap) ... ok
+test_fall_monitor_ui_suppresses_alert_without_four_votes (test_model_comparison.ComparisonUITests.test_fall_monitor_ui_suppresses_alert_without_four_votes)
+Verifies that the Fall Monitor Window suppresses alerts when votes < 4. ... ok
+test_four_of_five_models_required_for_fall_alert (test_model_comparison.ComparisonUITests.test_four_of_five_models_required_for_fall_alert)
+Enforces that fall alerts are strictly suppressed unless at least 4/5 models detect it. ... ok
+test_table_and_export_keep_model_identity (test_model_comparison.ComparisonUITests.test_table_and_export_keep_model_identity) ... ok
+test_tracking_loss_banner_survives_empty_canvas_and_acknowledges (test_model_comparison.ComparisonUITests.test_tracking_loss_banner_survives_empty_canvas_and_acknowledges) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 5.498s
+
+OK

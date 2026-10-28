@@ -1,0 +1,10 @@
+Logged flag replay outcomes:
+1 5 confirmed Model-backed fall: target disappeared while valid radar reports continued
+2 5 confirmed Model-backed fall: centroid remained stationary despite the radial-speed estimate
+3 4 confirmed Model-backed fall: target disappeared while valid radar reports continued
+4 3 awaiting_votes Requires four model votes
+5 5 confirmed Model-backed fall: target disappeared while valid radar reports continued
+6 5 rejected Continuous early reverse running after consensus
+Actual models loaded: ['xgboost', 'minirocket', 'tcn', 'gru', 'lstm']
+Actual replay events: [(1, 'confirmed'), (2, 'confirmed'), (3, 'confirmed'), (4, 'awaiting_votes'), (5, 'confirmed'), (6, 'rejected')]
+Model/source fingerprints unchanged: 114

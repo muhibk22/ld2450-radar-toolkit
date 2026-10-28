@@ -1,0 +1,19 @@
+test_backlog_is_bounded_and_not_replayed (test_live_streaming.LiveStreamingTests.test_backlog_is_bounded_and_not_replayed) ... ok
+test_coalesced_frames_preserve_motion_interval (test_live_streaming.LiveStreamingTests.test_coalesced_frames_preserve_motion_interval) ... ok
+[00:13:31] [WARNING] [socket_worker]: No valid radar frames (status messages do not count); reconnecting
+test_heartbeats_without_radar_frames_trigger_reconnect (test_live_streaming.LiveStreamingTests.test_heartbeats_without_radar_frames_trigger_reconnect) ... ok
+test_no_legacy_model_loaded_and_display_filter_is_independent (test_live_streaming.LiveStreamingTests.test_no_legacy_model_loaded_and_display_filter_is_independent) ... ok
+test_reconnect_resets_partial_frame_and_identity (test_live_streaming.LiveStreamingTests.test_reconnect_resets_partial_frame_and_identity) ... ok
+test_recording_writer_preserves_labels_and_finishes (test_live_streaming.LiveStreamingTests.test_recording_writer_preserves_labels_and_finishes) ... ok
+test_serial_disconnect_cannot_replace_port_mid_read (test_live_streaming.LiveStreamingTests.test_serial_disconnect_cannot_replace_port_mid_read) ... ok
+[00:13:32] [WARNING] [socket_worker]: No incoming bytes; reconnecting
+test_silent_open_connection_recovers_without_restart (test_live_streaming.LiveStreamingTests.test_silent_open_connection_recovers_without_restart) ... ok
+test_stale_track_disappears_without_new_frames (test_live_streaming.LiveStreamingTests.test_stale_track_disappears_without_new_frames) ... ok
+test_stop_before_start_does_not_resurrect_worker (test_live_streaming.LiveStreamingTests.test_stop_before_start_does_not_resurrect_worker) ... ok
+[00:13:33] [WARNING] [socket_worker]: timed out
+test_stop_during_retry_is_interruptible (test_live_streaming.LiveStreamingTests.test_stop_during_retry_is_interruptible) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 2.170s
+
+OK

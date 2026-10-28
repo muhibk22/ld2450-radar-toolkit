@@ -53,7 +53,7 @@ class TuningPanelWidget(QWidget):
         self.lbl_window = QLabel("Rolling Window (N):")
         self.sp_window = QSpinBox()
         self.sp_window.setRange(1, 30)
-        self.sp_window.setValue(10)
+        self.sp_window.setValue(2)
         self.sp_window.setSuffix(" packets")
         self.f_layout.addRow(self.lbl_window, self.sp_window)
 
@@ -62,7 +62,7 @@ class TuningPanelWidget(QWidget):
         self.sp_max_speed = QSpinBox()
         self.sp_max_speed.setRange(500, 15000)
         self.sp_max_speed.setSingleStep(500)
-        self.sp_max_speed.setValue(4000)
+        self.sp_max_speed.setValue(6000)
         self.sp_max_speed.setSuffix(" mm/s")
         self.f_layout.addRow(self.lbl_max_speed, self.sp_max_speed)
 
@@ -71,7 +71,7 @@ class TuningPanelWidget(QWidget):
         self.sp_max_jump = QSpinBox()
         self.sp_max_jump.setRange(50, 3000)
         self.sp_max_jump.setSingleStep(50)
-        self.sp_max_jump.setValue(500)
+        self.sp_max_jump.setValue(1500)
         self.sp_max_jump.setSuffix(" mm")
         self.f_layout.addRow(self.lbl_max_jump, self.sp_max_jump)
 
@@ -79,7 +79,7 @@ class TuningPanelWidget(QWidget):
         self.lbl_hold = QLabel("Anti-Blink Hold:")
         self.sp_hold = QSpinBox()
         self.sp_hold.setRange(0, 50)
-        self.sp_hold.setValue(15)
+        self.sp_hold.setValue(30)
         self.sp_hold.setSuffix(" frames")
         self.f_layout.addRow(self.lbl_hold, self.sp_hold)
 
@@ -207,10 +207,10 @@ class TuningPanelWidget(QWidget):
     def reset_defaults(self):
         """Resets controls to default values and applies them."""
         self.cb_mode.setCurrentIndex(0)
-        self.sp_window.setValue(10)
-        self.sp_max_speed.setValue(4000)
-        self.sp_max_jump.setValue(500)
-        self.sp_hold.setValue(15)
+        self.sp_window.setValue(2)
+        self.sp_max_speed.setValue(6000)
+        self.sp_max_jump.setValue(1500)
+        self.sp_hold.setValue(30)
         self.apply_settings()
 
     def get_settings(self) -> dict:

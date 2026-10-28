@@ -3,6 +3,8 @@ QSettings wrapper for persistent application settings.
 """
 
 from PySide6.QtCore import QSettings
+import json
+from ..tracker.noise import load_zones
 from ..config import APP_NAME, DEFAULT_BAUD_RATE, DEFAULT_TRAIL_LENGTH, DEFAULT_RADAR_MAX_X, DEFAULT_RADAR_MAX_Y
 
 class SettingsManager:
@@ -34,3 +36,14 @@ class SettingsManager:
 
     def set_kalman_enabled(self, enabled: bool):
         self.settings.setValue("tracker/kalman_enabled", enabled)
+
+    def get_noise_zones(self):
+        try:
+            records=json.loads(str(self.settings.value('tracker/noise_zones','[]')))
+        except (ValueError,TypeError):
+            records=[]
+        return [z.to_dict() for z in load_zones(records)]
+
+    def set_noise_zones(self,records):
+        self.settings.setValue('tracker/noise_zones',json.dumps([z.to_dict() for z in load_zones(records)]))
+        self.settings.sync()

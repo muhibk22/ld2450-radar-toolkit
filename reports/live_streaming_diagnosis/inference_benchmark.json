@@ -1,0 +1,19 @@
+{
+  "main_torch_threads": 1,
+  "worker_torch_threads": 1,
+  "main_legacy_inference_ms": [
+    6.056600017473102,
+    4.795099957846105,
+    1.1968000326305628,
+    1.2314999476075172,
+    1.1894999770447612,
+    1.2224999954923987
+  ],
+  "loaded_challengers": [
+    "xgboost",
+    "minirocket",
+    "tcn",
+    "gru",
+    "lstm"
+  ]
+}

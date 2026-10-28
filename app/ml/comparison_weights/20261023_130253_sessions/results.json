@@ -1,0 +1,242 @@
+{
+  "xgboost": {
+    "kind": "xgboost",
+    "name": "XGBoost",
+    "feature_schema": "radar-active-trailing-2s-10hz-v2",
+    "threshold": 0.9008145928382874,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "protocol": "sessions",
+    "seed": 42,
+    "train_windows": 11552,
+    "validation_windows": 9446,
+    "test_windows": 8420,
+    "threshold_method": "Maximum window F1 on validation partition only",
+    "training_seconds": 11.5,
+    "validation": {
+      "pr_auc": 0.818499397653116,
+      "precision": 0.8274111675126904,
+      "recall": 0.7616822429906542,
+      "f1": 0.7931873479318735,
+      "confusion_matrix_tn_fp_fn_tp": [
+        9198,
+        34,
+        51,
+        163
+      ]
+    },
+    "test": {
+      "pr_auc": 0.8103636631028588,
+      "precision": 0.7724137931034483,
+      "recall": 0.7272727272727273,
+      "f1": 0.7491638795986622,
+      "confusion_matrix_tn_fp_fn_tp": [
+        8233,
+        33,
+        42,
+        112
+      ]
+    },
+    "single_window_latency_ms_median": 2.832099999068305,
+    "single_window_latency_ms_p95": 3.3901750117365737
+  },
+  "minirocket": {
+    "kind": "minirocket",
+    "name": "MiniROCKET",
+    "feature_schema": "radar-active-trailing-2s-10hz-v2",
+    "threshold": 0.98557332664222,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "protocol": "sessions",
+    "seed": 42,
+    "train_windows": 11552,
+    "validation_windows": 9446,
+    "test_windows": 8420,
+    "threshold_method": "Maximum window F1 on validation partition only",
+    "training_seconds": 18.71,
+    "validation": {
+      "pr_auc": 0.711873428496759,
+      "precision": 0.793939393939394,
+      "recall": 0.6121495327102804,
+      "f1": 0.6912928759894459,
+      "confusion_matrix_tn_fp_fn_tp": [
+        9198,
+        34,
+        83,
+        131
+      ]
+    },
+    "test": {
+      "pr_auc": 0.759576658832473,
+      "precision": 0.8188976377952756,
+      "recall": 0.6753246753246753,
+      "f1": 0.7402135231316725,
+      "confusion_matrix_tn_fp_fn_tp": [
+        8243,
+        23,
+        50,
+        104
+      ]
+    },
+    "single_window_latency_ms_median": 1.2531999964267015,
+    "single_window_latency_ms_p95": 1.967745005094912
+  },
+  "tcn": {
+    "kind": "tcn",
+    "name": "TCN",
+    "feature_schema": "radar-active-trailing-2s-10hz-v2",
+    "threshold": 0.8664314150810242,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "protocol": "sessions",
+    "seed": 42,
+    "train_windows": 11552,
+    "validation_windows": 9446,
+    "test_windows": 8420,
+    "threshold_method": "Maximum window F1 on validation partition only",
+    "training_seconds": 74.43,
+    "validation": {
+      "pr_auc": 0.7170121354609934,
+      "precision": 0.6960352422907489,
+      "recall": 0.7383177570093458,
+      "f1": 0.7165532879818595,
+      "confusion_matrix_tn_fp_fn_tp": [
+        9163,
+        69,
+        56,
+        158
+      ]
+    },
+    "test": {
+      "pr_auc": 0.7433662541355032,
+      "precision": 0.6932515337423313,
+      "recall": 0.7337662337662337,
+      "f1": 0.7129337539432177,
+      "confusion_matrix_tn_fp_fn_tp": [
+        8216,
+        50,
+        41,
+        113
+      ]
+    },
+    "single_window_latency_ms_median": 1.7117999959737062,
+    "single_window_latency_ms_p95": 2.7869799960171804
+  },
+  "gru": {
+    "kind": "gru",
+    "name": "GRU",
+    "feature_schema": "radar-active-trailing-2s-10hz-v2",
+    "threshold": 0.9636464715003967,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "protocol": "sessions",
+    "seed": 42,
+    "train_windows": 11552,
+    "validation_windows": 9446,
+    "test_windows": 8420,
+    "threshold_method": "Maximum window F1 on validation partition only",
+    "training_seconds": 77.7,
+    "validation": {
+      "pr_auc": 0.7623520355431088,
+      "precision": 0.8011049723756906,
+      "recall": 0.677570093457944,
+      "f1": 0.7341772151898734,
+      "confusion_matrix_tn_fp_fn_tp": [
+        9196,
+        36,
+        69,
+        145
+      ]
+    },
+    "test": {
+      "pr_auc": 0.7982781027295579,
+      "precision": 0.8278688524590164,
+      "recall": 0.6558441558441559,
+      "f1": 0.7318840579710145,
+      "confusion_matrix_tn_fp_fn_tp": [
+        8245,
+        21,
+        53,
+        101
+      ]
+    },
+    "single_window_latency_ms_median": 1.3204499991843477,
+    "single_window_latency_ms_p95": 2.7090499992482364
+  },
+  "lstm": {
+    "kind": "lstm",
+    "name": "LSTM (retrained)",
+    "feature_schema": "radar-active-trailing-2s-10hz-v2",
+    "threshold": 0.9246718287467957,
+    "versions": {
+      "torch": "2.14.1",
+      "numpy": "2.3.4",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.4.1",
+      "aeon": "1.6.0",
+      "numba": "0.63.1",
+      "joblib": "1.5.3"
+    },
+    "protocol": "sessions",
+    "seed": 42,
+    "train_windows": 11552,
+    "validation_windows": 9446,
+    "test_windows": 8420,
+    "threshold_method": "Maximum window F1 on validation partition only",
+    "training_seconds": 79.0,
+    "validation": {
+      "pr_auc": 0.7504443707911184,
+      "precision": 0.75,
+      "recall": 0.7149532710280374,
+      "f1": 0.7320574162679426,
+      "confusion_matrix_tn_fp_fn_tp": [
+        9181,
+        51,
+        61,
+        153
+      ]
+    },
+    "test": {
+      "pr_auc": 0.7663779546346907,
+      "precision": 0.7666666666666667,
+      "recall": 0.7467532467532467,
+      "f1": 0.756578947368421,
+      "confusion_matrix_tn_fp_fn_tp": [
+        8231,
+        35,
+        39,
+        115
+      ]
+    },
+    "single_window_latency_ms_median": 1.5728500002296641,
+    "single_window_latency_ms_p95": 1.904959993407829
+  }
+}

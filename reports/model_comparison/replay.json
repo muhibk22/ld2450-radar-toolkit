@@ -1,0 +1,136 @@
+{
+  "session": "abdullah_session20.csv",
+  "rows": {
+    "xgboost": {
+      "name": "XGBoost",
+      "score": 0.0033315937034785748,
+      "threshold": 0.9008145928382874,
+      "status": "Below threshold",
+      "last_detection": 1790434139.5321286
+    },
+    "minirocket": {
+      "name": "MiniROCKET",
+      "score": 0.0009859879541735974,
+      "threshold": 0.98557332664222,
+      "status": "Below threshold",
+      "last_detection": 1790434139.5321286
+    },
+    "tcn": {
+      "name": "TCN",
+      "score": 0.008790772408246994,
+      "threshold": 0.8664314150810242,
+      "status": "Below threshold",
+      "last_detection": 1790434139.5321286
+    },
+    "gru": {
+      "name": "GRU",
+      "score": 0.00526806153357029,
+      "threshold": 0.9636464715003967,
+      "status": "Below threshold",
+      "last_detection": 1790434139.5321286
+    },
+    "lstm": {
+      "name": "LSTM (retrained)",
+      "score": 0.01728314533829689,
+      "threshold": 0.9246718287467957,
+      "status": "Below threshold",
+      "last_detection": 1790434139.5321286
+    }
+  },
+  "events": [
+    {
+      "id": 1,
+      "target": "Person 55",
+      "generation": 1,
+      "timestamp": 1790434115.908926,
+      "profile": "Within-person sessions (20261023_130253_sessions)",
+      "detections": {
+        "xgboost": {
+          "timestamp": 1790434115.908926,
+          "score": 0.9972808361053467,
+          "stage": "detected",
+          "processed_at": 1790434115.908926
+        },
+        "tcn": {
+          "timestamp": 1790434115.908926,
+          "score": 0.9999978542327881,
+          "stage": "detected",
+          "processed_at": 1790434115.908926
+        },
+        "gru": {
+          "timestamp": 1790434115.908926,
+          "score": 0.9995742440223694,
+          "stage": "detected",
+          "processed_at": 1790434115.908926
+        },
+        "lstm": {
+          "timestamp": 1790434115.908926,
+          "score": 0.9997500777244568,
+          "stage": "detected",
+          "processed_at": 1790434115.908926
+        },
+        "minirocket": {
+          "timestamp": 1790434116.5047996,
+          "score": 0.9999999991846884,
+          "stage": "detected",
+          "processed_at": 1790434116.5047996
+        }
+      }
+    },
+    {
+      "id": 2,
+      "target": "Person 55",
+      "generation": 1,
+      "timestamp": 1790434139.5321286,
+      "profile": "Within-person sessions (20261023_130253_sessions)",
+      "detections": {
+        "xgboost": {
+          "timestamp": 1790434139.5321286,
+          "score": 0.9970711469650269,
+          "stage": "detected",
+          "processed_at": 1790434139.5321286
+        },
+        "minirocket": {
+          "timestamp": 1790434139.5321286,
+          "score": 0.9999999901993087,
+          "stage": "detected",
+          "processed_at": 1790434139.5321286
+        },
+        "tcn": {
+          "timestamp": 1790434139.5321286,
+          "score": 0.9996575117111206,
+          "stage": "detected",
+          "processed_at": 1790434139.5321286
+        },
+        "gru": {
+          "timestamp": 1790434139.5321286,
+          "score": 0.9986490607261658,
+          "stage": "detected",
+          "processed_at": 1790434139.5321286
+        },
+        "lstm": {
+          "timestamp": 1790434139.5321286,
+          "score": 0.9996362924575806,
+          "stage": "detected",
+          "processed_at": 1790434139.5321286
+        }
+      }
+    }
+  ],
+  "message": "Target Person 55 | comparison inference 8.7 ms | skipped windows 0",
+  "revision": 665,
+  "profile": "Within-person sessions (20261023_130253_sessions)",
+  "ensemble": {
+    "fall_alert": false,
+    "stage": "normal",
+    "votes": 0,
+    "required_votes": 4,
+    "total_models": 5,
+    "voting_models": [],
+    "avg_score": 0.0,
+    "max_score": 0.0,
+    "event_id": null,
+    "event_timestamp": null,
+    "elapsed_s": 0.0
+  }
+}

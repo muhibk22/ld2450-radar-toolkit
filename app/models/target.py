@@ -33,6 +33,7 @@ class Target:
     fall_prob: float = 0.0
     fall_alert: bool = False
     fall_alert_stage: str = "normal"  # "normal", "pre_alert", or "confirmed"
+    fall_votes: int = 0
 
     # Tracking statistics & hysteresis metadata
     first_seen_time: float = field(default_factory=time.time)
@@ -65,5 +66,7 @@ class Target:
             "distance_resolution": self.distance_resolution,
             "fall_prob": self.fall_prob,
             "fall_alert": self.fall_alert,
+            "fall_alert_stage": self.fall_alert_stage,
+            "fall_votes": self.fall_votes,
             "tracking_time": self.tracking_time
         }

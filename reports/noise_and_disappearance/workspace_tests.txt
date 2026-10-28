@@ -1,0 +1,12 @@
+test_baud_probe_always_closes_a_successful_port (test_workspace_ui.WorkspaceUITests.test_baud_probe_always_closes_a_successful_port) ... ok
+test_close_during_discovery_waits_without_freezing (test_workspace_ui.WorkspaceUITests.test_close_during_discovery_waits_without_freezing) ... ok
+[00:54:07] [INFO] [main_window]: Canvas Clicked: Locking focus on target Person A
+[00:54:07] [INFO] [main_window]: Target Focus Lock ACTIVATED on Person A. Ignoring all other targets/noise.
+[00:54:07] [INFO] [main_window]: Target Focus Lock DEACTIVATED. Resumed multi-target tracking.
+test_controls_and_navigation_fit_compact_and_wide_windows (test_workspace_ui.WorkspaceUITests.test_controls_and_navigation_fit_compact_and_wide_windows) ... ok
+test_discovery_keeps_the_event_loop_alive_and_does_not_auto_connect (test_workspace_ui.WorkspaceUITests.test_discovery_keeps_the_event_loop_alive_and_does_not_auto_connect) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.568s
+
+OK

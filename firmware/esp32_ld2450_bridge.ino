@@ -17,17 +17,30 @@ HardwareSerial Radar(2);
 void setup() {
   // USB CDC Serial to PC
   Serial.begin(BAUDRATE);
+  #if ARDUINO_USB_CDC_ON_BOOT
+  Serial.setTxTimeoutMs(0); // Debug output must never stall radar UART when USB is absent.
+  #endif
   
   // Hardware UART2 to LD2450 Radar
+  Radar.setRxBufferSize(2048);
+  Radar.setTimeout(5);
   Radar.begin(BAUDRATE, SERIAL_8N1, RX_PIN, TX_PIN);
 }
 
 void loop() {
-  // Transparent bi-directional pass-through
-  while (Radar.available()) {
-    Serial.write(Radar.read());
+  uint8_t buffer[256];
+  int available = Radar.available();
+  if (available > 0) {
+    int capacity = Serial ? Serial.availableForWrite() : 0;
+    // Drop data while USB is absent instead of blocking UART or replaying backlog.
+    int n = min(available, (int)sizeof(buffer));
+    if (capacity > 0) n = min(n, capacity);
+    int received = Radar.readBytes(buffer, n);
+    if (capacity > 0 && received > 0) Serial.write(buffer, received);
   }
-  while (Serial.available()) {
-    Radar.write(Serial.read());
+  if (Serial.available() > 0) {
+    int n = Serial.readBytes(buffer, min(Serial.available(), (int)sizeof(buffer)));
+    if (n > 0) Radar.write(buffer, n);
   }
+  delay(1);
 }

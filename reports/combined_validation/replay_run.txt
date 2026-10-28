@@ -1,0 +1,10 @@
+Logged flag replay outcomes:
+1 5 suspected Suspected fall: tracking lost; no fresh stillness evidence
+2 5 suspected Suspected fall: observation ended without sustained low-motion evidence
+3 4 suspected Suspected fall: tracking lost; no fresh stillness evidence
+4 3 awaiting_votes Requires four model votes
+5 5 suspected Suspected fall: tracking lost; no fresh stillness evidence
+6 5 rejected Continuous early reverse running after consensus
+Actual models loaded: ['xgboost', 'minirocket', 'tcn', 'gru', 'lstm']
+Actual replay events: [(1, 'suspected'), (2, 'suspected'), (3, 'suspected'), (4, 'awaiting_votes'), (5, 'suspected'), (6, 'rejected')]
+Model/source fingerprints unchanged: 114

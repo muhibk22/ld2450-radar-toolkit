@@ -1,0 +1,48 @@
+{
+  "kind": "gru",
+  "name": "GRU",
+  "feature_schema": "radar-active-trailing-2s-10hz-v2",
+  "threshold": 0.9636464715003967,
+  "versions": {
+    "torch": "2.14.1",
+    "numpy": "2.3.4",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.4.1",
+    "aeon": "1.6.0",
+    "numba": "0.63.1",
+    "joblib": "1.5.3"
+  },
+  "protocol": "sessions",
+  "seed": 42,
+  "train_windows": 11552,
+  "validation_windows": 9446,
+  "test_windows": 8420,
+  "threshold_method": "Maximum window F1 on validation partition only",
+  "training_seconds": 77.7,
+  "validation": {
+    "pr_auc": 0.7623520355431088,
+    "precision": 0.8011049723756906,
+    "recall": 0.677570093457944,
+    "f1": 0.7341772151898734,
+    "confusion_matrix_tn_fp_fn_tp": [
+      9196,
+      36,
+      69,
+      145
+    ]
+  },
+  "test": {
+    "pr_auc": 0.7982781027295579,
+    "precision": 0.8278688524590164,
+    "recall": 0.6558441558441559,
+    "f1": 0.7318840579710145,
+    "confusion_matrix_tn_fp_fn_tp": [
+      8245,
+      21,
+      53,
+      101
+    ]
+  },
+  "single_window_latency_ms_median": 1.3204499991843477,
+  "single_window_latency_ms_p95": 2.7090499992482364
+}

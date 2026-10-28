@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "run": "20261023_130253_sessions",
+  "protocol": "sessions",
+  "created_utc": "2026-10-23T08:07:53.921272+00:00",
+  "feature_schema": "radar-active-trailing-2s-10hz-v2",
+  "models": [
+    {
+      "id": "xgboost",
+      "name": "XGBoost",
+      "path": "20261023_130253_sessions/xgboost"
+    },
+    {
+      "id": "minirocket",
+      "name": "MiniROCKET",
+      "path": "20261023_130253_sessions/minirocket"
+    },
+    {
+      "id": "tcn",
+      "name": "TCN",
+      "path": "20261023_130253_sessions/tcn"
+    },
+    {
+      "id": "gru",
+      "name": "GRU",
+      "path": "20261023_130253_sessions/gru"
+    },
+    {
+      "id": "lstm",
+      "name": "LSTM (retrained)",
+      "path": "20261023_130253_sessions/lstm"
+    }
+  ],
+  "split": {
+    "train": [
+      "abdullah",
+      "aiman",
+      "arslan",
+      "hafsa",
+      "muhib",
+      "shahmeer",
+      "shazia",
+      "zain",
+      "zoya"
+    ],
+    "validation": [
+      "abdullah",
+      "aiman",
+      "arslan",
+      "hafsa",
+      "muhib",
+      "shahmeer",
+      "shazia",
+      "zain",
+      "zoya"
+    ],
+    "test": [
+      "abdullah",
+      "aiman",
+      "arslan",
+      "hafsa",
+      "muhib",
+      "shahmeer",
+      "shazia",
+      "zain",
+      "zoya"
+    ]
+  }
+}

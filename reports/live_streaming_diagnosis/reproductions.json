@@ -1,0 +1,188 @@
+{
+  "silent_tcp": {
+    "accepted_connections": 1,
+    "receive_chunks": 1,
+    "parsed_frames": 1,
+    "last_status": [
+      true,
+      "Wi-Fi Connected (127.0.0.1:56181)"
+    ],
+    "running_after_2s_without_radar_frames": true
+  },
+  "heartbeat_only_tcp": {
+    "accepted_connections": 1,
+    "receive_chunks": 9,
+    "parsed_frames": 1,
+    "last_status": [
+      true,
+      "Wi-Fi Connected (127.0.0.1:56183)"
+    ],
+    "running_after_2s_without_radar_frames": true
+  },
+  "reconnect_stop_race": {
+    "stop_return_seconds": 1.0001333999680355,
+    "is_running_after_stop_returns": true
+  },
+  "normally_spaced_frames": [
+    {
+      "input_x": 0,
+      "output_x": 0,
+      "status": "Active"
+    },
+    {
+      "input_x": 100,
+      "output_x": 100.0,
+      "status": "Active"
+    },
+    {
+      "input_x": 200,
+      "output_x": 200.0,
+      "status": "Active"
+    },
+    {
+      "input_x": 300,
+      "output_x": 300.0,
+      "status": "Active"
+    },
+    {
+      "input_x": 400,
+      "output_x": 400.0,
+      "status": "Active"
+    },
+    {
+      "input_x": 500,
+      "output_x": 500.0,
+      "status": "Active"
+    },
+    {
+      "input_x": 600,
+      "output_x": 600.0,
+      "status": "Active"
+    },
+    {
+      "input_x": 700,
+      "output_x": 700.0,
+      "status": "Active"
+    },
+    {
+      "input_x": 800,
+      "output_x": 800.0,
+      "status": "Active"
+    },
+    {
+      "input_x": 900,
+      "output_x": 900.0,
+      "status": "Active"
+    }
+  ],
+  "same_frames_delivered_in_one_chunk": [
+    {
+      "input_x": 0,
+      "output_x": 0,
+      "status": "Active"
+    },
+    {
+      "input_x": 100,
+      "output_x": 0,
+      "status": "Predicted"
+    },
+    {
+      "input_x": 200,
+      "output_x": 0,
+      "status": "Predicted"
+    },
+    {
+      "input_x": 300,
+      "output_x": 0,
+      "status": "Predicted"
+    },
+    {
+      "input_x": 400,
+      "output_x": 0,
+      "status": "Predicted"
+    },
+    {
+      "input_x": 500,
+      "output_x": 0,
+      "status": "Predicted"
+    },
+    {
+      "input_x": 600,
+      "output_x": 0,
+      "status": "Predicted"
+    },
+    {
+      "input_x": 700,
+      "output_x": 0,
+      "status": "Predicted"
+    },
+    {
+      "input_x": 800,
+      "output_x": 0,
+      "status": "Predicted"
+    },
+    {
+      "input_x": 900,
+      "output_x": 0,
+      "status": "Predicted"
+    }
+  ],
+  "rolling_average": [
+    {
+      "seconds": 0.5,
+      "input_x": 500,
+      "output_x": 250.0,
+      "lag_mm": 250.0
+    },
+    {
+      "seconds": 1.0,
+      "input_x": 1000,
+      "output_x": 550.0,
+      "lag_mm": 450.0
+    },
+    {
+      "seconds": 2.0,
+      "input_x": 2000,
+      "output_x": 1550.0,
+      "lag_mm": 450.0
+    },
+    {
+      "seconds": 3.0,
+      "input_x": 3000,
+      "output_x": 2550.0,
+      "lag_mm": 450.0
+    }
+  ],
+  "kalman": [
+    {
+      "seconds": 0.5,
+      "input_x": 500,
+      "output_x": 63.678679527418886,
+      "lag_mm": 436.32132047258114
+    },
+    {
+      "seconds": 1.0,
+      "input_x": 1000,
+      "output_x": 265.6774957831359,
+      "lag_mm": 734.3225042168641
+    },
+    {
+      "seconds": 2.0,
+      "input_x": 2000,
+      "output_x": 1180.4639094510228,
+      "lag_mm": 819.5360905489772
+    },
+    {
+      "seconds": 3.0,
+      "input_x": 3000,
+      "output_x": 2396.1222993624597,
+      "lag_mm": 603.8777006375403
+    }
+  ],
+  "parser_byte_fragmentation": {
+    "sent_frames": 100,
+    "parsed_frames": 100,
+    "corrupt": 0,
+    "remaining_bytes": 0
+  }
+}

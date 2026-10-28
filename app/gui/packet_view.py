@@ -2,7 +2,7 @@
 Raw Packet Viewer Widget displaying live hex packet stream and raw UART stream.
 """
 
-from PySide6.QtCore import Qt, Slot
+from PySide6.QtCore import Qt, Slot, QTimer
 from PySide6.QtWidgets import (
     QWidget, QVBoxLayout, QHBoxLayout, QPushButton, QTableWidget, QTableWidgetItem,
     QHeaderView, QLabel, QFileDialog, QMessageBox, QTabWidget, QPlainTextEdit
@@ -24,6 +24,12 @@ class PacketViewWidget(QWidget):
         self.is_paused = False
         self.raw_packet_history: List[Packet] = []
         self.raw_stream_bytes = bytearray()
+        self._pending_packets: List[Packet] = []
+        self._pending_chunks: List[bytes] = []
+        self._flush_timer = QTimer(self)
+        self._flush_timer.setInterval(120)  # ~8 Hz throttled batch refresh
+        self._flush_timer.timeout.connect(self._flush_ui)
+        self._flush_timer.start()
 
         layout = QVBoxLayout(self)
         layout.setContentsMargins(5, 5, 5, 5)
@@ -117,52 +123,85 @@ class PacketViewWidget(QWidget):
         self.txt_raw_stream.clear()
         self.raw_packet_history.clear()
         self.raw_stream_bytes.clear()
+        self._pending_packets.clear()
+        self._pending_chunks.clear()
 
     @Slot(object)
     def add_packet(self, pkt: Packet):
-        """Appends a new raw packet frame row."""
+        """Buffers raw packet frame and queues for throttled UI display."""
         self.raw_packet_history.append(pkt)
-        if self.is_paused:
-            return
-
-        row = self.table.rowCount()
-        if row >= self.MAX_ROWS:
-            self.table.removeRow(0)
-            row = self.table.rowCount()
-
-        self.table.insertRow(row)
-
-        ts_str = time.strftime("%H:%M:%S", time.localtime(pkt.timestamp)) + f".{int((pkt.timestamp % 1) * 1000):03d}"
-        hdr_status = "OK" if pkt.header_valid else "ERR"
-        ftr_status = "OK" if pkt.footer_valid else "ERR"
-
-        items = [
-            QTableWidgetItem(str(pkt.sequence_id)),
-            QTableWidgetItem(ts_str),
-            QTableWidgetItem(f"{pkt.size_bytes}B"),
-            QTableWidgetItem(hdr_status),
-            QTableWidgetItem(ftr_status),
-            QTableWidgetItem(pkt.hex_string),
-        ]
-
-        for col, item in enumerate(items):
-            if col in (0, 1, 2, 3, 4):
-                item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
-            self.table.setItem(row, col, item)
-
-        self.table.scrollToBottom()
+        if len(self.raw_packet_history) > 2000:
+            self.raw_packet_history = self.raw_packet_history[-1000:]
+        if not self.is_paused:
+            self._pending_packets.append(pkt)
+            if len(self._pending_packets) > 100:
+                self._pending_packets = self._pending_packets[-100:]
 
     @Slot(bytes)
     def add_raw_chunk(self, chunk: bytes):
-        """Appends incoming raw serial bytes chunk to unfiltered text inspector."""
+        """Buffers incoming raw serial bytes chunk without stalling the Qt event loop."""
         if self.is_paused or not chunk:
             return
-        
         self.raw_stream_bytes.extend(chunk)
-        ts_str = time.strftime("%H:%M:%S", time.localtime())
-        hex_str = " ".join(f"{b:02X}" for b in chunk)
-        
-        self.txt_raw_stream.appendPlainText(f"[{ts_str}] ({len(chunk)}B) {hex_str}")
+        if len(self.raw_stream_bytes) > 50000:
+            self.raw_stream_bytes = self.raw_stream_bytes[-25000:]
+        self._pending_chunks.append(chunk)
+        if len(self._pending_chunks) > 50:
+            self._pending_chunks = self._pending_chunks[-50:]
+
+    def _flush_ui(self):
+        """Throttled batch UI renderer (~8 Hz). Skips work if tab is hidden to prevent lag."""
+        if self.is_paused or not self.isVisible():
+            self._pending_packets.clear()
+            self._pending_chunks.clear()
+            return
+
+        # 1. Flush packet frames to table if tab 0 is active
+        if self.sub_tabs.currentIndex() == 0 and self._pending_packets:
+            packets = self._pending_packets
+            self._pending_packets = []
+
+            self.table.setUpdatesEnabled(False)
+            try:
+                for pkt in packets:
+                    row = self.table.rowCount()
+                    if row >= self.MAX_ROWS:
+                        self.table.removeRow(0)
+                        row = self.table.rowCount()
+                    self.table.insertRow(row)
+
+                    ts_str = time.strftime("%H:%M:%S", time.localtime(pkt.timestamp)) + f".{int((pkt.timestamp % 1) * 1000):03d}"
+                    hdr_status = "OK" if pkt.header_valid else "ERR"
+                    ftr_status = "OK" if pkt.footer_valid else "ERR"
+
+                    items = [
+                        QTableWidgetItem(str(pkt.sequence_id)),
+                        QTableWidgetItem(ts_str),
+                        QTableWidgetItem(f"{pkt.size_bytes}B"),
+                        QTableWidgetItem(hdr_status),
+                        QTableWidgetItem(ftr_status),
+                        QTableWidgetItem(pkt.hex_string),
+                    ]
+                    for col, item in enumerate(items):
+                        if col in (0, 1, 2, 3, 4):
+                            item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
+                        self.table.setItem(row, col, item)
+                self.table.scrollToBottom()
+            finally:
+                self.table.setUpdatesEnabled(True)
+
+        # 2. Flush raw UART chunks if tab 1 is active
+        if self.sub_tabs.currentIndex() == 1 and self._pending_chunks:
+            chunks = self._pending_chunks
+            self._pending_chunks = []
+            lines = []
+            ts_str = time.strftime("%H:%M:%S", time.localtime())
+            for chunk in chunks:
+                hex_str = " ".join(f"{b:02X}" for b in chunk)
+                lines.append(f"[{ts_str}] ({len(chunk)}B) {hex_str}")
+            self.txt_raw_stream.appendPlainText("\n".join(lines))
+        else:
+            self._pending_chunks.clear()
 
     def _copy_selected_packet(self):
         if self.sub_tabs.currentIndex() == 0:

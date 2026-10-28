@@ -1,0 +1,262 @@
+{
+  "sessions": 435,
+  "rows": 387922,
+  "participants": 9,
+  "elapsed_hours": 9.537186721828249,
+  "observed_hours": 9.484683213366402,
+  "fall_rows": 6166,
+  "fall_percent": 1.5894947953454561,
+  "fall_participants": 4,
+  "fall_label_runs": 269,
+  "counts": {
+    "1": 125400,
+    "2": 59862,
+    "3": 53790,
+    "4": 6033,
+    "5": 114010,
+    "6": 6166,
+    "7": 10071,
+    "8": 12590
+  },
+  "issues": [],
+  "duplicate_files": 0,
+  "quality": {
+    "gaps_over_05s": 201,
+    "coordinate_speed_flags": 738,
+    "range_residual_flags": 59917,
+    "duplicate_rows": 0,
+    "bad_rows": 0,
+    "invalid_rows": 0,
+    "backwards": 0,
+    "zero_track_intervals": 7
+  },
+  "multi_target_sessions": 0,
+  "active_excluded_sessions": 0,
+  "session_hz_percentiles_0_25_50_75_100": [
+    10.667426269367326,
+    11.41055715626679,
+    11.57525162066615,
+    12.087342447512334,
+    44.43306919784737
+  ],
+  "people": {
+    "abdullah": {
+      "sessions": 27,
+      "rows": 21928,
+      "participants": 1,
+      "elapsed_hours": 0.5410882417360942,
+      "observed_hours": 0.532123408847385,
+      "fall_rows": 1375,
+      "fall_percent": 6.270521707406056,
+      "fall_participants": 1,
+      "fall_label_runs": 75,
+      "counts": {
+        "1": 13378,
+        "2": 1040,
+        "3": 40,
+        "4": 123,
+        "6": 1375,
+        "7": 2684,
+        "8": 3288
+      }
+    },
+    "aiman": {
+      "sessions": 9,
+      "rows": 10550,
+      "participants": 1,
+      "elapsed_hours": 0.26033410297499765,
+      "observed_hours": 0.26033410297499765,
+      "fall_rows": 0,
+      "fall_percent": 0.0,
+      "fall_participants": 0,
+      "fall_label_runs": 0,
+      "counts": {
+        "1": 1151,
+        "5": 9399
+      }
+    },
+    "arslan": {
+      "sessions": 107,
+      "rows": 105665,
+      "participants": 1,
+      "elapsed_hours": 2.602247112923198,
+      "observed_hours": 2.601351960301399,
+      "fall_rows": 0,
+      "fall_percent": 0.0,
+      "fall_participants": 0,
+      "fall_label_runs": 0,
+      "counts": {
+        "1": 17423,
+        "2": 199,
+        "4": 5822,
+        "5": 81540,
+        "8": 681
+      }
+    },
+    "hafsa": {
+      "sessions": 171,
+      "rows": 159616,
+      "participants": 1,
+      "elapsed_hours": 3.914211358361774,
+      "observed_hours": 3.8986413922574785,
+      "fall_rows": 0,
+      "fall_percent": 0.0,
+      "fall_participants": 0,
+      "fall_label_runs": 0,
+      "counts": {
+        "1": 52255,
+        "2": 53583,
+        "3": 53502,
+        "5": 245,
+        "8": 31
+      }
+    },
+    "muhib": {
+      "sessions": 21,
+      "rows": 19544,
+      "participants": 1,
+      "elapsed_hours": 0.48267523811923135,
+      "observed_hours": 0.4595108213689592,
+      "fall_rows": 1144,
+      "fall_percent": 5.85345886205485,
+      "fall_participants": 1,
+      "fall_label_runs": 56,
+      "counts": {
+        "1": 13047,
+        "2": 515,
+        "3": 178,
+        "6": 1144,
+        "7": 2131,
+        "8": 2529
+      }
+    },
+    "shahmeer": {
+      "sessions": 16,
+      "rows": 11242,
+      "participants": 1,
+      "elapsed_hours": 0.277358827524715,
+      "observed_hours": 0.2771859093507131,
+      "fall_rows": 1080,
+      "fall_percent": 9.606831524639745,
+      "fall_participants": 1,
+      "fall_label_runs": 37,
+      "counts": {
+        "1": 4364,
+        "2": 1857,
+        "6": 1080,
+        "7": 1917,
+        "8": 2024
+      }
+    },
+    "shazia": {
+      "sessions": 22,
+      "rows": 14328,
+      "participants": 1,
+      "elapsed_hours": 0.35110534727573395,
+      "observed_hours": 0.3495250325070487,
+      "fall_rows": 0,
+      "fall_percent": 0.0,
+      "fall_participants": 0,
+      "fall_label_runs": 0,
+      "counts": {
+        "5": 14328
+      }
+    },
+    "zain": {
+      "sessions": 34,
+      "rows": 26635,
+      "participants": 1,
+      "elapsed_hours": 0.6569856865538491,
+      "observed_hours": 0.6552394077512953,
+      "fall_rows": 2567,
+      "fall_percent": 9.637694762530504,
+      "fall_participants": 1,
+      "fall_label_runs": 101,
+      "counts": {
+        "1": 14218,
+        "2": 2383,
+        "3": 70,
+        "5": 21,
+        "6": 2567,
+        "7": 3339,
+        "8": 4037
+      }
+    },
+    "zoya": {
+      "sessions": 28,
+      "rows": 18414,
+      "participants": 1,
+      "elapsed_hours": 0.4511808063586553,
+      "observed_hours": 0.45077117800712585,
+      "fall_rows": 0,
+      "fall_percent": 0.0,
+      "fall_participants": 0,
+      "fall_label_runs": 0,
+      "counts": {
+        "1": 9564,
+        "2": 285,
+        "4": 88,
+        "5": 8477
+      }
+    }
+  },
+  "fall_subtypes": {
+    "Forward": 71,
+    "None": 10,
+    "Backward": 7,
+    "Sideways": 9
+  },
+  "legacy_window_audit_before_negative_caps": {
+    "negative": 73865,
+    "negative_passing_gates": 32555,
+    "ambiguous": 435,
+    "ambiguous_passing_gates": 353,
+    "positive": 1805,
+    "positive_passing_gates": 1636,
+    "negative_crossing_gaps": 602,
+    "ambiguous_crossing_gaps": 17,
+    "positive_crossing_gaps": 31
+  },
+  "raw_action_labels": {
+    "2: Standing / idle": 59859,
+    "1: Walking": 125400,
+    "6: Fall onset": 6161,
+    "7: Post-fall stillness": 10071,
+    "8: Recovery / standing back up": 12590,
+    "4: Kneeling down (controlled)": 6033,
+    "3: Sitting down (controlled)": 53790,
+    "6: Post-fall stillness": 5,
+    "2: Post-fall stillness": 3,
+    "5: Lying down (controlled)": 114010
+  },
+  "negative_radar_speed_rows": 94205,
+  "window_span_seconds_percentiles_0_25_50_75_95_100": [
+    0.30652499198913574,
+    1.669013261795044,
+    1.6891167163848877,
+    1.7047264575958252,
+    1.7728215217590333,
+    6.427581310272217
+  ],
+  "fall_run_span_seconds_percentiles_0_25_50_75_95_100": [
+    0.0,
+    1.2214558124542236,
+    1.6977813243865967,
+    2.4027180671691895,
+    3.866905546188354,
+    8.190276145935059
+  ],
+  "track_intervals_fraction_below_007": 0.14468098284587613,
+  "track_intervals_fraction_above_015": 0.014661137018790307,
+  "weights_sha256": {
+    "app\\ml\\weights\\fall_lstm_baseline.pt": "13bc4a42c81a3d92571e50649c9569c9f5175be4d2df3ccffbfdde779efa2ca9",
+    "app\\ml\\weights\\feature_mean.npy": "81276ac48ad448bed97ae4c4e48934f916889d721676a5421f27025ddcf71531",
+    "app\\ml\\weights\\feature_std.npy": "f3416d65cc3e5ca99f3c7b38a8e265215d99d5bc89eeb4d2e551148b472e970f",
+    "app\\ml\\weights_v2\\fall_lstm_baseline.pt": "ed2231b29eb9914d69a201e3621d6c83cb450a7ba6b862caa78752c26a76e636",
+    "app\\ml\\weights_v2\\feature_mean.npy": "498e546197a62fd0807ef4ca5141049dba83a6bddf09f6a1317af26d4c2d508e",
+    "app\\ml\\weights_v2\\feature_std.npy": "f83d18a7db6b0972bc5505998d8c94d61f19a9fd80404f53216ef1f42f4d1f9c",
+    "app\\ml\\weights_archive\\v1_baseline\\fall_lstm_baseline.pt": "13bc4a42c81a3d92571e50649c9569c9f5175be4d2df3ccffbfdde779efa2ca9",
+    "app\\ml\\weights_archive\\v1_baseline\\feature_mean.npy": "81276ac48ad448bed97ae4c4e48934f916889d721676a5421f27025ddcf71531",
+    "app\\ml\\weights_archive\\v1_baseline\\feature_std.npy": "f3416d65cc3e5ca99f3c7b38a8e265215d99d5bc89eeb4d2e551148b472e970f"
+  }
+}

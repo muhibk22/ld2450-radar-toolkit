@@ -1,0 +1,7 @@
+# Optional live comparison and training dependencies. Original detector uses requirements.txt.
+-r requirements.txt
+scikit-learn>=1.6,<1.10
+xgboost>=3.4,<3.5
+aeon==1.6.0
+numba>=0.63,<0.64
+joblib>=1.3

@@ -1,3 +1,68 @@
+#include <stdint.h>
+#include <stddef.h>
+#include <string.h>
+
+// Inlined RadarStream framing and output queues; no local header is needed.
+namespace RadarStream {
+static const size_t FRAME_BYTES = 30;
+struct Framer {
+  uint8_t bytes[FRAME_BYTES];
+  size_t used = 0;
+  bool push(uint8_t value, uint8_t* frame) {
+    bytes[used++] = value;
+    if (used < FRAME_BYTES) return false;
+    if (bytes[0] == 0xAA && bytes[1] == 0xFF && bytes[2] == 3 && bytes[3] == 0 &&
+        bytes[28] == 0x55 && bytes[29] == 0xCC) {
+      memcpy(frame, bytes, FRAME_BYTES);
+      used = 0;
+      return true;
+    }
+    memmove(bytes, bytes + 1, FRAME_BYTES - 1);
+    used = FRAME_BYTES - 1;
+    return false;
+  }
+};
+
+struct Output {
+  uint8_t active[128], latest[FRAME_BYTES];
+  size_t length = 0, offset = 0;
+  bool hasLatest = false;
+  uint32_t startedAt = 0, latestAt = 0;
+  void reset() { length = offset = 0; hasLatest = false; }
+  void queueFrame(const uint8_t* frame, uint32_t now) {
+    memcpy(latest, frame, FRAME_BYTES);
+    hasLatest = true;
+    latestAt = now;
+  }
+  bool queueNotice(const uint8_t* data, size_t size, uint32_t now) {
+    if (length || hasLatest || size > sizeof(active)) return false;
+    memcpy(active, data, size);
+    length = size; offset = 0; startedAt = now;
+    return true;
+  }
+  const uint8_t* front(uint32_t now, size_t& size) {
+    if (!length && hasLatest) {
+      hasLatest = false;
+      if (uint32_t(now - latestAt) <= 500) {
+        memcpy(active, latest, FRAME_BYTES);
+        length = FRAME_BYTES; offset = 0; startedAt = now;
+      }
+    }
+    size = length - offset;
+    return size ? active + offset : nullptr;
+  }
+  void advance(size_t count) {
+    if (count > length - offset) count = length - offset;
+    offset += count;
+    if (offset == length) length = offset = 0;
+  }
+  bool expired(uint32_t now) const {
+    return length && uint32_t(now - startedAt) >= 250;
+  }
+};
+}
+#include <lwip/sockets.h>
+#include <errno.h>
 /*
  * LD2450 ESP32 Wi-Fi Ultra-Low-Latency Wireless Bridge Firmware
  * (With Wall-Socket Non-Blocking USB CDC Fix)
@@ -14,7 +79,7 @@
 // --- Wi-Fi Configuration ---
 #define USE_AP_MODE false  // Set to false to connect to your Wi-Fi router
 
-#include "env.h"
+// Wi-Fi credentials are configured below; no env.h is needed.
 
 #define TCP_PORT 8888
 #define UDP_PORT 8889
@@ -23,10 +88,32 @@
 #define RX_PIN 18    // ESP32 RX <- LD2450 TX
 #define TX_PIN 17    // ESP32 TX -> LD2450 RX
 #define RADAR_BAUD 256000
+const char* AP_SSID = "LD2450-Radar-AP";
+const char* AP_PASS = "12345678";
+
+const char* STA_SSID = "YOUR_WIFI_NAME"; // Replace with your Wi-Fi name
+const char* STA_PASS = "YOUR_WIFI_PASSWORD"; // Replace with your Wi-Fi password
 
 HardwareSerial Radar(2);
 WiFiServer server(TCP_PORT);
-WiFiClient client;
+const int MAX_TCP_CLIENTS = 4;
+WiFiClient clients[MAX_TCP_CLIENTS];
+RadarStream::Output outputs[MAX_TCP_CLIENTS];
+RadarStream::Framer framer;
+void flushClients() {
+  for (int i=0; i<MAX_TCP_CLIENTS; ++i) {
+    if (!clients[i] || !clients[i].connected()) { outputs[i].reset(); continue; }
+    if (outputs[i].expired(millis())) { clients[i].stop(); outputs[i].reset(); continue; }
+    size_t length=0;
+    const uint8_t* data=outputs[i].front(millis(),length);
+    if (!data) continue;
+    int n=::send(clients[i].fd(),data,length,MSG_DONTWAIT);
+    if (n>0) outputs[i].advance((size_t)n);
+    else if (n==0 || (errno!=EAGAIN && errno!=EWOULDBLOCK && errno!=EINTR)) {
+      clients[i].stop(); outputs[i].reset();
+    }
+  }
+}
 WiFiUDP udp;
 
 // --- RGB Status LED Control ---
@@ -43,6 +130,9 @@ void setStatusLed(uint8_t r, uint8_t g, uint8_t b) {
 
 void setup() {
   Serial.begin(115200);
+  #if ARDUINO_USB_CDC_ON_BOOT
+  Serial.setTxTimeoutMs(0); // Debug output must never stall radar UART when USB is absent.
+  #endif
   #ifdef LED_BUILTIN
   pinMode(LED_BUILTIN, OUTPUT);
   #endif
@@ -106,14 +196,17 @@ void loop() {
   }
 
   // 2. Handle Incoming TCP Client Connection (Set TCP_NODELAY to disable Nagle buffering)
-  WiFiClient newClient = server.available();
+  WiFiClient newClient = server.accept();
   if (newClient) {
-    if (client && client.connected()) {
-      client.stop();
+    bool accepted=false;
+    for (int i=0; i<MAX_TCP_CLIENTS; ++i) {
+      if (!clients[i] || !clients[i].connected()) {
+        clients[i].stop(); outputs[i].reset();
+        clients[i]=newClient; clients[i].setNoDelay(true);
+        accepted=true; break;
+      }
     }
-    client = newClient;
-    client.setNoDelay(true); // Disable Nagle's algorithm for instant 2ms packet transmission!
-    Serial.printf("New PC Client connected from %s (TCP_NODELAY enabled)\n", client.remoteIP().toString().c_str());
+    if (!accepted) newClient.stop();
   }
 
   // 3. Read raw bytes from LD2450 Radar UART and stream instantly over Wi-Fi
@@ -127,15 +220,21 @@ void loop() {
       Serial.write(buffer, readLen);
     }
 
-    // Stream instantly over TCP socket
-    if (client && client.connected()) {
-      client.write(buffer, readLen);
+    uint8_t frame[30];
+    for (int b=0;b<readLen;++b) {
+      if (framer.push(buffer[b],frame)) {
+        for (int i=0;i<MAX_TCP_CLIENTS;++i) {
+          if (clients[i] && clients[i].connected()) outputs[i].queueFrame(frame,millis());
+        }
+      }
     }
   }
-
-  // 4. Handle incoming commands from PC client
-  if (client && client.connected() && client.available() > 0) {
-    int rxLen = client.read(buffer, sizeof(buffer));
-    Radar.write(buffer, rxLen);
+  flushClients();
+  for (int i=0;i<MAX_TCP_CLIENTS;++i) {
+    if (clients[i] && clients[i].connected() && clients[i].available()>0) {
+      int n=clients[i].read(buffer,sizeof(buffer));
+      if (n>0) Radar.write(buffer,n);
+    }
   }
+  delay(1);
 }

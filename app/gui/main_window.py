@@ -2,7 +2,7 @@
 Main Window for LD2450 Desktop Toolkit (Phase 2 with Dual Serial & Wi-Fi Network Streaming).
 """
 
-from PySide6.QtCore import QTimer, Slot
+from PySide6.QtCore import QTimer, Slot, QSignalBlocker
 from PySide6.QtWidgets import QMainWindow, QMessageBox
 from .fall_monitor import FallMonitorWindow
 from .data_collection import DataCollectionWindow
@@ -13,10 +13,13 @@ from ..net.socket_worker import SocketWorker
 from ..parser.packet_parser import PacketParser
 from ..parser.packet_decoder import PacketDecoder
 from ..tracker.tracker import TargetTracker
-from ..recording.recorder import DataRecorder
+from ..recording.buffered import BufferedRecorder as DataRecorder
 from ..utils.logger import setup_logger
 from ..utils.settings import SettingsManager
 from ..config import APP_NAME
+from ..ml.model_comparison import ModelComparison
+from ..streaming import LivePipeline
+import time
 
 logger = setup_logger("main_window")
 
@@ -32,9 +35,6 @@ class MainWindow(QMainWindow):
         self.resize(1350, 850)
 
         self.settings = SettingsManager()
-        self.parser = PacketParser()
-        self.decoder = PacketDecoder()
-        self.tracker = TargetTracker()
         self.recorder = DataRecorder()
         self.frames_processed = 0
         self.active_worker = None  # SerialWorker or SocketWorker
@@ -43,6 +43,21 @@ class MainWindow(QMainWindow):
         self.dataset_studio_window = None
         
         self.fall_monitor_window = FallMonitorWindow(self)
+        self.model_comparison = ModelComparison(autoload=False)
+        self.pipeline = LivePipeline(self.model_comparison, self.recorder)
+        self.tracker = self.pipeline.tracker
+        self.pipeline.set_noise_zones(self.settings.get_noise_zones())
+        self.parser, self.decoder = self.pipeline.parser, self.pipeline.decoder
+        self._stream_session = self.pipeline.session
+        self._worker_stats = {}
+        self._closing_for_worker = False
+        self._render_key = None
+        self.fall_monitor_window.comparison_profile_changed.connect(self.model_comparison.select_profile)
+        self.fall_monitor_window.validation_warnings_acknowledged.connect(self.model_comparison.acknowledge_warnings)
+        self.comparison_timer = QTimer(self)
+        self.comparison_timer.setInterval(100)
+        self.comparison_timer.timeout.connect(self._poll_model_comparison)
+        self.comparison_timer.start()
         
         self.data_collection_window = DataCollectionWindow(self)
         self.data_collection_window.start_recording_req.connect(self._on_start_data_collection)
@@ -50,6 +65,11 @@ class MainWindow(QMainWindow):
         self.data_collection_window.label_changed.connect(self.recorder.set_action_label)
 
         self._setup_ui()
+        self._refresh_noise_zones()
+        self.render_timer = QTimer(self)
+        self.render_timer.setInterval(33)
+        self.render_timer.timeout.connect(self._render_stream)
+        self.render_timer.start()
 
         # Stats refresh timer
         self.stats_timer = QTimer(self)
@@ -137,8 +157,12 @@ class MainWindow(QMainWindow):
 
     def _toggle_connection(self):
         if self.active_worker and self.active_worker.isRunning():
-            self.active_worker.stop()
+            worker = self.active_worker
+            if not worker.stop():
+                self.statusBar().showMessage('Waiting for the previous connection to close...',3000)
+                return
             self.active_worker = None
+            self.pipeline.reset()
             self.btn_connect.setText("Connect")
             self.btn_connect.setStyleSheet("background-color: #0284C7; color: white; font-weight: bold;")
             self._update_connection_status(False, "Disconnected")
@@ -155,7 +179,9 @@ class MainWindow(QMainWindow):
                 QMessageBox.warning(self, "Wi-Fi Connection Error", "Please enter a valid IP address.")
                 return
 
-            self.active_worker = SocketWorker(host=host, port=port, auto_reconnect=auto_recon)
+            self.active_worker = SocketWorker(host=host, port=port, auto_reconnect=auto_recon, pipeline=self.pipeline)
+            self.settings.settings.setValue('network/host',host)
+            self.settings.settings.setValue('network/port',port)
         else:
             port_name = self.cb_ports.currentText()
             if not port_name or port_name == "No COM Ports":
@@ -165,11 +191,11 @@ class MainWindow(QMainWindow):
             baud = int(self.cb_baud.currentText())
             self.settings.set_last_port(port_name)
             self.settings.set_baud_rate(baud)
-            self.active_worker = SerialWorker(port=port_name, baud_rate=baud, auto_reconnect=auto_recon)
+            self.active_worker = SerialWorker(port=port_name, baud_rate=baud, auto_reconnect=auto_recon, pipeline=self.pipeline)
 
-        self.active_worker.raw_data_received.connect(self._on_raw_serial_data)
         self.active_worker.connection_changed.connect(self._update_connection_status)
-        self.active_worker.stats_updated.connect(self.diagnostics_panel.update_diagnostics)
+        self.active_worker.stats_updated.connect(self._receive_worker_stats)
+        self.model_comparison.start()
         self.active_worker.start()
 
         self.btn_connect.setText("Disconnect")
@@ -204,7 +230,7 @@ class MainWindow(QMainWindow):
         self.discovery_worker.finished.connect(self._discovery_finished)
         for control in (self.btn_autobaud, self.btn_discover_ip, self.btn_connect, self.cb_conn_type, self.btn_refresh, self.cb_baud, self.cb_ports):
             control.setEnabled(False)
-        self.lbl_discovery.setText('Searching for a radar device…')
+        self.lbl_discovery.setText('Searching for a radar deviceÃ¢â‚¬Â¦')
         self.discovery_worker.start()
 
     def _discovery_found(self, mode, value):
@@ -231,6 +257,8 @@ class MainWindow(QMainWindow):
 
     @Slot(bool, str)
     def _update_connection_status(self, connected: bool, info: str):
+        if self.sender() is not self.active_worker:
+            return
         if connected:
             self.lbl_status.setText(f"Status: Connected ({info})")
             self.lbl_status.setStyleSheet("color: #10B981; font-weight: bold; padding-left: 10px;")
@@ -238,74 +266,99 @@ class MainWindow(QMainWindow):
             self.lbl_status.setText(f"Status: {info}")
             self.lbl_status.setStyleSheet("color: #F43F5E; font-weight: bold; padding-left: 10px;")
 
+    @Slot(dict)
+    def _receive_worker_stats(self, stats):
+        if self.sender() is self.active_worker:
+            self._worker_stats = stats
+
     @Slot(bytes)
-    def _on_raw_serial_data(self, data: bytes):
-        """Processes stream data, updates raw inspector, runs tracker, and updates radar view."""
-        self.packet_view.add_raw_chunk(data)
-        frames, _ = self.parser.parse_stream(data)
-        for f in frames:
-            pkt = self.decoder.decode(f)
-            self.packet_view.add_packet(pkt)
-            self.telemetry_panel.update_packet(pkt)
-            
-            # Run Target Association & Filtering Engine
-            tracked_targets = self.tracker.process(pkt.targets)
-            
-            self.frames_processed += 1
-            if self.recorder.is_recording:
-                self.recorder.record_frame(self.frames_processed, tracked_targets)
-                
-            self.radar_view.update_targets(tracked_targets)
-            self.target_panel.update_targets(tracked_targets)
-            
-            # Check for Fall Alerts on Locked Target
-            fall_alert = False
-            fall_prob = 0.0
-            fall_stage = "normal"
-            if self.tracker.locked_target_id:
-                for t in tracked_targets:
-                    if str(t.id) == self.tracker.locked_target_id:
-                        fall_alert = getattr(t, 'fall_alert', False)
-                        fall_prob = getattr(t, 'fall_prob', 0.0)
-                        fall_stage = getattr(t, 'fall_alert_stage', 'normal')
-                        break
-            
-            if fall_stage == "confirmed":
-                self.lbl_fall_alert.setText(f"🚨 FALL CONFIRMED! (Prob: {fall_prob:.2f})")
-                self.lbl_fall_alert.show()
-            elif fall_stage == "pre_alert":
-                self.lbl_fall_alert.setText(f"⚠ POSSIBLE FALL (Prob: {fall_prob:.2f})")
-                self.lbl_fall_alert.show()
-            else:
-                self.lbl_fall_alert.hide()
-                
-            self.fall_monitor_window.update_fall_status(fall_alert, fall_prob, fall_stage)
-            
-            # Feed alert history to the monitor
-            if hasattr(self.tracker, 'post_fall_validator'):
-                self.fall_monitor_window.update_alert_history(
-                    self.tracker.post_fall_validator.alert_history
-                )
+    def _on_raw_serial_data(self, data):
+        """Compatibility entry for replay; transports ingest on their own thread."""
+        self.pipeline.ingest(data)
+
+    def _render_stream(self):
+        snapshot = self.pipeline.drain()
+        if snapshot is None:
+            return
+        self.frames_processed = snapshot['frames']
+        if snapshot['session'] != self._stream_session:
+            self._stream_session = snapshot['session']
+            self.radar_view.trail_manager.clear()
+            self.cb_target_lock.setCurrentText('Track All Targets')
+        for chunk in snapshot['chunks']:
+            self.packet_view.add_raw_chunk(chunk)
+        for packet in snapshot['packets']:
+            self.packet_view.add_packet(packet)
+        if snapshot['packets'] and self.telemetry_panel.isVisible():
+            self.telemetry_panel.update_packet(snapshot['packets'][-1])
+        targets = snapshot['targets']
+        self.radar_view.set_noise_zones(snapshot['noise_zones'])
+        ensemble = self.model_comparison.get_ensemble_status()
+        votes,score = ensemble['votes'],ensemble['avg_score']
+        alert = ensemble['fall_alert']
+        stage = ensemble['stage']
+        if stage == 'confirmed' and not alert:
+            stage = 'normal'
+        for t in targets:
+            if ensemble['applies_to_current_target'] and str(t.id) == ensemble['target']:
+                t.fall_alert,t.fall_votes,t.fall_prob = alert,votes,score
+                t.fall_alert_stage = stage
+        render_key = (snapshot['session'],snapshot['revision'],bool(targets),alert,votes,stage)
+        if render_key != self._render_key:
+            self.radar_view.update_targets(targets)
+            if self.target_panel.isVisible():
+                self.target_panel.update_targets(targets)
+            self._render_key = render_key
+        if alert:
+            self.lbl_fall_alert.setText(f'FALL DETECTED ({votes}/5 models | Score: {score:.2f})')
+            self.lbl_fall_alert.setStyleSheet('color: white; background-color: #DC2626; padding: 8px; font-weight: bold;')
+            self.lbl_fall_alert.show()
+        elif stage == 'pre_alert':
+            validation = ensemble['validation']
+            self.lbl_fall_alert.setText(f"Checking post-fall motion ({votes}/5 models): "
+                                       f"{validation.get('elapsed_s',0):.1f}/{validation.get('observation_seconds',5):.1f}s")
+            self.lbl_fall_alert.setStyleSheet('color: #1E293B; background-color: #F59E0B; padding: 8px; font-weight: bold;')
+            self.lbl_fall_alert.show()
+        elif stage == 'suspected':
+            self.lbl_fall_alert.setText(f"SUSPECTED FALL — {ensemble['target']}: "
+                                       f"{ensemble['validation']['reason']} ({ensemble['warning_count']} unresolved)")
+            self.lbl_fall_alert.setStyleSheet('color: #1E293B; background-color: #F59E0B; padding: 8px; font-weight: bold;')
+            self.lbl_fall_alert.show()
+        else:
+            self.lbl_fall_alert.hide()
+        self.fall_monitor_window.update_fall_status(alert,score,stage,votes=votes)
+        if self._closing_for_worker and self.active_worker and not self.active_worker.isRunning():
+            self.close()
+
+    def _poll_model_comparison(self):
+        self.model_comparison.poll()
+        self.fall_monitor_window.update_comparison(self.model_comparison.snapshot())
 
     def _on_stats_tick(self):
-        p_stats = self.parser.get_statistics()
-        if self.cb_conn_type.currentIndex() == 0:
-            conn_info = f"COM: {self.cb_ports.currentText()} @ {self.cb_baud.currentText()}"
-        else:
-            conn_info = f"Wi-Fi: {self.txt_ip.text()}:{self.sp_wifi_port.value()}"
-        combined = {**p_stats, "conn_info": conn_info}
-        self.diagnostics_panel.update_diagnostics(combined)
+        snapshot = self.pipeline.drain(preview=False)
+        if snapshot is None:
+            return
+        self.diagnostics_panel.update_diagnostics({**self._worker_stats,**snapshot['stats'],
+            'frame_age_s':snapshot['frame_age_s'],'byte_age_s':snapshot['byte_age_s']})
+        if self.recorder.error:
+            self.statusBar().showMessage(self.recorder.error)
 
     def _on_kalman_toggled(self, checked: bool):
         self.settings.set_kalman_enabled(checked)
+        self.tuning_panel.cb_mode.setCurrentIndex(2 if checked else 0)
         if checked:
-            self.tracker.mode = "PHYSICAL_GATE_KALMAN"
+            self.pipeline.configure({"mode":"PHYSICAL_GATE_KALMAN"})
         else:
-            self.tracker.mode = "PHYSICAL_GATE_AVG"
+            self.pipeline.configure({"mode":"PHYSICAL_GATE_AVG"})
+
+    def _apply_tracking_settings(self, settings):
+        self.pipeline.configure(settings)
+        with QSignalBlocker(self.chk_kalman):
+            self.chk_kalman.setChecked(settings['mode'] == 'PHYSICAL_GATE_KALMAN')
 
     def _on_target_lock_selected(self, target_label: str):
         target_id = None if target_label == "Track All Targets" else target_label
-        self.tracker.set_target_lock(target_id)
+        self.pipeline.configure(target=target_id,set_target=True)
         self.radar_view.set_locked_target(target_id)
         if target_id:
             logger.info(f"Target Focus Lock ACTIVATED on {target_id}. Ignoring all other targets/noise.")
@@ -324,6 +377,39 @@ class MainWindow(QMainWindow):
     def _on_trail_length_changed(self, val: int):
         self.settings.set_trail_length(val)
         self.radar_view.set_trail_length(val)
+
+    def _refresh_noise_zones(self):
+        zones=self.pipeline.noise_zones()
+        self.noise_panel.set_zones(zones)
+        self.radar_view.set_noise_zones(zones)
+
+    def _set_noise_zones(self,zones):
+        self.pipeline.set_noise_zones(zones)
+        self.settings.set_noise_zones(self.pipeline.noise_zones())
+        self._refresh_noise_zones()
+        self._render_key=None
+
+    def _mark_focused_as_noise(self):
+        self._mark_noise_target(self.tracker.locked_target_id or '')
+
+    def _mark_noise_target(self,target_id):
+        try:
+            self.pipeline.mark_noise(target_id,self.noise_panel.radius.value())
+        except ValueError as exc:
+            self.statusBar().showMessage(str(exc),5000)
+            return
+        self.settings.set_noise_zones(self.pipeline.noise_zones())
+        self._refresh_noise_zones()
+        self.radar_view.trail_manager.clear()
+        self._render_key=None
+        if self.tracker.locked_target_id is None:
+            with QSignalBlocker(self.cb_target_lock):
+                self.cb_target_lock.setCurrentText('Track All Targets')
+            self.radar_view.set_locked_target(None)
+        self.statusBar().showMessage('Noise exclusion saved. Manage it under Live radar → Noise exclusions.',6000)
+
+    def _remove_noise_zone(self,zone_id):
+        self._set_noise_zones([z for z in self.pipeline.noise_zones() if z['id']!=zone_id])
 
     def _on_unit_toggled(self, checked: bool):
         self.radar_view.set_display_unit_meters(checked)
@@ -350,17 +436,25 @@ class MainWindow(QMainWindow):
         if self.discovery_worker and self.discovery_worker.isRunning():
             self._closing_for_discovery = True
             self.discovery_worker.requestInterruption()
-            self.statusBar().showMessage('Finishing device discovery before closing…')
+            self.statusBar().showMessage('Finishing device discovery before closingÃ¢â‚¬Â¦')
             event.ignore()
             return
         if self.dataset_studio_window is not None:
             self.dataset_studio_window.shutdown()
             self.dataset_studio_window.close()
-        if self.active_worker:
-            self.active_worker.stop()
+        if self.active_worker and self.active_worker.isRunning():
+            self._closing_for_worker = True
+            self.active_worker.request_stop()
+            event.ignore()
+            return
+        self.recorder.close()
         if self.raw_log_file:
             try:
                 self.raw_log_file.close()
             except Exception:
                 pass
+        self.render_timer.stop()
+        self.stats_timer.stop()
+        self.comparison_timer.stop()
+        self.model_comparison.close()
         event.accept()

@@ -21,22 +21,24 @@ class DiagnosticsPanelWidget(QWidget):
 
         self.lbl_packets_sec = QLabel("0.0 /s")
         self.lbl_bytes_sec = QLabel("0.0 B/s")
-        self.lbl_latency = QLabel("< 1 ms")
+        self.lbl_latency = QLabel("No frames")
         self.lbl_dropped = QLabel("0")
         self.lbl_corrupt = QLabel("0")
         self.lbl_reconnects = QLabel("0")
         self.lbl_com = QLabel("None")
         self.lbl_baud = QLabel("256000")
+        self.lbl_byte_age = QLabel("No bytes")
 
         metrics_def = [
             ("Packets / Sec:", self.lbl_packets_sec, 0, 0),
             ("Bytes / Sec:", self.lbl_bytes_sec, 0, 2),
-            ("Average Latency:", self.lbl_latency, 1, 0),
+            ("Last Radar Frame:", self.lbl_latency, 1, 0),
             ("Dropped Bytes:", self.lbl_dropped, 1, 2),
             ("Corrupt Packets:", self.lbl_corrupt, 2, 0),
             ("Reconnect Count:", self.lbl_reconnects, 2, 2),
-            ("Current COM:", self.lbl_com, 3, 0),
-            ("Current Baud:", self.lbl_baud, 3, 2),
+            ("Source:", self.lbl_com, 3, 0),
+            ("Baud / TCP Port:", self.lbl_baud, 3, 2),
+            ("Last Received Bytes:", self.lbl_byte_age, 4, 0),
         ]
 
         for title, lbl, r, c in metrics_def:
@@ -51,10 +53,19 @@ class DiagnosticsPanelWidget(QWidget):
     @Slot(dict)
     def update_diagnostics(self, stats: dict):
         """Updates diagnostic counters."""
+        if 'byte_age_s' in stats:
+            age=stats['byte_age_s']
+            self.lbl_byte_age.setText('No bytes' if age is None else f'{age:.2f} s ago')
+        if 'host' in stats:
+            self.lbl_com.setText(stats['host'])
+            self.lbl_baud.setText(f"TCP {stats['port']}")
         if "packets_per_sec" in stats:
             self.lbl_packets_sec.setText(f"{stats['packets_per_sec']} /s")
         if "bytes_per_sec" in stats:
             self.lbl_bytes_sec.setText(f"{stats['bytes_per_sec']} B/s")
+        if "frame_age_s" in stats:
+            age = stats['frame_age_s']
+            self.lbl_latency.setText('No frames' if age is None else f'{age:.2f} s ago')
         if "latency_ms" in stats:
             self.lbl_latency.setText(f"{stats['latency_ms']} ms")
         if "dropped_packets" in stats:

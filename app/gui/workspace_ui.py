@@ -13,6 +13,7 @@ from .radar_view import RadarViewWidget
 from .diagnostics_panel import DiagnosticsPanelWidget
 from .target_panel import TargetPanelWidget
 from .tuning_panel import TuningPanelWidget
+from .noise_panel import NoisePanel
 
 WORKSPACE_STYLE = """
 QWidget { background:#0f172a; color:#e2e8f0; font-family:'Segoe UI'; }
@@ -107,12 +108,18 @@ def build_workspace(w):
     w.live_splitter = QSplitter(Qt.Orientation.Vertical)
     w.radar_view = RadarViewWidget()
     w.radar_view.target_clicked.connect(w._on_target_clicked_on_canvas)
+    w.radar_view.target_noise_requested.connect(w._mark_noise_target)
     w.live_splitter.addWidget(w.radar_view)
     details = QTabWidget()
     w.target_panel = TargetPanelWidget()
     w.diagnostics_panel = DiagnosticsPanelWidget()
     details.addTab(w.target_panel, "Tracked people")
     details.addTab(w.diagnostics_panel, "Connection health")
+    w.noise_panel=NoisePanel()
+    w.noise_panel.mark_requested.connect(w._mark_focused_as_noise)
+    w.noise_panel.remove_requested.connect(w._remove_noise_zone)
+    w.noise_panel.clear_requested.connect(lambda: w._set_noise_zones([]))
+    details.addTab(w.noise_panel,'Noise exclusions')
     w.live_splitter.addWidget(details)
     w.live_splitter.setChildrenCollapsible(False)
     w.live_splitter.setSizes([530, 180])
@@ -120,7 +127,7 @@ def build_workspace(w):
     w.workspace_tabs.addTab(live, "Live radar")
 
     w.tuning_panel = TuningPanelWidget()
-    w.tuning_panel.settings_changed.connect(w.tracker.apply_tuning_settings)
+    w.tuning_panel.settings_changed.connect(w._apply_tracking_settings)
     w.tuning_panel.f_layout.setRowWrapPolicy(QFormLayout.RowWrapPolicy.WrapLongRows)
     w.tuning_panel.cb_mode.setSizeAdjustPolicy(QComboBox.SizeAdjustPolicy.AdjustToMinimumContentsLengthWithIcon)
     w.tuning_panel.cb_mode.setMinimumContentsLength(24)
@@ -179,10 +186,10 @@ def _build_controls(w):
     form = QFormLayout(wifi)
     form.setContentsMargins(0, 4, 0, 4)
     form.setRowWrapPolicy(QFormLayout.RowWrapPolicy.WrapAllRows)
-    w.txt_ip = QLineEdit("192.168.100.130")
+    w.txt_ip = QLineEdit(str(w.settings.settings.value('network/host','192.168.100.130')))
     w.sp_wifi_port = QSpinBox()
     w.sp_wifi_port.setRange(1, 65535)
-    w.sp_wifi_port.setValue(8888)
+    w.sp_wifi_port.setValue(w.settings.settings.value('network/port',8888,type=int))
     w.btn_discover_ip = QPushButton("Find radar on network")
     w.btn_discover_ip.clicked.connect(w._auto_discover_esp32_ip)
     form.addRow("IP address / hostname", w.txt_ip)
@@ -215,7 +222,7 @@ def _build_controls(w):
     w.btn_unlock_target.clicked.connect(w._unlock_target_focus)
     form.addRow(w.btn_unlock_target)
     w.chk_kalman = QCheckBox("Smooth positions (Kalman)")
-    w.chk_kalman.setChecked(w.settings.get_kalman_enabled())
+    w.chk_kalman.setChecked(False)
     w.chk_kalman.toggled.connect(w._on_kalman_toggled)
     form.addRow(w.chk_kalman)
     w.chk_unit = QCheckBox("Show distances in meters")

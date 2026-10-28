@@ -11,7 +11,7 @@ class TestTargetFocusLockAndPhysicsValidations(unittest.TestCase):
 
     def test_target_focus_lock_filtering(self):
         tracker = TargetTracker()
-        
+
         # 1. Process 2 valid raw targets (Person A and Person B)
         t_a = Target(id="raw0", raw_id=0, x=500.0, y=1500.0, speed=0.0, valid=True, distance_resolution=100.0)
         t_b = Target(id="raw1", raw_id=1, x=-1200.0, y=2500.0, speed=0.0, valid=True, distance_resolution=100.0)
@@ -54,13 +54,45 @@ class TestTargetFocusLockAndPhysicsValidations(unittest.TestCase):
 
     def test_axis_orientation_decoding(self):
         decoder = PacketDecoder()
-        
+
         # Test positive X (+X Right) and negative X (-X Left)
         val_pos = decoder._decode_ld2450_int16(0x0078)  # +120 mm
         val_neg = decoder._decode_ld2450_int16(0x8078)  # -120 mm
 
         self.assertEqual(val_pos, 120.0)
         self.assertEqual(val_neg, -120.0)
+
+    def test_proximity_clustering_merges_close_targets(self):
+        tracker = TargetTracker()
+        # Two raw detections 250mm apart (e.g. torso and arm/reflection)
+        t_arm = Target(id="raw0", raw_id=0, x=500.0, y=1500.0, speed=0.0, valid=True, distance_resolution=100.0)
+        t_torso = Target(id="raw1", raw_id=1, x=650.0, y=1600.0, speed=0.0, valid=True, distance_resolution=100.0)
+
+        results = tracker.process([t_arm, t_torso])
+        # MUST merge into a single entity (Person A) and NOT spawn Person B!
+        self.assertEqual(len(results), 1)
+        self.assertEqual(results[0].id, "Person A")
+
+    def test_track_persistence_across_dropouts(self):
+        tracker = TargetTracker()
+        t0 = Target(id="raw0", raw_id=0, x=500.0, y=1500.0, speed=0.0, valid=True, distance_resolution=100.0)
+
+        # Initial track
+        res1 = tracker.process([t0])
+        self.assertEqual(len(res1), 1)
+        self.assertEqual(res1[0].id, "Person A")
+
+        # Simulate sensor dropout for 20 frames (empty target list)
+        for _ in range(20):
+            tracker.process([])
+
+        # Reappearance nearby
+        t_reappear = Target(id="raw0", raw_id=0, x=700.0, y=1700.0, speed=0.0, valid=True, distance_resolution=100.0)
+        res2 = tracker.process([t_reappear])
+
+        # Must retain Person A and not cycle to Person B!
+        self.assertEqual(len(res2), 1)
+        self.assertEqual(res2[0].id, "Person A")
 
 if __name__ == "__main__":
     unittest.main()

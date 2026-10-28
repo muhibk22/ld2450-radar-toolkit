@@ -1,0 +1,47 @@
+{
+  "kind": "minirocket",
+  "name": "MiniROCKET",
+  "feature_schema": "radar-trailing-2s-10hz-v1",
+  "threshold": 0.9789645562421404,
+  "versions": {
+    "torch": "2.14.1",
+    "numpy": "2.3.4",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.4.1",
+    "aeon": "1.6.0",
+    "numba": "0.63.1",
+    "joblib": "1.5.3"
+  },
+  "seed": 42,
+  "train_windows": 11587,
+  "validation_windows": 5501,
+  "test_windows": 3990,
+  "threshold_method": "Maximum window F1 on validation participants only",
+  "training_seconds": 43.31,
+  "validation": {
+    "pr_auc": 0.7274143889206034,
+    "precision": 0.7477477477477478,
+    "recall": 0.6360153256704981,
+    "f1": 0.6873706004140787,
+    "confusion_matrix_tn_fp_fn_tp": [
+      5184,
+      56,
+      95,
+      166
+    ]
+  },
+  "test": {
+    "pr_auc": 0.7405523807344102,
+    "precision": 0.8901734104046243,
+    "recall": 0.5923076923076923,
+    "f1": 0.7113163972286374,
+    "confusion_matrix_tn_fp_fn_tp": [
+      3711,
+      19,
+      106,
+      154
+    ]
+  },
+  "single_window_latency_ms_median": 1.6148000067914836,
+  "single_window_latency_ms_p95": 3.5088299970084345
+}

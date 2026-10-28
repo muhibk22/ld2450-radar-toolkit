@@ -1,0 +1,31 @@
+{
+  "people": {
+    "train": [
+      "abdullah",
+      "zain",
+      "arslan",
+      "hafsa",
+      "aiman"
+    ],
+    "validation": [
+      "muhib",
+      "zoya"
+    ],
+    "test": [
+      "shahmeer",
+      "shazia"
+    ]
+  },
+  "sessions": 435,
+  "ambiguous_windows_excluded": {
+    "train": 276,
+    "validation": 65,
+    "test": 59
+  },
+  "label_rule": "Numeric action code 6; >=5 of 21 resampled points positive, zero negative. Retains source labels including known description conflicts.",
+  "windows_by_split": {
+    "train": 51169,
+    "validation": 5501,
+    "test": 3990
+  }
+}
